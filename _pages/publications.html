@@ -1,0 +1,15 @@
+---
+title: "PIFSC Staff Publications"
+layout: collection
+permalink: /publications/
+---
+<h1>{{ page.title }}</h1>
+<ul>
+  {% assign publications = site.data.pifsc_publications %}
+  {% for publication in publications %}
+    <li>
+      <strong>{{ publication.TITLE }}</strong> by {{ publication.AUTHOR }} ({{ publication.YEAR }})
+      <a href="{{ publication.LINK }}">Link</a>
+    </li>
+  {% endfor %}
+</ul>
