@@ -1,3 +1,2 @@
-# Mock-up website template for centralized resources
-
+# Mock-up website to centralize ARP resources for stakeholders & public
 ## Developed by Lori Luers with minimal-mistakes Jekyll theme
