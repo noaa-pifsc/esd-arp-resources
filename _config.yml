@@ -19,7 +19,7 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "NOAA | NMFS | PIFSC | ESD | Archipelagic Research Program"
 title_separator          : "|"
-subtitle                 : "Centralized Webpage for ARP Resources"
+subtitle                 : "ARP Path to Open Science: methods, data access, and tools"
 name                     : "Lori Luers"
 description              : "Mock-up of centralized ARP website"
 url                      : #"https://noaa-pifsc.github.io/test-arp-website"
