@@ -7,6 +7,8 @@ header:
   overlay_image: https://www.fisheries.noaa.gov/s3//2024-08/6000x4000-NCRMP-diver-survey-Hawaii-Fisheries-PIFSC.JPG
   overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
   caption: "Photo credit: NOAA/NMFS"
+sidebar:
+  nav: "docs"
 ---
 
 # Under Construction
