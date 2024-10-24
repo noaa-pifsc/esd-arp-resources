@@ -5,6 +5,8 @@ layout: splash
 excerpt: "Tools that allow users to interact with our data as well as products developed by the Ecosystem Sciences Division (ESD)"
 header:
   overlay_color: "#000"
+  overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
+
 feature_row2:
 - image_path: https://www.arcgis.com/sharing/rest/content/items/6e30b55dce164313b768990c0e41d5c5/info/thumbnail/thumbnail1678814285066.png?w=400
   alt: "ncrmp vis tool"
