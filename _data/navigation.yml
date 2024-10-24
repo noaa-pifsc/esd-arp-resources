@@ -14,29 +14,21 @@ main:
     url: /methods/
   - title: "Other Links"
     url: /links/
+  - title: "Products"
+    url: /products/
 
 docs:
-  - title: Fish Surveys
+  - title: NCRMP Surveys
     children:
-      - title: "Data Sheets"
-        url: /docs/data-sheets
-      - title: "SOPs"
-        url: /docs/sops
-      - title: "R code"
-        url: /docs/rcode
-  - title: Coral Surveys
+      - title: "Fish SPC"
+        url: /docs/fish-spc
+      - title: "Structure-from-motion"
+        url: /docs/sfm
+      - title: "Carbonate budgets"
+        url: /docs/carbonate-budgets
+  - title: Other CRCP Projects
     children:
-      - title: "Data Sheets"
-        url: /docs/data-sheets
-      - title: "SOPs"
-        url: /docs/sops
-      - title: "R code"
-        url: /docs/rcode   
-  - title: Oceanographic surveys
-    children:
-      - title: "Data Sheets"
-        url: /docs/data-sheets
-      - title: "SOPs"
-        url: /docs/sops
-      - title: "R code"
-        url: /docs/rcode   
+      - title: "LBSP"
+        url: /docs/lbsp
+      - title: "Bleaching"
+        url: /docs/bleaching
