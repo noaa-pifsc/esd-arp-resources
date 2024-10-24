@@ -7,58 +7,35 @@ header:
   overlay_color: "#000"
 feature_row2:
 - image_path: https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg
-<<<<<<< HEAD
-  alt: "fish training package"
-  title: "Fish SPC Training Package"
-  excerpt: "Download Fish SPC training package (datasheets, training materials, methods)"
-  url: #test-link
-  btn_label: "Download"
-  btn_class: "btn--primary"
-feature_row3:
-- image_path: https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg
-  alt: "benthic training package"
-  title: "Benthic Training Package"
-  excerpt: "Download Benthic REA training package (datasheets, training materials, methods)"
-feature_row4:
-- image_path: https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg
-  alt: "water sample SOP"
-  title: "Water Sample SOP"
-  excerpt: "Water sampling SOP"
-=======
-  alt: "team image 1"
-  title: "Team topic 1"
-  excerpt: "Details on team topic"
+  alt: "sops"
+  title: "SOPs"
+  excerpt: "Standard operating Procedures detailing methods"
   url: #test-link
   btn_label: "Placeholder"
   btn_class: "btn--primary"
 feature_row3:
 - image_path: https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg
-  alt: "Team image 2"
-  title: "Team topic 2"
+  alt: "data sheets"
+  title: "Data Sheets"
   excerpt: "Details on team topic 2 "
 feature_row4:
 - image_path: https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg
-  alt: "ncei collection"
-  title: "Browse NCEI collection"
+  alt: "access raw data"
+  title: "Access Raw data"
   excerpt: "Browse raw data for datastream"
->>>>>>> 727d5a20cdd025fe7e51a87fc3ffebc0976f0693
   url: #test-link
   btn_label: "Placeholder"
   btn_class: "btn--primary"
 feature_row5:
 - image_path: https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg
-  alt: "github repository image"
-<<<<<<< HEAD
-  title: "GitHub repository for R packages"
-=======
-  title: "GitHub repository"
->>>>>>> 727d5a20cdd025fe7e51a87fc3ffebc0976f0693
+  alt: "R code"
+  title: "R code for processing data"
   excerpt: "See our team scripts for processing raw data"
   url: #test-link
   btn_label: "Placeholder"
   btn_class: "btn--primary"
 ---
-### Summary
+### Benthic Surveys
 <p>
 <img src= 'https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg' width="250" height=auto ALIGN="left" HSPACE="10" VSPACE="10"/>
 The ESD collects data to monitor and understand benthic complexity in coral reef ecosystems with imaging surveys and belt transects. On top of the regular triennial NCRMP survey cycles, they also investigate bleaching events as they occur. Benthic cover is estimated with several different systems, and integrates machine-learning to aid in annotation of benthic images.</p>
