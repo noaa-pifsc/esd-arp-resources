@@ -14,3 +14,29 @@ main:
   #  url: /other/
   - title: "Other Links"
     url: /links/
+
+docs:
+  - title: Fish Surveys
+    children:
+      - title: "Data Sheets"
+        url: /docs/data-sheets
+      - title: "SOPs"
+        url: /docs/sops
+      - title: "R code"
+        url: /docs/rcode
+  - title: Coral Surveys
+    children:
+      - title: "Data Sheets"
+        url: /docs/data-sheets
+      - title: "SOPs"
+        url: /docs/sops
+      - title: "R code"
+        url: /docs/rcode   
+  - title: Oceanographic surveys
+    children:
+      - title: "Data Sheets"
+        url: /docs/data-sheets
+      - title: "SOPs"
+        url: /docs/sops
+      - title: "R code"
+        url: /docs/rcode   
