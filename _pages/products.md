@@ -13,6 +13,7 @@ feature_row2:
   url: https://ncrmp.coralreef.noaa.gov/
   btn_label: "Go to Landing Page"
   btn_class: "btn--primary"
+  target: "_blank"
 feature_row3:
 - image_path: https://github.com/MichaelAkridge-NOAA/ncei_eds_codespace/raw/main/docs/02.png
   alt: "environmental data summary"
@@ -20,15 +21,19 @@ feature_row3:
   excerpt: "Use this codespace to run your own EDS models"
   url: https://github.com/MichaelAkridge-NOAA/ncei_eds_codespace
   btn_label: "EDS Codespace"
-  btn_class: "btn--primary"
+  btn_class: "btn--primary"  
+  target: "_blank"
+
 feature_row4:
-- image_path: "/assets/images/pacioos-eco-geospatial-tool.png"
+- image_path: assets\images\pacioos-eco-geospatial-tool.png
   alt: "pacioos amsm coral reef drivers"
   title: "Eco-geospatial tool American Samoa"
   excerpt: "PACIOOS hosted American Samoa Coral Reef Ecosystem Drivers tool from data gathered by the Ecosystem Sciences Division (ESD)"
   url: https://www.pacioos.hawaii.edu/projects/coral-drivers-amsam/#data
   btn_label: "Go to PacIOOS Page"
   btn_class: "btn--primary"
+  target: "_blank"
+
 feature_row5:
 - image_path: https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg
   alt: "shiny app"
@@ -37,6 +42,8 @@ feature_row5:
   url: #test-link
   btn_label: "Placeholder"
   btn_class: "btn--primary"
+  target: "_blank"
+
 ---
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="right" %}
