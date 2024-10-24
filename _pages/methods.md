@@ -7,6 +7,7 @@ header:
   overlay_color: "#000"
 feature_row2:
 - image_path: https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg
+<<<<<<< HEAD
   alt: "fish training package"
   title: "Fish SPC Training Package"
   excerpt: "Download Fish SPC training package (datasheets, training materials, methods)"
@@ -23,13 +24,35 @@ feature_row4:
   alt: "water sample SOP"
   title: "Water Sample SOP"
   excerpt: "Water sampling SOP"
+=======
+  alt: "team image 1"
+  title: "Team topic 1"
+  excerpt: "Details on team topic"
+  url: #test-link
+  btn_label: "Placeholder"
+  btn_class: "btn--primary"
+feature_row3:
+- image_path: https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg
+  alt: "Team image 2"
+  title: "Team topic 2"
+  excerpt: "Details on team topic 2 "
+feature_row4:
+- image_path: https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg
+  alt: "ncei collection"
+  title: "Browse NCEI collection"
+  excerpt: "Browse raw data for datastream"
+>>>>>>> 727d5a20cdd025fe7e51a87fc3ffebc0976f0693
   url: #test-link
   btn_label: "Placeholder"
   btn_class: "btn--primary"
 feature_row5:
 - image_path: https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg
   alt: "github repository image"
+<<<<<<< HEAD
   title: "GitHub repository for R packages"
+=======
+  title: "GitHub repository"
+>>>>>>> 727d5a20cdd025fe7e51a87fc3ffebc0976f0693
   excerpt: "See our team scripts for processing raw data"
   url: #test-link
   btn_label: "Placeholder"
