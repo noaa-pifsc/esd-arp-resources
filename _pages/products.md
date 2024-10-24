@@ -27,7 +27,7 @@ feature_row3:
   target: "_blank"
 
 feature_row4:
-- image_path: assets\images\pacioos-eco-geospatial-tool.png
+- image_path: assets/images/pacioos-eco-geospatial-tool.png
   alt: "pacioos amsm coral reef drivers"
   title: "Eco-geospatial tool American Samoa"
   excerpt: "PACIOOS hosted American Samoa Coral Reef Ecosystem Drivers tool from data gathered by the Ecosystem Sciences Division (ESD)"
