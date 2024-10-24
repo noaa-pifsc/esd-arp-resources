@@ -11,7 +11,8 @@ sidebar:
   nav: "docs"
 ---
 
-# Under Construction
+# Common SOPs
+Use the sidebar on the left to access resources for each type of survey, or browse the most requested Standard-Operating-Procedures (SOP) below:
 
 ## Benthic Surveys
 <ul>

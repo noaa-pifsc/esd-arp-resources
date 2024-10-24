@@ -1,7 +1,7 @@
 ---
 title: "Access Data"
 permalink: /accessdata/
-layout: splash
+layout: single
 excerpt: "How and where to access our NCRMP data."
 header:
   overlay_image: https://www.fisheries.noaa.gov/s3//2024-07/640x480-Sette-NCRMP-Fisheries-PIFSC.jpg
@@ -23,7 +23,8 @@ feature_row3:
   url: "https://www.pacioos.hawaii.edu/"
   btn_label: "Go to PacIOOS"
   btn_class: "btn--primary"
-
+sidebar:
+  nav: "docs"
 ---
 # Under Construction
 # Caveats
