@@ -2,20 +2,17 @@
 main:
   - title: "Home"
     url: /
-  - title: "Survey Methods"
+  - title: "Methods"
     url: /sops/
   - title: "Access Data"
     url: /accessdata/
-  - title: "About"
-    url: /about/
-  - title: "Publications"
-    url: /publications/
-  - title: "Methods"
-    url: /methods/
-  - title: "Other Links"
-    url: /links/
   - title: "Products"
     url: /products/
+  - title: "About Us"
+    url: /about/
+  - title: "Outreach"
+    url: /links/
+
 
 docs:
   - title: NCRMP Surveys
