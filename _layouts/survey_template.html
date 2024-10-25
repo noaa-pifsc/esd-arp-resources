@@ -1,25 +1,27 @@
 ---
 layout: splash
-title: "{{ page.title }}"
-description: "{{ page.description }}"
-excerpt: {{page.excerpt}}
+title: "{{ page.title | default: site.data.survey_template.survey_template[0].title }}"
+description: "{{ page.description | default: site.data.survey_template.survey_template[0].description }}"
+excerpt: "{{ page.excerpt | default: site.data.survey_template.survey_template[0].excerpt }}"
 header:
   overlay_color: "#000"
 feature_row2:
-- image_path: "{{page.image_path_sop}}"
+- image_path: "{{ page.image_path_sop | default: site.data.survey_template.survey_template[0].image_path_sop }}"
   alt: "sops"
   title: "SOPs"
   excerpt: "Standard operating Procedures detailing methods"
-  url: "{{page.sop_link}}"
+  url: "{{ page.sop_link }}"
   btn_label: "Download"
   btn_class: "btn--primary"
+  
 feature_row3:
-- image_path: "{{page.image_path_datasheets}}"
+- image_path: "{{ page.image_path_datasheets | default: site.data.survey_template.survey_template[0].image_path_datasheets }}"
   alt: "data sheets"
   title: "Data Sheets"
-  excerpt: "{{page.datasheet_text}}"
+  excerpt: "{{ page.datasheet_text | default: 'Default description for data sheets' }}"
+  
 feature_row4:
-- image_path: "{{page.image_rawdata}}"
+- image_path: "{{ page.image_rawdata | default: site.data.survey_template.survey_template[0].image_rawdata }}"
   alt: "access raw data"
   title: "Access Raw data"
   excerpt: "Browse raw data for datastream"
@@ -27,29 +29,29 @@ feature_row4:
   btn_label: "Placeholder"
   btn_class: "btn--primary"
 feature_row5:
-- image_path: "{{page.image_rcode}}"
+- image_path: "{{ page.image_rcode | default: site.data.survey_template.survey_template[0].image_rcode }}"
   alt: "R code"
   title: "R code for processing data"
   excerpt: "See our team scripts for processing raw data"
   url: #test-link
   btn_label: "Placeholder"
   btn_class: "btn--primary"
-
+  
 ---
+
 <div class="survey-content">
-  <h1>{{ page.title }}</h1>
-  <p>{{ page.description }}</p>
-  <!-- You can add more content or structure for the survey -->
+  <h1>{{ page.title | default: site.data.survey_template.survey_template[0].title }}</h1>
+  <p>{{ page.description | default: site.data.survey_template.survey_template[0].description }}</p>
 </div>
 
-
-## "{{page.survey_type}}"
+## "{{ page.survey_type | default: site.data.survey_template.survey_template[0].survey_type }}"
 <p>
-<img src= '{{page.main_image}}' width="250" height=auto ALIGN="left" HSPACE="10" VSPACE="10"/>
-{{page.survey_description}}</p>
+<img src="{{ page.main_image | default: site.data.survey_template.survey_template[0].main_image }}" width="250" height="auto" ALIGN="left" HSPACE="10" VSPACE="10"/>
+{{ page.survey_description | default: site.data.survey_template.survey_template[0].description }}
+</p>
 <br>
 ### How to download and use our data
-{{page.how_to_download}}
+{{ page.how_to_download | default: site.data.survey_template.survey_template[0].how_to_download }}
 
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="right" %}
