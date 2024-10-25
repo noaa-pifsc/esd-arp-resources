@@ -23,6 +23,8 @@ docs:
         url: /docs/sfm
       - title: "Carbonate budgets"
         url: /docs/carbonate-budgets
+      - title: "Survey template"
+        url: surveys/test_survey
   - title: Other CRCP Projects
     children:
       - title: "LBSP"

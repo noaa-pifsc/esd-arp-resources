@@ -1,0 +1,8 @@
+---
+layout: survey_template
+title: "Survey template"
+excerpt: "add an excerpt here"
+description: "Add a description here"
+survey_type: "Test survey type"
+permalink: /surveys/test_survey
+---
