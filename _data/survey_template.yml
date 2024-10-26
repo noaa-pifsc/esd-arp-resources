@@ -3,7 +3,7 @@ survey_template:
     title: "Survey template"
     excerpt: "add an excerpt here"
     description: "Add a description here"
-    survey_type: "Test survey type"
+    survey_type: Test survey type
     permalink: /surveys/test_survey
     main_image: "https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" # default image
     image_path_sop: "/assets/images/default-sop.jpg"
