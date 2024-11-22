@@ -34,6 +34,8 @@ feature_row5:
   url: #test-link
   btn_label: "Placeholder"
   btn_class: "btn--primary"
+sidebar:
+  nav: "docs"
 ---
 
 {% include feature_row id="feature_row2" type="left" %}
