@@ -25,6 +25,9 @@ docs:
         url: /docs/carbonate-budgets
       - title: "Survey template"
         url: surveys/test_survey
+      - title: "Survey template single"
+        url: surveys/test_survey_single
+
   - title: Other CRCP Projects
     children:
       - title: "LBSP"
