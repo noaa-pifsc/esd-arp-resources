@@ -20,11 +20,7 @@ excerpt: {{ page.excerpt }}
 <h3>How to download and use our data</h3>
 <p>{{ page.how_to_download }}</p>
 
-{% comment %} Prepare feature rows for rendering {% endcomment %}
-{% assign feature_row2 = page.feature_row2 | default: site.data.survey_template.survey_template[0].feature_row2 %}
-{% assign feature_row3 = page.feature_row3 | default: site.data.survey_template.survey_template[0].feature_row3 %}
-{% assign feature_row4 = page.feature_row4 | default: site.data.survey_template.survey_template[0].feature_row4 %}
-{% assign feature_row5 = page.feature_row5 | default: site.data.survey_template.survey_template[0].feature_row5 %}
+
 
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="right" %}
