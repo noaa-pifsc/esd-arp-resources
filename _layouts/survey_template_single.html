@@ -1,21 +1,14 @@
 ---
 layout: single
-title: "{{ page.title }}"
-description: "{{ page.description }}"
-excerpt: {{ page.excerpt }}
-sidebar:
-  nav: "docs"
 ---
 
 <div class="survey-content">
-  <h1>{{ page.title }}</h1>
-  <p>{{ page.description }}</p>
+  <img src="{{ page.main_image }}" width="250" height="auto" align="right" hspace="10" vspace="10" />
   <!-- You can add more content or structure for the survey -->
-</div>
 
-<h2>{{ page.survey_type }}</h2>
+
+<h1>{{ page.survey_type }}</h1>
 <p>
-  <img src="{{ page.main_image }}" width="250" height="auto" align="left" hspace="10" vspace="10" />
   {{ page.survey_description }}
 </p>
 <br>
@@ -24,7 +17,7 @@ sidebar:
 <h3>How to download and use our data</h3>
 <p>{{ page.how_to_download }}</p>
 
-
+</div>
 
 <div class="feature__wrapper">
 
@@ -46,7 +39,7 @@ sidebar:
 
         
           <div class="archive__item-excerpt">
-            <p>Standard operating Procedures detailing methods</p>
+            <p> {{ page.sop_text }} </p>
 
           </div>
         
@@ -83,7 +76,7 @@ sidebar:
 
         
           <div class="archive__item-excerpt">
-            <p>Details about data sheets</p>
+            <p>{{ page.datasheets_text }}</p>
 
           </div>
         
@@ -119,7 +112,7 @@ sidebar:
 
         
           <div class="archive__item-excerpt">
-            <p>Browse raw data for datastream</p>
+            <p>{{ page.access_rawdata_text}}</p>
 
           </div>
         
@@ -155,7 +148,7 @@ sidebar:
 
         
           <div class="archive__item-excerpt">
-            <p>See our team scripts for processing raw data</p>
+            <p>{{page.r_code_text}}</p>
 
           </div>
         
