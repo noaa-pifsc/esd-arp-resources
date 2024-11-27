@@ -26,7 +26,7 @@ feature_row3:
   alt: "contact image"
   title: "Contact us"
   excerpt: "This website is maintained by the Data Services Team on a PIFSC github repository using minimal-mistakes jekyll theme.
-  url: "mailto:nmfs.pic.credinfo@noaa.gov"
+  url: "mailto:nmfs.pic.credinfo@noaa.gov""
   btn_label: "Email Us"
   btn_class: "btn--primary"
 ---
