@@ -1,7 +1,7 @@
 ---
-title: "About us"
-layout: splash
 permalink: /about/
+layout: splash
+title: "About us"
 header: 
  overlay_color: "#000"
  overlay_filter: "0.3"
@@ -22,15 +22,13 @@ feature_row2:
   btn_label: "Learn More"
   btn_class: "btn--primary"
 feature_row3:
-- image_path: /assets/images/rainbow_marianas.jpg
+- image_path: "/assets/images/rainbow_marianas.jpg"
   alt: "contact image"
   title: "Contact us"
   excerpt: "This website is maintained by the Data Services Team on a PIFSC github repository using minimal-mistakes jekyll theme.
   url: "mailto:nmfs.pic.credinfo@noaa.gov"
   btn_label: "Email Us"
   btn_class: "btn--primary"
-
-
 ---
 {% include feature_row id="intro" type="center" %}
 {% include feature_row id="feature_row2" type="left" %}

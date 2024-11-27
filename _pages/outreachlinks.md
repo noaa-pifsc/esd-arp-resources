@@ -1,7 +1,7 @@
 ---
 title: Outreach Links
 layout: single
-permalink: /links/
+permalink: /outreach/
 excerpt: "More about our program and links to outreach for past missions."
 header:
   overlay_color: "#000"

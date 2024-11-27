@@ -11,8 +11,7 @@ main:
   - title: "About Us"
     url: /about/
   - title: "Outreach"
-    url: /links/
-
+    url: /outreach/
 
 docs:
   - title: NCRMP Surveys
