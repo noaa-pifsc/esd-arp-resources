@@ -6,7 +6,11 @@ survey_template:
     survey_type: Test survey type
     permalink: /surveys/test_survey_single
     image_path_sop: "/assets/images/default-sop.jpg"
+    url_sop: "https://example.com/sops"
     image_path_datasheets: "/assets/images/default-datasheets.jpg"
+    url_datasheets: "https://example.com/sops"
     image_rawdata: "/assets/images/default-rawdata.jpg"
+    url_rawdata: "https://example.com/sops"
     image_rcode: "/assets/images/default-rcode.jpg"
+    url_rcode: "https://example.com/sops"
 ---

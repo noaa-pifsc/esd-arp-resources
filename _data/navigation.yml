@@ -18,18 +18,20 @@ docs:
     children:
       - title: "Fish SPC"
         url: /docs/fish-spc
-      - title: "Structure-from-motion"
-        url: /docs/sfm
-      - title: "Carbonate budgets"
-        url: /docs/carbonate-budgets
+      - title: "Fish SPC using Template"
+        url: /surveys/fish_survey_template
+      - title: "Structure-from-Motion (SfM)"
+        url: /surveys/sfm_survey_template
+      #- title: "Carbonate budgets"
+      #  url: /docs/carbonate-budgets
       - title: "Survey template"
         url: surveys/test_survey
       - title: "Survey template single"
         url: surveys/test_survey_single
 
-  - title: Other CRCP Projects
-    children:
-      - title: "LBSP"
-        url: /docs/lbsp
-      - title: "Bleaching"
-        url: /docs/bleaching
+  #- title: Other CRCP Projects
+   # children:
+    #  - title: "LBSP"
+    #    url: /docs/lbsp
+    #  - title: "Bleaching"
+    #    url: /docs/bleaching
