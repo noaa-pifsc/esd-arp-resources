@@ -30,6 +30,8 @@ sidebar:
 # Caveats
 ### Our data is split into fixed site versus random site surveys. 
 Our random sites follow a stratified-random sampling design (StRS), meaning they can only be meaningfully analyzed at island and regional levels.
+# Data via NOAA GeoPlatform
+View data, caveats, and more on the NCRMP program including surveys in the Atlantic <a href = " https://noaa.hub.arcgis.com/pages/4976333fbf884f26b2fdc9ac51a20576" target = "_blank">here</a>
 
 # Raw data via NCEI
 Our raw data is archived with NCEI within Collections, and is described with the InPort metadata catalog.
