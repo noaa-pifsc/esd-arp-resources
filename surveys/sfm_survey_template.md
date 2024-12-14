@@ -14,8 +14,10 @@ survey_description: SfM imagery is collected at both random and fixed sites. The
 sidebar:
   nav: "docs"
 how_to_download: Raw imagery is archived with NCEI, and is accessible for download by request via OER portal. Both imagery and products are also accessible via NODD Google Cloud Bucket (send requests to <a href = "mailto:nmfs.pic.credinfo@noaa.gov">nmfs.pic.credinfo@noaa.gov</a>).
-sop_text: " Standard operating Procedures detailing methods"
-datasheets_text: "Details about data sheets"
+sop_text: Collection, processing, and extracting of demographic data
+url_sop: https://doi.org/10.25923/cydj-z260
+datasheets_text: "Fixed site SfM (spiral) is included here. For random sites, SfM markers and depths are recorded on fish data sheets."
+url_datasheets: /surveys/sfm/datasheets/FixedSiteSfM_Datasheet_4_2024.pdf
 access_rawdata_text : "Browse raw data for datastream"
 r_code_text: "See our team scripts for processing raw data"
 

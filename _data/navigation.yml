@@ -17,18 +17,21 @@ docs:
   - title: NCRMP Surveys
     children:
       - title: "Fish SPC"
-        url: /docs/fish-spc
-      - title: "Fish SPC using Template"
         url: /surveys/fish_survey_template
       - title: "Structure-from-Motion (SfM)"
         url: /surveys/sfm_survey_template
+      - title: "CTD - DIC Water Sampling"
+        url: /surveys/ctdh2o_survey_template
       #- title: "Carbonate budgets"
       #  url: /docs/carbonate-budgets
+  - title: Alt Templates
+    children: 
       - title: "Survey template"
-        url: surveys/test_survey
-      - title: "Survey template single"
         url: surveys/test_survey_single
-
+      - title: "Survey template alt wide"
+        url: surveys/test_survey
+      - title: "Fish SPC alt wide"
+        url: /docs/fish-spc
   #- title: Other CRCP Projects
    # children:
     #  - title: "LBSP"

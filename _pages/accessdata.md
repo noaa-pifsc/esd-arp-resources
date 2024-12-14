@@ -26,7 +26,6 @@ feature_row3:
 sidebar:
   nav: "docs"
 ---
-# Under Construction
 # Caveats
 ### Our data is split into fixed site versus random site surveys. 
 Our random sites follow a stratified-random sampling design (StRS), meaning they can only be meaningfully analyzed at island and regional levels.
@@ -34,10 +33,10 @@ Our random sites follow a stratified-random sampling design (StRS), meaning they
 View data, caveats, and more on the NCRMP program including surveys in the Atlantic <a href = " https://noaa.hub.arcgis.com/pages/4976333fbf884f26b2fdc9ac51a20576" target = "_blank">here</a>
 
 # Raw data via NCEI
-Our raw data is archived with NCEI within Collections, and is described with the InPort metadata catalog.
+Our raw data is archived with NCEI within Collections, and is described within the InPort metadata catalog <a href = "https://www.fisheries.noaa.gov/inport/item/2712" target = "_blank">CREP library</a>.
 
 # R processing scripts
-Our data is still being converted into public-ready form and will become available on PIFSC github
+Our data is still being converted into public-ready form and will become available on <a href = "https://github.com/noaa-pifsc" target = "_blank">PIFSC github</a>.
 
 # SfM imagery via Google Cloud bucket (NODD)
 ### Due to the size of structure-from-motion (SfM) imagery, we have made our raw imagery as well as products available via Google Cloud Bucket. Raw imagery is also archived on NCEI OER Portal.

@@ -28,7 +28,7 @@ Use the sidebar on the left to access resources for each type of survey, or brow
 <ul>
 <li><a href = "https://doi.org/10.7289/v5sn06zt"> Coral reef ecosystem program standard operating procedures : data collection for rapid ecological assessment fish surveys (2015)</a><br>
 - Collecting fish data<br>
-- Collecting benthic data
+- Collecting benthic cover estimate data
 </li>
 </ul>
 
@@ -36,6 +36,8 @@ Use the sidebar on the left to access resources for each type of survey, or brow
 <ul>
 <li><a href = "https://rpubs.com/hbarkley/occ_SOP"> SOP for instrument data processing using the R package occ
  (2019)</a>
+</li>
+<li><a href = "https://www.ncei.noaa.gov/data/oceans/coris/library/NOAA/CRCP/monitoring/protocols/NCRMP_Climate_WaterSamplingPacific.pdf"> Water sampling SOP </a> (last updated: 06/2023)
 </li>
 </ul>
 
