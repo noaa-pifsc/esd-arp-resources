@@ -23,6 +23,14 @@ feature_row3:
   url: "https://www.pacioos.hawaii.edu/"
   btn_label: "Go to PacIOOS"
   btn_class: "btn--primary"
+feature_row4:
+- image_path: https://www.pmel.noaa.gov/ocs/sites/default/files/thumbnails/image/ERDDAP_Data_Access.png
+  alt: "errdap image"
+  title: "CRCP ERRDAP"
+  excerpt: "Go to tabledap to see CRCP datsets or use the video tutorial provided"
+  url: "https://www.ncei.noaa.gov/erddap/index.html"
+  btn_label: "Go to CRCP ERRDAP"
+  btn_class: "btn--primary"
 sidebar:
   nav: "docs"
 ---
@@ -39,11 +47,13 @@ Our raw data is archived with NCEI within Collections, and is described within t
 Our data is still being converted into public-ready form and will become available on <a href = "https://github.com/noaa-pifsc" target = "_blank">PIFSC github</a>.
 
 # SfM imagery via Google Cloud bucket (NODD)
-### Due to the size of structure-from-motion (SfM) imagery, we have made our raw imagery as well as products available via Google Cloud Bucket. Raw imagery is also archived on NCEI OER Portal.
-For assistance and tools on how to adopt a similar strategy at your institution, contact the Data Services Team at nmfs.pic.credinfo@noaa.gov
+<p>Due to the size of structure-from-motion (SfM) imagery, raw imagery as well as products are available via Google Cloud Bucket. Raw imagery is archived with NCEI and available on the <a href ="https://www.ncei.noaa.gov/access/ocean-exploration/video/" target = "_blank"> OER Portal</a>.
+<br>
+For assistance and tools on how to adopt a similar strategy at your institution, contact the Data Services Team at <a href = "mailto:nmfs.pic.credinfo@noaa.gov">nmfs.pic.credinfo@noaa.gov</a>.</p>
 
 # Public Tools
 See our PIFSC github for python-based tools to assist with processing imagery for NODD, imagery validation, etc.
 
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="left" %}
+{% include feature_row id="feature_row4" type="left" %}
