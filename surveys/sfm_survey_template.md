@@ -14,11 +14,10 @@ survey_description: SfM imagery is collected at both random and fixed sites. The
 sidebar:
   nav: "docs"
 how_to_download: Raw imagery is archived with NCEI, and is accessible for download by request via OER portal. Both imagery and products are also accessible via NODD Google Cloud Bucket (send requests to <a href = "mailto:nmfs.pic.credinfo@noaa.gov">nmfs.pic.credinfo@noaa.gov</a>).
-sop_text: Collection, processing, and extracting of demographic data
+sop_text: Collection, processing, and extracting of demographic data.
 url_sop: https://doi.org/10.25923/cydj-z260
-datasheets_text: "Fixed site SfM (spiral) is included here. For random sites, SfM markers and depths are recorded on fish data sheets."
+datasheets_text: Fixed site SfM (spiral) data sheet is included below (random sites are recorded on fish data sheets). <br><i>3D print <a href = "https://www.ncei.noaa.gov/data/oceans/coris/data/NOAA/ncrmp/Sfm_spiral_survey_drum_6in.stl" target ="_blank">6in</a>  and <a href = "https://www.ncei.noaa.gov/data/oceans/coris/data/NOAA/ncrmp/Sfm_spiral_survey_drum_8in.stl" target = "_blank">8in</a> drums to collect SfM spiral imagery.</i>
 url_datasheets: /surveys/sfm/datasheets/FixedSiteSfM_Datasheet_4_2024.pdf
-access_rawdata_text : "Browse raw data for datastream"
+access_rawdata_text : Metadata catalog for imagery collected and extracted data <a href = "https://www.fisheries.noaa.gov/inport/item/63090" target = "_blank">here</a>. Note if records are unvailable when being updated.
 r_code_text: "See our team scripts for processing raw data"
-
 ---
