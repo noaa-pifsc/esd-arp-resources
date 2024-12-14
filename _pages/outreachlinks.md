@@ -12,6 +12,6 @@ header:
 
 <ul>
 {% for link in site.data.links %}
-    <li><a href = "{{ link.URL}}">{{ link.Topic}}</a></li>
+    <li><a href = "{{ link.URL}}" target="_blank">{{ link.Topic}}</a></li>
 {% endfor %}
 </ul>
