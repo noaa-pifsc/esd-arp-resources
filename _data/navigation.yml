@@ -10,11 +10,9 @@ main:
     url: /products/
   - title: "About Us"
     url: /about/
-  - title: "Outreach"
-    url: /outreach/
 
 docs:
-  - title: NCRMP Surveys
+  - title: CRCP - NCRMP Surveys
     children:
       - title: "Fish SPC"
         url: /surveys/fish_survey_template

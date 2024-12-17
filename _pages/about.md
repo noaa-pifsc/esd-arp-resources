@@ -22,6 +22,14 @@ feature_row2:
   btn_label: "Learn More"
   btn_class: "btn--primary"
 feature_row3:
+- image_path: "/assets/images/2023_storymap.png"
+  alt: "2023 storymap screenshot"
+  title: "Outreach"
+  excerpt: "Links to story maps, photo galleries, and blogs from past missions as well as more information on the Pacific Islands Fisheries Science Center (PIFSC) and our Ecosystem Sciences Division (ESD)."
+  url: /outreach/
+  btn_label: "Browse Links"
+  btn_class: "btn--primary"
+feature_row4:
 - image_path: "/assets/images/rainbow_marianas.jpg"
   alt: "contact image"
   title: "Contact us"
@@ -33,3 +41,4 @@ feature_row3:
 {% include feature_row id="intro" type="center" %}
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="right" %}
+{% include feature_row id="feature_row4" type="left" %}
