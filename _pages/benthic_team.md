@@ -5,9 +5,13 @@ layout: splash
 excerpt: "We monitor the benthos of coral reef ecosystems in the Hawaiian Archipelago, Mariana Archipelago, American samoa, and the Pacific Remote Island Areas since 2000."
 header:
   overlay_color: "#000"
+  overlay_image: https://media.fisheries.noaa.gov/2023-04/4000X3000-Fans-DTP-PIFSC.JPG
+  caption: "Photo credit: Damaris Torres-Pulliza/NOAA"
+  overlay_filter: linear-gradient(rgba(15, 15, 15, 0.5), rgba(235, 150, 221, 0.36))
+
 feature_row2:
-- image_path: https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg
-  alt: "team image 1"
+- image_path: https://media.fisheries.noaa.gov/2023-04/500x391-coral-faces-DTP-PIFSC.gif
+  alt: "coral taxa and symbionts"
   title: "What do we survey"
   excerpt: We collect benthic data of shallow coral reef ecosystems (up to 100ft). This means identifying, counting, and sizing different organisms of the benthos. We conduct coral demography surveys (hard coral composition of adults and juveniles), as well as benthic cover surveys (cover of algae, CCA, hard coral, and other taxa). More on coral health and threats in the Pacific Islands <a href = "https://www.fisheries.noaa.gov/pacific-islands/ecosystems/coral-health-and-threats-pacific-islands" target = "_blank">here</a>
   url: #test-link

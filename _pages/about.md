@@ -22,10 +22,10 @@ feature_row2:
   btn_label: "Learn More"
   btn_class: "btn--primary"
 feature_row3:
-- image_path: "/assets/images/2023_storymap.png"
-  alt: "2023 storymap screenshot"
+- image_path: "https://media.fisheries.noaa.gov/2023-08/1123X712-outreach-2-collage-PIFSC.jpg"
+  alt: "outreach event in Pago Pago"
   title: "Outreach"
-  excerpt: "Links to story maps, photo galleries, and blogs from past missions as well as more information on the Pacific Islands Fisheries Science Center (PIFSC) and our Ecosystem Sciences Division (ESD)."
+  excerpt: "Links to story maps, photo galleries, and blogs from past missions as well as more information on the Pacific Islands Fisheries Science Center (PIFSC) and our Ecosystem Sciences Division (ESD). Photo credit: NMSAS "
   url: /outreach/
   btn_label: "Browse Links"
   btn_class: "btn--primary"
