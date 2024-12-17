@@ -1,6 +1,6 @@
 ---
 title: "Benthic Surveys"
-permalink: /benthic/
+permalink: /benthic-surveys/
 layout: splash
 excerpt: "We monitor the benthos of coral reef ecosystems in the Hawaiian Archipelago, Mariana Archipelago, American samoa, and the Pacific Remote Island Areas since 2000."
 header:
@@ -9,7 +9,7 @@ feature_row2:
 - image_path: https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg
   alt: "team image 1"
   title: "What do we survey"
-  excerpt: "We collect benthic data of shallow coral reef ecosystems (up to 100ft). This means identifying, counting, and sizing different organisms of the benthos. We conduct coral demography surveys (hard coral composition of adults and juveniles), as well as benthic cover surveys (cover of algae, CCA, hard coral, and other taxa)."
+  excerpt: We collect benthic data of shallow coral reef ecosystems (up to 100ft). This means identifying, counting, and sizing different organisms of the benthos. We conduct coral demography surveys (hard coral composition of adults and juveniles), as well as benthic cover surveys (cover of algae, CCA, hard coral, and other taxa). More on coral health and threats in the Pacific Islands <a href = "https://www.fisheries.noaa.gov/pacific-islands/ecosystems/coral-health-and-threats-pacific-islands" target = "_blank">here</a>
   url: #test-link
   btn_label: "Placeholder"
   btn_class: "btn--primary"
