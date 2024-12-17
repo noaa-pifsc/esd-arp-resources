@@ -9,7 +9,7 @@ feature_row2:
 - image_path: https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg
   alt: "team image 1"
   title: "What do we survey"
-  excerpt: "The changes in ocean chemistry that impact coral reef ecosystems, such as investigating how thermal stress impacts coral, how water etmeprature chagnes with depth in coral reefs, and whether coral reefs are growing or shrinking  "
+  excerpt: "The changes in <b>ocean chemistry</b> that impact coral reef ecosystems, such as investigating how <b>thermal stress</b> impacts coral, how water temperature changes with depth in coral reefs, and whether coral reefs are <b>growing or shrinking</b>."
   url: #test-link
   btn_label: "Placeholder"
   btn_class: "btn--primary"
@@ -17,12 +17,12 @@ feature_row3:
 - image_path: https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg
   alt: "Team image 2"
   title: "How do we survey"
-  excerpt: "We deploy stand-alone instruments on the reef for several years such as STRs, CAUs, and BMUs. We also deploy an assortment of instruments like diel suite for a week. Water samples and CTD surveys are conducted dive boats or NOAA research vessels."
+  excerpt: "We deploy stand-alone instruments on the reef for several years such as <b>STRs, CAUs, and BMUs</b>. We also deploy an assortment of instruments like <b>diel suite</b> for a week. <b>Water samples and CTD surveys</b> are conducted off dive boats or NOAA research vessels. <b>Carbonate budgets</b> methodology was also adapted for Pacific coral reefs."
 feature_row4:
 - image_path: https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg
   alt: "ncei collection"
   title: "What do we measure"
-  excerpt: "Water temperature, carbonate chemistry, sea water pH, dissolved oxygen (DO), photosynthetic active radiation (PAR), and more. We also measure the rate of calcification at fixed sites using carbonate budgets as a proxy."
+  excerpt: "<b>Water temperature, carbonate chemistry, sea water pH, dissolved oxygen (DO), photosynthetic active radiation (PAR),</b> and more. We also measure the rate of <b>calcification</b> at fixed sites using carbonate budgets as a proxy."
   url: #test-link
   btn_label: "Placeholder"
   btn_class: "btn--primary"
@@ -47,13 +47,17 @@ feature_row6:
 <p>
 The Ocean and Climate Change Team investigates the impacts of climate change on coral reefs of the US Pacific Islands to inform resilience based management of these important ecosystems. While working in synchrony with other teams investigating reef ecology, the OCC Team focuses on studying carbonate chemistry, carbonate budgets and ocean warming.</p>
 
-
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="right" %}
 {% include feature_row id="feature_row4" type="left" %}
-{% include feature_row id="feature_row5" type="right" %}
-{% include feature_row id="feature_row6" type="left" %}
 
+### Why do we conduct these surveys
+By revisiting these sites in regions since 2013 we can monitor reefs and the impact of climate change to inform management decisions. The methodogies we use are chosen to leverage the usability and reproducibiity of our data such that it can be integrated with other datasets.
+
+### GitHub
+<ul>
+<li><a href="https://github.com/hannahbarkley/reefbudgetR" target ="_blank">Carbonate Budgets Scripts & Calcification Rates Database</a></li>
+</ul>
 ### Access Data
 Under 'Products' you can visualize and access our data using the NCRMP Visualization tool. You can go to 'Methods' to see access for specific datasets. For raw data, our data is organized in NCEI collections.
 

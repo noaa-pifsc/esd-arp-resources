@@ -20,7 +20,7 @@ feature_row3:
 - image_path: https://github.com/MichaelAkridge-NOAA/ncei_eds_codespace/raw/main/docs/02.png
   alt: "environmental data summary"
   title: "Environmental Data Summary (EDS)"
-  excerpt: "Use this codespace to run your own EDS models"
+  excerpt: Use this codespace to run your own EDS models. Access original repository <a href ="https://github.com/krtanaka/ncei_eds" target ="_blank">here</a>.
   url: https://github.com/MichaelAkridge-NOAA/ncei_eds_codespace
   btn_label: "EDS Codespace"
   btn_class: "btn--primary"  
