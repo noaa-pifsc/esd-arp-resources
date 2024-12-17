@@ -7,9 +7,10 @@ header:
   overlay_color: "#000"
   overlay_filter: linear-gradient(rgba(95, 253, 253, 0.5), rgba(8, 8, 8, 0.9))
   overlay_image: /assets/images/ncrmp_data_viz_snap.png
+  caption: "NCRMP Pacific Fish Dashboard Screenshot"
 
 feature_row2:
-- image_path: /assets/images/ncrmp_data_viz_snap.png
+- image_path: /assets/images/ncrmp_data_viz_dashboard.png
   alt: "ncrmp vis tool"
   title: "NCRMP Visualization Tool"
   excerpt: "Interact with our random site data such as benthic cover and fish diversity and biomass"
