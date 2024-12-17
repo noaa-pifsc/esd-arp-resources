@@ -25,7 +25,7 @@ feature_row3:
 - image_path: "/assets/images/rainbow_marianas.jpg"
   alt: "contact image"
   title: "Contact us"
-  excerpt: "This website is maintained by the Data Services Team on a PIFSC github repository using minimal-mistakes jekyll theme."
+  excerpt: "This website is maintained by the Data Services Team(nmfs.pic.credinfo@noaa.gov) on a PIFSC github repository using minimal-mistakes jekyll theme."
   url: "mailto:nmfs.pic.credinfo@noaa.gov"
   btn_label: "Email Us"
   btn_class: "btn--primary"
