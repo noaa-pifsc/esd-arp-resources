@@ -34,25 +34,16 @@ feature_row5:
   url: #test-link
   btn_label: "Placeholder"
   btn_class: "btn--primary"
-feature_row6:
-- image_path: https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg
-  alt: "github repository image"
-  title: "GitHub repository"
-  excerpt: "See our team scripts for processing raw data"
-  url: #test-link
-  btn_label: "Placeholder"
-  btn_class: "btn--primary"
 ---
 ### Summary
 <p>
-The Ocean and Climate Change Team investigates the impacts of climate change on coral reefs of the US Pacific Islands to inform resilience based management of these important ecosystems. While working in synchrony with other teams investigating reef ecology, the OCC Team focuses on studying carbonate chemistry, carbonate budgets and ocean warming.</p>
+Fish surveys are conducted in the Pacific Islands regions to monitor changes in biomass, species richness, and biodiversity over time. Primarily we conduct stationary-point-count(SPC) surveys. Historically we have also collected fish belt (BLT) and towed-diver surveys.</p>
 
 
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="right" %}
 {% include feature_row id="feature_row4" type="left" %}
 {% include feature_row id="feature_row5" type="right" %}
-{% include feature_row id="feature_row6" type="left" %}
 
 ### Access Data
 Under 'Products' you can visualize and access our data using the NCRMP Visualization tool. You can go to 'Methods' to see access for specific datasets. For raw data, our data is organized in NCEI collections.
