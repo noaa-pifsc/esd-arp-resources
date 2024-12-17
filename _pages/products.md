@@ -5,10 +5,11 @@ layout: splash
 excerpt: "Tools that allow users to interact with our data as well as products developed by the Ecosystem Sciences Division (ESD)"
 header:
   overlay_color: "#000"
-  overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
+  overlay_filter: linear-gradient(rgba(95, 253, 253, 0.5), rgba(8, 8, 8, 0.9))
+  overlay_image: /assets/images/ncrmp_data_viz_snap.png
 
 feature_row2:
-- image_path: https://www.arcgis.com/sharing/rest/content/items/6e30b55dce164313b768990c0e41d5c5/info/thumbnail/thumbnail1678814285066.png?w=400
+- image_path: /assets/images/ncrmp_data_viz_snap.png
   alt: "ncrmp vis tool"
   title: "NCRMP Visualization Tool"
   excerpt: "Interact with our random site data such as benthic cover and fish diversity and biomass"
