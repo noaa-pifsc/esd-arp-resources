@@ -5,7 +5,7 @@ layout: single
 excerpt: "How and where to access our NCRMP data."
 header:
   overlay_image: https://www.fisheries.noaa.gov/s3//2024-07/640x480-Sette-NCRMP-Fisheries-PIFSC.jpg
-  overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
+  overlay_filter: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 255, 255, 0.5))
   caption: "Photo credit: NOAA/NMFS"
 feature_row2:
 - image_path: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmcO5tHXjtN5CEzy1KMGDeVuLNn52DYvVttw&s
