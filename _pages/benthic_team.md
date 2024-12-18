@@ -13,8 +13,8 @@ feature_row2:
 - image_path: https://media.fisheries.noaa.gov/2023-04/500x391-coral-faces-DTP-PIFSC.gif
   alt: "coral taxa and symbionts"
   title: "What do we survey"
-  excerpt: We collect benthic data of shallow coral reef ecosystems (up to 100ft). This means identifying, counting, and sizing different organisms of the benthos. We conduct coral demography surveys (hard coral composition of adults and juveniles), as well as benthic cover surveys (cover of algae, CCA, hard coral, and other taxa). More on coral health and threats in the Pacific Islands <a href = "https://www.fisheries.noaa.gov/pacific-islands/ecosystems/coral-health-and-threats-pacific-islands" target = "_blank">here</a>
-  url: #test-link
+  excerpt: We collect benthic data of shallow coral reef ecosystems (up to 100ft). This means identifying, counting, and sizing different organisms on the seafloor. We conduct coral demography surveys (hard coral composition of adults and juveniles), as well as benthic cover surveys (cover of algae, CCA, hard coral, and other taxa).  Read more about benthic cover in the <a href = "https://ncrmp.coralreef.noaa.gov/pages/ncrmp-data#BenthicSection" target= "_blank">documentation</a> of the NCRMP Data Viz Tool. More on coral health and threats in the Pacific Islands <a href = "https://www.fisheries.noaa.gov/pacific-islands/ecosystems/coral-health-and-threats-pacific-islands" target = "_blank">here</a>
+  url: https://www.fisheries.noaa.gov/pacific-islands/ecosystems/coral-health-and-threats-pacific-islands
   btn_label: "Placeholder"
   btn_class: "btn--primary"
 feature_row3:
