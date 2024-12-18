@@ -5,7 +5,7 @@ layout: splash
 excerpt: "Tools that allow users to interact with our data as well as products developed by the Ecosystem Sciences Division (ESD)"
 header:
   overlay_color: "#000"
-  overlay_filter: linear-gradient(rgba(95, 253, 253, 0.5), rgba(8, 8, 8, 0.9))
+  overlay_filter: linear-gradient(rgba(255, 250, 250, 0.76), rgba(0, 0, 0, 0.94))
   overlay_image: /assets/images/ncrmp_data_viz_snap.png
   caption: "NCRMP Pacific Fish Dashboard Screenshot"
 
@@ -13,7 +13,7 @@ feature_row2:
 - image_path: /assets/images/ncrmp_data_viz_dashboard.png
   alt: "ncrmp vis tool"
   title: "NCRMP Visualization Tool"
-  excerpt: "Interact with our random site data such as benthic cover and fish diversity and biomass"
+  excerpt: "Interact with our random site data such as benthic cover and fish diversity and biomass by selecting a Pacific dashboard."
   url: https://ncrmp.coralreef.noaa.gov/
   btn_label: "Go to Landing Page"
   btn_class: "btn--primary"
