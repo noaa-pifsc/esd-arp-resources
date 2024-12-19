@@ -3,14 +3,12 @@ layout: survey_template_single
 title: "NCRMP: Fish Biodiversity and Biomass"
 permalink: /surveys/fish_survey_template
 main_image: "https://www.arcgis.com/sharing/rest/content/items/4976333fbf884f26b2fdc9ac51a20576/resources/fish_cylinder.jpg?v=1732320000117&w=800" # default image
-main_image_caption: "Infographic demonstrating the survey design, with two divers alongside counting fish in their respective cylinder. Credit: NOAA NMFS"
+main_image_caption: "Infographic demonstrating the survey design, with two divers alongside counting fish in their respective cylinder. Credit: NOAA"
 header:
   overlay_color: "#000"
   overlay_image: https://pifscblog.wordpress.com/wp-content/uploads/2015/04/1-bigeyejacks.jpg
   caption: "Photo credit: Kevin Lino/NOAA"
   overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
-
-
 
 survey_type: Stationary-point-count (SPC) surveys
 survey_description: Fish SPC surveys intend to provide a snapshot of the biodiversity and biomass at a given time as a rapid ecological assessment tool. Surveys are conducted at select sites following a stratified-random sampling site design (StRS). Random sites are generated along a depth gradient using the R project <a href = "https://github.com/krtanaka/ncrmp_common_map" target = "_blank">ncrmp_common_map</a>. 

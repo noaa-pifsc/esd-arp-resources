@@ -10,7 +10,8 @@ header:
   caption: "Photo Credit: NOAA Fisheries/Ari Halperin"
 feature_row2:
 - image_path: https://media.fisheries.noaa.gov/2023-07/1440x960-07012023-STR-installedited-PIFSC.jpg
-  alt: "team image 1"
+  image_caption: "2023 NCRMP: STR to be deployed and retrieved side-by-side. Credit: NOAA Fisheries"
+  alt: "swapping out new and old str showing camoflauge of old str"
   title: "What do we survey"
   excerpt: "The changes in <b>ocean chemistry</b> that impact coral reef ecosystems, such as investigating how <b>thermal stress</b> impacts coral, how water temperature changes with depth in coral reefs, and whether coral reefs are <b>growing or shrinking</b>."
   url: #test-link
@@ -18,11 +19,13 @@ feature_row2:
   btn_class: "btn--primary"
 feature_row3:
 - image_path: https://media.fisheries.noaa.gov/2023-05/2880X2880-Soundtrap-deployment-JWM-PIFSC.jpg
+  image_caption: "2023 NCRMP: use of liftbags for soundtrap deployment. Credit: NOAA Fisheries"
   alt: "Team image 2"
   title: "How do we survey"
   excerpt: "We deploy stand-alone instruments on the reef for several years such as <b>STRs, CAUs, and BMUs</b>. We also deploy an assortment of instruments like <b>diel suite</b> for a week. <b>Water samples and CTD surveys</b> are conducted off dive boats or NOAA research vessels. <b>Carbonate budgets</b> methodology was also adapted for Pacific coral reefs."
 feature_row4:
 - image_path: https://www.fisheries.noaa.gov/s3//dam-migration/pacific_islands_ecosystem_science.jpg?itok=z_yxxhzO
+  image_caption: "Credit: NOAA Fisheries"
   alt: "diver deploying diel suite"
   title: "What do we measure"
   excerpt: "<b>Water temperature, carbonate chemistry, sea water pH, dissolved oxygen (DO), photosynthetic active radiation (PAR),</b> and more. We also measure the rate of <b>calcification</b> at fixed sites using carbonate budgets as a proxy."
