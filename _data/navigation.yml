@@ -12,27 +12,33 @@ main:
     url: /about/
 
 docs:
-  - title: CRCP - NCRMP Surveys
+  - title: CRCP - NCRMP
     children:
-      - title: "Fish SPC"
+ #     - title: "Coral Demography"
+ #       url: /surveys/ctdh2o_survey_template
+      - title: "CTD - DIC Water Sampling"
+        url: /surveys/ctdh2o_survey_template
+      - title: "Fish Stationary-Point-Count (SPC)"
         url: /surveys/fish_survey_template
       - title: "Structure-from-Motion (SfM)"
         url: /surveys/sfm_survey_template
-      - title: "CTD - DIC Water Sampling"
-        url: /surveys/ctdh2o_survey_template
-      #- title: "Carbonate budgets"
-      #  url: /docs/carbonate-budgets
-  - title: Alt Templates
-    children: 
-      - title: "Survey template"
-        url: surveys/test_survey_single
-      - title: "Survey template alt wide"
-        url: surveys/test_survey
-      - title: "Fish SPC alt wide"
-        url: /docs/fish-spc
-  #- title: Other CRCP Projects
-   # children:
-    #  - title: "LBSP"
-    #    url: /docs/lbsp
-    #  - title: "Bleaching"
-    #    url: /docs/bleaching
+
+#      - title: "Subsurface Temperature Recorders (STR)"
+#        url: /surveys/strs
+#      - title: "Carbonate budgets"
+#        url: /surveys/carbonate-budgets
+  - title: CRCP
+    children:
+      - title: "Bleaching"
+        url: /docs/bleaching
+      - title: "Land-based Sources of Pollution (LBSP)"
+        url: /docs/lbsp
+
+ # - title: Alt Templates
+ #   children: 
+ #     - title: "Survey template"
+ #       url: surveys/test_survey_single
+ #     - title: "Survey template alt wide"
+ #       url: surveys/test_survey
+ #     - title: "Fish SPC alt wide"
+ #       url: /docs/fish-spc
