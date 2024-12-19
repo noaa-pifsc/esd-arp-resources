@@ -3,6 +3,7 @@ layout: survey_template_single
 title: "NCRMP: CTD casts & DIC Water Sampling"
 permalink: /surveys/ctdh2o_survey_template
 main_image: "https://npomeroy.github.io/OMG/images/BOD_bottle_headspace.png" # default image
+main_image_caption: "Seawater is collected using Niskin bottle and transferred to these glass bottles to be sent in for analysis. Credit: NOAA/Noah Pomeroy."
 header:
   overlay_color: "#000"
   overlay_image: https://www.arcgis.com/sharing/rest/content/items/4976333fbf884f26b2fdc9ac51a20576/resources/bigger_dic_lab.jpg?v=1734134201861&w=1600
@@ -10,7 +11,7 @@ header:
   overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
 
 survey_type: Monitoring ocean chemistry
-survey_description: Water samples are collected simultaneously with CTD casts. Water samples are analyzed for carbonate chemistry while CTD casts provide information on the temperature and salinity profile at the site. <br> Photo credit - Noah Pomeroy/NOAA
+survey_description: Water samples are collected simultaneously with CTD casts. Water samples are analyzed for carbonate chemistry while CTD casts provide information on the temperature and salinity profile at the site.
 sidebar:
   nav: "docs"
 how_to_download: Water sample data is archived with OCADS and NCEI and CTD data is only on NCEI.

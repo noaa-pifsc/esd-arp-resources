@@ -1,19 +1,21 @@
 ---
 layout: single
 ---
+<h1>{{ page.survey_type }}</h1>
+
+{{ page.survey_description }}
 
 <div class="survey-content">
-  <img src="{{ page.main_image }}" width="250" height="auto" align="right" hspace="10" vspace="10" />
+  <figure>
+    <img src="{{ page.main_image }}" width="250" height="auto" align="right" hspace="10" vspace="10" />
+    <figcaption>{{ page.main_image_caption }}</figcaption>
   <!-- You can add more content or structure for the survey -->
 
 
-<h1>{{ page.survey_type }}</h1>
-<p>
-  {{ page.survey_description }}
-</p>
 
 <h3>How to download and use our data</h3>
 <p>{{ page.how_to_download }}</p>
+  </figure>
 
 </div>
 
