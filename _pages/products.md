@@ -11,16 +11,19 @@ header:
 
 feature_row2:
 - image_path: /assets/images/ncrmp_data_viz_dashboard.png
-  alt: "ncrmp vis tool"
+  image_caption: "Dashboard Screenshot 2024"  
+  alt: "NCRMP viz tool dashboard screenshot"
   title: "NCRMP Visualization Tool"
   excerpt: "Interact with our random site data such as benthic cover and fish diversity and biomass by selecting a Pacific dashboard."
   url: https://ncrmp.coralreef.noaa.gov/
   btn_label: "Go to Landing Page"
   btn_class: "btn--primary"
   target: "_blank"
+
 feature_row3:
 - image_path: https://github.com/MichaelAkridge-NOAA/ncei_eds_codespace/raw/main/docs/02.png
-  alt: "environmental data summary"
+  image_caption: "EDS Screenshot 2024"  
+  alt: "environmental data summary codespaces screenshot"
   title: "Environmental Data Summary (EDS)"
   excerpt: Use this codespace to run your own EDS models. Access original repository <a href ="https://github.com/krtanaka/ncei_eds" target ="_blank">here</a>.
   url: https://github.com/MichaelAkridge-NOAA/ncei_eds_codespace
@@ -30,7 +33,8 @@ feature_row3:
 
 feature_row4:
 - image_path: assets/images/pacioos-eco-geospatial-tool.png
-  alt: "pacioos amsm coral reef drivers"
+  image_caption: "PACIOOS Screeshot 2024"  
+  alt: "pacioos amsm coral reef drivers tool screenshot"
   title: "Eco-geospatial tool American Samoa"
   excerpt: "PACIOOS hosted American Samoa Coral Reef Ecosystem Drivers tool from data gathered by the Ecosystem Sciences Division (ESD)"
   url: https://www.pacioos.hawaii.edu/projects/coral-drivers-amsam/#data
