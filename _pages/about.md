@@ -15,7 +15,8 @@ intro:
 - excerpt:"Read more about where we survey and how to contact us below."
 feature_row2:
 - image_path: https://www.fisheries.noaa.gov/s3/styles/full_width/s3/dam-migration/pifsc.png?itok=SmTJPyV8
-  alt: "survey area image"
+  alt: "pacific islands region survey area image"
+  image_caption: "Credit: NOAA Fisheries"
   title: "Survey area"
   excerpt: "We survey the Pacific Islands Regions inlcuding the Hawaiian Archipelago, the Mariana Archipelago, American Samoa, and Pacific Remote Island Areas.  We conduct multidisciplinary research and monitoring of shallow-water coral reef ecosystems with some of our datastreams starting as early as 2013. Projects include: the National Coral Reef Monitoring Program (NCRMP), Land-based sources of polllution (LBSP), and more. Because humans are a key part of the ecosystem, the PIFSC science center's research outside of our program includes the social, cultural, and economic aspects of fishery and resource management decisions."
   url: "https://www.fisheries.noaa.gov/region/pacific-islands"
@@ -23,15 +24,17 @@ feature_row2:
   btn_class: "btn--primary"
 feature_row3:
 - image_path: "https://media.fisheries.noaa.gov/2023-08/1123X712-outreach-2-collage-PIFSC.jpg"
+  image_caption: "Photo credit: NMSAS"
   alt: "outreach event in Pago Pago"
   title: "Outreach"
-  excerpt: "Links to story maps, photo galleries, and blogs from past missions as well as more information on the Pacific Islands Fisheries Science Center (PIFSC) and our Ecosystem Sciences Division (ESD). Photo credit: NMSAS "
+  excerpt: "Links to story maps, photo galleries, and blogs from past missions as well as more information on the Pacific Islands Fisheries Science Center (PIFSC) and our Ecosystem Sciences Division (ESD)."
   url: /outreach/
   btn_label: "Browse Links"
   btn_class: "btn--primary"
 feature_row4:
 - image_path: "/assets/images/rainbow_marianas.jpg"
-  alt: "contact image"
+  image_caption: "Credit: Lori Luers"  
+  alt: "rainbow in the marianas"
   title: "Contact us"
   excerpt: "This website is maintained by the Data Services Team(nmfs.pic.credinfo@noaa.gov) on a PIFSC github repository using minimal-mistakes jekyll theme."
   url: "mailto:nmfs.pic.credinfo@noaa.gov"
