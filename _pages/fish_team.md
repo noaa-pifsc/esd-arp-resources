@@ -11,6 +11,7 @@ header:
 
 feature_row2:
 - image_path: https://media.fisheries.noaa.gov/2023-03/3648x5472-AAH-EPLA1-PIFSC_0.JPG
+  image_caption: "Credit: NOAA Fisheries"
   alt: "team image 1"
   title: "What do we survey"
   excerpt: Fish counts and sizes at random sites of shallow coral reef ecosystems of the Pacific Islands regions.  More info on protocols and data access<a href ="https://noaa.hub.arcgis.com/pages/4976333fbf884f26b2fdc9ac51a20576#FishSection" target ="_blank">here</a>/
@@ -19,6 +20,7 @@ feature_row2:
   btn_class: "btn--primary"
 feature_row3:
 - image_path: https://www.fisheries.noaa.gov/s3//styles/media_750_x500/s3/dam-migration/4000x3000-rea-survey-caranx-sexfasciatus-paulaayotte.jpg?itok=2f5s3-X1
+  image_caption: "Credit: NOAA Fisheries"
   alt: "Team image 2"
   title: "How do we survey"
   excerpt: "We follow the NOAA established stationary-point-count (SPC) protocol. Occasionally we conduct towed-diver surveys when historically done."

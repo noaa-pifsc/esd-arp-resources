@@ -11,6 +11,7 @@ header:
 
 feature_row2:
 - image_path: https://media.fisheries.noaa.gov/2023-04/500x391-coral-faces-DTP-PIFSC.gif
+  image_caption: "2023 NCRMP. Credit: NOAA Fisheries/Damaris Torres-Pulliza"
   alt: "coral taxa and symbionts"
   title: "What do we survey"
   excerpt: We collect benthic data of shallow coral reef ecosystems (up to 100ft). This means identifying, counting, and sizing different organisms on the seafloor. We conduct <b>coral demography</b> surveys (coral composition & condition of adults and juveniles), as well as <b>benthic cover</b> surveys (cover of algae, CCA, hard coral, and other taxa).  Read more on  benthic cover in the NCRMP Data Viz Tool <a href = "https://ncrmp.coralreef.noaa.gov/pages/ncrmp-data#BenthicSection" target= "_blank">documentation</a>.
@@ -19,12 +20,14 @@ feature_row2:
   btn_class: "btn--primary"
 feature_row3:
 - image_path: https://www.fisheries.noaa.gov/s3//2024-07/5472x3648-NCRMP-diver-Maui-Fisheries-PIFSC.JPG
-  alt: "Team image 2"
+  image_caption: "Diver collecting SfM imagery. Credit: NOAA Fisheries/Lori Luers"
+  alt: "diver conducting SfM survey"
   title: "How do we survey"
   excerpt:  We collect <b>structure-from-motion (SfM)</b> and <b>photoquadrat imagery</b>. Using the SfM imagery we can build 3D models of the coral reef and extract data, including coral demographic data (which used to be measured by divers in surveys before 2024). The photoquadrat imagery is annotated by scientists using <b>CoralNet</b> to provide estimates of benthic cover.  We do these surveys at both fixed and random sites; random sites allow us to provide estimates of data for an island or region, whereas fixed sites allow us to compare changes in the benthos over time at the same site.
 feature_row4:
 - image_path: https://media.fisheries.noaa.gov/2022-05/3977X2379-20220519-DTP-surveys-n-COTS-PIFSC.JPG
-  alt: "ncei collection"
+  image_caption: "Diver assesses coral predation. Credit: NOAA Fisheries"
+  alt: "diver conducts coral demography survey and detects COTS predation"
   title: "What do we measure"
   excerpt: Our benthic cover raw data includes <b>CoralNet annotations</b>, produced with the identification of benthic taxa under random points on photoquadrat imagery. The coral demographic data includes <b>identification, counts, and sizes of juvenile and adult hard coral colonies</b>, with conditions for adult hard corals (disease, bleaching, etc.).  For example, in this photo a diver is noting predation from the crown-of-thorns seastars where it ahs left a stark white patch on the coral colony.
   url: #test-link
@@ -32,6 +35,7 @@ feature_row4:
   btn_class: "btn--primary"
 feature_row5:
 - image_path: https://media.fisheries.noaa.gov/2022-05/4000X2782-TG6C-consulting-PIFSC.JPG
+  image_caption: "2022 MA NCRMP: Divers deliberate. Credit: NOAA Fisheries"
   alt: "training materials"
   title: "Training Materials"
   excerpt: "To correctly identify coral species as well as their condition, such as causes of predation, we undergo training. To mitigate diver biases, we routinely run and analyze our data for potential diver biases and have regular discussions to normalize our data and surveys."
@@ -40,7 +44,8 @@ feature_row5:
   btn_class: "btn--primary"
 feature_row6:
 - image_path: https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg
-  alt: "github repository image"
+  image_caption:
+  alt: "divers consult each other about coral identification"
   title: "Training Materials"
   excerpt: "By revisiting these regions since 2013 we can monitor and see how coral reef ecosystems are changing over time such as measuring coral colony growth, changes to corla cover, or coral recruitment or loss. We produce technical memoranda for policy makers that provide a summary of the status of coral reefs and inform management decisions. We can also integrate our benthic data with our fish and oceanographic data to investigate patterns in ecosystem shifts."
   url: #test-link
