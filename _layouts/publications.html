@@ -1,0 +1,115 @@
+---
+layout: splash
+title: "Publications"
+---
+
+<h1>Publications</h1>
+
+<!-- Table to display publications -->
+<table id="publications-table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Creators</th>
+            <th>Year</th>
+            <th>DOI</th>
+            <th>ISSN</th>
+            <th>URL</th>
+            <th>
+                Region
+                <!-- Dropdown filter for Region -->
+                <select id="region-filter" onchange="filterByRegion()">
+                    <option value="">All</option>
+                    <option value="Hawaiian Archipelago">Hawaiian Archipelago</option>
+                    <option value="American Samoa">American Samoa</option>
+                    <option value="Mariana Archipelago">Mariana Archipelago</option>
+                    <option value="Pacific Remote Island Areas">Pacific Remote Island Areas</option>
+                    <option value="Pacific-wide">Pacific-wide</option>
+                    <option value="Unknown">Unknown</option>
+                </select>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Data will be inserted here by JavaScript -->
+    </tbody>
+</table>
+
+<!-- JavaScript to load and display CSV data -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+<script>
+    let publicationsData = [];
+
+    // Function to fetch and display CSV data
+    function loadPublications() {
+        Papa.parse('/assets/csv/filtered_pifsc_publications.csv', {
+            download: true,
+            header: true,  // Use first row as header
+            dynamicTyping: true,  // Automatically convert data types (like numbers)
+            complete: function(results) {
+                // Store parsed data
+                publicationsData = results.data;
+
+                // Sort the data by year in descending order
+                const sortedData = publicationsData.sort((a, b) => b.year - a.year);
+
+                const tableBody = document.querySelector("#publications-table tbody");
+
+                sortedData.forEach(function(pub) {
+                    const row = document.createElement("tr");
+
+                    row.innerHTML = `
+                        <td>${pub.title}</td>
+                        <td>${pub.creators}</td>
+                        <td>${pub.year}</td>
+                        <td>${pub.doi}</td>
+                        <td>${pub.issn}</td>
+                        <td><a href="${pub.url}" target="_blank">Link</a></td>
+                        <td>${pub.region}</td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+            },
+            error: function(error) {
+                console.error("Error loading CSV:", error);
+            }
+        });
+    }
+
+    // Function to filter by Region
+    function filterByRegion() {
+        const selectedRegion = document.getElementById("region-filter").value;
+
+        // Filter the publications data by selected region
+        const filteredData = selectedRegion
+            ? publicationsData.filter(pub => pub.region === selectedRegion)
+            : publicationsData;  // If no region is selected, show all
+
+        // Render the filtered data
+        renderTable(filteredData);
+    }
+
+    // Function to render the table with the provided data
+    function renderTable(data) {
+        const tableBody = document.querySelector("#publications-table tbody");
+        tableBody.innerHTML = "";  // Clear existing rows
+
+        data.forEach(function(pub) {
+            const row = document.createElement("tr");
+
+            row.innerHTML = `
+                <td>${pub.title}</td>
+                <td>${pub.creators}</td>
+                <td>${pub.year}</td>
+                <td>${pub.doi}</td>
+                <td>${pub.issn}</td>
+                <td><a href="${pub.url}" target="_blank">Link</a></td>
+                <td>${pub.region}</td>
+            `;
+            tableBody.appendChild(row);
+        });
+    }
+
+    // Call the function when the page loads
+    window.onload = loadPublications;
+</script>
