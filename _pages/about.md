@@ -10,7 +10,7 @@ header:
     - label: "Read more about the ESD"
       url: "https://www.fisheries.noaa.gov/pacific-islands/ecosystems/surveying-vast-pacific-ocean"
  caption: "2024 NCRMP Main Hawaiian Islands Team"
-excerpt: "The Archipelagic Research Program is composed of ~20 members serving as technicians, coordinators, analysts, lead scientists, project managers, operations, and data managers/app developers.  We collaborate within the Ecosystem Sciences Division (ESD), across divisions, and with programs outside of NOAA."
+excerpt: "The <b>Archipelagic Research Program</b> is composed of ~20 members serving as technicians, coordinators, analysts, lead scientists, project managers, operations, and data managers/app developers.  We collaborate within the Ecosystem Sciences Division (ESD), across divisions, and with programs outside of NOAA."
 intro:  
 - excerpt:"Read more about where we survey and how to contact us below."
 feature_row2:
@@ -18,7 +18,7 @@ feature_row2:
   alt: "pacific islands region survey area image"
   image_caption: "Credit: NOAA Fisheries"
   title: "Survey area"
-  excerpt: "We survey the Pacific Islands Regions inlcuding the Hawaiian Archipelago, the Mariana Archipelago, American Samoa, and Pacific Remote Island Areas.  We conduct multidisciplinary research and monitoring of shallow-water coral reef ecosystems with some of our datastreams starting as early as 2013. Projects include: the National Coral Reef Monitoring Program (NCRMP), Land-based sources of polllution (LBSP), and more. Because humans are a key part of the ecosystem, the PIFSC science center's research outside of our program includes the social, cultural, and economic aspects of fishery and resource management decisions."
+  excerpt: "We survey the Pacific Islands Regions inlcuding the <b>Hawaiian Archipelago, the Mariana Archipelago, American Samoa, and Pacific Remote Island Areas</b>, visiting regions on a <b>triennial</b> cycle. We conduct multidisciplinary research and monitoring of shallow-water coral reef ecosystems with some of our datastreams starting as early as 2000. Projects include: the National Coral Reef Monitoring Program (NCRMP), Land-based sources of polllution (LBSP), and more. The PIFSC science center's research outside of our program includes the social, cultural, and economic aspects of fishery and resource management decisions."
   url: "https://www.fisheries.noaa.gov/region/pacific-islands"
   btn_label: "Learn More"
   btn_class: "btn--primary"
