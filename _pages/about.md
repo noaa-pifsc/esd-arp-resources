@@ -10,7 +10,7 @@ header:
     - label: "Read more about the ESD"
       url: "https://www.fisheries.noaa.gov/pacific-islands/ecosystems/surveying-vast-pacific-ocean"
  caption: "2024 NCRMP Main Hawaiian Islands Team"
-excerpt: "The ARP team is composed of 20-30 folks from various backgrounds, divided into technicians, coordinators, analysts, lead scientists, project managers, operations, and data managers/app developers."
+excerpt: "The Archipelagic Research Program is composed of ~20 members serving as technicians, coordinators, analysts, lead scientists, project managers, operations, and data managers/app developers.  We collaborate within the Ecosystem Sciences Division (ESD), across divisions, and with programs outside of NOAA."
 intro:  
 - excerpt:"Read more about where we survey and how to contact us below."
 feature_row2:
@@ -33,7 +33,7 @@ feature_row3:
   btn_class: "btn--primary"
 feature_row4:
 - image_path: "/assets/images/rainbow_marianas.jpg"
-  image_caption: "Credit: Lori Luers"  
+  image_caption: "Photo Credit: Lori Luers"  
   alt: "rainbow in the marianas"
   title: "Contact us"
   excerpt: "This website is maintained by the Data Services Team(nmfs.pic.credinfo@noaa.gov) on a PIFSC github repository using minimal-mistakes jekyll theme."

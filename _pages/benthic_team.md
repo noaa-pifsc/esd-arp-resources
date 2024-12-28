@@ -82,7 +82,6 @@ Under 'Products' you can visualize and access our data using the NCRMP Visualiza
 
 ### Contact
 <ul>
-<li>Principal Investigator: <a href="mailto:First.Last@noaa.gov">First.Last@noaa.gov</a></li>
-<li>Principal Investigator: <a href="mailto:First.Last@noaa.gov">First.Last@noaa.gov</a></li>
-<li>Data Manager: <a href="mailto:First.Last@noaa.gov">First.Last@noaa.gov</a></li>
-<li>Data Manager: <a href="mailto:First.Last@noaa.gov">First.Last@noaa.gov</a></li>
+<li>Principal Investigator: Thomas Oliver <a href="mailto:thomas.oliver@noaa.gov"> (thomas.oliver@noaa.gov)</a></li>
+<li>Data Services Team: <a href="mailto:nmfs.pic.credinfo@noaa.gov">nmfs.pic.credinfo@noaa.gov</a></li>
+</ul>
