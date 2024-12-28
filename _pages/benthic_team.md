@@ -2,7 +2,8 @@
 title: "Benthic Surveys"
 permalink: /benthic-surveys/
 layout: splash
-excerpt: "We monitor the benthos of coral reef ecosystems in the Hawaiian Archipelago, Mariana Archipelago, American samoa, and the Pacific Remote Island Areas since 2000."
+excerpt:  We monitor the benthos of coral reef ecosystems with imaging surveys and belt transects. On top of the regular triennial NCRMP survey cycles, we also investigate bleaching events as they occur. Benthic cover is estimated with several different systems, and integrates machine-learning to aid in annotation of benthic images.  We have published a <a href = "https://doi.org/10.25923/d0re-9y93" target ="_blank">semi-automated CoralNet Bleaching Classifier</a>, ways to extract structural complexity from SfM imagery, and automated workflows to processs SfM imagery for annotation.
+# "We monitor the benthos of coral reef ecosystems in the Hawaiian Archipelago, Mariana Archipelago, American samoa, and the Pacific Remote Island Areas since 2000."
 header:
   overlay_color: "#000"
   overlay_image: https://media.fisheries.noaa.gov/2023-04/4000X3000-Fans-DTP-PIFSC.JPG
@@ -53,11 +54,6 @@ feature_row6:
   btn_class: "btn--primary"
 
 ---
-### Summary
-<p>
-The ESD collects data to monitor and understand benthic complexity in coral reef ecosystems with imaging surveys and belt transects. On top of the regular triennial NCRMP survey cycles, we also investigate bleaching events as they occur. Benthic cover is estimated with several different systems, and integrates machine-learning to aid in annotation of benthic images.  We have published a <a href = "
-https://doi.org/10.25923/d0re-9y93" target ="_blank">semi-automated CoralNet Bleaching Classifier</a>, ways to extract structural complexity from SfM imagery, and automated workflows to processs SfM imagery for annotation.</p>
-
 
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="right" %}
