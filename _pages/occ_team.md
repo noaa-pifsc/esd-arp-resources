@@ -68,5 +68,5 @@ The NCRMP Visualization tool hosts water samples for random sites. Water chemist
 
 #### Contact
 <ul>
-<li>Principal Investigator: Hannah Barkley <a href="mailto:hannah.barkleyt@noaa.gov">(hannah.barkley@noaa.gov)</a></li>
+<li>Principal Investigator: Hannah Barkley <a href="mailto:hannah.barkley@noaa.gov">(hannah.barkley@noaa.gov)</a></li>
 <li>Data Services Team: <a href="mailto:nmfs.pic.credinfo@noaa.gov">nmfs.pic.credinfo@noaa.gov</a></li>
