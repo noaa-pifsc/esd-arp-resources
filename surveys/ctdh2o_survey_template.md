@@ -1,7 +1,7 @@
 ---
 layout: survey_template_single
 title: "NCRMP: CTD casts & DIC Water Sampling"
-permalink: /surveys/ctdh2o_survey_template
+permalink: /surveys/ctdh2o_surveys
 main_image: "https://npomeroy.github.io/OMG/images/BOD_bottle_headspace.png" # default image
 main_image_caption: "Seawater is collected using Niskin bottle and transferred to these glass bottles to be sent in for analysis. Credit: NOAA/Noah Pomeroy."
 header:

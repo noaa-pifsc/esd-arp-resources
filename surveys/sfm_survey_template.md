@@ -1,9 +1,9 @@
 ---
 layout: survey_template_single
 title: "NCRMP: Structure-from-Motion (SfM)"
-permalink: /surveys/sfm_survey_template
+permalink: /surveys/sfm_surveys
 main_image: "https://www.fisheries.noaa.gov/s3//2024-07/5472x3648-NCRMP-diver-Maui-Fisheries-PIFSC.JPG" # default image
-main_image_caption: "Diver collects SfM imagery during 2024 NCRMP in the Main Hawaiian Islands. Credit: NOAA NMFS/Lori Luers"
+main_image_caption: "Diver collects SfM imagery during 2024 NCRMP in the Main Hawaiian Islands. Credit: NOAA NMFS/Lori Luers."
 header:
   overlay_color: "#000"
   overlay_image: https://www.coris.noaa.gov/activities/structure_from_motion/coral_model.jpg
