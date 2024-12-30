@@ -8,7 +8,7 @@ header:
   overlay_color: "#000"
   overlay_image: https://www.arcgis.com/sharing/rest/content/items/4976333fbf884f26b2fdc9ac51a20576/resources/bigger_dic_lab.jpg?v=1734134201861&w=1600
   caption: "Photo credit: NOAA Geoplatform"
-  overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
+  overlay_filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5))
 
 survey_type: Monitoring ocean chemistry
 survey_description: Water samples are collected simultaneously with CTD casts. Water samples are analyzed for carbonate chemistry while CTD casts provide information on the temperature and salinity profile at the site.

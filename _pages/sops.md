@@ -4,8 +4,9 @@ layout: single
 permalink: /sops/
 excerpt: "Access our survey method standard protocols."
 header:
-  overlay_image: https://www.fisheries.noaa.gov/s3//2024-08/6000x4000-NCRMP-diver-survey-Hawaii-Fisheries-PIFSC.JPG
-  overlay_filter: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 255, 255, 0.5))
+  overlay_color: "#000"
+  overlay_image:  https://www.fisheries.noaa.gov/s3//2024-07/1330x887-Kona-NCRMP-Coral-Survey-Fisheries-PIFSC.png
+  overlay_filter: linear-gradient(rgba(26, 2, 2, 0.38), rgba(255, 255, 255, 0.6))
   caption: "Photo credit: NOAA/NMFS"
 sidebar:
   nav: "docs"
@@ -22,6 +23,7 @@ Use the sidebar on the left to access resources for each type of survey, or brow
 </li>
 <li><a href = "https://doi.org/10.7289/V5/AR-PIFSC-H-17-02">Development of a Semi-automated Coral Bleaching Classifier in CoralNet: A Summary of Standard Operating Procedures and Report of Results (2022)</a>
 </li>
+<li><a href ="https://doi.org/10.25923/ws5s-km69">Rapid Ecological Assessment (REA) Benthic surveys SOP</a></li>
 </ul>
 
 ## Fish Surveys
@@ -39,6 +41,9 @@ Use the sidebar on the left to access resources for each type of survey, or brow
 </li>
 <li><a href = "https://www.ncei.noaa.gov/data/oceans/coris/library/NOAA/CRCP/monitoring/protocols/NCRMP_Climate_WaterSamplingPacific.pdf"> Water sampling SOP </a> (last updated: 06/2023)
 </li>
+<li><a href = "https://repository.library.noaa.gov/view/noaa/56372"> Carbonate Budgets </a><br>
+- Methods Comparion<br>
+- SOPs</li>
 </ul>
 
 ## Structure-from-Motion Surveys

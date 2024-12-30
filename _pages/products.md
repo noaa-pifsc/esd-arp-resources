@@ -2,16 +2,16 @@
 title: "Products"
 permalink: /products/
 layout: splash
-excerpt: "Tools that allow users to interact with our data as well as products developed by the Ecosystem Sciences Division (ESD).
+excerpt: "Tools that allow users to interact with our data as well as products developed by the Ecosystem Sciences Division (ESD)."
 header:
   overlay_color: "#000"
-  overlay_filter: linear-gradient(rgba(255, 250, 250, 0.76), rgba(0, 0, 0, 0.94))
-  overlay_image: /assets/images/ncrmp_data_viz_snap.png
+  overlay_filter: "0.75" 
+  # overlay_filter: linear-gradient(rgba(2, 2, 2, 0.81), rgba(255, 255, 255, 0.75),rgba(2, 2, 2, 0.81))
+  overlay_image:  /assets/images/ncrmp_data_viz_snap.png
   caption: "NCRMP Pacific Fish Dashboard Screenshot"
   actions:
     - label: "Search Reports & Publications"
       url: /publications/
-  caption: "Photo credit: NOAA Fisheries/Lori Luers"
 feature_row2:
 - image_path: /assets/images/ncrmp_data_viz_dashboard.png
   image_caption: "Dashboard Screenshot 2024"  

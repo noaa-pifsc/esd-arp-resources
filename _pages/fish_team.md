@@ -7,7 +7,7 @@ header:
   overlay_color: "#000"
   overlay_image: https://media.fisheries.noaa.gov/2023-05/3662X2747-Howland-reefscape-JWS-PIFSC.jpg
   caption: "Photo credit: NOAA Fisheries/Jan Willem Staman"
-  overlay_filter: linear-gradient(rgba(8, 8, 8, 0.5), rgba(217, 231, 27, 0.41))
+  overlay_filter: linear-gradient(rgba(8, 8, 8, 0.5), rgba(217, 231, 27, 0.28))
 
 feature_row2:
 - image_path: https://www.fisheries.noaa.gov/s3//2024-08/6000x4000-NCRMP-Hawaii-Masked-Angel-Fisheries-PIFSC.jpg

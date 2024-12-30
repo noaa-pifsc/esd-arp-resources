@@ -8,7 +8,7 @@ header:
   overlay_color: "#000"
   overlay_image: https://pifscblog.wordpress.com/wp-content/uploads/2015/04/1-bigeyejacks.jpg
   caption: "Photo credit: Kevin Lino/NOAA"
-  overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
+  overlay_filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5))
 
 survey_type: Stationary-point-count (SPC) surveys
 survey_description: Fish SPC surveys intend to provide a snapshot of the biodiversity and biomass at a given time as a rapid ecological assessment tool. Surveys are conducted at select sites following a stratified-random sampling site design (StRS). Random sites are generated along a depth gradient using the R project <a href = "https://github.com/krtanaka/ncrmp_common_map" target = "_blank">ncrmp_common_map</a>. 
