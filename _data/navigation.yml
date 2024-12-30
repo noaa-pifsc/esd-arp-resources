@@ -17,22 +17,20 @@ docs:
  #     - title: "Coral Demography"
  #       url: /surveys/ctdh2o_survey_template
       - title: "CTD - DIC Water Sampling"
-        url: /surveys/ctdh2o_survey_template
+        url: /surveys/ctdh2o_surveys
       - title: "Fish Stationary-Point-Count (SPC)"
-        url: /surveys/fish_survey_template
+        url: /surveys/fish_surveys
       - title: "Structure-from-Motion (SfM)"
-        url: /surveys/sfm_survey_template
+        url: /surveys/sfm_surveys
 
 #      - title: "Subsurface Temperature Recorders (STR)"
 #        url: /surveys/strs
 #      - title: "Carbonate budgets"
 #        url: /surveys/carbonate-budgets
-  - title: CRCP
+  - title: CRCP - OTHER
     children:
-      - title: "Bleaching"
-        url: /docs/bleaching
       - title: "Land-based Sources of Pollution (LBSP)"
-        url: /docs/lbsp
+        url: /surveys/lbsp
 
  # - title: Alt Templates
  #   children: 

@@ -1,9 +1,9 @@
 ---
 layout: survey_template_single
 title: "NCRMP: Fish Biodiversity and Biomass"
-permalink: /surveys/fish_survey_template
+permalink: /surveys/fish_surveys
 main_image: "https://www.arcgis.com/sharing/rest/content/items/4976333fbf884f26b2fdc9ac51a20576/resources/fish_cylinder.jpg?v=1732320000117&w=800" # default image
-main_image_caption: "Infographic demonstrating the survey design, with two divers alongside counting fish in their respective cylinder. Credit: NOAA"
+main_image_caption: "Infographic demonstrating the survey design, with two divers alongside counting fish in their respective cylinder. Credit: NOAA."
 header:
   overlay_color: "#000"
   overlay_image: https://pifscblog.wordpress.com/wp-content/uploads/2015/04/1-bigeyejacks.jpg
