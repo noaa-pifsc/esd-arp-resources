@@ -17,8 +17,8 @@ sidebar:
 how_to_download: Raw data and imagery is archived with NCEI; locate metadata records in the <a href = "https://www.fisheries.noaa.gov/inport/item/64847" target = "_blank">LBSP</a> and the <a href ="https://www.fisheries.noaa.gov/inport/item/58564" target ="_blank">Benthic Missions</a> InPort metadata catalogs for links to each specific dataset.
 sop_text: Included is the SOP for baseline surveys in 2020.  See 'Lineage' in the InPort record to access SOPs for each respective dataset.
 url_sop: https://doi.org/10.7289/V5/SP-PIFSC-18-002
-datasheets_text: Datasheets and training materials to be added.
-url_datasheets: /surveys/sfm/datasheets/FixedSiteSfM_Datasheet_4_2024.pdf
+datasheets_text: Benthic coral survey data sheets codes and methods review.
+url_datasheets: /surveys/lbsp/datasheets
 access_rawdata_text : Raw data is archived with NCEI. Links to download data are in their respective InPort metadata records under 'Distribution'.  Locate metadata records in the <a href = "https://www.fisheries.noaa.gov/inport/item/64847" target = "_blank">LBSP</a> and the <a href ="https://www.fisheries.noaa.gov/inport/item/58564" target ="_blank">Benthic Missions</a> InPort metadata catalogs.
 r_code_text: For access, send requests to <a href="mailto:nmfs.pic.credinfo@noaa.gov">nmfs.pic.credinfo@noaa.gov</a>.
 ---
