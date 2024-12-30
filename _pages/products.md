@@ -2,7 +2,7 @@
 title: "Products"
 permalink: /products/
 layout: splash
-excerpt: "Tools that allow users to interact with our data as well as products developed by the Ecosystem Sciences Division (ESD)"
+excerpt: "Tools that allow users to interact with our data as well as products developed by the Ecosystem Sciences Division (ESD).
 header:
   overlay_color: "#000"
   overlay_filter: linear-gradient(rgba(255, 250, 250, 0.76), rgba(0, 0, 0, 0.94))
