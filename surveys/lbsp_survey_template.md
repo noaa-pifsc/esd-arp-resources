@@ -8,7 +8,7 @@ header:
   overlay_color: "#000"
   overlay_image: "https://media.fisheries.noaa.gov/dam-migration-miss/1280_c1l2nWbzrsV1.jpg?1579830864"
   caption: "A coral reef in Faga'alu Bay in Tutuila, 2012, before regulations were put in place to minimize sedimentation.  Credit: NOAA Fisheries"
-  overlay_filter: linear-gradient(rgba(122, 59, 7, 0.23), rgba(9, 140, 145, 0.27))
+  overlay_filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5))
 
 survey_type: Surveys along a water quality gradient
 survey_description: LBSP is funded by various CRCP projects since 2012 and comprises a collection of benthic surveys to assess impacts of <a href ="https://www.fisheries.noaa.gov/pacific-islands/ecosystems/coral-health-and-threats-pacific-islands#pollution" target ="_blank">land-based sources of pollution</a> on coral reefs primarily in Tutuila, American Samoa in Vatia, Faga'alu, Aua, and Nu'uuli Bays, and also in Maui and O'ahu (in progress). Local partners identify priority watersheds where a water quality gradient is likely to exist, and we investigate the gradient as well as any impacts to the coral reef ecosystems. Read more in the <a href = "https://www.fisheries.noaa.gov/feature-story/coral-reef-monitoring-mission-investigating-land-based-pollution-american-samoa" target ="_blank">2020 Feature Story</a>. 
