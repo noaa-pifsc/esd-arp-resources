@@ -11,7 +11,7 @@ header:
   overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
 
 survey_type: Collection of SfM Imagery
-survey_description: SfM imagery is collected at both random and fixed sites. The images can then be processed into 3D coral models, from which various data can be extracted. Starting in 2024, coral demographic data was exclusively collected in this manner. Structural complexity, bleaching, urchin, and corallivory estimates have also been extracted from SfM models with funding from other CRCP projects.
+survey_description: SfM imagery is collected at both random and fixed sites. The images can then be processed into 3D coral models, from which various data can be extracted. Starting in 2024, coral demographic data was exclusively collected in this manner. Structural complexity, bleaching, urchin, and corallivory estimates have also been extracted from SfM models with funding from other CRCP projects. More SfM community resources are available on <a href ="https://www.lai-network.org/" target = "_blank">LAI-NETWORK</a> (How-to documents, Training, and more).
 sidebar:
   nav: "docs"
 how_to_download: Raw imagery is archived with NCEI, and is accessible for download by request via OER portal. Both imagery and products are also accessible via NODD Google Cloud Bucket (send requests to <a href = "mailto:nmfs.pic.credinfo@noaa.gov">nmfs.pic.credinfo@noaa.gov</a>).
