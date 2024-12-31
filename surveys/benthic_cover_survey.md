@@ -1,7 +1,7 @@
 ---
 layout: survey_template_single
-title: "NCRMP: Fish Biodiversity and Biomass"
-permalink: /surveys/fish_spc
+title: "NCRMP: Benthic Cover"
+permalink: /surveys/benthic_cover
 main_image: "https://www.arcgis.com/sharing/rest/content/items/4976333fbf884f26b2fdc9ac51a20576/resources/fish_cylinder.jpg?v=1732320000117&w=800" # default image
 main_image_caption: "Infographic demonstrating the survey design, with two divers alongside counting fish in their respective cylinder. Credit: NOAA."
 header:
@@ -10,7 +10,7 @@ header:
   caption: "Photo credit: Kevin Lino/NOAA"
   overlay_filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5))
 
-survey_type: Stationary-point-count (SPC) surveys
+survey_type: Benthic cover estimates from photoquadrat imagery
 survey_description: Fish SPC surveys intend to provide a snapshot of the biodiversity and biomass at a given time as a rapid ecological assessment tool. Surveys are conducted at select sites following a stratified-random sampling site design (StRS). Random sites are generated along a depth gradient using the R project <a href = "https://github.com/krtanaka/ncrmp_common_map" target = "_blank">ncrmp_common_map</a>. 
 # description: "Template sample description"
 sidebar:
@@ -20,7 +20,7 @@ sop_text: "Coral reef ecosystem program standard operating procedures : data col
 url_sop: https://doi.org/10.7289/v5sn06zt
 datasheets_text: "Includes data entry for fish observations with benthic estimate data and/or structure-from-motion belts, printouts for the Secchi disk (for other side of dive slate to measure visibility), and a pre-dive boat box gear checklist."
 url_datasheets: /surveys/fish/datasheets
-access_rawdata_text: Raw data is archived with NCEI. Links for each year are listed in the 'Distribution Information' section of respective InPort metadata records -  <a href = "https://www.fisheries.noaa.gov/inport/item/24447" target = "_blank"> Hawaiian Archipelago since 2013 </a> - <a href = "https://www.fisheries.noaa.gov/inport/item/34520" target = "_blank"> American Samoa since 2015 </a> - <a href = "https://www.fisheries.noaa.gov/inport/item/34518" target = "_blank"> Mariana Archipelago since 2014</a> - <a href = "https://www.fisheries.noaa.gov/inport/item/34519" target = "_blank"> Pacific Remote Island Areas since 2014 </a>.
+access_rawdata_text: Raw data is archived with NCEI. Links for each year are listed in the 'Distribution Information'section of respective InPort metadata records -  <a href = "https://www.fisheries.noaa.gov/inport/item/24447" target = "_blank"> Hawaiian Archipelago since 2013 </a> - <a href = "https://www.fisheries.noaa.gov/inport/item/34520" target = "_blank"> American Samoa since 2015 </a> - <a href = "https://www.fisheries.noaa.gov/inport/item/34518" target = "_blank"> Mariana Archipelago since 2014</a> - <a href = "https://www.fisheries.noaa.gov/inport/item/34519" target = "_blank"> Pacific Remote Island Areas since 2014 </a>.
 r_code_text: Contact Tye Kindinger <a href = "mailto:tye.kindinger@noaa.gov">(tye.kindinger@noaa.gov)</a> for processing scripts.
 
 ---
