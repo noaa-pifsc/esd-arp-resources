@@ -4,14 +4,14 @@ title: "NCRMP: Benthic Cover"
 permalink: /surveys/benthic_cover
 header:
   overlay_color: "#000"
-  overlay_image: #https://pifscblog.wordpress.com/wp-content/uploads/2015/04/1-bigeyejacks.jpg
-  caption: #"Photo credit: Kevin Lino/NOAA"
+  overlay_image: https://coralnet-production.s3.us-west-2.amazonaws.com/media/images/82jq0l7par.JPG.800x0_q85.jpg?AWSAccessKeyId=AKIAYVKEQ3B4DIOYONO3&Signature=wAbPkJKKILvuvq67RpbNU3OymCg%3D&Expires=1735609771
+  caption: "Example of 1 of 30 photoquadrat images taken at a site. Photo credit: NOAA Fisheries"
   overlay_filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5))
 sidebar:
   nav: "docs"
 
 survey_type: Benthic cover estimates from photoquadrat imagery
-survey_description: Photoquadrat imagery is collected at sites and annotated using CoralNet.  Surveys are conducted at select sites following a stratified-random sampling site design (StRS). Random sites are generated along a depth gradient using the R project <a href = "https://github.com/krtanaka/ncrmp_common_map" target = "_blank">ncrmp_common_map</a>.  Images are analyzed to produce three functional group levels of benthic cover. Refer to InPort metadata records or SOP for more details.
+survey_description: Photoquadrat imagery is collected at sites (1m above the benthos, every 1m along a 30m transect) and annotated using CoralNet.  Surveys are conducted at select sites following a stratified-random sampling site design (StRS). Random sites are generated along a depth gradient using the R project <a href = "https://github.com/krtanaka/ncrmp_common_map" target = "_blank">ncrmp_common_map</a>.  Images are analyzed to produce three functional group levels of benthic cover. Refer to InPort metadata records or SOP for more details.
 # description: "Template sample description"
 main_image: /assets/images/cnet_snapshot.png
 main_image_caption: Screenshot of CoralNet interface (2024). Access this library, <a href ="https://coralnet.ucsd.edu/source/372/">CREP-REA HAWAII</a>, or the <a href ="https://coralnet.ucsd.edu/source/373/">Marianas</a> and the <a href = "https://coralnet.ucsd.edu/source/295/">American Samoa/PRIAs</a> on CoralNet.
