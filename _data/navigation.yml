@@ -16,12 +16,16 @@ docs:
     children:
  #     - title: "Coral Demography"
  #       url: /surveys/ctdh2o_survey_template
+      - title: "Benthic Cover"
+        url: /surveys/benthic_cover
+      - title: "Carbonate Budgets"
+        url: /surveys/carbonate_budgets
       - title: "CTD - DIC Water Sampling"
-        url: /surveys/ctdh2o_surveys
+        url: /surveys/ctdh2o
       - title: "Fish Stationary-Point-Count (SPC)"
-        url: /surveys/fish_surveys
+        url: /surveys/fish_spc
       - title: "Structure-from-Motion (SfM)"
-        url: /surveys/sfm_surveys
+        url: /surveys/sfm
 
 #      - title: "Subsurface Temperature Recorders (STR)"
 #        url: /surveys/strs
