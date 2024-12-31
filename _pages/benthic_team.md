@@ -39,7 +39,7 @@ feature_row5:
   image_caption: "2022 MA NCRMP: Divers deliberate. Credit: NOAA Fisheries"
   alt: "training materials"
   title: "Training Materials"
-  excerpt: Structure-from-motion training and other community resources are available on <a href ="https://www.lai-network.org/" target = "_blank">LAI-NETWORK</a>. To correctly identify coral species as well as their condition, such as causes of predation, we undergo training.  These materials will be released at a later date. To mitigate diver biases, we routinely run and analyze our data for potential diver biases and have regular discussions to normalize our data and surveys.
+  excerpt: Structure-from-motion training and other community resources are available on <a href ="https://www.lai-network.org/" target = "_blank">LAI-NETWORK</a>. To correctly identify coral species as well as their condition, such as causes of predation, we undergo training. To mitigate diver biases, we routinely run and analyze our data for potential diver biases and have regular discussions to normalize our data and surveys.  Please contact us for access to more training materials.
   url: #test-link
   btn_label: "Placeholder"
   btn_class: "btn--primary"

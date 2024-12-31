@@ -18,9 +18,9 @@ sidebar:
 how_to_download: Under 'Distribution' for each InPort record, there are links to each NCEI accession where the raw data is available for download. See R code below for processing scripts and calcification rates referential database.
 sop_text: "Carbonate Budget Assessments in the U.S. Pacific Islands: Report of Methods Comparison Results and Summary of Standard Operating Procedures (2023)."
 url_sop: https://doi.org/10.25923/g4hg-7686
-datasheets_text: ""
+datasheets_text: "Datasheets will be added at a later date."
 url_datasheets: /surveys/carbonate_budgets/datasheets
-access_rawdata_text: Raw data is archived with NCEI. Links for each year are listed in the 'Distribution Information' section of respective InPort metadata records -  <a href = "https://www.fisheries.noaa.gov/inport/item/67804" target = "_blank"> CRCP funded pilot project for methods comparison 2021 - 2023 </a> - <a href = "https://www.fisheries.noaa.gov/inport/item/73792">NCRMP funded from 2024</a>.
+access_rawdata_text: Raw data is archived with NCEI. Links to data are listed in the 'Distribution Information' section of their InPort metadata records -  <a href = "https://www.fisheries.noaa.gov/inport/item/67804" target = "_blank"> CRCP funded pilot project for methods comparison 2021 - 2023 </a>(Marianas, American Samoa, and O'ahu) and <a href = "https://www.fisheries.noaa.gov/inport/item/73792">NCRMP funded from 2024</a>(Hawaiian Archipelago).
 r_code_text: GitHub repository with calcification rates referential database <a href = "https://github.com/hannahbarkley/reefbudgetR/tree/main">here</a>.
 
 ---
