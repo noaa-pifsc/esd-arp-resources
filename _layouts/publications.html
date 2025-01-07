@@ -5,6 +5,12 @@ title: "Publications"
 
 <h1>Publications</h1>
 
+<!-- Filter Inputs -->
+<div>
+    <label for="keyword-filter">Filter Results:</label>
+    <input type="text" id="keyword-filter" oninput="filterByKeyword()" placeholder="Enter keyword(s) here">
+</div>
+
 <!-- Table to display publications -->
 <table id="publications-table">
     <thead>
@@ -15,19 +21,7 @@ title: "Publications"
             <th>DOI</th>
             <th>ISSN</th>
             <th>URL</th>
-            <th>
-                Region
-                <!-- Dropdown filter for Region -->
-                <select id="region-filter" onchange="filterByRegion()">
-                    <option value="">All</option>
-                    <option value="Hawaiian Archipelago">Hawaiian Archipelago</option>
-                    <option value="American Samoa">American Samoa</option>
-                    <option value="Mariana Archipelago">Mariana Archipelago</option>
-                    <option value="Pacific Remote Island Areas">Pacific Remote Island Areas</option>
-                    <option value="Pacific-wide">Pacific-wide</option>
-                    <option value="Unknown">Unknown</option>
-                </select>
-            </th>
+            <th>Region</th>
         </tr>
     </thead>
     <tbody>
@@ -38,37 +32,19 @@ title: "Publications"
 <!-- JavaScript to load and display CSV data -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 <script>
-    let publicationsData = [];
+    let publicationsData = []; // To store CSV data
 
     // Function to fetch and display CSV data
     function loadPublications() {
         Papa.parse('/assets/csv/filtered_pifsc_publications.csv', {
             download: true,
-            header: true,  // Use first row as header
-            dynamicTyping: true,  // Automatically convert data types (like numbers)
+            header: true,
+            dynamicTyping: true,
             complete: function(results) {
-                // Store parsed data
                 publicationsData = results.data;
 
-                // Sort the data by year in descending order
-                const sortedData = publicationsData.sort((a, b) => b.year - a.year);
-
-                const tableBody = document.querySelector("#publications-table tbody");
-
-                sortedData.forEach(function(pub) {
-                    const row = document.createElement("tr");
-
-                    row.innerHTML = `
-                        <td>${pub.title}</td>
-                        <td>${pub.creators}</td>
-                        <td>${pub.year}</td>
-                        <td>${pub.doi}</td>
-                        <td>${pub.issn}</td>
-                        <td><a href="${pub.url}" target="_blank">Link</a></td>
-                        <td>${pub.region}</td>
-                    `;
-                    tableBody.appendChild(row);
-                });
+                // Initial render with sorted data
+                renderTable(sortByYear(publicationsData));
             },
             error: function(error) {
                 console.error("Error loading CSV:", error);
@@ -76,35 +52,49 @@ title: "Publications"
         });
     }
 
-    // Function to filter by Region
-    function filterByRegion() {
-        const selectedRegion = document.getElementById("region-filter").value;
+    // Function to filter by Keyword
+    function filterByKeyword() {
+        const keyword = document.getElementById("keyword-filter").value.toLowerCase();
 
-        // Filter the publications data by selected region
-        const filteredData = selectedRegion
-            ? publicationsData.filter(pub => pub.region === selectedRegion)
-            : publicationsData;  // If no region is selected, show all
+        const filteredData = keyword
+            ? publicationsData.filter(pub => 
+                Object.values(pub).some(value => 
+                    value && value.toString().toLowerCase().includes(keyword) // Ensure value is not null/undefined
+                )
+              )
+            : publicationsData; // Show all if no keyword entered
 
-        // Render the filtered data
-        renderTable(filteredData);
+        // Render filtered and sorted data
+        renderTable(sortByYear(filteredData));
+    }
+
+    // Function to sort publications by year (descending)
+    function sortByYear(data) {
+        return data.sort((a, b) => (b.year || 0) - (a.year || 0)); // Handle missing year as 0
     }
 
     // Function to render the table with the provided data
     function renderTable(data) {
         const tableBody = document.querySelector("#publications-table tbody");
-        tableBody.innerHTML = "";  // Clear existing rows
+        tableBody.innerHTML = ""; // Clear existing rows
+
+        if (data.length === 0) {
+            // Show a message if no results match
+            tableBody.innerHTML = `<tr><td colspan="7">No publications found.</td></tr>`;
+            return;
+        }
 
         data.forEach(function(pub) {
             const row = document.createElement("tr");
 
             row.innerHTML = `
-                <td>${pub.title}</td>
-                <td>${pub.creators}</td>
-                <td>${pub.year}</td>
-                <td>${pub.doi}</td>
-                <td>${pub.issn}</td>
-                <td><a href="${pub.url}" target="_blank">Link</a></td>
-                <td>${pub.region}</td>
+                <td>${pub.title || "N/A"}</td>
+                <td>${pub.creators || "N/A"}</td>
+                <td>${pub.year || "N/A"}</td>
+                <td>${pub.doi || "N/A"}</td>
+                <td>${pub.issn || "N/A"}</td>
+                <td>${pub.url ? `<a href="${pub.url}" target="_blank">Link</a>` : "N/A"}</td>
+                <td>${pub.region || "N/A"}</td>
             `;
             tableBody.appendChild(row);
         });
