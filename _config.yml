@@ -26,7 +26,7 @@ url                      : #"https://noaa-pifsc.github.io/test-arp-website"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # noaa-pifsc/test-arp-website
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # "/assets/images/noaa_masthead.png"
+logo                     :  /assets/images/noaa_masthead.png
 masthead_title           : #"PIFSC | ESD | ARP
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
