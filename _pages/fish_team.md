@@ -51,7 +51,7 @@ feature_row5:
 This data informs policy makers and stakeholders the status of the biodiversity and biomass of reef fish species. In synchrony with our other reef surveys, we can also investigate potential patterns with enviornmental or benthic changes.
 
 ### Access Data
-Under 'Products' you can visualize and access our data using the NCRMP Visualization tool. You can go to 'Methods' to see access for specific datasets. For raw data, our data is organized in NCEI collections.
+Under 'Products' you can visualize and access our data using the NCRMP Visualization tool. You can go to 'Methods' to see access for specific datasets. For raw data, our data is organized in NCEI collections.  Browse datasets in the <a href = "https://www.fisheries.noaa.gov/inport/item/28844" target = "_blank">NCRMP metadata catalog</a> for each distinct region; legacy datasets are described in the <a href = "https://www.fisheries.noaa.gov/inport/item/21559" target ="_blank">Ecosystem Monitoring and Assessment subfolder</a>.
 
 ### Contact
 <ul>
