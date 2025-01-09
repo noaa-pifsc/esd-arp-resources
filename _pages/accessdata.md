@@ -36,13 +36,13 @@ sidebar:
   nav: "docs"
 ---
 # Working with Our Data 
-Our data is typically distinguished between fixed and random site surveys, as well as by region. For example, fixed-site imagery is described separately from random site imagery for each distinct region.   Our random sites follow a stratified-random sampling design (StRS), meaning they can only be meaningfully analyzed at island and regional levels.  Options to browse are data are listed below. Metadata is catalogued in the InPort <a href = "https://www.fisheries.noaa.gov/inport/item/2712" target ="_blank">PIFSC CREP Metadata Portfolio </a>.
+Our data is typically organized by fixed versus random site surveys, as well as by region. For example, fixed-site imagery is described separately from random site imagery for each distinct region.   Our random sites follow a stratified-random sampling design (StRS), meaning they can only be meaningfully analyzed at island and regional levels.  Options to browse are data are listed below.
 
 ## NCRMP Data via NOAA Data Viz Tool / NOAA GeoPlatform
-Note: this only includes NCRMP random site data.  View data, caveats, and more on the NCRMP program including surveys in the Atlantic <a href = " https://noaa.hub.arcgis.com/pages/4976333fbf884f26b2fdc9ac51a20576" target = "_blank">here</a>
+View data, caveats, and more on the NCRMP program including surveys in the Atlantic <a href = " https://noaa.hub.arcgis.com/pages/4976333fbf884f26b2fdc9ac51a20576" target = "_blank">here</a>.<br><i>Note: this only includes <b>random</b> site data.</i>
 
 ## Raw data via NCEI
-Our raw data is archived with NCEI within Collections, and is described within the InPort metadata catalog <a href = "https://www.fisheries.noaa.gov/inport/item/2712" target = "_blank">CREP library</a>.
+Our raw data is archived with NCEI within Collections, and is described within the InPort <a href = "https://www.fisheries.noaa.gov/inport/item/2712" target ="_blank">PIFSC CREP Metadata Portfolio</a>.
 
 ## R processing scripts
 Our data is still being updated into public-ready form and will become available on <a href = "https://github.com/noaa-pifsc" target = "_blank">PIFSC github</a>.
