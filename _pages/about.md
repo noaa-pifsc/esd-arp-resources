@@ -13,6 +13,15 @@ header:
 excerpt: "The <b>Archipelagic Research Program</b> is composed of ~20 members serving as technicians, coordinators, analysts, lead scientists, project managers, operations, and data managers/app developers.  We collaborate within the Ecosystem Sciences Division (ESD), across divisions, and with programs outside of NOAA."
 intro:  
 - excerpt:"Read more about where we survey and how to contact us below."
+feature_row5:
+- image_path: /assets/images/upcoming_cruise.jpg
+  alt: "pacific islands region survey area image"
+  image_caption: "Credit: NOAA Fisheries"
+  title: "Upcoming Cruises"
+  excerpt: "2025 NCRMP will take place in the Mariana Archipelago. Outreach events will occur in Guam ~ April 13th and in Saipan ~ June 2nd."
+  url: assets/images/NCRMP2025FLYER_508.pdf
+  btn_label: "Download flyer"
+  btn_class: "btn--primary"
 feature_row2:
 - image_path: https://www.fisheries.noaa.gov/s3/styles/full_width/s3/dam-migration/pifsc.png?itok=SmTJPyV8
   alt: "pacific islands region survey area image"
@@ -42,6 +51,7 @@ feature_row4:
   btn_class: "btn--primary"
 ---
 {% include feature_row id="intro" type="center" %}
+{% include feature_row id="feature_row5" type="right" %}
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="right" %}
 {% include feature_row id="feature_row4" type="left" %}
