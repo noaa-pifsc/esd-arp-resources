@@ -4,7 +4,7 @@ title: "NCRMP: Benthic Cover"
 permalink: /surveys/benthic_cover
 header:
   overlay_color: "#000"
-  overlay_image: https://coralnet-production.s3.us-west-2.amazonaws.com/media/images/82jq0l7par.JPG.800x0_q85.jpg?AWSAccessKeyId=AKIAYVKEQ3B4DIOYONO3&Signature=wAbPkJKKILvuvq67RpbNU3OymCg%3D&Expires=1735609771
+  overlay_image: assets\images\pq_sample.jpg
   caption: "Example of 1 of 30 photoquadrat images taken at a site. Source: CoralNET CREP-REA-HAWAII."
   overlay_filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5))
 sidebar:
