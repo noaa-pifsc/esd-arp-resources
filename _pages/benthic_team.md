@@ -2,7 +2,7 @@
 title: "Benthic Surveys"
 permalink: /benthic-surveys/
 layout: splash
-excerpt:  We monitor the benthos of coral reef ecosystems with imaging surveys and belt transects. On top of the regular triennial NCRMP survey cycles, we also investigate bleaching events as they occur. Benthic cover is estimated with several different systems, and integrates machine-learning to aid in annotation of benthic images.  We have published a <a href = "https://doi.org/10.25923/d0re-9y93" target ="_blank">semi-automated CoralNet Bleaching Classifier</a>, ways to extract structural complexity from SfM imagery, and automated workflows to processs SfM imagery for annotation.
+excerpt:  We conduct various surveys to monitor the benthos of coral reef ecosystems. In addition to NCRMP surveys, we investigate bleaching events, coral restoration, and impacts of land-based sources of pollution. We rely on imaging surveys and data recorded by divers <i>in situ</i> to collect benthic cover, coral demography, structural complexity, and corallivory data.
 # "We monitor the benthos of coral reef ecosystems in the Hawaiian Archipelago, Mariana Archipelago, American samoa, and the Pacific Remote Island Areas since 2000."
 header:
   overlay_color: "#000"
@@ -24,13 +24,13 @@ feature_row3:
   image_caption: "Diver collecting SfM imagery. Credit: NOAA Fisheries/Lori Luers"
   alt: "diver conducting SfM survey"
   title: "How do we survey"
-  excerpt:  We collect <b>structure-from-motion (SfM)</b> and <b>photoquadrat imagery</b>. Using the SfM imagery we can build 3D models of the coral reef and extract data, including coral demographic data (which used to be measured by divers in surveys before 2024). The photoquadrat imagery is annotated by scientists using <b>CoralNet</b> to provide estimates of benthic cover.  We do these surveys at both fixed and random sites; random sites allow us to provide estimates of data for an island or region, whereas fixed sites allow us to compare changes in the benthos over time at the same site.
+  excerpt:  We collect <b>structure-from-motion (SfM)</b> and <b>photoquadrat imagery</b>. Using SfM imagery we can build 3D models of the coral reef and extract data, including coral demographic data (measured by divers in situ before 2024). The photoquadrat imagery is annotated with <b>CoralNet</b> to provide estimates of benthic cover.  We conduct surveys at both fixed and random sites; random sites allow us to provide estimates of data for an island or region, whereas fixed sites allow us to compare changes in the benthos over time at the same site, such as growth of specific coral colonies.  We utilize machine-learning and also develop CoralNet Classifiers such as the <a href = "https://doi.org/10.25923/d0re-9y93" target ="_blank">semi-automated CoralNet Bleaching Classifier</a>.
 feature_row4:
 - image_path: https://media.fisheries.noaa.gov/2022-05/3977X2379-20220519-DTP-surveys-n-COTS-PIFSC.JPG
   image_caption: "Diver assesses coral predation. Credit: NOAA Fisheries"
   alt: "diver conducts coral demography survey and detects COTS predation"
   title: "What do we measure"
-  excerpt: Our benthic cover raw data includes <b>CoralNet annotations</b>, produced with the identification of benthic taxa under random points on photoquadrat imagery. The coral demographic data includes <b>identification, counts, and sizes of juvenile and adult hard coral colonies</b>, with conditions for adult hard corals (disease, bleaching, etc.).  For example, in this photo a diver is noting predation from the crown-of-thorns seastars where it ahs left a stark white patch on the coral colony.
+  excerpt: Our benthic cover raw data includes <b>CoralNet annotations</b>, produced with the identification of benthic taxa under random points on photoquadrat imagery. The coral demographic data includes <b>identification, counts, and sizes of juvenile and adult hard coral colonies</b>, with conditions for adult hard corals (disease, bleaching, etc.).  For example, in this photo a diver is noting predation from the crown-of-thorns seastars where it has left a stark white patch on the coral colony.
   url: #test-link
   btn_label: "Placeholder"
   btn_class: "btn--primary"
