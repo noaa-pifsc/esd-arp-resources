@@ -2,7 +2,7 @@
 title: "Oceanography & Climate Change Surveys"
 permalink: /occ-surveys/
 layout: splash
-excerpt: "Investigating the impacts of climate change on coral reefs of the U.S. Pacific Islands to inform resilience-based management. In synchrony with other surveys, we focus on studying carbonate chemistry, carbonate budgets and ocean warming."
+excerpt: "We investigate the impacts of climate change on coral reefs of the U.S. Pacific Islands to inform resilience-based management. In synchrony with other surveys, we focus on studying carbonate chemistry, carbonate budgets and ocean warming."
 header:
   overlay_color: "#000"
   overlay_image: https://media.fisheries.noaa.gov/2023-07/5472x3648-Diver-collectS-STR-ARI-Halperin-PIFSC.JPG
@@ -22,7 +22,7 @@ feature_row3:
   image_caption: "2023 NCRMP: use of liftbags for soundtrap deployment. Credit: NOAA Fisheries"
   alt: "Team image 2"
   title: "How do we survey"
-  excerpt: "We deploy stand-alone instruments on the reef for several years such as <b>STRs, CAUs, and BMUs</b>. We also deploy an assortment of instruments like <b>diel suite</b> for a week. <b>Water samples and CTD surveys</b> are conducted off dive boats or NOAA research vessels. <b>Carbonate budgets</b> methodology was also adapted for Pacific coral reefs."
+  excerpt: "We deploy stand-alone instruments on the reef for several years such as <b>STRs</b> (subsurface-temperature-recorders), <b>CAUs</b>  (calcium-accretion-units), and <b>BMUs</b> (bioerosion-monitoring-units). We also deploy an assortment of instruments called a <b>diel suite</b> for a week (includes PAR, DO, ADCP, pH, etc.). <b>Water samples and CTD surveys</b> are conducted off dive boats or NOAA research vessels at random, fixed, and offshore sites. The <b>carbonate budgets</b> methodology, which we adapted for Pacific coral reefs, estimates whether a reef is growing, shrinking, or at a tipping point."
 feature_row4:
 - image_path: https://www.fisheries.noaa.gov/s3//dam-migration/pacific_islands_ecosystem_science.jpg?itok=z_yxxhzO
   image_caption: "Credit: NOAA Fisheries"
@@ -64,7 +64,7 @@ By revisiting these sites in regions since 2013 we can monitor reefs and the imp
 </ul>
 
 ### Access Data
-The NCRMP Visualization tool hosts water samples for random sites. Water chemistry is archived with OCADS, and other data is organized in NCEI collections.
+The NCRMP Visualization tool hosts water samples for random sites. Water chemistry is archived with OCADS, and all other data is organized in NCEI collections and catalogged in our <a href = "https://www.fisheries.noaa.gov/inport/item/28844" target = "_blank">NCRMP metadata catalog</a> for each distinct region.
 
 #### Contact
 <ul>
