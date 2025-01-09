@@ -21,7 +21,7 @@ feature_row2:
   url: https://ncrmp.coralreef.noaa.gov/
   btn_label: "Go to Landing Page"
   btn_class: "btn--primary"
-  target: "_blank"
+ # target: "_blank"
 
 feature_row3:
 - image_path: https://github.com/MichaelAkridge-NOAA/ncei_eds_codespace/raw/main/docs/02.png
@@ -32,7 +32,7 @@ feature_row3:
   url: https://github.com/MichaelAkridge-NOAA/ncei_eds_codespace
   btn_label: "EDS Codespace"
   btn_class: "btn--primary"  
-  target: "_blank"
+ # target: "_blank"
 
 feature_row4:
 - image_path: assets/images/pacioos-eco-geospatial-tool.png
@@ -43,17 +43,18 @@ feature_row4:
   url: https://www.pacioos.hawaii.edu/projects/coral-drivers-amsam/#data
   btn_label: "Go to PacIOOS Page"
   btn_class: "btn--primary"
-  target: "_blank"
+ # target: "_blank"
 
 feature_row5:
-- image_path: https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg
-  alt: "shiny app"
-  title: "Shiny App"
-  excerpt: "Placeholder for Juliette's shiny app"
-  url: #test-link
-  btn_label: "Placeholder"
+- image_path:  assets\images\amsm_data_project_tool_screenshot.png
+  alt: "american samoa data project tool screenshot"
+  image_caption: "Dashboard Screenshot 2024"  
+  title: "American Samoa Data Dashboard"
+  excerpt: "This R Shiny dashboard provides information on American Samoa coral reef monitoring programs, data collection methods, and site-specific location data. Benthic cover, coral reef fish surveys, and environmental data can easily be displayed in interactive ways to support and inform American Samoa coral reef stewardship."
+  url: https://connect.fisheries.noaa.gov/american_samoa_data_integration/
+  btn_label: "Explore "
   btn_class: "btn--primary"
-  target: "_blank"
+ # target: "_blank"
 
 ---
 {% include feature_row id="feature_row2" type="left" %}
