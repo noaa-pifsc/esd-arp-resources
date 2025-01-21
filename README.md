@@ -1,12 +1,12 @@
 
-# [esd-arp-resources]
+# [esd-arp-resources] Archipelagic Research Program Website
 
 ## Overview
-Repository that deploys GitHub Pages website to centralize ARP resources for stakeholders & public
+Repository that deploys GitHub Pages website to centralize ARP resources for stakeholders & public.
 <br>
-Developed by Lori Luers with minimal-mistakes Jekyll theme
-<br>
-Featuring new layouts for
+Developed by Lori Luers with minimal-mistakes Jekyll theme.
+<br><br>
+Featuring new layouts for:
 - survey template <survey_template_single.html>
 - research theme <team_template.html>
 - publications <pubilcations.html>
@@ -24,6 +24,7 @@ Featuring new layouts for
 
 ## Resources
 - https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+- https://github.com/mmistakes/minimal-mistakes
   
 ## Version Control Platform
 - Git
