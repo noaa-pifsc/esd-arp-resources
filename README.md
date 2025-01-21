@@ -5,6 +5,7 @@
 Repository that deploys GitHub Pages website to centralize ARP resources for stakeholders & public
 <br>
 Developed by Lori Luers with minimal-mistakes Jekyll theme
+<br>
 Featuring new layouts for
 - survey template <survey_template_single.html>
 - research theme <team_template.html>
