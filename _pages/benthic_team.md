@@ -2,7 +2,7 @@
 title: "Benthic Surveys"
 permalink: /benthic-surveys/
 layout: splash
-excerpt:  We conduct various surveys to monitor the benthos of coral reef ecosystems. In addition to NCRMP surveys, we investigate bleaching events, coral restoration, and impacts of land-based sources of pollution. We rely on imaging surveys and data recorded by divers <i>in situ</i> to collect benthic cover, coral demography, structural complexity, and corallivory data.
+excerpt:  We monitor the benthos of coral reef ecosystems using various survey methods. In addition to NCRMP baseline surveys, we investigate coral bleaching events, support coral restoration, and track impacts of land-based sources of pollution. We rely on both imaging surveys and data recorded by divers in situ to collect benthic cover, coral demography, structural complexity, and corallivory data.
 # "We monitor the benthos of coral reef ecosystems in the Hawaiian Archipelago, Mariana Archipelago, American samoa, and the Pacific Remote Island Areas since 2000."
 header:
   overlay_color: "#000"
@@ -15,7 +15,7 @@ feature_row2:
   image_caption: "2023 NCRMP. Credit: NOAA Fisheries/Damaris Torres-Pulliza"
   alt: "coral taxa and symbionts"
   title: "What do we survey"
-  excerpt: We collect benthic data of shallow coral reef ecosystems (up to 100ft). This means identifying, counting, and sizing different organisms on the seafloor. We conduct <b>coral demography</b> surveys (coral composition & condition of adults and juveniles), as well as <b>benthic cover</b> surveys (cover of algae, CCA, hard coral, and other taxa).  Read more on  benthic cover in the NCRMP Data Viz Tool <a href = "https://ncrmp.coralreef.noaa.gov/pages/ncrmp-data#BenthicSection" target= "_blank">documentation</a>.
+  excerpt: We collect benthic data of shallow coral reef ecosystems (up to 100 ft). This means identifying, counting, and sizing different organisms on the seafloor. We conduct <b>coral demography</b> surveys (coral composition & condition of adults and juveniles), as well as <b>benthic cover</b> surveys (cover of algae, CCA, hard coral, and other taxa).  Read more on  benthic cover in the NCRMP Data Viz Tool <a href = "https://ncrmp.coralreef.noaa.gov/pages/ncrmp-data#BenthicSection" target= "_blank">documentation</a>.
   url: https://www.fisheries.noaa.gov/pacific-islands/ecosystems/coral-health-and-threats-pacific-islands
   btn_label: "More on Coral Health & Threats"
   btn_class: "btn--primary"
@@ -24,13 +24,13 @@ feature_row3:
   image_caption: "Diver collecting SfM imagery. Credit: NOAA Fisheries/Lori Luers"
   alt: "diver conducting SfM survey"
   title: "How do we survey"
-  excerpt:  We collect <b>structure-from-motion (SfM)</b> and <b>photoquadrat imagery</b>. Using SfM imagery we can build 3D models of the coral reef and extract data, including coral demographic data (measured by divers in situ before 2024). The photoquadrat imagery is annotated with <b>CoralNet</b> to provide estimates of benthic cover.  We conduct surveys at both fixed and random sites; random sites allow us to provide estimates of data for an island or region, whereas fixed sites allow us to compare changes in the benthos over time at the same site, such as growth of specific coral colonies.  We utilize machine-learning and also develop CoralNet Classifiers such as the <a href = "https://doi.org/10.25923/d0re-9y93" target ="_blank">semi-automated CoralNet Bleaching Classifier</a>.
+  excerpt:  As of 2023, we have now moved to image-based survey as our primary and standard means to collect benthic observations. Divers collect both <b>photogrammetry models</b>, stitching together thousands of images of a site, as well as <b>photoquadrat</b> imagery, relying on “unstitched” single images of a site. Using photogrammetry we can build 3D models of the coral reef and extract data, including coral demographic data (measured by divers in situ before 2024). The photoquadrat imagery is annotated with the AI tool CoralNet to provide estimates of benthic cover. We conduct surveys at both fixed and random sites; random sites allow us to provide geographically comprehensive estimates of data for an island or region, whereas fixed sites allow us to compare changes in the benthos over time at the same site, such as growth of specific coral colonies. We utilize machine-learning and also develop CoralNet Classifiers such as the <a href = "https://doi.org/10.25923/d0re-9y93" target ="_blank">semi-automated CoralNet Bleaching Classifier</a>.
 feature_row4:
 - image_path: https://media.fisheries.noaa.gov/2022-05/3977X2379-20220519-DTP-surveys-n-COTS-PIFSC.JPG
   image_caption: "Diver assesses coral predation. Credit: NOAA Fisheries"
   alt: "diver conducts coral demography survey and detects COTS predation"
   title: "What do we measure"
-  excerpt: Our benthic cover raw data includes <b>CoralNet annotations</b>, produced with the identification of benthic taxa under random points on photoquadrat imagery. The coral demographic data includes <b>identification, counts, and sizes of juvenile and adult hard coral colonies</b>, with conditions for adult hard corals (disease, bleaching, etc.).  For example, in this photo a diver is noting predation from the crown-of-thorns seastars where it has left a stark white patch on the coral colony.
+  excerpt: Our benthic cover raw data includes <b>CoralNet point annotations</b>, produced with the identification of benthic taxa under random points on photoquadrat imagery. The coral demographic data includes <b>identification, counts, and sizes of juvenile and adult hard coral colonies</b>, with conditions for adult hard corals (disease, bleaching, etc.). For example, in this photo, a diver is noting the stark white patch on the coral colony left from predation by crown-of-thorns seastars.
   url: #test-link
   btn_label: "Placeholder"
   btn_class: "btn--primary"
@@ -39,7 +39,7 @@ feature_row5:
   image_caption: "2022 MA NCRMP: Divers deliberate. Credit: NOAA Fisheries"
   alt: "training materials"
   title: "Training Materials"
-  excerpt: Structure-from-motion training and other community resources are available on <a href ="https://www.lai-network.org/" target = "_blank">LAI-NETWORK</a>. To correctly identify coral species as well as their condition, such as causes of predation, we undergo training. To mitigate diver biases, we routinely run and analyze our data for potential diver biases and have regular discussions to normalize our data and surveys.  Please contact us for access to more training materials.
+  excerpt: Photogrammetry training and other community resources are available on <a href ="https://www.lai-network.org/" target = "_blank">LAI-NETWORK</a>. To correctly identify coral species as well as their condition, such as causes of predation, our coral experts undergo thorough training. To mitigate diver biases, we routinely run and analyze our data for potential diver biases and have regular discussions to normalize our data and surveys. Please contact us for access to more training materials.
   url: #test-link
   btn_label: "Placeholder"
   btn_class: "btn--primary"
@@ -62,7 +62,7 @@ feature_row6:
 
 
 ### Why do we survey
-By revisiting these regions since 2013 we can monitor and see how coral reef ecosystems are changing over time such as higher or lower coral cover, or coral recruitment or loss. We produce technical memoranda for policy makers that provide a summary of the status of coral reefs and inform management decisions. We can also integrate our benthic data with our fish and oceanographic data to investigate patterns in ecosystem shifts.
+By revisiting these regions since 2000, and with a stable, stratified random survey design since 2013, we can monitor and see how coral reef ecosystems are changing over time such as higher or lower coral cover, or coral recruitment or loss. We produce technical memoranda for policy makers that provide a summary of the status of coral reefs and inform management decisions. We can also integrate our benthic data with our fish and oceanographic data to investigate patterns in ecosystem shifts.
 
 ### GitHub Repository
 Currently we are working on making our scripts, such as one to summarize CoralNet data, public. Please contact us if you would like access.
