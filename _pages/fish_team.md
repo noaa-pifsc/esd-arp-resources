@@ -14,7 +14,7 @@ feature_row2:
   image_caption: "Masked Angelfish in Hōlanikū 2024 NCRMP. Credit: NOAA Fisheries"
   alt: "endemic masked angelfish"
   title: "What do we survey"
-  excerpt: We survey Pacific reef fish in reef habitat over time to see how fish communities may be changing.  For SPC surveys, Pacific reef fish are surveyed in hard-bottom habitat shallower than 30 m. Potential random sites are generated using data on reef zone, depth bin, strata, and pre-determined sectors based on differences in oceanographic exposure, reef structure, and local human population density. We use a weighted average approach to analyze fish communities at various scales. More info on protocols and data access <a href ="https://noaa.hub.arcgis.com/pages/4976333fbf884f26b2fdc9ac51a20576#FishSection" target ="_blank">here</a>.
+  excerpt: We survey reef habitat over time to see how fish communities may be changing.  For SPC surveys, Pacific reef fish are surveyed in hard-bottom habitat shallower than 30 m. Potential random sites are generated using data on reef zone, depth bin, strata, and pre-determined sectors based on differences in oceanographic exposure, reef structure, and local human population density. We use a weighted average approach to analyze fish communities at various scales. More info on protocols and data access <a href ="https://noaa.hub.arcgis.com/pages/4976333fbf884f26b2fdc9ac51a20576#FishSection" target ="_blank">here</a>.
   url: #test-link
   btn_label: "Placeholder"
   btn_class: "btn--primary"
