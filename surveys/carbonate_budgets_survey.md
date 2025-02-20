@@ -10,8 +10,9 @@ header:
   caption: "Credit: USGS https://www.usgs.gov/media/videos/carbonate-budget-animation"
   overlay_filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5))
 
-survey_type: Measuring reef growth and shrinkage
-survey_description: Carbonate Budgets was adapted for Pacific species from Chris Perry's <a href ="https://geography.exeter.ac.uk/reefbudget/">reefbudgetR</a> for Atlantic species. After several years of testing various methodologies to collect benthic, urchin, and fish data we have established a NCRMP protocol. Fish data is collected using SPC surveys as well as belt surveys (for parrotfish).  Urchin data is observed by divers along a transect (though depending on region can also be extracted from imagery). Benthic data is extracted from structure-from-motion (SfM) models.
+survey_type: Measuring reef habitat growth and erosion
+survey_description: NCRMP carbonate budget assessments were adapted for U.S. Pacific Islands reef species from the Chris Perry's Indo-Pacific
+ <a href ="https://geography.exeter.ac.uk/reefbudget/">Reef Budget</a>approach for Atlantic species.  Our NCRMP protocol was developed after several years of testing various methodologies to collect benthic, urchin, and fish data. Fish data is collected using SPC surveys . Urchin data is observed by divers along a transect (though depending on region can also be extracted from imagery). Benthic data is extracted from structure-from-motion (SfM) models.
 # description: "Template sample description"
 sidebar:
   nav: "docs"
