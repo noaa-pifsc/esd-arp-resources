@@ -11,7 +11,7 @@ header:
   overlay_filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5))
 
 survey_type: Stationary-point-count (SPC) surveys
-survey_description: Fish SPC surveys intend to provide a snapshot of and biomass, fish density, and species presence as a rapid ecological assessment tool. Surveys are conducted in hard-bottom habitat in water < 30 m, following a stratified-random sampling site design (StRS). Random sites are generated across islands using reef zone, depth zone, pre-determined sectors, and locations of known hard-bottom habitat (typically from backscatter data), using the R project <a href = "https://github.com/krtanaka/ncrmp_common_map" target = "_blank">ncrmp_common_map</a>. More details <a href = "https://doi.org/10.7289/v5sn06zt" target ="_blank">here</a>.
+survey_description: Fish SPC surveys intend to provide a snapshot of biomass, fish density, and species presence as a rapid ecological assessment tool. Surveys are conducted in hard-bottom habitat in water < 30 m, following a stratified-random sampling site design (StRS). Random sites are generated across islands using reef zone, depth zone, pre-determined sectors, and locations of known hard-bottom habitat (typically from backscatter data), using the R project <a href = "https://github.com/krtanaka/ncrmp_common_map" target = "_blank">ncrmp_common_map</a>. More details <a href = "https://doi.org/10.7289/v5sn06zt" target ="_blank">here</a>.
 # description: "Template sample description"
 sidebar:
   nav: "docs"
