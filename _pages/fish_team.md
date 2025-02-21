@@ -14,7 +14,7 @@ feature_row2:
   image_caption: "Masked Angelfish in Hōlanikū 2024 NCRMP. Credit: NOAA Fisheries"
   alt: "endemic masked angelfish"
   title: "What do we survey"
-  excerpt: We survey reef habitat over time to see how fish communities may be changing.  For SPC surveys, Pacific reef fish are surveyed in hard-bottom habitat shallower than 30 m. Potential random sites are generated using data on reef zone, depth bin, strata, and pre-determined sectors based on differences in oceanographic exposure, reef structure, and local human population density. We use a weighted average approach to analyze fish communities at various scales. More info on protocols and data access <a href ="https://noaa.hub.arcgis.com/pages/4976333fbf884f26b2fdc9ac51a20576#FishSection" target ="_blank">here</a>.
+  excerpt: We survey fish in coral reef habitat to see how fish communities may be changing.  For SPC surveys, Pacific reef fish are surveyed in hard-bottom habitat shallower than 30 m. Random sites are generated across islands using data on reef zone, depth bin, habitat, and pre-determined sectors based on differences such as reef structure and local human population density. We use a weighted average approach to analyze fish communities at several scales. More info on protocols and data access <a href ="https://noaa.hub.arcgis.com/pages/4976333fbf884f26b2fdc9ac51a20576#FishSection" target ="_blank">here</a>.
   url: #test-link
   btn_label: "Placeholder"
   btn_class: "btn--primary"
@@ -23,7 +23,7 @@ feature_row3:
   image_caption: "Diagram of divers conducting a Stationary Point Count (SPC) survey at a NCRMP site. Credit: NOAA Fisheries"
   alt: "fish spc survey infographic"
   title: "How do we survey"
-  excerpt: "We follow the NCRMP <b>stationary-point-count (SPC)</b> protocol which is detailed in the NCRMP Data Viz Tool as well as under 'Methods'. Diver pairs count fish simulataneously in adjacent, visually estimated 15 m cylinders.  In the first 5 minutes they record the species they see in their respective cylinders, and after that period they begin counting and sizing (to the nearest cm) of each inidivudal fish per species."
+  excerpt: "We follow the NCRMP <b>stationary-point-count (SPC)</b> protocol which is detailed on the NCRMP Data Viz Tool as well as under 'Methods'. Diver pairs count fish simulataneously in adjacent visually estimated 15 m cylinders.  In the first 5 minutes they record the species they see in their respective cylinders, and after that period they begin counting and sizing (to the nearest cm) of each inidivudal fish per species."
 
 feature_row4:
 - image_path: https://www.fisheries.noaa.gov/s3//styles/media_750_x500/s3/dam-migration/4000x3000-rea-survey-caranx-sexfasciatus-paulaayotte.jpg?itok=2f5s3-X1
