@@ -13,7 +13,7 @@ feature_row2:
   image_caption: "2023 NCRMP: STRs are deployed in the same location to collect long-term temperature data. Credit: NOAA Fisheries"
   alt: "swapping out new and old str showing camoflauge of old str"
   title: "What do we survey"
-  excerpt: "The changes in <b>ocean conditions</b> and how they impact coral reef ecosystems, such as investigating how <b>thermal stress</b> impacts coral bleaching, how water temperature changes with depth in coral reefs, and how ocean chemistry is changing, and whether coral reef havitat is <b>growing or eroding</b>."
+  excerpt: "The changes in <b>ocean conditions</b> and how they impact coral reef ecosystems; such as investigating how <b>thermal stress</b> impacts coral bleaching, how water temperature changes with depth in coral reefs, and how ocean chemistry is changing, and whether coral reef havitat is <b>growing or eroding</b>."
   url: #test-link
   btn_label: "Placeholder"
   btn_class: "btn--primary"
@@ -64,7 +64,7 @@ By revisiting these sites in regions since 2013 we can monitor reefs and the imp
 </ul>
 
 ### Access Data
-The NCRMP Visualization tool hosts water samples for random sites. Water chemistry is archived with OCADS, and all other data is organized in NCEI collections and cataloged in our <a href = "https://www.fisheries.noaa.gov/inport/item/28844" target = "_blank">NCRMP metadata catalog</a> for each distinct region.
+The NCRMP Visualization tool hosts water samples for <b>random sites</b>. Water chemistry (including for fixed sites) is archived with OCADS, and all other data is organized in NCEI collections and cataloged in our <a href = "https://www.fisheries.noaa.gov/inport/item/28844" target = "_blank">NCRMP metadata catalog</a> for each distinct region.  Refer to <a href = "/sops/">'Methods'</a> for details on specific surveys.
 
 #### Contact
 <ul>

@@ -24,7 +24,7 @@ docs:
         url: /surveys/ctdh2o
       - title: "Fish Stationary-Point-Count (SPC)"
         url: /surveys/fish_spc
-      - title: "Structure-from-Motion (SfM)"
+      - title: "SfM Photogrammetry"
         url: /surveys/sfm
 
 #      - title: "Subsurface Temperature Recorders (STR)"
