@@ -2,7 +2,7 @@
 title: "Benthic Surveys"
 permalink: /benthic-surveys/
 layout: splash
-excerpt:  We monitor the benthos of coral reef ecosystems using various survey methods. In addition to NCRMP baseline surveys, we investigate coral bleaching events, support coral restoration, and track impacts of land-based sources of pollution. We rely on both imaging surveys and data recorded by divers in situ to collect benthic cover, coral demography, structural complexity, and corallivory data.
+excerpt:  We monitor the benthos of coral reef ecosystems using various survey methods since the year 2000. In addition to NCRMP baseline surveys, we investigate coral bleaching events, support coral restoration, and track impacts of land-based sources of pollution. We rely on both imaging surveys and data recorded by divers in situ to collect benthic cover, coral demography, structural complexity, and corallivory data.
 # "We monitor the benthos of coral reef ecosystems in the Hawaiian Archipelago, Mariana Archipelago, American samoa, and the Pacific Remote Island Areas since 2000."
 header:
   overlay_color: "#000"
@@ -24,7 +24,7 @@ feature_row3:
   image_caption: "Diver collecting SfM imagery. Credit: NOAA Fisheries/Lori Luers"
   alt: "diver conducting SfM survey"
   title: "How do we survey"
-  excerpt:  As of 2023, we have now moved to image-based survey as our primary and standard means to collect benthic observations. Divers collect both <b>photogrammetry models</b>, stitching together thousands of images of a site, as well as <b>photoquadrat</b> imagery, relying on “unstitched” single images of a site. Using photogrammetry we can build 3D models of the coral reef and extract data, including coral demographic data (measured by divers in situ before 2024). The photoquadrat imagery is annotated with the AI tool CoralNet to provide estimates of benthic cover. We conduct surveys at both fixed and random sites; random sites allow us to provide geographically comprehensive estimates of data for an island or region, whereas fixed sites allow us to compare changes in the benthos over time at the same site, such as growth of specific coral colonies. We utilize machine-learning and also develop CoralNet Classifiers such as the <a href = "https://doi.org/10.25923/d0re-9y93" target ="_blank">semi-automated CoralNet Bleaching Classifier</a>.
+  excerpt:  As of 2023, we mainly use image-based surveys to collect benthic observations. Divers collect both <b>photogrammetry models</b>, stitching together thousands of images of a site, as well as <b>photoquadrat</b> imagery, relying on “unstitched” single images of a site. Using photogrammetry we can build 3D models of the coral reef and extract data, including coral demographic data (measured by divers in situ before 2024). The photoquadrat imagery is annotated with the AI tool CoralNet to provide estimates of benthic cover. We conduct surveys at both fixed and random sites; random sites allow us to provide geographically comprehensive estimates of data for an island or region, whereas fixed sites allow us to compare changes in the benthos over time at the same site, such as growth of specific coral colonies. We utilize machine-learning and also develop CoralNet Classifiers such as the <a href = "https://doi.org/10.25923/d0re-9y93" target ="_blank">semi-automated CoralNet Bleaching Classifier</a>.
 feature_row4:
 - image_path: https://media.fisheries.noaa.gov/2022-05/3977X2379-20220519-DTP-surveys-n-COTS-PIFSC.JPG
   image_caption: "Diver assesses coral predation. Credit: NOAA Fisheries"
@@ -70,8 +70,8 @@ Currently we are working on making our scripts, such as one to summarize CoralNe
 ### Access Data
 <ul>
 <li>
-Under 'Products' you can visualize and access our data using the NCRMP Visualization tool. </li>
-<li>Go to 'Methods' to see access for specific datasets. </li>
+Under <a href= "/products/">'Products' </a>you can visualize and access our data using the NCRMP Visualization tool. </li>
+<li>Go to <a href = "/sops/">'Methods'</a> to see access for specific datasets. </li>
 <li>For raw data, our data is organized in NCEI collections and also described in our NCRMP  <a href = "https://www.fisheries.noaa.gov/inport/item/28844" target ="_blank">InPort metadata catalog</a>, organized by region.</li>
 <li>Access SfM imagery with <a href = "https://console.cloud.google.com/storage/browser/nmfs_odp_pifsc/PIFSC/ESD/ARP/Photogrammetric%20Imagery" target ="_blank">NODD Google Cloud bucket</a>, or make a request through the <a href ="https://www.ncei.noaa.gov/access/ocean-exploration/video/" target = "_blank">OER Portal</a>.</li>
 </ul>

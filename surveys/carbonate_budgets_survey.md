@@ -12,7 +12,7 @@ header:
 
 survey_type: Measuring reef habitat growth and erosion
 survey_description: NCRMP carbonate budget assessments were adapted for U.S. Pacific Islands reef species from the Chris Perry's Indo-Pacific
- <a href ="https://geography.exeter.ac.uk/reefbudget/">Reef Budget</a>approach for Atlantic species.  Our NCRMP protocol was developed after several years of testing various methodologies to collect benthic, urchin, and fish data. Fish data is collected using SPC surveys . Urchin data is observed by divers along a transect (though depending on region can also be extracted from imagery). Benthic data is extracted from structure-from-motion (SfM) models.
+ <a href ="https://geography.exeter.ac.uk/reefbudget/">Reef Budget</a> approach for Atlantic species.  Our NCRMP protocol was developed after several years of testing various methodologies to collect benthic, urchin, and fish data. Fish data is collected using SPC surveys . Urchin data is observed by divers along a transect (though depending on region can also be extracted from imagery). Benthic data is extracted from structure-from-motion (SfM) models.
 # description: "Template sample description"
 sidebar:
   nav: "docs"

@@ -18,7 +18,7 @@ feature_row5:
   alt: "pacific islands region survey area image"
   image_caption: "Credit: NOAA Fisheries"
   title: "Upcoming Cruises"
-  excerpt: "2025 NCRMP will take place in the Mariana Archipelago. Outreach events will occur in Guam ~ April 13th and in Saipan ~ June 2nd."
+  excerpt: "2025 NCRMP will take place March ~ June and start in the Pacific Islands Heritage Marine National Monumnet at Wake before heading to the Mariana Archipelago. Public engagement will occur in Guam ~ April 14th and in Saipan ~ June 2nd."
   url: assets/images/NCRMP2025FLYER_508.pdf
   btn_label: "Download flyer"
   btn_class: "btn--primary"
@@ -45,7 +45,7 @@ feature_row4:
   image_caption: "Photo Credit: Lori Luers"  
   alt: "rainbow in the marianas"
   title: "Contact us"
-  excerpt: "This website is maintained by the Data Services Team(nmfs.pic.credinfo@noaa.gov) on a PIFSC github repository using minimal-mistakes jekyll theme."
+  excerpt: "This website is maintained by the Data Services Team (nmfs.pic.credinfo@noaa.gov) on a PIFSC github repository using minimal-mistakes jekyll theme."
   url: "mailto:nmfs.pic.credinfo@noaa.gov"
   btn_label: "Email Us"
   btn_class: "btn--primary"
