@@ -8,7 +8,7 @@ title: "Publications"
 <!-- Filter Inputs -->
 <div>
     <label for="keyword-filter">Filter Results:</label>
-    <input type="text" id="keyword-filter" oninput="filterByKeyword()" placeholder="Enter keyword(s) here">
+    <input type="text" id="keyword-filter" oninput="filterByKeywords()" placeholder="Enter keyword(s) here">
 </div>
 
 <!-- Table to display publications -->
@@ -42,9 +42,7 @@ title: "Publications"
             dynamicTyping: true,
             complete: function(results) {
                 publicationsData = results.data;
-
-                // Initial render with sorted data
-                renderTable(sortByYear(publicationsData));
+                renderTable(sortByYear(publicationsData)); // Initial render
             },
             error: function(error) {
                 console.error("Error loading CSV:", error);
@@ -52,19 +50,21 @@ title: "Publications"
         });
     }
 
-    // Function to filter by Keyword
-    function filterByKeyword() {
-        const keyword = document.getElementById("keyword-filter").value.toLowerCase();
+    // Function to filter by multiple keywords
+    function filterByKeywords() {
+        const query = document.getElementById("keyword-filter").value.toLowerCase().trim();
+        const keywords = query.split(/\s+/); // Split input into multiple keywords
 
-        const filteredData = keyword
-            ? publicationsData.filter(pub => 
-                Object.values(pub).some(value => 
-                    value && value.toString().toLowerCase().includes(keyword) // Ensure value is not null/undefined
+        const filteredData = query
+            ? publicationsData.filter(pub =>
+                keywords.every(keyword => 
+                    Object.values(pub).some(value =>
+                        value && value.toString().toLowerCase().includes(keyword) // Check all fields
+                    )
                 )
-              )
+            )
             : publicationsData; // Show all if no keyword entered
 
-        // Render filtered and sorted data
         renderTable(sortByYear(filteredData));
     }
 
@@ -73,20 +73,18 @@ title: "Publications"
         return data.sort((a, b) => (b.year || 0) - (a.year || 0)); // Handle missing year as 0
     }
 
-    // Function to render the table with the provided data
+    // Function to render the table
     function renderTable(data) {
         const tableBody = document.querySelector("#publications-table tbody");
-        tableBody.innerHTML = ""; // Clear existing rows
+        tableBody.innerHTML = ""; // Clear table
 
         if (data.length === 0) {
-            // Show a message if no results match
             tableBody.innerHTML = `<tr><td colspan="7">No publications found.</td></tr>`;
             return;
         }
 
-        data.forEach(function(pub) {
+        data.forEach(pub => {
             const row = document.createElement("tr");
-
             row.innerHTML = `
                 <td>${pub.title || "N/A"}</td>
                 <td>${pub.creators || "N/A"}</td>
@@ -100,6 +98,5 @@ title: "Publications"
         });
     }
 
-    // Call the function when the page loads
     window.onload = loadPublications;
 </script>
