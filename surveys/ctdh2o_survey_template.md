@@ -18,6 +18,7 @@ how_to_download: Water sample data is archived with OCADS and NCEI and CTD data 
 sop_text: CTD and Water Sampling in the Pacific - updated 06/2023
 url_sop: https://www.ncei.noaa.gov/data/oceans/coris/library/NOAA/CRCP/monitoring/protocols/NCRMP_Climate_WaterSamplingPacific.pdf
 datasheets_text: "Metadata collected for CTD and water samples"
+url_datasheets: /surveys/occ/datasheets
 access_rawdata_text : "CTD casts and water samples are accessible separately."
 r_code_text: "See our team scripts for processing raw data"
 
