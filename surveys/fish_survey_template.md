@@ -6,7 +6,7 @@ main_image: "https://www.arcgis.com/sharing/rest/content/items/4976333fbf884f26b
 main_image_caption: "Diagram of divers conducting a Stationary Point Count (SPC) survey at a NCRMP site. Credit: NOAA."
 header:
   overlay_color: "#000"
-  overlay_image: https://pifscblog.wordpress.com/wp-content/uploads/2015/04/1-bigeyejacks.jpg
+  overlay_image: /assets/images/fish-spc-banner.jpg
   caption: "Photo credit: Kevin Lino/NOAA"
   overlay_filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5))
 

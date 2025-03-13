@@ -6,7 +6,7 @@ main_image: https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/producti
 main_image_caption: <a href ="https://www.usgs.gov/media/videos/carbonate-budget-animation">USGS</a> Infographic illustrating the purpose of calculating a carbonate budget.
 header:
   overlay_color: "#000"
-  overlay_image: https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/video_poster/public/media/images/Carbonate%20Budget%20Animation%20Thumbnail.png?itok=zuIAwiUU
+  overlay_image: /assets/images/carbbudgets-banner.jpg
   caption: "Credit: USGS https://www.usgs.gov/media/videos/carbonate-budget-animation"
   overlay_filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5))
 

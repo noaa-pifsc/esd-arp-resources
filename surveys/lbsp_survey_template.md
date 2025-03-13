@@ -6,7 +6,7 @@ main_image: "https://media.fisheries.noaa.gov/dam-migration-miss/1280_wwvGX7cwOz
 main_image_caption: "A diver identifies and sizes coral colonies along a transect in Tutuila, American Samoa during the 2015 surveys. Credit: NOAA Fisheries."
 header:
   overlay_color: "#000"
-  overlay_image: "https://media.fisheries.noaa.gov/dam-migration-miss/1280_c1l2nWbzrsV1.jpg?1579830864"
+  overlay_image: /assets/images/lbsp-banner.jpg
   caption: "A coral reef in Faga'alu Bay in Tutuila, 2012, before regulations were put in place to minimize sedimentation.  Credit: NOAA Fisheries"
   overlay_filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5))
 

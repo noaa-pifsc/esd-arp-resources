@@ -5,7 +5,7 @@ permalink: /sops/
 excerpt: "Access our survey method standard protocols."
 header:
   overlay_color: "#000"
-  overlay_image:  https://www.fisheries.noaa.gov/s3//2024-07/1330x887-Kona-NCRMP-Coral-Survey-Fisheries-PIFSC.png
+  overlay_image:  /assets/images/survey-methods-photo.jpg
   overlay_filter: linear-gradient(rgba(26, 2, 2, 0.38), rgba(255, 255, 255, 0.6))
   caption: "Photo credit: NOAA/NMFS"
 sidebar:

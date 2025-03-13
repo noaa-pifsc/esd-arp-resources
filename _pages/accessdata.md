@@ -5,7 +5,7 @@ layout: single
 excerpt: "How and where to access our data."
 header:
   overlay_color: "#000"
-  overlay_image:  https://www.fisheries.noaa.gov/s3//2024-07/640x480-Sette-NCRMP-Fisheries-PIFSC.jpg
+  overlay_image:  /assets/images/accessdata-banner.jpg
   overlay_filter: linear-gradient(rgba(0, 0, 0, 0.4), rgba(255, 255, 255, 0.41))
   caption: "Photo credit: NOAA/NMFS"
 feature_row2:

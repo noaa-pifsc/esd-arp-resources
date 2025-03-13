@@ -6,7 +6,7 @@ main_image: "https://www.fisheries.noaa.gov/s3//2024-07/5472x3648-NCRMP-diver-Ma
 main_image_caption: "Diver collects photogrammetric imagery during 2024 NCRMP in the Main Hawaiian Islands. Credit: NOAA NMFS/Lori Luers."
 header:
   overlay_color: "#000"
-  overlay_image: https://www.coris.noaa.gov/activities/structure_from_motion/coral_model.jpg
+  overlay_image: /assets/images/sfm-banner.jpg
   caption: "Photo credit: NOAA Fisheries/Jonathan Charendoff"
   overlay_filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5))
 
