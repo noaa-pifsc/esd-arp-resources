@@ -5,7 +5,7 @@ title: "About us"
 header: 
  overlay_color: "#000"
  overlay_filter: "0.3"
- overlay_image: https://www.fisheries.noaa.gov/s3//2024-08/4032x2268-NCRMP-crew-Hawaii-Fisheries-PIFSC.jpg
+ overlay_image: /assets/images/aboutus-banner.jpg
  actions:
     - label: "Read more about the ESD"
       url: "https://www.fisheries.noaa.gov/pacific-islands/ecosystems/surveying-vast-pacific-ocean"
@@ -18,9 +18,9 @@ feature_row5:
   alt: "pacific islands region survey area image"
   image_caption: "Credit: NOAA Fisheries"
   title: "Upcoming Cruises"
-  excerpt: "2025 NCRMP will take place March ~ June and start in the Pacific Islands Heritage Marine National Monumnet at Wake before heading to the Mariana Archipelago. Public engagement will occur in Guam ~ April 14th and in Saipan ~ June 2nd."
+  excerpt: "2025 NCRMP will take place March ~ June and start in the Pacific Islands Heritage Marine National Monumnet at Wake before heading to the Mariana Archipelago."
   url: assets/images/NCRMP2025FLYER_508.pdf
-  btn_label: "Download flyer"
+  btn_label: "Download flyer (English)"
   btn_class: "btn--primary"
 feature_row2:
 - image_path: https://www.fisheries.noaa.gov/s3/styles/full_width/s3/dam-migration/pifsc.png?itok=SmTJPyV8
