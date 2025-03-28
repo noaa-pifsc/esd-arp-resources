@@ -2,7 +2,7 @@
 title: "Monitoring fish communities across Pacific reefs"
 permalink: /fish-surveys/
 layout: splash
-excerpt: "Providing long-term datasets in support of effective management outcomes."
+excerpt: "Studying fish communities over time using Stationary-Point-Count (SPC) cylinder methodology since 2013, belt (BLT) surveys from 2000 - 2009, and towed diver surveys."
 header:
   overlay_color: "#000"
   overlay_image: https://media.fisheries.noaa.gov/2023-05/3662X2747-Howland-reefscape-JWS-PIFSC.jpg
