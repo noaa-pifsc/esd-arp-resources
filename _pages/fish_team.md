@@ -1,14 +1,13 @@
 ---
-title: "Pacific Reef Fish Monitoring Surveys"
+title: "Monitoring fish communities across Pacific reefs"
 permalink: /fish-surveys/
 layout: splash
-excerpt: "NCRMP stationary-point-count (SPC) surveys have been conducted using the same methodology since 2013 across U.S. Pacific Islands coral reef habitat. Historically we have also conducted fish belt (BLT) and towed-diver surveys."
+excerpt: "Providing long-term datasets in support of effective management outcomes."
 header:
   overlay_color: "#000"
   overlay_image: https://media.fisheries.noaa.gov/2023-05/3662X2747-Howland-reefscape-JWS-PIFSC.jpg
   caption: "Photo credit: NOAA Fisheries/Jan Willem Staman"
   overlay_filter: linear-gradient(rgba(8, 8, 8, 0.5), rgba(217, 231, 27, 0.28))
-
 feature_row2:
 - image_path: https://www.fisheries.noaa.gov/s3//2024-08/6000x4000-NCRMP-Hawaii-Masked-Angel-Fisheries-PIFSC.jpg
   image_caption: "Masked Angelfish in Hōlanikū 2024 NCRMP. Credit: NOAA Fisheries"
@@ -23,8 +22,7 @@ feature_row3:
   image_caption: "Diagram of divers conducting a Stationary Point Count (SPC) survey at a NCRMP site. Credit: NOAA Fisheries"
   alt: fish spc survey infographic
   title: How do we survey
-  excerpt: We follow the NCRMP <b>stationary-point-count (SPC)</b> protocol which is detailed on the <a href = "https://ncrmp.coralreef.noaa.gov/">NCRMP Data Viz Tool</a> as well as under <a href = "/sops/">'Methods'</a>. Diver pairs count fish simultaneously in adjacent visually estimated 15 m cylinders.  In the first 5 minutes they record the species they see in their respective cylinders, and after that period they begin counting and sizing (to the nearest cm) of each individual fish per species.
-
+  excerpt:  The stationary point count (SPC) method involves two divers counting fish at the same time in two side-by-side, 15-meter-wide circular areas that extend from the ocean floor to as far as they can see vertically.The survey has two parts, the first is Species Identification (5 minutes) when each diver records all the different types of fish they see within their area.  After the first 5 minutes, they start counting and measuring, when divers go through their list and count how many of each species they see, estimating their length in centimeters. They do this by scanning their area multiple times, focusing on one species group per scan.More details about our survey protocol can be found on the <a href = "https://ncrmp.coralreef.noaa.gov/">NCRMP Data Viz Tool</a> as well as under <a href = "/sops/">'Methods'</a>. In previous years, the Pacific RAMP and NCRMP have also conducted belt transects and towed-diver surveys to assess fish assemblages."
 feature_row4:
 - image_path: https://www.fisheries.noaa.gov/s3//styles/media_750_x500/s3/dam-migration/4000x3000-rea-survey-caranx-sexfasciatus-paulaayotte.jpg?itok=2f5s3-X1
   image_caption: "School of jacks are identified to species-level and counted by size. Credit: NOAA Fisheries"
@@ -43,13 +41,19 @@ feature_row5:
   btn_label: "Placeholder"
   btn_class: "btn--primary"
 ---
+### Survey Goals
+The Pacific NCRMP monitors coral reefs across a vast area, covering about 40 islands and atolls spread over thousands of kilometers. The goal of the fish surveys is to provide periodic snapshots of coral reef communities at U.S.-affiliated Pacific islands. To achieve this, the survey is designed to collect data at the scale of entire islands and atolls. This makes NCRMP a “wide-but-thin” program—meaning it focuses on broad regional trends rather than detailed, site-specific studies. The goal is to provide big-picture insights into the health of shallow coral reef ecosystems (0–30 m deep) to support management and conservation efforts.
 
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="right" %}
 {% include feature_row id="feature_row4" type="left" %}
 
 ### Why do we survey
-The data collected serve four main purposes: 1. to fulfill NCRMP mandates to assess the status and trends of reef fish assemblages across coral reefs of the U.S.; 2. to provide data in support of coral reef fisheries stocks; 3. to support federal and jurisdictional management by providing a broad spatial context to status and trends apparent from spatially smaller-scale surveys conducted by those agencies; and 4. to generate a consistent and large-scale dataset as a resource for the scientific community. In synchrony with our other reef surveys, we can also investigate potential patterns with environmental or benthic changes.
+In accordance with the NCRMP goals and objectives, the reef-fish data are collected in a consistent, standardized manner across the U.S. and U.S.-affiliated territories in the Western and Central Pacific, spanning wide gradients in both natural drivers and human impact. The resulting datasets serve four main purposes: 
+1. Fulfill NCRMP mandates to assess the status and trends of reef fish assemblages across coral reefs of the U.S. 
+2. Provide data in support of coral reef fisheries stocks;
+3. Support federal and jurisdictional management by providing a broad spatial context to status and trends apparent from spatially smaller-scale surveys conducted by those agencies
+4. Generate a consistent and large-scale dataset as a resource for the scientific community. In synchrony with our other reef surveys, we can also investigate potential patterns with environmental or benthic changes
 
 ### Access Data
 Under <a href = "/products/">'Products'</a> you can visualize and access our data using the NCRMP Visualization tool. You can go to <a href = "/sops/">'Methods'</a> to see access for specific datasets. For raw data, our data is organized in NCEI collections.  Browse datasets in the <a href = "https://www.fisheries.noaa.gov/inport/item/28844" target = "_blank">NCRMP metadata catalog</a> for each distinct region; legacy datasets are described in the <a href = "https://www.fisheries.noaa.gov/inport/item/21559" target ="_blank">Ecosystem Monitoring and Assessment subfolder</a>.
