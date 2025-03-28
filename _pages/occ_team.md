@@ -1,8 +1,8 @@
 ---
-title: "Oceanography & Climate Change Surveys"
+title: "Oceanography & Climate Impact Surveys"
 permalink: /occ-surveys/
 layout: splash
-excerpt: "We investigate the impacts of climate change on coral reefs of the U.S. Pacific Islands to inform resilience-based management. In synchrony with other surveys, we evaluate ocean warming and ocean acidification and their effects on coral reef ecosystem structure and function."
+excerpt: "We investigate the impacts of changing ocean conditions on coral reefs of the U.S. Pacific Islands to inform resilience-based management. In synchrony with other surveys, we evaluate ocean warming and ocean acidification and their effects on coral reef ecosystem structure and function."
 header:
   overlay_color: "#000"
   overlay_image: https://media.fisheries.noaa.gov/2023-07/5472x3648-Diver-collectS-STR-ARI-Halperin-PIFSC.JPG
@@ -36,7 +36,7 @@ feature_row5:
 - image_path: https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg
   alt: "github repository image"
   title: "Why do we survey"
-  excerpt: "By revisiting these sites in regions since 2013 we can monitor reefs and the impact of climate change."
+  excerpt: "By revisiting these sites in regions since 2013 we can monitor changing ocean conditions and the impact on coral reef ecosystems."
   url: #test-link
   btn_label: "Placeholder"
   btn_class: "btn--primary"
@@ -56,7 +56,7 @@ feature_row6:
 {% include feature_row id="feature_row4" type="left" %}
 
 ### Why do we conduct these surveys
-By revisiting these sites in regions since 2013 we can monitor reefs and the impact of climate change to inform management decisions. The methodologies we use are chosen to leverage the usability and reproducibility of our data such that it can be integrated with other datasets.
+By revisiting these sites in regions since 2013 we can monitor the impact of changing ocean conditions to coral reefs to inform management decisions. The methodologies we use are chosen to leverage the usability and reproducibility of our data such that it can be integrated with other datasets.
 
 ### GitHub Repositories
 <ul>
