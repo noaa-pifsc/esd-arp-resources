@@ -2,7 +2,7 @@
 title: "Monitoring fish communities across Pacific reefs"
 permalink: /fish-surveys/
 layout: splash
-excerpt: "Studying fish communities over time using the Stationary-Point-Count (SPC) cylinder methodology since 2013, belt (BLT) surveys from 2000 - 2009, as well as towed diver surveys."
+excerpt: "Studying fish communities over time using the stationary-point-count (SPC) cylinder methodology since 2013, belt (BLT) transects from 2000 - 2009, and towed diver surveys."
 header:
   overlay_color: "#000"
   overlay_image: https://media.fisheries.noaa.gov/2023-05/3662X2747-Howland-reefscape-JWS-PIFSC.jpg
@@ -12,8 +12,8 @@ feature_row2:
 - image_path: https://www.fisheries.noaa.gov/s3//2024-08/6000x4000-NCRMP-Hawaii-Masked-Angel-Fisheries-PIFSC.jpg
   image_caption: "Masked Angelfish in Hōlanikū 2024 NCRMP. Credit: NOAA Fisheries"
   alt: "endemic masked angelfish"
-  title: "What do we survey"
-  excerpt: We survey fish in coral reef habitat to see how fish communities may be changing.  For SPC surveys, Pacific reef fish are surveyed in hard-bottom habitat shallower than 30 m. Random sites are generated across islands using data on reef zone, depth bin, habitat, and pre-determined sectors based on differences such as reef structure and local human population density. We use a weighted average approach to analyze fish communities at several scales. More info on protocols and data access <a href ="https://noaa.hub.arcgis.com/pages/4976333fbf884f26b2fdc9ac51a20576#FishSection" target ="_blank">here</a>.
+  title: "Survey Goals"
+  excerpt: The Pacific NCRMP monitors coral reefs across about 40 islands and atolls. Its fish surveys aim to give periodic snapshots of coral reef communities at U.S.-affiliated Pacific islands. The surveys collect data on a large scale, focusing on entire islands and atolls rather than specific sites. This "wide-but-thin" approach provides broad insights into the health of shallow coral reefs (0–30 m deep) to support conservation and management.  We use a weighted average approach to analyze fish communities at several scales, dependent on reef structure, human population density, and more. More info on protocols and data access <a href ="https://noaa.hub.arcgis.com/pages/4976333fbf884f26b2fdc9ac51a20576#FishSection" target ="_blank">here</a>.
   url: #test-link
   btn_label: "Placeholder"
   btn_class: "btn--primary"
@@ -41,8 +41,6 @@ feature_row5:
   btn_label: "Placeholder"
   btn_class: "btn--primary"
 ---
-### Survey Goals
-The Pacific NCRMP monitors coral reefs across about 40 islands and atolls. Its fish surveys aim to give periodic snapshots of coral reef communities at U.S.-affiliated Pacific islands. The surveys collect data on a large scale, focusing on entire islands and atolls rather than specific sites. This "wide-but-thin" approach provides broad insights into the health of shallow coral reefs (0–30 m deep) to support conservation and management.
 
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="right" %}

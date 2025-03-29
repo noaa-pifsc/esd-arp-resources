@@ -32,7 +32,7 @@ feature_row2:
   alt: "pacific islands region survey area image"
   image_caption: "Credit: NOAA Fisheries"
   title: "Survey area"
-  excerpt:  "We conduct surveys in U.S. Pacific Islands regions: <b>Hawaiian Archipelago, Mariana Archipelago, American Samoa, and Pacific Remote Island Areas</b>. Our longest running program, Pacific NCRMP, was previously called the Pacific Reef Assessment and Monitoring Program (RAMP). Starting in 2000, Pacific RAMP conducted surveys every 2 years to assess reef health. In 2011, <a href = 'https://coralreef.noaa.gov/'>NOAA’s Coral Reef Conservation Program (CRCP)</a> expanded the effort into <a href = 'https://www.coris.noaa.gov/monitoring/'>NCRMP</a>, aiming to track coral reef conditions across all U.S. waters using standardized methods. By 2012, the Pacific NCRMP shifted to surveying each region every 3 years."
+  excerpt:  "We conduct surveys in U.S. Pacific Islands regions: <b>Hawaiian Archipelago, Mariana Archipelago, American Samoa, and Pacific Islands Heritage Marine National Monument</b>. Our longest running program, Pacific NCRMP, was previously called the Pacific Reef Assessment and Monitoring Program (RAMP). Starting in 2000, Pacific RAMP conducted surveys every 2 years to assess reef health. In 2011, <a href = 'https://coralreef.noaa.gov/'>NOAA’s Coral Reef Conservation Program (CRCP)</a> expanded the effort into <a href = 'https://www.coris.noaa.gov/monitoring/'>NCRMP</a>, aiming to track coral reef conditions across all U.S. waters using standardized methods. By 2012, the Pacific NCRMP shifted to surveying each region every 3 years."
   url: "https://www.fisheries.noaa.gov/region/pacific-islands"
   btn_label: "Learn More"
   btn_class: "btn--primary"

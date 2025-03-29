@@ -10,8 +10,8 @@ header:
   caption: "Photo credit: Kevin Lino/NOAA"
   overlay_filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5))
 
-survey_type: Stationary-point-count (SPC) surveys
-survey_description: Fish SPC surveys intend to provide a snapshot of biomass, fish density, and species presence as a rapid ecological assessment tool. Surveys are conducted in hard-bottom habitat in water < 30 m, following a stratified-random sampling site design (StRS). Random sites are generated across islands using reef zone, depth zone, pre-determined sectors, and locations of known hard-bottom habitat (typically from backscatter data), using the R project <a href = "https://github.com/krtanaka/ncrmp_common_map" target = "_blank">ncrmp_common_map</a>. More details <a href = "https://doi.org/10.7289/v5sn06zt" target ="_blank">here</a>.
+survey_type: Providing a snapshot of fish assemblages across Pacific coral reefs
+survey_description:  SOP, data processing and R code can be accessed in this <a href = "https://doi.org/10.1038/sdata.2017.176" target ="_blank">2017 publication</a> and other aspects of rapid ecological assessment (REA) survey methods are also described in this <a href = "https://doi.org/10.7289/v5sn06zt" target ="_blank">2015 SOP</a>.  Surveys are conducted in hard-bottom habitat in water < 30 m, following a stratified-random sampling site design (StRS). Random sites are generated across islands using reef zone, depth zone, pre-determined sectors, and locations of known hard-bottom habitat (typically from backscatter data), using the R project <a href = "https://github.com/krtanaka/ncrmp_common_map" target = "_blank">ncrmp_common_map</a>. 
 # description: "Template sample description"
 sidebar:
   nav: "docs"
@@ -25,7 +25,7 @@ datasheets_text: "Includes data entry for fish observations with benthic estimat
 
 url_datasheets: /surveys/fish/datasheets
 
-access_rawdata_text: Raw data is archived with NCEI. Links for each year are listed in the 'Distribution Information' section of respective InPort metadata records -  <a href = "https://www.fisheries.noaa.gov/inport/item/24447" target = "_blank"> Hawaiian Archipelago since 2013 </a> - <a href = "https://www.fisheries.noaa.gov/inport/item/34520" target = "_blank"> American Samoa since 2015 </a> - <a href = "https://www.fisheries.noaa.gov/inport/item/34518" target = "_blank"> Mariana Archipelago since 2014</a> - <a href = "https://www.fisheries.noaa.gov/inport/item/34519" target = "_blank"> Pacific Remote Island Areas since 2014 </a>.
+access_rawdata_text: Raw data is archived with NCEI. Links for each year are listed in the 'Distribution Information' section of respective InPort metadata records -  <a href = "https://www.fisheries.noaa.gov/inport/item/24447" target = "_blank"> Hawaiian Archipelago since 2013 </a> - <a href = "https://www.fisheries.noaa.gov/inport/item/34520" target = "_blank"> American Samoa since 2015 </a> - <a href = "https://www.fisheries.noaa.gov/inport/item/34518" target = "_blank"> Mariana Archipelago since 2014</a> - <a href = "https://www.fisheries.noaa.gov/inport/item/34519" target = "_blank"> Pacific Islands Heritage Marine National Monument since 2014 </a>. Access Pacific-wide data from <a href ="https://www.fisheries.noaa.gov/inport/item/5566">2000 - 2007 </a> and <a href ="https://www.fisheries.noaa.gov/inport/item/34515">2007 - 2012</a>.
 r_code_text: Contact Tye Kindinger <a href = "mailto:tye.kindinger@noaa.gov">(tye.kindinger@noaa.gov)</a> for processing scripts.
 
 ---
