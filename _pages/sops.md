@@ -28,6 +28,8 @@ Use the sidebar on the left to access resources for each type of survey, or brow
 
 ## Fish Surveys
 <ul>
+<li><a href = "https://doi.org/10.1038/sdata.2017.176"> Long-term monitoring of coral reef fish assemblages in the Western central pacific (2017)</a></li>
+- SOP, data processing, R code
 <li><a href = "https://doi.org/10.7289/v5sn06zt"> Coral reef ecosystem program standard operating procedures : data collection for rapid ecological assessment fish surveys (2015)</a><br>
 - Collecting fish data<br>
 - Collecting benthic cover estimate data
