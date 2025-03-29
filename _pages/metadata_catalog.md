@@ -1,7 +1,7 @@
 ---
-layout: publications
-title: Reports & Publications
-permalink: /publications/
+layout: metadata_catalog
+title: 'Metadata Catalog: ESD (formerly CREP)'
+permalink: /metadata_catalog/
 header:
   overlay_color: "#000"
   overlay_filter: linear-gradient(rgba(255, 250, 250, 0.76), rgba(0, 0, 0, 0.94))

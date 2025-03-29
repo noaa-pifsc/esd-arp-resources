@@ -36,7 +36,7 @@ sidebar:
   nav: "docs"
 ---
 # Working with Our Data 
-Our data is typically organized by fixed versus random site surveys, as well as by region. For example, fixed-site imagery is described separately from random site imagery for each distinct region.   Our random sites follow a stratified-random sampling design (StRS), meaning they can only be meaningfully analyzed at island and regional levels.  Options to browse are data are listed below.
+Our data is typically organized by fixed versus random site surveys, as well as by region. For example, fixed-site imagery is described separately from random site imagery for each distinct region.   Our random sites follow a stratified-random sampling design (StRS), meaning they can only be meaningfully analyzed at island and regional levels.  Options to browse are data are listed below, or browse the <a href ="/metadata_catalog/"> Ecosystem Sciences Division metadata catalog</a>.
 
 ## NCRMP Data via NOAA Data Viz Tool / NOAA GeoPlatform
 View data, caveats, and more on the NCRMP program including surveys in the Atlantic <a href = " https://noaa.hub.arcgis.com/pages/4976333fbf884f26b2fdc9ac51a20576" target = "_blank">here</a>.<br><i>Note: this only includes <b>random</b> site data.</i>
