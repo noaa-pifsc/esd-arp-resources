@@ -13,14 +13,14 @@ feature_row2:
   image_caption: "2023 NCRMP: STRs are deployed in the same location to collect long-term temperature data. Credit: NOAA Fisheries"
   alt: "swapping out new and old str showing camoflauge of old str"
   title: "What do we survey"
-  excerpt: "The changes in <b>ocean conditions</b> and how they impact coral reef ecosystems; such as investigating how <b>thermal stress</b> impacts coral bleaching, how water temperature changes with depth in coral reefs, and how ocean chemistry is changing, and whether coral reef havitat is <b>growing or eroding</b>."
+  excerpt: "The changes in <b>ocean conditions</b> and how they impact coral reef ecosystems; such as investigating how <b>thermal stress</b> impacts coral bleaching, how water temperature changes with depth in coral reefs, and how ocean chemistry is changing, and whether coral reef habitat is <b>growing or eroding</b>."
   url: #test-link
   btn_label: "Placeholder"
   btn_class: "btn--primary"
 feature_row3:
-- image_path: https://media.fisheries.noaa.gov/2023-05/2880X2880-Soundtrap-deployment-JWM-PIFSC.jpg
-  image_caption: "2023 NCRMP: use of liftbags for soundtrap deployment. Credit: NOAA Fisheries"
-  alt: "Team image 2"
+- image_path: https://npomeroy.github.io/OMG/images/CAU.jpg
+  image_caption: "Schematic of a Calcium-Accretion-Unit (CAU) which is installed then collected years later to process and analyze reef growth. Credit: NOAA Fisheries"
+  alt: "CAU device"
   title: "How do we survey"
   excerpt: "We deploy stand-alone instruments on the reef for several years such as <b>STRs</b> (subsurface-temperature-recorders), <b>CAUs</b>  (calcium-accretion-units), and <b>BMUs</b> (bioerosion-monitoring-units). We also deploy an assortment of instruments called a <b>diel suite</b> for several days to weeks (includes PAR, DO, ADCP, pH, etc.). <b>Water samples and CTD surveys</b> are conducted off dive boats or NOAA research vessels at random, fixed, and offshore sites. The <b>carbonate budgets</b> methodology, which we adapted for Pacific coral reefs, estimates whether a reef is growing, eroding, or at a tipping point."
 feature_row4:

@@ -2,7 +2,7 @@
 layout: survey_template_single
 title: "NCRMP: Stationary Point Counts"
 permalink: /surveys/fish_spc
-main_image: "https://www.arcgis.com/sharing/rest/content/items/4976333fbf884f26b2fdc9ac51a20576/resources/fish_cylinder.jpg?v=1732320000117&w=800" # default image
+main_image: /assets/images/Methods-Stationary-Point-Count-PIFSC.png # default image
 main_image_caption: "Diagram of divers conducting a Stationary Point Count (SPC) survey at a NCRMP site. Credit: NOAA."
 header:
   overlay_color: "#000"
