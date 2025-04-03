@@ -4,13 +4,13 @@ layout: splash
 title: "About us"
 header: 
  overlay_color: "#000"
- overlay_filter: "0.3"
+ overlay_filter: "0.55"
  overlay_image: /assets/images/aboutus-banner.jpg
  actions:
     - label: "Read more about the ESD"
       url: "https://www.fisheries.noaa.gov/pacific-islands/ecosystems/surveying-vast-pacific-ocean"
  caption: "2024 NCRMP Main Hawaiian Islands Team"
-excerpt: "The <b>Archipelagic Research Program</b> is composed of ~20 members serving as technicians, coordinators, analysts, lead scientists, project managers, operations, and data managers/app developers.  We collaborate within the Ecosystem Sciences Division (ESD), across divisions, and with programs outside of NOAA."
+excerpt: The Archipelagic Research Program is composed of ~20 members working as technicians, coordinators, analysts, lead scientists, operations, and data support.  We collaborate within the Ecosystem Sciences Division (ESD), across divisions, and with programs outside of NOAA. The majority of us are <a href = "https://www.soest.hawaii.edu/cimar/">CIMAR</a> employees.
 feature_row5:
 - image_path: /assets/images/upcoming_cruise.jpg
   alt: "pacific islands region survey area image"
@@ -21,10 +21,10 @@ feature_row5:
   - url: assets/images/NCRMP2025FLYER_508.pdf
     btn_label: "English"
     btn_class: "btn--primary"
-  - url: assets/images/NCRMP2025FLYER_508_Chamorro.pdf
+  - url: assets/images/NCRMP_2025FLYER_508_Chamorro.pdf
     btn_label: "Chamorro"
     btn_class: "btn--primary"
-  - url: assets/images/NCRMP2025FLYER_508_Carolinian.pdf
+  - url: assets/images/NCRMP_2025FLYER_508_Carolinian.pdf
     btn_label: "Carolinian"
     btn_class: "btn--primary"
 feature_row2:
