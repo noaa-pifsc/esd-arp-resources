@@ -4,7 +4,7 @@ permalink: /products/
 layout: splash
 excerpt: "Tools that allow users to interact with our data as well as products developed by the Ecosystem Sciences Division (ESD)."
 header:
-  overlay_color: "#000"
+  overlay_color: "#323C46"
   overlay_filter: "0.75" 
   # overlay_filter: linear-gradient(rgba(2, 2, 2, 0.81), rgba(255, 255, 255, 0.75),rgba(2, 2, 2, 0.81))
   overlay_image:  /assets/images/ncrmp_data_viz_snap.png

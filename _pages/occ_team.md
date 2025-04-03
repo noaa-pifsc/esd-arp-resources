@@ -4,9 +4,9 @@ permalink: /occ-surveys/
 layout: splash
 excerpt: "We investigate the impacts of changing ocean conditions on coral reefs of the U.S. Pacific Islands to inform resilience-based management. In synchrony with other surveys, we evaluate ocean warming and ocean acidification and their effects on coral reef ecosystem structure and function."
 header:
-  overlay_color: "#000"
+  overlay_color: "#323C46"
   overlay_image: https://media.fisheries.noaa.gov/2023-07/5472x3648-Diver-collectS-STR-ARI-Halperin-PIFSC.JPG
-  overlay_filter: linear-gradient(rgba(8, 8, 8, 0.5), rgba(0, 255, 255, 0.42))
+  overlay_filter: "linear-gradient(rgba(8, 8, 8, 0.5), rgba(0, 255, 255, 0.42))"
   caption: "Photo Credit: NOAA Fisheries/Ari Halperin"
 feature_row2:
 - image_path: https://media.fisheries.noaa.gov/2023-07/1440x960-07012023-STR-installedited-PIFSC.jpg
