@@ -47,7 +47,7 @@ feature_row6:
 - image_path: https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg
   image_caption:
   alt: "divers consult each other about coral identification"
-  title: "Training Materials"
+  title: "Training materials"
   excerpt: "By revisiting these regions since 2013 we can monitor and see how coral reef ecosystems are changing over time such as measuring coral colony growth, changes to corla cover, or coral recruitment or loss. We produce technical memoranda for policy makers that provide a summary of the status of coral reefs and inform management decisions. We can also integrate our benthic data with our fish and oceanographic data to investigate patterns in ecosystem shifts."
   url: #test-link
   btn_label: "Placeholder"
