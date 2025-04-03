@@ -38,17 +38,8 @@ feature_row5:
 - image_path: https://media.fisheries.noaa.gov/2022-05/4000X2782-TG6C-consulting-PIFSC.JPG
   image_caption: "2022 MA NCRMP: Divers deliberate. Credit: NOAA Fisheries"
   alt: "training materials"
-  title: "Training Materials"
-  excerpt: Photogrammetry training and other community resources are available on <a href ="https://www.lai-network.org/" target = "_blank">LAI-NETWORK</a>. To correctly identify coral species as well as their condition, such as causes of predation, our coral experts undergo thorough training. To mitigate diver biases, we routinely run and analyze our data for potential diver biases and have regular discussions to normalize our data and surveys. Please contact us for access to more training materials.
-  url: #test-link
-  btn_label: "Placeholder"
-  btn_class: "btn--primary"
-feature_row6:
-- image_path: https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg
-  image_caption:
-  alt: "divers consult each other about coral identification"
   title: "Training materials"
-  excerpt: "By revisiting these regions since 2013 we can monitor and see how coral reef ecosystems are changing over time such as measuring coral colony growth, changes to corla cover, or coral recruitment or loss. We produce technical memoranda for policy makers that provide a summary of the status of coral reefs and inform management decisions. We can also integrate our benthic data with our fish and oceanographic data to investigate patterns in ecosystem shifts."
+  excerpt: Photogrammetry training and other community resources are available on <a href ="https://www.lai-network.org/" target = "_blank">LAI-NETWORK</a>. To correctly identify coral species as well as their condition, such as causes of predation, our coral experts undergo thorough training. To mitigate diver biases, we routinely run and analyze our data for potential diver biases and have regular discussions to normalize our data and surveys. Please contact us for access to more training materials.
   url: #test-link
   btn_label: "Placeholder"
   btn_class: "btn--primary"
