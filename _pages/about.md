@@ -7,10 +7,12 @@ header:
  overlay_filter: "0.55"
  overlay_image: /assets/images/aboutus-banner.jpg
  actions:
-    - label: "Read more about the ESD"
-      url: "https://www.fisheries.noaa.gov/pacific-islands/ecosystems/surveying-vast-pacific-ocean"
+     - label: "Explore CIMAR"
+       url: "https://www.soest.hawaii.edu/cimar/"   
+     - label: "Read about the ESD"
+       url: "https://www.fisheries.noaa.gov/pacific-islands/ecosystems/surveying-vast-pacific-ocean"
  caption: "2024 NCRMP Main Hawaiian Islands Team"
-excerpt: The Archipelagic Research Program is composed of ~20 members working as technicians, coordinators, analysts, lead scientists, operations, and data support.  We collaborate within the Ecosystem Sciences Division (ESD), across divisions, and with programs outside of NOAA. The majority of us are <a href = "https://www.soest.hawaii.edu/cimar/">CIMAR</a> employees.
+excerpt: The Archipelagic Research Program is composed of ~20 members working as technicians, coordinators, analysts, lead scientists, operations, and data support.  Our work is facilitated by CIMAR within NOAA. We work and collaborate within the Ecosystem Sciences Division (ESD), across divisions, and with programs outside of NOAA. 
 feature_row5:
 - image_path: /assets/images/upcoming_cruise.jpg
   alt: "pacific islands region survey area image"
