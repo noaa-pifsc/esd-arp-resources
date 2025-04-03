@@ -1,0 +1,23 @@
+/* ==========================================================================
+   NOAA NMFS skin
+   ========================================================================== */
+
+/* Colors */
+$background-color: #FFFFFF !default;
+$text-color: #323C46 !default;
+$muted-text-color: #44545F !default;
+$primary-color: #44545f !default;
+$border-color: mix(#fff, #001743, 75%) !default;
+$footer-background-color: $primary-color !default;
+$link-color: #005E5E !default;
+$masthead-link-color: #44545f !default;
+$masthead-link-color-hover: #005E5E !default;
+$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+
+.page__footer {
+  color: #FFFFFF !important; // override
+}
+
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}

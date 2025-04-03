@@ -4,7 +4,7 @@ permalink: /accessdata/
 layout: single
 excerpt: "How and where to access our data."
 header:
-  overlay_color: "#000"
+  overlay_color: "#323C46"
   overlay_image:  /assets/images/accessdata-banner.jpg
   overlay_filter: linear-gradient(rgba(0, 0, 0, 0.4), rgba(255, 255, 255, 0.41))
   caption: "Photo credit: NOAA/NMFS"
@@ -44,9 +44,9 @@ sidebar:
 /* Custom Button Style */
 /* Style the custom button */
 .custom-button {
-  background-color: transparent;  /* Remove background */
-  color: inherit;                 /* Inherit the text color */
-  border: 2px solid rgb(84, 86, 87);      /* Add a border */
+  background-color:  #90DFE3;  /* Remove background */
+  color: rgb(255, 255, 255);                 /* Inherit the text color */
+  /*border: 2px solid #00797F;      /* Add a border */
   text-decoration: none;          /* Remove underline or other text decorations */
   padding: 10px;              /* Smaller padding for a smaller button */
   font-size: 16px;                /* Smaller font size */
@@ -59,9 +59,10 @@ sidebar:
 
 /* Optional: Hover effect for the custom button */
 .custom-button:hover {
-  background-color:rgba(44, 44, 44, 0.82);      /* Light background color on hover */
+  background-color: #005E5E;      /* Light background color on hover */
   border-color:rgb(84, 86, 87);          /* Darker border color on hover */
   color:rgb(255, 255, 255);                 /* Change text color on hover */
+  text-decoration: none;  
 }
 
 

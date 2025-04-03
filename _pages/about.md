@@ -3,7 +3,7 @@ permalink: /about/
 layout: splash
 title: "About us"
 header: 
- overlay_color: "#000"
+ overlay_color: "#323C46"
  overlay_filter: "0.55"
  overlay_image: /assets/images/aboutus-banner.jpg
  actions:
