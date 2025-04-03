@@ -8,7 +8,7 @@ header:
   overlay_filter: "0.3"
   overlay_image:  /assets/images/survey-methods-photo.jpg
   overlay_filter: linear-gradient(rgba(26, 2, 2, 0.38), rgba(255, 255, 255, 0.6))
-  caption: "Photo credit: NOAA/NMFS"
+  caption: "Photo credit: NOAA Fisheries"
 sidebar:
   nav: "docs"
 ---

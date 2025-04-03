@@ -1,6 +1,6 @@
 ---
 layout: survey_template_single
-title: "NCRMP: CTD casts & DIC Water Sampling"
+title: "NCRMP: CTD Casts & DIC Water Sampling"
 permalink: /surveys/ctdh2o
 main_image: /assets/images/ctdh2osurvey_crop.jpg
 main_image_caption: "A CTD is being deployed (left) while seawater is collected using Niskin bottle (on the right). Credit: NOAA Fisheries."

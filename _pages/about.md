@@ -1,7 +1,7 @@
 ---
 permalink: /about/
 layout: splash
-title: "About us"
+title: "About Us"
 header: 
  overlay_color: "#323C46"
  overlay_filter: "0.55"
@@ -11,7 +11,7 @@ header:
        url: "https://www.soest.hawaii.edu/cimar/"   
      - label: "Read about the ESD"
        url: "https://www.fisheries.noaa.gov/pacific-islands/ecosystems/surveying-vast-pacific-ocean"
- caption: "2024 NCRMP Main Hawaiian Islands Team"
+ caption: "2024 NCRMP Main Hawaiian Islands Team. Photo Credit: NOAA Fisheries"
 excerpt: The Archipelagic Research Program is composed of ~20 members working as technicians, coordinators, analysts, lead scientists, operations, and data support.  Our work is facilitated by CIMAR within NOAA. We work and collaborate within the Ecosystem Sciences Division (ESD), across divisions, and with programs outside of NOAA. 
 feature_row5:
 - image_path: /assets/images/upcoming_cruise.jpg
@@ -33,7 +33,7 @@ feature_row2:
 - image_path: https://www.fisheries.noaa.gov/s3/styles/full_width/s3/dam-migration/pifsc.png?itok=SmTJPyV8
   alt: "pacific islands region survey area image"
   image_caption: "Credit: NOAA Fisheries"
-  title: "Survey area"
+  title: "Survey Area"
   excerpt:  "We conduct surveys in U.S. Pacific Islands regions: <b>Hawaiian Archipelago, Mariana Archipelago, American Samoa, and Pacific Islands Heritage Marine National Monument</b>. Our longest running program, Pacific NCRMP, was previously called the Pacific Reef Assessment and Monitoring Program (RAMP). Starting in 2000, Pacific RAMP conducted surveys every 2 years to assess reef health. In 2011, <a href = 'https://coralreef.noaa.gov/'>NOAA’s Coral Reef Conservation Program (CRCP)</a> expanded the effort into <a href = 'https://www.coris.noaa.gov/monitoring/'>NCRMP</a>, aiming to track coral reef conditions across all U.S. waters using standardized methods. By 2012, the Pacific NCRMP shifted to surveying each region every 3 years."
   buttons:
   - url: "https://www.fisheries.noaa.gov/region/pacific-islands"

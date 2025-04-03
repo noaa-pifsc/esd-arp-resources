@@ -40,7 +40,7 @@ feature_row4:
 - image_path: assets/images/pacioos-eco-geospatial-tool.png
   image_caption: "PACIOOS Screeshot 2024"  
   alt: "pacioos amsm coral reef drivers tool screenshot"
-  title: "Eco-geospatial tool American Samoa"
+  title: "Eco-geospatial Tool American Samoa"
   excerpt: "PACIOOS hosted American Samoa Coral Reef Ecosystem Drivers tool from data gathered by the Ecosystem Sciences Division (ESD)"
   buttons:
   - url: https://www.pacioos.hawaii.edu/projects/coral-drivers-amsam/#data

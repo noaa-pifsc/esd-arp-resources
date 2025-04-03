@@ -7,7 +7,7 @@ header:
   overlay_color: "#323C46"
   overlay_image:  /assets/images/accessdata-banner.jpg
   overlay_filter: linear-gradient(rgba(0, 0, 0, 0.4), rgba(255, 255, 255, 0.41))
-  caption: "Photo credit: NOAA/NMFS"
+  caption: "Photo credit: NOAA Fisheries"
 feature_row2:
 - image_path: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmcO5tHXjtN5CEzy1KMGDeVuLNn52DYvVttw&s
   alt: "coris image"
@@ -76,16 +76,16 @@ Our data is typically organized by fixed versus random site surveys, as well as 
 *Diagram illustrating fixed versus random site locations for a given hypothetical island. Credit: NOAA Fisheries*
 <br>
 
-## Visualize NCRMP random site data via  <a href ="https://ncrmp.coralreef.noaa.gov/">NOAA Data Viz Tool</a> / NOAA GeoPlatform
+## Visualize NCRMP Random Site Data via  <a href ="https://ncrmp.coralreef.noaa.gov/">NOAA Data Viz Tool</a> / NOAA GeoPlatform
 - Browse by dashboard type to view and download data. For caveats and more on the NCRMP program, including surveys in the Atlantic <a href = " https://noaa.hub.arcgis.com/pages/4976333fbf884f26b2fdc9ac51a20576" target = "_blank">here</a>.<br><i>Note: this only includes <b>random</b> site data.</i>
 
-## Raw data via NCEI
+## Raw Data via NCEI
 - Our raw data is archived with NCEI within Collections, and is described within the InPort <a href = "https://www.fisheries.noaa.gov/inport/item/2712" target ="_blank">PIFSC CREP Metadata Portfolio</a>. Go to methods page for survey specific details.
 
-## R processing scripts
+## R Processing Scripts
 -  Our data is still being updated into public-ready form and will become available on <a href = "https://github.com/noaa-pifsc" target = "_blank">PIFSC github</a>.
 
-## SfM imagery via Google Cloud bucket (NODD)
+## SfM Imagery via Google Cloud Bucket (NODD)
 - Due to the size of structure-from-motion (SfM) imagery, raw imagery as well as products are available via our <a href= "https://console.cloud.google.com/storage/browser/nmfs_odp_pifsc/PIFSC/ESD/ARP/Photogrammetric%20Imagery" target ="_blank">Google Cloud Bucket</a>. Raw imagery is archived with NCEI and available on the <a href ="https://www.ncei.noaa.gov/access/ocean-exploration/video/" target = "_blank"> OER Portal</a>.
 - For assistance and tools on how to adopt a similar strategy at your institution, contact the Data Services Team at <a href = "mailto:nmfs.pic.credinfo@noaa.gov">nmfs.pic.credinfo@noaa.gov</a>.
 
