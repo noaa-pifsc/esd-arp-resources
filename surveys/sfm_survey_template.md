@@ -10,7 +10,7 @@ header:
   caption: "Photo credit: NOAA Fisheries/Jonathan Charendoff"
   overlay_filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5))
 
-survey_type: Collection of Photogrammetric Imagery
+survey_type: Collection of photogrammetric imagery
 survey_description: Photogrammetric imagery is collected at both random and fixed sites. The images can then be processed into 3D coral models, from which various data can be extracted. Starting in 2024, coral demographic data was exclusively collected in this manner. Structural complexity, bleaching, urchin, and corallivory estimates have also been extracted from photogrammetry models with funding from other CRCP projects. More photogrammetry community resources are available on <a href ="https://www.lai-network.org/" target = "_blank">LAI-NETWORK</a> (How-to documents, Training, and more).
 sidebar:
   nav: "docs"
