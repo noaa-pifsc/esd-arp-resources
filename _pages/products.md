@@ -46,7 +46,7 @@ feature_row4:
  # target: "_blank"
 
 feature_row5:
-- image_path:  assets\images\amsm_data_project_tool_screenshot.png
+- image_path:  assets/images/amsm_data_project_tool_screenshot.png
   alt: "american samoa data project tool screenshot"
   image_caption: "Dashboard Screenshot 2024"  
   title: "American Samoa Data Dashboard"
