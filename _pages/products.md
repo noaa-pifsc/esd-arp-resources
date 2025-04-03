@@ -47,8 +47,8 @@ feature_row4:
 
 feature_row5:
 - image_path:  assets/images/amsm_data_project_tool_screenshot.png
-  alt: "american samoa data project tool screenshot"
   image_caption: "Dashboard Screenshot 2024"  
+  alt: "american samoa data project tool screenshot"
   title: "American Samoa Data Dashboard"
   excerpt: "This R Shiny dashboard provides information on American Samoa coral reef monitoring programs, data collection methods, and site-specific location data. Benthic cover, coral reef fish surveys, and environmental data can easily be displayed in interactive ways to support and inform American Samoa coral reef stewardship."
   url: https://connect.fisheries.noaa.gov/american_samoa_data_integration/
