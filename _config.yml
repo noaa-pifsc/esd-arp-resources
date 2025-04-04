@@ -19,7 +19,7 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "NOAA Fisheries | PIFSC | ESD | CIMAR | Archipelagic Research Program"
 title_separator          : "|"
-subtitle                 : "Pacific Islands Fisheries Science Center | Ecosystem Sciences Division"
+subtitle                 : "ARP Path to Open Science: methods, data access, and tools"
 name                     : "Lori Luers"
 description              : "Mock-up of centralized ARP website"
 url                      : #"https://noaa-pifsc.github.io/test-arp-website"
@@ -27,7 +27,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # noaa-pifsc/test-arp-website
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     :  /assets/images/noaa_cimar_logo.jpg
-masthead_title           : "Archipelagic Research Program (ARP)"
+masthead_title           : "PIFSC | ESD | Archipelagic Research Program"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
