@@ -4,10 +4,11 @@ permalink: /fish-surveys/
 layout: splash
 excerpt: "Studying fish communities over time using the stationary-point-count (SPC) cylinder methodology since 2013, belt (BLT) transects from 2000 - 2009, and towed diver surveys."
 header:
-  overlay_color: "#000"
+  overlay_color: "#323C46"
   overlay_image: https://media.fisheries.noaa.gov/2023-05/3662X2747-Howland-reefscape-JWS-PIFSC.jpg
   caption: "Photo credit: NOAA Fisheries/Jan Willem Staman"
-  overlay_filter: linear-gradient(rgba(8, 8, 8, 0.5), rgba(217, 231, 27, 0.28))
+  overlay_filter: "0.5"
+  #overlay_filter: linear-gradient(rgba(8, 8, 8, 0.5), rgba(217, 231, 27, 0.28))
 feature_row2:
 - image_path: https://www.fisheries.noaa.gov/s3//2024-08/6000x4000-NCRMP-Hawaii-Masked-Angel-Fisheries-PIFSC.jpg
   image_caption: "Masked Angelfish in Hōlanikū 2024 NCRMP. Credit: NOAA Fisheries"

@@ -2,13 +2,14 @@
 title: "Benthic Surveys"
 permalink: /benthic-surveys/
 layout: splash
-excerpt:  We monitor the benthos of coral reef ecosystems using various survey methods since the year 2000. In addition to NCRMP baseline surveys, we investigate coral bleaching events, support coral restoration, and track impacts of land-based sources of pollution. We rely on both imaging surveys and data recorded by divers in situ to collect benthic cover, coral demography, structural complexity, and corallivory data.
+excerpt:  We monitor the benthos using various survey methods since the year 2000. In addition to NCRMP baseline surveys, we investigate coral bleaching events, support coral restoration, and track impacts of land-based sources of pollution. We rely on both imaging surveys and data recorded by divers <i>in situ</i> to collect benthic cover, coral demography, structural complexity, and corallivory data.
 # "We monitor the benthos of coral reef ecosystems in the Hawaiian Archipelago, Mariana Archipelago, American samoa, and the Pacific Remote Island Areas since 2000."
 header:
-  overlay_color: "#000"
+  overlay_color: "#323C46"
   overlay_image: https://media.fisheries.noaa.gov/2023-04/4000X3000-Fans-DTP-PIFSC.JPG
   caption: "Photo credit: Damaris Torres-Pulliza/NOAA"
-  overlay_filter: linear-gradient(rgba(15, 15, 15, 0.5), rgba(235, 150, 221, 0.36))
+  overlay_filter: "0.5"
+  #overlay_filter: linear-gradient(rgba(15, 15, 15, 0.5), rgba(235, 150, 221, 0.36))
 
 feature_row2:
 - image_path: https://media.fisheries.noaa.gov/2023-04/500x391-coral-faces-DTP-PIFSC.gif
