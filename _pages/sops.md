@@ -4,10 +4,12 @@ layout: single
 permalink: /sops/
 excerpt: "Access our survey method standard protocols."
 header:
-  overlay_color: "#001743"
-  overlay_filter: "0.3"
+  overlay_color: "#CBDAC5"
+  overlay_filter: "0.4"
   overlay_image:  /assets/images/survey-methods-photo.jpg
-  overlay_filter: linear-gradient(rgba(26, 2, 2, 0.38), rgba(255, 255, 255, 0.6))
+  #overlay_filter: linear-gradient(rgba(30, 190, 199, 0.38), rgba(0, 94, 94, 0.6))
+
+  #overlay_filter: linear-gradient(rgba(26, 2, 2, 0.38), rgba(255, 255, 255, 0.6))
   caption: "Photo credit: NOAA Fisheries"
 sidebar:
   nav: "docs"
