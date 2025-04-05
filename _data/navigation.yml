@@ -12,7 +12,7 @@ main:
     url: /about/
 
 docs:
-  - title: CRCP - NCRMP
+  - title: NCRMP Survey Methods
     children:
  #     - title: "Coral Demography"
  #       url: /surveys/ctdh2o_survey_template
@@ -20,9 +20,9 @@ docs:
         url: /surveys/benthic_cover
       - title: "Carbonate Budgets"
         url: /surveys/carbonate_budgets
-      - title: "CTD - DIC Water Sampling"
+      - title: "CTD - Water Sampling"
         url: /surveys/ctdh2o
-      - title: "Fish Stationary-Point-Count (SPC)"
+      - title: "Fish SPC"
         url: /surveys/fish_spc
       - title: "SfM Photogrammetry"
         url: /surveys/sfm
@@ -31,10 +31,10 @@ docs:
 #        url: /surveys/strs
 #      - title: "Carbonate budgets"
 #        url: /surveys/carbonate-budgets
-  - title: CRCP - OTHER
-    children:
-      - title: "Land-based Sources of Pollution (LBSP)"
-        url: /surveys/lbsp
+#  - title: CRCP - OTHER
+#    children:
+#      - title: "Land-based Sources of Pollution (LBSP)"
+#        url: /surveys/lbsp
 
  # - title: Alt Templates
  #   children: 

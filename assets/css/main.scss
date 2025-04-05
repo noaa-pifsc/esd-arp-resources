@@ -7,3 +7,53 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Sidebar overall text */
+.sidebar {
+    color: #001743; // general sidebar text color
+    font-size: 1rem;
+    font-weight: bold;         // Make it bold
+
+  }
+  
+/* Make sidebar navigation section titles larger */
+.sidebar .nav__sub-title {
+    font-size: 1.25rem;   // or try 1.5rem for even bigger
+    font-weight: bold;    // optional
+    color: #004391;        // optional: set a custom color
+    text-transform: none; // optional: remove all caps
+  }
+  
+  /* Targeting the site title in the sidebar */
+.sidebar .site-title {
+    font-size: 2rem;           // Increase site title size (adjust to your liking)
+    color: #003087;            // Change color (optional)
+    font-weight: bold;         // Make title bold (optional)
+    margin-bottom: 1rem;       // Adjust space below the title
+  }
+  
+  /* Targeting other parent/section elements in the sidebar (e.g., for widgets) */
+.sidebar__header {
+    font-size: 1.25rem;        // Larger size for section headers
+    color: #444;               // Change color (optional)
+    font-weight: bold;         // Make it bold
+  }
+  
+  
+  /* Navigation links */
+.sidebar .nav__list a {
+    color: #001743;            // Change link color
+    font-size: 1rem;        // Adjust link size
+  }
+  
+.sidebar .nav__list a:hover {
+    color: #0085CA;         // Hover color for links
+  }
+  
+  /* Optional: navigation section titles */
+.sidebar .nav__title {
+    color: #888;            // Subsection headers (like "Posts", "Categories")
+    font-size: 0.95rem;
+    text-transform: uppercase;
+  }
+  
