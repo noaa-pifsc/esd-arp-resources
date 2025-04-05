@@ -1,7 +1,10 @@
 <nav class="nav__list">
-  {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
+  {% if page.sidebar.title %}
+    <h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>
+  {% endif %}
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
+
   <ul class="nav__items">
     {% for navname in include.nav %}
       {% assign navigation = site.data.navigation[navname] %}
@@ -12,6 +15,10 @@
           {% else %}
             <span class="nav__sub-title">{{ nav.title }}</span>
           {% endif %}
+
+          {%- if nav.subtitle -%}
+            <div class="nav__subtitle">{{ nav.subtitle }}</div>
+          {%- endif -%}
 
           {% if nav.children != null %}
           <ul>

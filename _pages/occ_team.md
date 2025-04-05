@@ -54,6 +54,9 @@ feature_row6:
 {% include feature_row id="feature_row3" type="right" %}
 {% include feature_row id="feature_row4" type="left" %}
 
+## Why do we survey
+By revisiting these sites in regions since 2013 we can monitor the impact of changing ocean conditions to coral reefs to inform management decisions. The methodologies we use are chosen to leverage the usability and reproducibility of our data such that it can be integrated with other datasets.
+
 ## GitHub Repositories
 <ul>
 <li><a href="https://github.com/hannahbarkley/reefbudgetR" target ="_blank">Carbonate Budgets Scripts & Calcification Rates Database</a></li>

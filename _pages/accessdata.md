@@ -71,12 +71,12 @@ feature_row4:
 # Visualize NCRMP Random Site Data via  <a href ="https://ncrmp.coralreef.noaa.gov/">NOAA Data Viz Tool</a> / NOAA GeoPlatform
 - Browse by dashboard type to view and download data. For caveats and more on the NCRMP program, including surveys in the Atlantic <a href = " https://noaa.hub.arcgis.com/pages/4976333fbf884f26b2fdc9ac51a20576" target = "_blank">here</a>.<br><i>Note: this only includes <b>random</b> site data.</i>
 
-
+<br>
 # Raw Data via NCEI / Described on InPort
 - Raw data is archived with NCEI within Collections and can be searched using <a href ="https://data.noaa.gov/onestop/">NOAA's OneStop Platform</a>.
 - NCRMP data is typically submitted by mission, and each dataset will have a specific landing page with NCEI. To access links for all missions for a given datastream, see the InPort metadata record.
 - When searching data, note the distinction for site type and region. For example fixed-site imagery is described separately from random site imagery for each distinct region. For convenience, Ecosystem Sciences Division InPort metadata can be browsed here: [Browse Available ESD Metadata](/metadata_catalog/){: .custom-button} or you may browse within the InPort <a href = "https://www.fisheries.noaa.gov/inport/item/2712" target ="_blank">PIFSC CREP Metadata Portfolio</a>. 
-<br><br>
+<br>
 
 <div style="display: flex; gap: 1rem; align-items: flex-start; flex-wrap: wrap;">
   <div style="flex: 1; min-width: 250px;">
@@ -89,21 +89,26 @@ feature_row4:
   </div>
 </div>
 
+<br>
+
 # SfM/Photogrammetry Imagery via Google Cloud Bucket (NODD)
 - Due to the size of structure-from-motion (SfM) imagery, raw imagery as well as products are available via our <a href= "https://console.cloud.google.com/storage/browser/nmfs_odp_pifsc/PIFSC/ESD/ARP/Photogrammetric%20Imagery" target ="_blank">Google Cloud Bucket</a>. Raw imagery is archived with NCEI and available on the <a href ="https://www.ncei.noaa.gov/access/ocean-exploration/video/" target = "_blank"> OER Portal</a>.
 - For assistance and tools on how to adopt a similar strategy at your institution, contact the Data Services Team at <a href = "mailto:nmfs.pic.credinfo@noaa.gov">nmfs.pic.credinfo@noaa.gov</a>.
 
 
+<br>
 
 # R Processing Scripts
 -  Our data is still being updated into public-ready form and will become available on <a href = "https://github.com/noaa-pifsc" target = "_blank">PIFSC github</a>.
 
 
----
-
+<br>
 # Public Tools
 See our PIFSC github for python-based tools to assist with processing imagery for NODD, imagery validation, etc.
-<br> 
+<br>
+
+***
+
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="left" %}
 {% include feature_row id="feature_row4" type="left" %}
