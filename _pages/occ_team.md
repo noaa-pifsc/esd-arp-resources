@@ -50,24 +50,19 @@ feature_row6:
   btn_label: "Placeholder"
   btn_class: "btn--primary"
 ---
-### Summary
-
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="right" %}
 {% include feature_row id="feature_row4" type="left" %}
 
-### Why do we conduct these surveys
-By revisiting these sites in regions since 2013 we can monitor the impact of changing ocean conditions to coral reefs to inform management decisions. The methodologies we use are chosen to leverage the usability and reproducibility of our data such that it can be integrated with other datasets.
-
-### GitHub Repositories
+## GitHub Repositories
 <ul>
 <li><a href="https://github.com/hannahbarkley/reefbudgetR" target ="_blank">Carbonate Budgets Scripts & Calcification Rates Database</a></li>
 </ul>
 
-### Access Data
+## Access Data
 The NCRMP Visualization tool hosts water samples for <b>random sites</b>. Water chemistry (including for fixed sites) is archived with OCADS, and all other data is organized in NCEI collections and cataloged in our <a href = "https://www.fisheries.noaa.gov/inport/item/28844" target = "_blank">NCRMP metadata catalog</a> for each distinct region.  Refer to <a href = "/sops/">'Methods'</a> for details on specific surveys.
 
-#### Contact
+## Contact
 <ul>
 <li>Principal Investigator: Hannah Barkley <a href="mailto:hannah.barkley@noaa.gov">(hannah.barkley@noaa.gov)</a></li>
 <li>Data Services Team: <a href="mailto:nmfs.pic.credinfo@noaa.gov">nmfs.pic.credinfo@noaa.gov</a></li>

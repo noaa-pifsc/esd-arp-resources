@@ -53,13 +53,13 @@ feature_row5:
 {% include feature_row id="feature_row5" type="right" %}
 
 
-### Why do we survey
+## Why do we survey
 By revisiting these regions since 2000, and with a stable, stratified random survey design since 2013, we can monitor and see how coral reef ecosystems are changing over time such as higher or lower coral cover, or coral recruitment or loss. We produce technical memoranda for policy makers that provide a summary of the status of coral reefs and inform management decisions. We can also integrate our benthic data with our fish and oceanographic data to investigate patterns in ecosystem shifts.
 
-### GitHub Repository
+## GitHub Repository
 Currently we are working on making our scripts, such as one to summarize CoralNet data, public. Please contact us if you would like access.
 
-### Access Data
+## Access Data
 <ul>
 <li>
 Under <a href= "/products/">'Products' </a>you can visualize and access our data using the NCRMP Visualization tool. </li>
@@ -68,7 +68,7 @@ Under <a href= "/products/">'Products' </a>you can visualize and access our data
 <li>Access SfM imagery with <a href = "https://console.cloud.google.com/storage/browser/nmfs_odp_pifsc/PIFSC/ESD/ARP/Photogrammetric%20Imagery" target ="_blank">NODD Google Cloud bucket</a>, or make a request through the <a href ="https://www.ncei.noaa.gov/access/ocean-exploration/video/" target = "_blank">OER Portal</a>.</li>
 </ul>
 
-### Contact
+## Contact
 <ul>
 <li>Principal Investigator: Thomas Oliver <a href="mailto:thomas.oliver@noaa.gov"> (thomas.oliver@noaa.gov)</a></li>
 <li>Data Services Team: <a href="mailto:nmfs.pic.credinfo@noaa.gov">nmfs.pic.credinfo@noaa.gov</a></li>
