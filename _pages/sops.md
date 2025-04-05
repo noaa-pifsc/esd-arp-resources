@@ -2,7 +2,7 @@
 title: Survey Methods
 layout: single
 permalink: /sops/
-excerpt: "Access our survey method standard protocols."
+excerpt: "Standard protocols, data sheets, and R code."
 header:
   overlay_color: "#CBDAC5"
   overlay_filter: "0.4"
@@ -15,8 +15,7 @@ sidebar:
   nav: "docs"
 ---
 
-# Common SOPs
-Use the sidebar on the left to access resources for each type of survey, or browse the most requested Standard-Operating-Procedures (SOP) below:
+# Standard Operating Procedures
 
 ## Benthic Surveys
 <ul>

@@ -92,13 +92,15 @@ feature_row4:
 # SfM/Photogrammetry Imagery via Google Cloud Bucket (NODD)
 - Due to the size of structure-from-motion (SfM) imagery, raw imagery as well as products are available via our <a href= "https://console.cloud.google.com/storage/browser/nmfs_odp_pifsc/PIFSC/ESD/ARP/Photogrammetric%20Imagery" target ="_blank">Google Cloud Bucket</a>. Raw imagery is archived with NCEI and available on the <a href ="https://www.ncei.noaa.gov/access/ocean-exploration/video/" target = "_blank"> OER Portal</a>.
 - For assistance and tools on how to adopt a similar strategy at your institution, contact the Data Services Team at <a href = "mailto:nmfs.pic.credinfo@noaa.gov">nmfs.pic.credinfo@noaa.gov</a>.
+<br>
 
 # R Processing Scripts
 -  Our data is still being updated into public-ready form and will become available on <a href = "https://github.com/noaa-pifsc" target = "_blank">PIFSC github</a>.
+<br>
 
 # Public Tools
 See our PIFSC github for python-based tools to assist with processing imagery for NODD, imagery validation, etc.
-
+<br> 
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="left" %}
 {% include feature_row id="feature_row4" type="left" %}
