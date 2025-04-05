@@ -11,7 +11,7 @@ header:
   overlay_filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5))
 
 survey_type: Providing a snapshot of fish assemblages across Pacific coral reefs
-survey_description:  SOP, data processing and R code can be accessed in this <a href = "https://doi.org/10.1038/sdata.2017.176" target ="_blank">2017 publication</a> and other aspects of rapid ecological assessment (REA) survey methods are also described in this <a href = "https://doi.org/10.7289/v5sn06zt" target ="_blank">2015 SOP</a>.  Surveys are conducted in hard-bottom habitat in water < 30 m, following a stratified-random sampling site design (StRS). Random sites are generated across islands using reef zone, depth zone, pre-determined sectors, and locations of known hard-bottom habitat (typically from backscatter data), using the R project <a href = "https://github.com/krtanaka/ncrmp_common_map" target = "_blank">ncrmp_common_map</a>. 
+survey_description:  SOP, data processing and R code can be accessed in this <a href = "https://doi.org/10.1038/sdata.2017.176" target ="_blank">2017 publication</a> and other aspects of rapid ecological assessment (REA) survey methods are also described in this <a href = "https://doi.org/10.7289/v5sn06zt" target ="_blank">2015 SOP</a>.  Surveys are conducted in hard-bottom habitat in water <30 m, following a stratified-random sampling site design (StRS). Random sites are generated across islands using reef zone, depth zone, pre-determined sectors, and locations of known hard-bottom habitat (typically from backscatter data), using the R project <a href = "https://github.com/krtanaka/ncrmp_common_map" target = "_blank">ncrmp_common_map</a>. 
 # description: "Template sample description"
 sidebar:
   nav: "docs"

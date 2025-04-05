@@ -47,17 +47,17 @@ feature_row5:
 {% include feature_row id="feature_row3" type="right" %}
 {% include feature_row id="feature_row4" type="left" %}
 
-### Why do we survey
-In accordance with the NCRMP goals and objectives, the reef-fish data are collected in a consistent, standardized manner across the U.S. and U.S.-affiliated territories in the Western and Central Pacific, spanning wide gradients in both natural drivers and human impact. The resulting datasets serve four main purposes: 
-1. Fulfill NCRMP mandates to assess the status and trends of reef fish assemblages across coral reefs of the U.S. 
-2. Provide data in support of coral reef fisheries stocks;
-3. Support federal and jurisdictional management by providing a broad spatial context to status and trends apparent from spatially smaller-scale surveys conducted by those agencies
-4. Generate a consistent and large-scale dataset as a resource for the scientific community. In synchrony with our other reef surveys, we can also investigate potential patterns with environmental or benthic changes
+## Why do we survey
+As part of NCRMP’s goals, we collect reef fish data the same way across all U.S. and U.S.-affiliated areas in the Western and Central Pacific. This includes places with different natural conditions and levels of human activity. The data we collect helps us:
+1. Track the health and changes in reef fish communities over time.
+2. Support efforts to manage coral reef fish populations.
+3. Give federal and local managers a big-picture view to complement smaller local surveys.
+4. Provide a reliable, large-scale dataset that scientists can use for research.
 
-### Access Data
+## Access Data
 Under <a href = "/products/">'Products'</a> you can visualize and access our data using the NCRMP Visualization tool. You can go to <a href = "/sops/">'Methods'</a> to see access for specific datasets. For raw data, our data is organized in NCEI collections.  Browse datasets in the <a href = "https://www.fisheries.noaa.gov/inport/item/28844" target = "_blank">NCRMP metadata catalog</a> for each distinct region; legacy datasets are described in the <a href = "https://www.fisheries.noaa.gov/inport/item/21559" target ="_blank">Ecosystem Monitoring and Assessment subfolder</a>.
 
-### Contact
+## Contact
 <ul>
 <li>Principal Investigator: Tye Kindinger <a href="mailto:tye.kindinger@noaa.gov">(tye.kindinger@noaa.gov)</a></li>
 <li>Data Services Team: <a href="mailto:nmfs.pic.credinfo@noaa.gov">nmfs.pic.credinfo@noaa.gov</a></li>

@@ -12,7 +12,7 @@ header:
      - label: "Read about the ESD"
        url: "https://www.fisheries.noaa.gov/pacific-islands/ecosystems/surveying-vast-pacific-ocean"
  caption: "2024 NCRMP Main Hawaiian Islands Team. Photo Credit: NOAA Fisheries"
-excerpt: The Archipelagic Research Program is composed of ~20 members working as technicians, coordinators, analysts, lead scientists, operations, and data support.  Our work is facilitated by CIMAR within NOAA. We work and collaborate within the Ecosystem Sciences Division (ESD), across divisions, and with programs outside of NOAA. 
+excerpt: The Archipelagic Research Program is composed of approximately twenty members working as technicians, coordinators, analysts, lead scientists, operations, and data support.  Our work is facilitated by CIMAR in support of NOAA Fisheries. We work and collaborate across other PIFSC divisions and with partners across the U.S. Pacific Islands region. 
 feature_row5:
 - image_path: /assets/images/upcoming_cruise.jpg
   alt: "pacific islands region survey area image"
