@@ -4,7 +4,7 @@ title: "NCRMP: Benthic Cover"
 permalink: /surveys/benthic_cover
 header:
   overlay_color: "#000"
-  overlay_image: assets\images\pq_sample.jpg
+  overlay_image: assets/images/pq_sample.jpg
   caption: "Example of 1 of 30 photoquadrat images taken at a site. Source: CoralNET CREP-REA-HAWAII."
   overlay_filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5))
 sidebar:
@@ -20,7 +20,7 @@ sop_text: "Ecosystem Sciences Division Standard Operating Procedures: Data Colle
 url_sop: https://doi.org/10.25923/ws5s-km69
 datasheets_text: "The 'DiveNav' sheet is used to collect metadata for site, latitude, longitude, date, reef zone, and habitat type."
 url_datasheets: /surveys/benthic/datasheets
-access_rawdata_text: Raw data is archived with NCEI. Links for each year are listed in the 'Distribution Information'section of respective InPort metadata records -  <a href = "https://www.fisheries.noaa.gov/inport/item/36155" target = "_blank"> Hawaiian Archipelago since 2013 </a> - <a href = "https://www.fisheries.noaa.gov/inport/item/25274" target = "_blank"> American Samoa since 2015 </a> - <a href = "https://www.fisheries.noaa.gov/inport/item/36156" target = "_blank"> Mariana Archipelago since 2014</a> - <a href = "https://www.fisheries.noaa.gov/inport/item/36157" target = "_blank"> Pacific Remote Island Areas since 2014 </a>.
+access_rawdata_text: Raw data is archived with NCEI. Links for each year are listed in the 'Distribution Information'section of respective InPort metadata records -  <a href = "https://www.fisheries.noaa.gov/inport/item/36155" target = "_blank"> Hawaiian Archipelago since 2013 </a> - <a href = "https://www.fisheries.noaa.gov/inport/item/25274" target = "_blank"> American Samoa since 2015 </a> - <a href = "https://www.fisheries.noaa.gov/inport/item/36156" target = "_blank"> Mariana Archipelago since 2014</a> - <a href = "https://www.fisheries.noaa.gov/inport/item/36157" target = "_blank"> Pacific Remote Island Areas since 2014</a>.
 r_code_text: Contact Thomas Oliver <a href = "mailto:thomas.oliver@noaa.gov">(thomas.oliver@noaa.gov)</a> for processing scripts.
 
 ---
