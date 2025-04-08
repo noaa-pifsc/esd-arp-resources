@@ -15,7 +15,7 @@ sidebar:
   nav: "docs"
 ---
 
-# Standard Operating Procedures
+# Common Standard Operating Procedures
 
 ## Benthic Surveys
 <ul>
