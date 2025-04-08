@@ -9,7 +9,8 @@ Developed by Lori Luers with minimal-mistakes Jekyll theme.
 Featuring new layouts for:
 - survey template <survey_template_single.html>
 - research theme <team_template.html>
-- publications <pubilcations.html>
+- publications <pubilcations.html> -- to utilize, use Zotero Library Access API & some python to wrangle the data 
+- metadata_catalog <metadata_catalog.html> -- to utilize, obtain CSV from InPort librarian of CREP Metadata Portfolio
   
 ## Prerequisites
 - Jekyll (check version) which is a Ruby Gem
