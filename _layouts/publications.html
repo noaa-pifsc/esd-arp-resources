@@ -16,7 +16,7 @@ title: "Publications"
     <thead>
         <tr>
             <th>Title</th>
-            <th>Creators</th>
+            <th>Creator(s)</th>
             <th>Year</th>
             <th>DOI</th>
             <th>ISSN</th>
@@ -29,74 +29,59 @@ title: "Publications"
     </tbody>
 </table>
 
-<!-- JavaScript to load and display CSV data -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+<!-- JavaScript to load and display data -->
 <script>
-    let publicationsData = []; // To store CSV data
+// Load the YAML data using Jekyll's built-in 'site.data' feature
+let publicationsData = {{ site.data.filtered_pifsc_publications | jsonify }}; // Fetch data from filtered_pifsc_publications.yml
 
-    // Function to fetch and display CSV data
-    function loadPublications() {
-        Papa.parse('/assets/csv/filtered_pifsc_publications.csv', {
-            download: true,
-            header: true,
-            dynamicTyping: true,
-            complete: function(results) {
-                publicationsData = results.data;
-                renderTable(sortByYear(publicationsData)); // Initial render
-            },
-            error: function(error) {
-                console.error("Error loading CSV:", error);
-            }
-        });
-    }
+// Function to filter by multiple keywords
+function filterByKeywords() {
+    const query = document.getElementById("keyword-filter").value.toLowerCase().trim();
+    const keywords = query.split(/\s+/); // Split input into multiple keywords
 
-    // Function to filter by multiple keywords
-    function filterByKeywords() {
-        const query = document.getElementById("keyword-filter").value.toLowerCase().trim();
-        const keywords = query.split(/\s+/); // Split input into multiple keywords
-
-        const filteredData = query
-            ? publicationsData.filter(pub =>
-                keywords.every(keyword => 
-                    Object.values(pub).some(value =>
-                        value && value.toString().toLowerCase().includes(keyword) // Check all fields
-                    )
+    const filteredData = query
+        ? publicationsData.filter(pub =>
+            keywords.every(keyword => 
+                Object.values(pub).some(value =>
+                    value && value.toString().toLowerCase().includes(keyword) // Check all fields
                 )
             )
-            : publicationsData; // Show all if no keyword entered
+        )
+        : publicationsData; // Show all if no keyword entered
 
-        renderTable(sortByYear(filteredData));
+    renderTable(sortByYear(filteredData));
+}
+
+// Function to sort publications by year (descending)
+function sortByYear(data) {
+    return data.sort((a, b) => (b.year || 0) - (a.year || 0)); // Handle missing year as 0
+}
+
+// Function to render the table
+function renderTable(data) {
+    const tableBody = document.querySelector("#publications-table tbody");
+    tableBody.innerHTML = ""; // Clear table
+
+    if (data.length === 0) {
+        tableBody.innerHTML = `<tr><td colspan="7">No publications found.</td></tr>`;
+        return;
     }
 
-    // Function to sort publications by year (descending)
-    function sortByYear(data) {
-        return data.sort((a, b) => (b.year || 0) - (a.year || 0)); // Handle missing year as 0
-    }
+    data.forEach(pub => {
+        const row = document.createElement("tr");
+        row.innerHTML = `
+            <td>${pub.title || "N/A"}</td>
+            <td>${pub.creators || "N/A"}</td>
+            <td>${pub.year || "N/A"}</td>
+            <td>${pub.doi || "N/A"}</td>
+            <td>${pub.issn || "N/A"}</td>
+            <td>${pub.url ? `<a href="${pub.url}" target="_blank">Link</a>` : "N/A"}</td>
+            <td>${pub.region || "N/A"}</td>
+        `;
+        tableBody.appendChild(row);
+    });
+}
 
-    // Function to render the table
-    function renderTable(data) {
-        const tableBody = document.querySelector("#publications-table tbody");
-        tableBody.innerHTML = ""; // Clear table
-
-        if (data.length === 0) {
-            tableBody.innerHTML = `<tr><td colspan="7">No publications found.</td></tr>`;
-            return;
-        }
-
-        data.forEach(pub => {
-            const row = document.createElement("tr");
-            row.innerHTML = `
-                <td>${pub.title || "N/A"}</td>
-                <td>${pub.creators || "N/A"}</td>
-                <td>${pub.year || "N/A"}</td>
-                <td>${pub.doi || "N/A"}</td>
-                <td>${pub.issn || "N/A"}</td>
-                <td>${pub.url ? `<a href="${pub.url}" target="_blank">Link</a>` : "N/A"}</td>
-                <td>${pub.region || "N/A"}</td>
-            `;
-            tableBody.appendChild(row);
-        });
-    }
-
-    window.onload = loadPublications;
+// Initialize the page with sorted publications
+window.onload = () => renderTable(sortByYear(publicationsData)); // Initial render
 </script>

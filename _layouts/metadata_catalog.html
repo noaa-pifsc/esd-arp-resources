@@ -4,89 +4,76 @@ title: "Metadata Catalog"
 sidebar:
   nav: "docs"
 ---
-  <div class="main-content">
-    <h1>Browse Available Data</h1>
 
-    <!-- Filter Inputs -->
-    <div id="filter">
-      <label for="keyword-filter">Filter Results:</label>
-      <input type="text" id="keyword-filter" oninput="filterByKeywords()" placeholder="Enter keyword(s) here">
-    </div>
+<div class="main-content">
+  <h1>Browse Available Data</h1>
 
-    <!-- Table to display publications -->
-    <div id="table">
-      <table id="metadata-table">
-        <thead>
-          <tr>
-            <th>Title</th>
-            <th>CatID</th>
-            <th>Link_</th>
-            <th>Theme</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- Data will be inserted here by JavaScript -->
-        </tbody>
-      </table>
-    </div>
+  <!-- Filter Inputs -->
+  <div id="filter">
+    <label for="keyword-filter">Filter Results:</label>
+    <input type="text" id="keyword-filter" oninput="filterByKeywords()" placeholder="Enter keyword(s) here">
+  </div>
+
+  <!-- Table to display publications -->
+  <div id="table">
+    <table id="metadata-table">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>CatID</th>
+          <th>Link_</th>
+          <th>Theme</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data will be inserted here by JavaScript -->
+      </tbody>
+    </table>
   </div>
 </div>
 
-<!-- JavaScript to load and display JSON data -->
 <script>
-  let inportData = [];
+// Access metadata from YAML
+let inportData = {{ site.data.crep_inport | jsonify }}; // Converts the YAML to JavaScript
 
-  function loadMetadata() {
-    fetch('/assets/json/crep_inport.json')
-      .then(response => response.json())
-      .then(data => {
-        if (data.items && Array.isArray(data.items)) {
-          inportData = data.items;  // Access the items array
-          console.log("Loaded JSON Data:", inportData);
-          renderTable(inportData);
-        } else {
-          console.error("Error: 'items' is not an array or missing in the JSON data.");
-        }
-      })
-      .catch(error => console.error("Error loading JSON:", error));
-  }
+// Function to filter by multiple keywords
+function filterByKeywords() {
+  const query = document.getElementById("keyword-filter").value.toLowerCase().trim();
+  const keywords = query.split(/\s+/); // Split input into multiple keywords
 
-  function filterByKeywords() {
-    const query = document.getElementById("keyword-filter").value.toLowerCase().trim();
-    const keywords = query.split(/\s+/);
-
-    const filteredData = query
-      ? inportData.filter(met =>
-          keywords.every(keyword =>
-            (met.title && met.title.toLowerCase().includes(keyword)) ||
-            (met.theme && met.theme.toLowerCase().includes(keyword))
-          )
+  const filteredData = query
+    ? inportData.filter(met =>
+        keywords.every(keyword =>
+          (met.TITLE && met.TITLE.toLowerCase().includes(keyword)) ||
+          (met.THEME && met.THEME.toLowerCase().includes(keyword))
         )
-      : inportData;
+      )
+    : inportData; // Show all if no keyword entered
 
-    renderTable(filteredData);
+  renderTable(filteredData);
+}
+
+// Function to render the table
+function renderTable(data) {
+  const tableBody = document.querySelector("#metadata-table tbody");
+  tableBody.innerHTML = "";  // Clear existing table rows
+
+  if (data.length === 0) {
+    tableBody.innerHTML = `<tr><td colspan="4">No results found.</td></tr>`;
+    return;
   }
 
-  function renderTable(data) {
-    const tableBody = document.querySelector("#metadata-table tbody");
-    tableBody.innerHTML = "";  // Clear existing table rows
+  data.forEach(met => {
+    const row = document.createElement("tr");
+    row.innerHTML = `
+      <td>${met.TITLE || "N/A"}</td>
+      <td>${met.CATID || "N/A"}</td>
+      <td>${met.LINK_ ? `<a href="${met.LINK_}" target="_blank">Link</a>` : "N/A"}</td>
+      <td>${met.THEME || "N/A"}</td>
+    `;
+    tableBody.appendChild(row);
+  });
+}
 
-    if (data.length === 0) {
-      tableBody.innerHTML = `<tr><td colspan="4">No results found.</td></tr>`;
-      return;
-    }
-
-    data.forEach(met => {
-      const row = document.createElement("tr");
-      row.innerHTML = `
-        <td>${met.title || "N/A"}</td>
-        <td>${met.catid || "N/A"}</td>
-        <td>${met.link_ ? `<a href="${met.link_}" target="_blank">Link</a>` : "N/A"}</td>
-        <td>${met.theme || "N/A"}</td>
-      `;
-      tableBody.appendChild(row);
-    });
-  }
-
-  window.onload = loadMetadata;
+window.onload = () => renderTable(inportData);  // Initial render
 </script>
