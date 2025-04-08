@@ -11,6 +11,9 @@ header:
 
   #overlay_filter: linear-gradient(rgba(0, 0, 0, 0.4), rgba(255, 255, 255, 0.41))
   caption: "Photo credit: NOAA Fisheries"
+  actions:
+   - label: "Browse Metadata"
+     url: /metadata_catalog/
 feature_row2:
 - image_path: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmcO5tHXjtN5CEzy1KMGDeVuLNn52DYvVttw&s
   alt: "coris image"
