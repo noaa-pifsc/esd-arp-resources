@@ -22,7 +22,7 @@ title_separator          : "|"
 subtitle                 : "ARP Path to Open Science: methods, data access, and tools"
 name                     : "Lori Luers"
 description              : "Mock-up of centralized ARP website"
-url                      : "https://noaa-pifsc.github.io/esd-arp-resources/"
+url                      : "https://noaa-pifsc.github.io/esd-arp-resources/tree/main"
 baseurl                  : # "/noaa-pifsc/esd-arp-resources"
 repository               : # noaa-pifsc/test-arp-website
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
