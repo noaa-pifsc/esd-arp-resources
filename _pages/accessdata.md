@@ -80,7 +80,7 @@ feature_row4:
 
 <div style="display: flex; gap: 1rem; align-items: flex-start; flex-wrap: wrap;">
   <div style="flex: 1; min-width: 250px;">
-    <img src="/assets/images/Methods-Island-Scale-Surveys-PIFSC.png" alt="Fixed vs Random Site Island Scale" style="width: 100%;">
+<img src="{{ '/assets/images/Methods-Island-Scale-Surveys-PIFSC.png' | relative_url }}" alt="Fixed vs Random Site Island Scale" style="width: 100%;">
     <p><em>Diagram illustrating fixed versus random site locations for a given hypothetical island. Credit: NOAA Fisheries</em></p>
   </div>
   <div style="flex: 1; min-width: 250px;">
