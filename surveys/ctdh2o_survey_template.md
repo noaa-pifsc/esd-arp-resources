@@ -14,7 +14,7 @@ survey_type: Monitoring ocean chemistry
 survey_description: Water samples are collected simultaneously with CTD casts. Water samples are analyzed for carbonate chemistry while CTD casts provide information on the temperature and salinity profile at the site.
 sidebar:
   nav: "docs"
-how_to_download: Water sample data is archived with OCADS and NCEI and CTD data is only on NCEI.
+how_to_download: Water chemistry data is archived with <a href = "https://www.ncei.noaa.gov/products/ocean-carbon-acidification-data-system">OCADS</a> and CTD data is only on NCEI.
 sop_text: CTD and Water Sampling in the Pacific - updated 06/2023
 url_sop: https://www.ncei.noaa.gov/data/oceans/coris/library/NOAA/CRCP/monitoring/protocols/NCRMP_Climate_WaterSamplingPacific.pdf
 datasheets_text: "Metadata collected for CTD and water samples"
