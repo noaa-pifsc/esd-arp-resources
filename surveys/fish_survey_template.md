@@ -23,7 +23,7 @@ url_sop: https://doi.org/10.7289/v5sn06zt
 
 datasheets_text: "Includes data entry for fish observations with benthic estimate data and/or structure-from-motion belts, printouts for the Secchi disk (for other side of dive slate to measure visibility), and a pre-dive boat box gear checklist."
 
-url_datasheets: /surveys/fish/datasheets
+url_datasheets: "/surveys/fish/datasheets"
 
 access_rawdata_text: Raw data is archived with NCEI. Links for each year are listed in the 'Distribution Information' section of respective InPort metadata records -  <a href = "https://www.fisheries.noaa.gov/inport/item/24447" target = "_blank"> Hawaiian Archipelago since 2013 </a> - <a href = "https://www.fisheries.noaa.gov/inport/item/34520" target = "_blank"> American Samoa since 2015 </a> - <a href = "https://www.fisheries.noaa.gov/inport/item/34518" target = "_blank"> Mariana Archipelago since 2014</a> - <a href = "https://www.fisheries.noaa.gov/inport/item/34519" target = "_blank"> Pacific Islands Heritage Marine National Monument since 2014 </a>. Access Pacific-wide data from <a href ="https://www.fisheries.noaa.gov/inport/item/5566">2000 - 2007 </a> and <a href ="https://www.fisheries.noaa.gov/inport/item/34515">2007 - 2012</a>.
 r_code_text: Contact Tye Kindinger <a href = "mailto:tye.kindinger@noaa.gov">(tye.kindinger@noaa.gov)</a> for processing scripts.
