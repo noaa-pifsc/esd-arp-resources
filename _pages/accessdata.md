@@ -75,7 +75,7 @@ feature_row4:
 # Raw Data via NCEI / Described on InPort
 - Raw data is archived with NCEI within Collections and can be searched using <a href ="https://data.noaa.gov/onestop/">NOAA's OneStop Platform</a>.
 - NCRMP data is typically submitted by mission, and each dataset will have a specific landing page with NCEI. To access links for all missions for a given datastream, see the InPort metadata record.
-- When searching data, note the distinction for site type and region. For example fixed-site imagery is described separately from random site imagery for each distinct region. For convenience, Ecosystem Sciences Division InPort metadata can be browsed here: [Browse Available ESD Metadata](/metadata_catalog/){: .custom-button} or you may browse within the InPort <a href = "https://www.fisheries.noaa.gov/inport/item/2712" target ="_blank">PIFSC CREP Metadata Portfolio</a>. 
+- When searching data, note the distinction for site type and region. For example fixed-site imagery is described separately from random site imagery for each distinct region. For convenience, Ecosystem Sciences Division InPort metadata can be browsed here: [Browse Available ESD Metadata]({{ site.url }}/metadata_catalog/){: .custom-button} or you may browse within the InPort <a href = "https://www.fisheries.noaa.gov/inport/item/2712" target ="_blank">PIFSC CREP Metadata Portfolio</a>. 
 <br>
 
 <div style="display: flex; gap: 1rem; align-items: flex-start; flex-wrap: wrap;">
