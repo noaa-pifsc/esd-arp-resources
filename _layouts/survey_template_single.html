@@ -7,7 +7,7 @@ layout: single
 
 <div class="survey-content">
   <figure>
-    <img src="{{ page.main_image }}" width="250" height="auto" align="right" hspace="10" vspace="10" />
+    <img src="{{ page.main_image | relative_url }}" width="250" height="auto" align="right" hspace="10" vspace="10" />
     <figcaption>{{ page.main_image_caption }}</figcaption>
   <!-- You can add more content or structure for the survey -->
 
@@ -26,8 +26,8 @@ layout: single
     <div class="archive__item">
       
         <div class="archive__item-teaser">
-          <img src="/assets/images/default-sop.jpg"
-               alt="sops">
+          <img src="{{ '/assets/images/default-sop.jpg' | relative_url }}" alt="sops">
+
           
         </div>
       
@@ -63,8 +63,7 @@ layout: single
     <div class="archive__item">
       
         <div class="archive__item-teaser">
-          <img src="/assets/images/default-datasheets.jpg"
-               alt="data sheets">
+          <img src="{{ '/assets/images/default-datasheets.jpg' | relative_url }}" alt="data sheets">
           
         </div>
       
@@ -99,8 +98,7 @@ layout: single
     <div class="archive__item">
       
         <div class="archive__item-teaser">
-          <img src="/assets/images/default-rawdata.jpg"
-               alt="access raw data">
+          <img src="{{ '/assets/images/default-rawdata.jpg' | relative_url }}" alt="access raw data">
           
         </div>
       
@@ -135,9 +133,7 @@ layout: single
     <div class="archive__item">
       
         <div class="archive__item-teaser">
-          <img src="/assets/images/default-rcode.jpg"
-               alt="R code">
-          
+          <img src="{{ '/assets/images/default-rcode.jpg' | relative_url }}" alt="R code">
         </div>
       
 
