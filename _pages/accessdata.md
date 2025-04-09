@@ -87,8 +87,8 @@ feature_row4:
     <p><em>Diagram illustrating fixed versus random site locations for a given hypothetical island. Credit: NOAA Fisheries</em></p>
   </div>
   <div style="flex: 1; min-width: 250px;">
-    <img src="https://www.fisheries.noaa.gov/s3/styles/full_width/s3/dam-migration/pifsc.png?itok=SmTJPyV8" alt="Pacific Island Regions" style="width: 100%;">
-    <p><em>Data may be organized into Hawaiian Archipelago, Mariana Archipelago, American Samoa, and Pacific Heritage Islands Marine National Monument (formerly Pacific Remote Island Areas or PRIAs). Credit: NOAA Fisheries</em></p>
+    <img src="https://www.fisheries.noaa.gov/s3//styles/media_750_x500/s3/2024-06/1138x720-Pacific-Islands-Region-map-Fisheries-PIFSC.png?itok=5oaDDT8f" alt="Pacific Island Regions" style="width: 100%;">
+    <p><em>Data may be organized into Hawaiian Archipelago, Mariana Archipelago, American Samoa, and Pacific Heritage Islands Marine National Monument (formerly Pacific Remote Island Areas). Credit: NOAA Fisheries</em></p>
   </div>
 </div>
 
