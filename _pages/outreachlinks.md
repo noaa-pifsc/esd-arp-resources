@@ -26,4 +26,3 @@ header:
     <i>Snapshot of 2023 storymap for mission to American Samoa</i>
   </div>
 </div>
-"{{ '/assets/images/default-rcode.jpg' | relative_url }}" 
