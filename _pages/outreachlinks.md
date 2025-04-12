@@ -22,7 +22,8 @@ header:
   </div>
   <div style="width: 50%; text-align: right;">
     <!-- Right side: Image -->
-    <img src="/assets/images/2023_storymap.png" alt="2023 storymap screenshot" style="max-width: 100%; height: auto;">
+    <img src="{{ '/assets/images/2023_storymap.png' | relative_rl }}" alt="2023 storymap screenshot" style="max-width: 100%; height: auto;">
     <i>Snapshot of 2023 storymap for mission to American Samoa</i>
   </div>
 </div>
+"{{ '/assets/images/default-rcode.jpg' | relative_url }}" 
