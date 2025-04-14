@@ -15,7 +15,7 @@ survey_description: Photogrammetric imagery is collected at both random and fixe
 sidebar:
   nav: "docs"
 how_to_download: Raw imagery is archived with NCEI, and is accessible for download by request via OER portal. Both imagery and products are also accessible via NODD Google Cloud Bucket (send requests to <a href = "mailto:nmfs.pic.credinfo@noaa.gov">nmfs.pic.credinfo@noaa.gov</a>).  For non-NCRMP data extracted from imagery, see the NCEI collection for <a href ="https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:PIFSC-SfM-DerivedData" target ="_blank">SfM-derived data</a>.
-sop_text: Collection, processing, and extracting of demographic data.
+sop_text: Collection, processing, and extracting of demographic data. Fixed site SOP <a href = "https://doi.org/10.25923/a9se-k649">here</a>.
 url_sop: https://doi.org/10.25923/cydj-z260
 datasheets_text: Fixed site SfM photogrammetry (spiral) data sheet is included below (random sites are recorded on fish data sheets). <br><i>3D print <a href = "https://www.ncei.noaa.gov/data/oceans/coris/data/NOAA/ncrmp/Sfm_spiral_survey_drum_6in.stl" target ="_blank">6in</a>  and <a href = "https://www.ncei.noaa.gov/data/oceans/coris/data/NOAA/ncrmp/Sfm_spiral_survey_drum_8in.stl" target = "_blank">8in</a> drums to collect SfM spiral imagery.</i>
 url_datasheets: /surveys/sfm/datasheets/FixedSiteSfM_Datasheet_4_2024.pdf

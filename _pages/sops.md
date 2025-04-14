@@ -56,4 +56,8 @@ sidebar:
 - Collecting imagery <br>
 - Processing imagery
 </li>
+<li>
+<a href = "https://www.fisheries.noaa.gov/resource/peer-reviewed-research/extracting-coral-vital-rate-estimates-fixed-sites-using-structure">Extracting Coral Vital Rate Estimates at Fixed Sites Using Structure-from-Motion Standard Operating Procedures</a>
+</li>
+
 </ul>
