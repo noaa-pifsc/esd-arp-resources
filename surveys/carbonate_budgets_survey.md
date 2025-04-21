@@ -17,7 +17,7 @@ survey_description: NCRMP carbonate budget assessments were adapted for U.S. Pac
 sidebar:
   nav: "docs"
 how_to_download: Under 'Distribution' for each InPort record, there are links to each NCEI accession where the raw data is available for download. See R code below for processing scripts and calcification rates referential database.
-sop_text: "Carbonate Budget Assessments in the U.S. Pacific Islands: Report of Methods Comparison Results and Summary of Standard Operating Procedures (2023)."
+sop_text: "Carbonate Budget Report of Methods Comparison Results and Summary of Standard Operating Procedures (2023) linked below. <a href = 'https://link.springer.com/article/10.1007/s00338-025-02660-7'>Estimating coral reef carbonate budgets using Structure-from-Motion photogrammetry</a> 2025 ."
 url_sop: https://doi.org/10.25923/g4hg-7686
 datasheets_text: "Datasheets include site visit metadata / dive nav and urchin data."
 url_datasheets: /surveys/carbbudgets/datasheets

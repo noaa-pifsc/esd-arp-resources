@@ -45,6 +45,7 @@ sidebar:
 </li>
 <li><a href = "https://www.ncei.noaa.gov/data/oceans/coris/library/NOAA/CRCP/monitoring/protocols/NCRMP_Climate_WaterSamplingPacific.pdf"> Water sampling SOP </a> (last updated: 06/2023)
 </li>
+<li><a href = "https://link.springer.com/article/10.1007/s00338-025-02660-7">Estimating coral reef carbonate budgets using Structure-from-Motion photogrammetry</a></li>
 <li><a href = "https://repository.library.noaa.gov/view/noaa/56372"> Carbonate Budgets </a><br>
 - Methods Comparion<br>
 - SOPs</li>
