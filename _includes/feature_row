@@ -33,7 +33,7 @@
           {% if f.buttons %}
           <p>
             {% for button in f.buttons %}
-              <a href="{{ button.url | relative_url }}" target="_blank" class="btn {{ button.btn_class }}">{{ button.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+              <a href="{{ button.url | relative_url }}" class="btn {{ button.btn_class }}">{{ button.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
             {% endfor %}
           </p>
           {% endif %}
