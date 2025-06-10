@@ -54,7 +54,7 @@ feature_row4:
   image_caption: "Photo Credit: Lori Luers"  
   alt: "rainbow in the marianas"
   title: "Contact us"
-  excerpt: "This website is maintained by the Data Services Team (nmfs.pic.credinfo@noaa.gov) on a PIFSC github repository using minimal-mistakes jekyll theme."
+  excerpt: 'This website is maintained by the Data Services Team (<a href = "mailto:nmfs.pic.credinfo@noaa.gov">nmfs.pic.credinfo@noaa.gov</a>) on a PIFSC github repository using minimal-mistakes jekyll theme.'
   buttons:
   - url: "mailto:nmfs.pic.credinfo@noaa.gov"
     btn_label: "Email Us"
