@@ -8,6 +8,13 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+.feature__item--right .archive__item-body,
+.feature__item--right .archive__item-title,
+.feature__item--right .archive__item-excerpt,
+.feature__item--right .btn {
+  text-align: left !important;
+}
+
 /* Sidebar overall text */
 .sidebar {
     color: #001743; // general sidebar text color
