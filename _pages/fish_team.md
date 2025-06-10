@@ -55,7 +55,7 @@ As part of NCRMP’s goals, we collect reef fish data the same way across all U.
 4. Provide a reliable, large-scale dataset that scientists can use for research.
 
 ## Access Data
-Under <a href = "/products/">'Products'</a> you can visualize and access our data using the NCRMP Visualization tool. You can go to <a href = "/sops/">'Methods'</a> to see access for specific datasets. For raw data, our data is organized in NCEI collections.  Browse datasets in the <a href = "https://www.fisheries.noaa.gov/inport/item/28844" target = "_blank">NCRMP metadata catalog</a> for each distinct region; legacy datasets are described in the <a href = "https://www.fisheries.noaa.gov/inport/item/21559" target ="_blank">Ecosystem Monitoring and Assessment subfolder</a>.
+Under <a href="{{ site.baseurl }}/products/">Products</a> you can visualize and access our data using the NCRMP Visualization tool. You can go to <a href = "{{ site.baseurl }}/sops/">'Methods'</a> to see access for specific datasets. For raw data, our data is organized in NCEI collections.  Browse datasets in the <a href = "https://www.fisheries.noaa.gov/inport/item/28844" target = "_blank">NCRMP metadata catalog</a> for each distinct region; legacy datasets are described in the <a href = "https://www.fisheries.noaa.gov/inport/item/21559" target ="_blank">Ecosystem Monitoring and Assessment subfolder</a>.
 
 ## Contact
 <ul>
