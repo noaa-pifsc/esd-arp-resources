@@ -62,8 +62,8 @@ Currently we are working on making our scripts, such as one to summarize CoralNe
 ## Access Data
 <ul>
 <li>
-Under <a href= "/products/">'Products' </a>you can visualize and access our data using the NCRMP Visualization tool. </li>
-<li>Go to <a href = "/sops/">'Methods'</a> to see access for specific datasets. </li>
+Under <a href= "{{ site.baseurl }}/products/">Products</a> you can visualize and access our data using the NCRMP Visualization tool. </li>
+<li>Go to <a href = "/sops/">Methods</a> to see access for specific datasets. </li>
 <li>For raw data, our data is organized in NCEI collections and also described in our NCRMP  <a href = "https://www.fisheries.noaa.gov/inport/item/28844" target ="_blank">InPort metadata catalog</a>, organized by region.</li>
 <li>Access SfM imagery with <a href = "https://console.cloud.google.com/storage/browser/nmfs_odp_pifsc/PIFSC/ESD/ARP/Photogrammetric%20Imagery" target ="_blank">NODD Google Cloud bucket</a>, or make a request through the <a href ="https://www.ncei.noaa.gov/access/ocean-exploration/video/" target = "_blank">OER Portal</a>.</li>
 </ul>

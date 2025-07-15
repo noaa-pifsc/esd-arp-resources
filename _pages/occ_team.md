@@ -63,7 +63,7 @@ By revisiting these sites in regions since 2013 we can monitor the impact of cha
 </ul>
 
 ## Access Data
-The NCRMP Visualization tool hosts water samples for <b>random sites</b>. Water chemistry (including for fixed sites) is archived with OCADS, and all other data is organized in NCEI collections and cataloged in our <a href = "https://www.fisheries.noaa.gov/inport/item/28844" target = "_blank">NCRMP metadata catalog</a> for each distinct region.  Refer to <a href = "/sops/">'Methods'</a> for details on specific surveys.
+The NCRMP Visualization tool hosts water samples for <b>random sites</b>. Water chemistry (including for fixed sites) is archived with OCADS, and all other data is organized in NCEI collections and cataloged in our <a href = "https://www.fisheries.noaa.gov/inport/item/28844" target = "_blank">NCRMP metadata catalog</a> for each distinct region.  Refer to <a href = "{{ site.baseurl }}/sops/">Methods</a> for details on specific surveys.
 
 ## Contact
 <ul>
