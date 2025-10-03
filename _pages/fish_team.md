@@ -59,5 +59,5 @@ Under <a href="{{ site.baseurl }}/products/">Products</a> you can visualize and 
 
 ## Contact
 <ul>
-<li>Principal Investigator: Tye Kindinger <a href="mailto:tye.kindinger@noaa.gov">(tye.kindinger@noaa.gov)</a></li>
+<li>Principal Investigator: Andrew Shantz <a href="mailto:andrew.shantz@noaa.gov">(andrew.shantz@noaa.gov)</a></li>
 <li>Data Services Team: <a href="mailto:nmfs.pic.credinfo@noaa.gov">nmfs.pic.credinfo@noaa.gov</a></li>
