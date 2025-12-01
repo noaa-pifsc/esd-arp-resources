@@ -1,0 +1,69 @@
+name: Update Zotero Publications
+
+on:
+  # Run on schedule - daily at 2 AM UTC
+  schedule:
+    - cron: '0 2 * * *'
+  
+  # Allow manual trigger from Actions tab
+  workflow_dispatch:
+  
+  # Optional: uncomment to run on push to main
+  # push:
+  #   branches:
+  #     - main
+
+jobs:
+  update-publications:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pyyaml
+      
+      - name: Fetch publications from Zotero
+        env:
+          ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
+          ZOTERO_GROUP_ID: ${{ secrets.ZOTERO_GROUP_ID }}
+          ZOTERO_COLLECTION_KEY: ${{ secrets.ZOTERO_COLLECTION_KEY }}
+          OUTPUT_DIR: _data
+        run: python _data/zotero/fetch_zotero_publications.py --output-dir _data
+      
+      - name: Check for changes
+        id: verify
+        run: |
+          if git diff --quiet _data/filtered_pifsc_publications.*; then
+            echo "status=no-changes" >> $GITHUB_OUTPUT
+          else
+            echo "status=changes-detected" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit and push changes
+        if: steps.verify.outputs.status == 'changes-detected'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add _data/filtered_pifsc_publications.*
+          git commit -m "chore: update publications from Zotero [$(date '+%Y-%m-%d %H:%M:%S')]"
+          git push
+      
+      - name: Create summary
+        run: |
+          echo "### 📚 Publication Update Summary" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.verify.outputs.status }}" = "changes-detected" ]; then
+            echo "✅ Publications updated and committed" >> $GITHUB_STEP_SUMMARY
+            git log -1 --oneline >> $GITHUB_STEP_SUMMARY
+          else
+            echo "ℹ️ No changes detected in publication data" >> $GITHUB_STEP_SUMMARY
+          fi
