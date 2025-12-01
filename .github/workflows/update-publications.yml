@@ -34,8 +34,8 @@ jobs:
       - name: Fetch publications from Zotero
         env:
           ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
-          ZOTERO_GROUP_ID: ${{ secrets.GROUP_ID }}
-          ZOTERO_COLLECTION_KEY: ${{ secrets.COLLECTION_KEY }}
+          ZOTERO_GROUP_ID: ${{ secrets.ZOTERO_GROUP_ID }}
+          ZOTERO_COLLECTION_KEY: ${{ secrets.ZOTERO_COLLECTION_KEY }}
           OUTPUT_DIR: _data
         run: python _data/zotero/fetch_zotero_publications.py --output-dir _data
       
