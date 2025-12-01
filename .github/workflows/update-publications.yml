@@ -37,7 +37,7 @@ jobs:
           ZOTERO_GROUP_ID: ${{ secrets.ZOTERO_GROUP_ID }}
           ZOTERO_COLLECTION_KEY: ${{ secrets.ZOTERO_COLLECTION_KEY }}
           OUTPUT_DIR: _data
-        run: python _data/zotero/fetch_zotero_publications.py --output-dir _data
+        run: python fetch_zotero_publications.py --output-dir _data
       
       - name: Check for changes
         id: verify
