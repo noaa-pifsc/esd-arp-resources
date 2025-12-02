@@ -345,6 +345,13 @@ def main(args=None):
     # Fetch
     print("🔄 Step 1: Fetching Publications")
     print("-" * 60)
+    # If no collection key, fetch all items from group; otherwise fetch from specific collection
+    if parsed_args.collection_key and parsed_args.collection_key != "VD8Z582Z":
+        base_url = f"https://api.zotero.org/groups/{parsed_args.group_id}/collections/{parsed_args.collection_key}/items"
+        print("Fetching from collection...")
+    else:
+        base_url = f"https://api.zotero.org/groups/{parsed_args.group_id}/items"
+        print("Fetching all items from group...")
     all_items = fetch_all_items(base_url, headers)
     print(f"✓ Fetched {len(all_items)} total items\n")
     
