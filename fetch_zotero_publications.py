@@ -47,7 +47,7 @@ def get_config():
     return {
         "GROUP_ID": os.getenv("ZOTERO_GROUP_ID", "REDACTED_GROUP_ID"),
         "COLLECTION_KEY": os.getenv("ZOTERO_COLLECTION_KEY", "VD8Z582Z"),
-        "API_KEY": os.getenv("ZOTERO_API_KEY", "lwyGpOrRSXrS1ncnj7Xt3Tbx"),
+        "API_KEY": os.getenv("ZOTERO_API_KEY"),  # Must be set via environment variable or GitHub secret
         "OUTPUT_DIR": os.getenv("OUTPUT_DIR", os.getcwd()),
         "BATCH_SIZE": 100,
     }
