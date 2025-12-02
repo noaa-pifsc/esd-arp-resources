@@ -10,7 +10,7 @@ Follow these steps to enable automatic Zotero publication fetching via GitHub Ac
 2. Click "Create new private key"
 3. Provide a description (e.g., "GitHub Actions")
 4. Under permissions, enable "Read-only library access"
-5. Copy your **API Key** (looks like: `lwyGpOrRSXrS1ncnj7Xt3Tbx`)
+5. Copy your **API Key** (looks like: `REDACTED_ZOTERO_API_KEY`)
 
 6. Find your **Group ID**:
    - Go to your Zotero group page
@@ -40,7 +40,7 @@ Follow these steps to enable automatic Zotero publication fetching via GitHub Ac
 Settings → Secrets and variables → Actions
 
 Name: ZOTERO_API_KEY
-Secret: lwyGpOrRSXrS1ncnj7Xt3Tbx
+Secret: REDACTED_ZOTERO_API_KEY
 [Add secret]
 
 Name: ZOTERO_GROUP_ID
@@ -213,3 +213,4 @@ You can manually run the workflow anytime:
 ## Questions?
 
 Refer to the main `ZOTERO_README.md` for more details and customization options.
+
