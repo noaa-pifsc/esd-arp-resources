@@ -43,11 +43,11 @@ except ImportError:
 # =============================================================================
 
 def get_config():
-    """Load configuration from environment variables or defaults."""
+    """Load configuration from environment variables."""
     return {
-        "GROUP_ID": os.getenv("ZOTERO_GROUP_ID", "REDACTED_GROUP_ID"),
-        "COLLECTION_KEY": os.getenv("ZOTERO_COLLECTION_KEY", "VD8Z582Z"),
-        "API_KEY": os.getenv("ZOTERO_API_KEY"),  # Must be set via environment variable or GitHub secret
+        "GROUP_ID": os.getenv("ZOTERO_GROUP_ID"),
+        "COLLECTION_KEY": os.getenv("ZOTERO_COLLECTION_KEY"),
+        "API_KEY": os.getenv("ZOTERO_API_KEY"),
         "OUTPUT_DIR": os.getenv("OUTPUT_DIR", os.getcwd()),
         "BATCH_SIZE": 100,
     }
@@ -309,21 +309,31 @@ def main(args=None):
     )
     parser.add_argument(
         "--group-id",
-        default=os.getenv("ZOTERO_GROUP_ID", "REDACTED_GROUP_ID"),
-        help="Zotero group ID (default: REDACTED_GROUP_ID)"
+        default=os.getenv("ZOTERO_GROUP_ID"),
+        help="Zotero group ID"
     )
     parser.add_argument(
         "--collection-key",
-        default=os.getenv("ZOTERO_COLLECTION_KEY", "VD8Z582Z"),
-        help="Zotero collection key (default: VD8Z582Z)"
+        default=os.getenv("ZOTERO_COLLECTION_KEY"),
+        help="Zotero collection key"
     )
     
     parsed_args = parser.parse_args(args)
     
-    # Validate API key
+    # Validate required arguments
     if not parsed_args.api_key:
         print("❌ ERROR: Zotero API key not provided.")
         print("   Set ZOTERO_API_KEY environment variable or use --api-key argument")
+        sys.exit(1)
+    
+    if not parsed_args.group_id:
+        print("❌ ERROR: Zotero group ID not provided.")
+        print("   Set ZOTERO_GROUP_ID environment variable or use --group-id argument")
+        sys.exit(1)
+    
+    if not parsed_args.collection_key:
+        print("❌ ERROR: Zotero collection key not provided.")
+        print("   Set ZOTERO_COLLECTION_KEY environment variable or use --collection-key argument")
         sys.exit(1)
     
     # Setup
