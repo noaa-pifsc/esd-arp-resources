@@ -26,6 +26,12 @@ docs:
         url: /surveys/fish_spc
       - title: "SfM Photogrammetry"
         url: /surveys/sfm
+      - title: "Subsurface Temperature Recorders (STR)"
+        url: /surveys/str 
+      - title: "Coral Demography"
+        url: /surveys/coral_demography 
+      - title: "Vital Rates"
+        url: /surveys/vital_rates
 
 #      - title: "Subsurface Temperature Recorders (STR)"
 #        url: /surveys/strs
