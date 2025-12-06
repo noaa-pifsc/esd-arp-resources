@@ -14,8 +14,6 @@ main:
 docs:
   - title: NCRMP Survey Methods
     children:
- #     - title: "Coral Demography"
- #       url: /surveys/ctdh2o_survey_template
       - title: "Benthic Cover"
         url: /surveys/benthic_cover
       - title: "Carbonate Budgets"
@@ -28,8 +26,8 @@ docs:
         url: /surveys/sfm
       - title: "Subsurface Temperature Recorders (STR)"
         url: /surveys/str 
-   #   - title: "Coral Demography"
-   #     url: /surveys/coral_demography 
+      - title: "Coral Demography"
+        url: /surveys/coral_demography 
     #  - title: "Vital Rates"
     #    url: /surveys/vital_rates
 

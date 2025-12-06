@@ -8,7 +8,7 @@ header:
   overlay_color: "#000"
   overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
 
-survey_type: Coral Demographic Data to Monitor Reefs
+survey_type: Monitoring Coral Demography
 survey_description: Data is collected on the size, species, and health of young and adult corals, using in-water diver surveys and advanced 3D imagery analysis.  Surveys are conducted in hard-bottom habitat in water <30 m, following a stratified-random sampling site design (StRS). Random sites are generated across islands using reef zone, depth zone, pre-determined sectors, and locations of known hard-bottom habitat (typically from backscatter data), using the R project <a href = "https://github.com/krtanaka/ncrmp_common_map" target = "_blank">ncrmp_common_map</a>. Site-level data should be used with caution as the data is intended to be combined and adjusted with multiple sites within a region to provide an accurate picture of coral populations across the whole area. Access more details and data visualization on the <a href = "https://ncrmp.coralreef.noaa.gov/pages/ncrmp-data" target ="_blank">NCRMP Data Viz Tool</a>. 
 # description: "Template sample description"
 sidebar:

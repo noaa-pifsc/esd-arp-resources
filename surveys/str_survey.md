@@ -3,7 +3,7 @@ layout: survey_template_single
 title: "NCRMP: Subsurface Temperature Recorders (STR)"
 permalink: /surveys/str
 main_image: "https://media.fisheries.noaa.gov/2023-07/5472x3648-Diver-collectS-STR-ARI-Halperin-PIFSC.JPG" 
-main_image_caption: "Diver deploying and collecting a subsurface-temperature recorder (STR). Credit: NOAA NMFS"
+main_image_caption: "Diver deploying and collecting a subsurface-temperature recorder (STR). Credit: NOAA Fisheries"
 header:
   overlay_color: "#000"
   overlay_filter: 0.5 
