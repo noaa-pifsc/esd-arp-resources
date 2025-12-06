@@ -28,9 +28,8 @@ docs:
         url: /surveys/sfm
       - title: "Subsurface Temperature Recorders (STR)"
         url: /surveys/str 
-
-    #  - title: "Vital Rates"
-    #    url: /surveys/vital_rates
+      - title: "Vital Rates"
+        url: /surveys/vital_rates
 
 #      - title: "Subsurface Temperature Recorders (STR)"
 #        url: /surveys/strs

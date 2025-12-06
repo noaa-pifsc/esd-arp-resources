@@ -5,8 +5,10 @@ permalink: /surveys/str
 main_image: "https://media.fisheries.noaa.gov/2023-07/5472x3648-Diver-collectS-STR-ARI-Halperin-PIFSC.JPG" 
 main_image_caption: "Diver deploying and collecting a subsurface-temperature recorder (STR). Credit: NOAA Fisheries"
 header:
-  overlay_color: "#000"
-  overlay_filter: 0.5 
+ # overlay_color: "#000"
+  overlay_filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5))
+  overlay_image: https://www.fisheries.noaa.gov/s3/2023-07/1440x960-07012023-STR-installedited-PIFSC.jpg
+  caption: "Credit: NOAA Fisheries"
 
 survey_type: Water Temperature
 survey_description: Water temperature time series data are collected using high-accuracy Subsurface Temperature Recorders (STRs) deployed at permanent coral reef monitoring sites across the U.S. Pacific. The STRs are attached to the reef using zip ties and weights and are typically deployed for 3 years at depths ranging from 0 to 30 meters. STRs provide accurate temperature data at depth, and temperature time series can be used to assess thermal stress experienced by coral reefs during bleaching events.

@@ -2,14 +2,14 @@
 layout: survey_template_single
 title: "NCRMP: Vital Rates"
 permalink: /surveys/vital_rates
-main_image: /assets/images/vital_rates.png # default image
-main_image_caption: "Sample of how a coral colony is traced and tracked over time, and conclusions from that data. Credit: NOAA NMFS"
+main_image: /assets/images/sfm_model_fixed.png # default image
+main_image_caption: "Example of the 3D model produced from imagery collected in a spiral, which will be annotated. Credit: NOAA Fisheries"
 header:
   overlay_color: "#080808ff"
-  overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
-
+  overlay_image: /assets/images/sfm_spiral.png
+  caption: "Two divers use tools to image a fixed site. Credit: NOAA Fisheries"
 survey_type: Measuring Coral Colony Growth and Mortality
-survey_description: Vital Rates Annotations are the annotations of 3D coral reef models generated with Structure-from-Motion photogrammetric imagery since 2014. Annotations include the size and species of each coral colony within an established site. These 'fixed' sites are revisited and re-imaged over the years. This assists with tracking coral colony survivorship and growth over time and has allowed a better understanding of coral response to environmental conditions, such as how colony size relates to the probability of their survival after coral bleaching events. Refer to InPort metadata records or SOP for more details.
+survey_description: The Vital Rates dataset contains annotations  of 2D and 2.5D coral reef models generated using Structure-from-Motion photogrammetry, with  imagery dating back to 2014. Annotations include information such as size and species of targeted coral colonies within multiple permanent monitoring sites throughout the Pacific Basin. These 'fixed' sites are revisited and re-imaged over periods of 1-5 years. This dataset assists with tracking coral colony recruitment, survivorship and growth over time and provides a better understanding of how corals respond to environmental conditions, such as how colony size impacts the likelihood of survival after a coral bleaching event. Refer to the InPort metadata record or SOP for more details.
 # description: "Template sample description"
 sidebar:
   nav: "docs"
