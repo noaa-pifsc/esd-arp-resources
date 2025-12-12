@@ -14,21 +14,21 @@ main:
 docs:
   - title: NCRMP Survey Methods
     children:
-      - title: "Benthic Cover"
+      - title: "- Benthic Cover"
         url: /surveys/benthic_cover
-      - title: "Carbonate Budgets"
+      - title: "- Carbonate Budgets"
         url: /surveys/carbonate_budgets
-      - title: "Coral Demography"
+      - title: "- Coral Demography"
         url: /surveys/coral_demography 
-      - title: "CTD - Water Sampling"
+      - title: "- CTD - Water Sampling"
         url: /surveys/ctdh2o
-      - title: "Fish SPC"
+      - title: "- Fish SPC"
         url: /surveys/fish_spc
-      - title: "SfM Photogrammetry"
+      - title: "- SfM Photogrammetry"
         url: /surveys/sfm
-      - title: "Subsurface Temperature Recorders (STR)"
+      - title: "- Subsurface Temperature Recorders (STR)"
         url: /surveys/str 
-      - title: "Vital Rates"
+      - title: "- Vital Rates"
         url: /surveys/vital_rates
 
 #      - title: "Subsurface Temperature Recorders (STR)"
