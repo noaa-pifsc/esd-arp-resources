@@ -242,6 +242,21 @@
   region: Unknown
   item_type: journalArticle
   publication_title: Frontiers in Marine Science
+- title: 'Carbonate Budget Assessments in the U.S. Pacific Islands: Report of Methods
+    Comparison Results and Summary of Standard Operating Procedures'
+  creators: Hannah C. Barkley; Rebecca M. Weible; Ariel A. Halperin; Candace E. Alagata;
+    Tye Kindinger; Damaris Torres-Pulliza; Mia S. Lamirand; Brittany E. Huntington;
+    Courtney S. Couch; Corinne G. Amir; Nicole I. Besemer; Jonathan A. Charendoff;
+    Jon Ehrenberg; Joao D. Garriques; Andrew E. Gray; Nathan Hayes; Kurt E. Ingeman;
+    Lori H. Luers; Kaylyn S. McCoy; Noah V. Pomeroy; Joy N. Smith; Bernardo Vargas-Ángel;
+    Erica K. Towle; Jennifer C. Samson
+  year: 2023
+  doi: null
+  issn: null
+  url: https://repository.library.noaa.gov
+  region: Pacific-wide
+  item_type: webpage
+  publication_title: null
 - title: American Samoa Methods Documentation
   creators: Juliette Verstaen
   year: 2023
@@ -2917,6 +2932,15 @@
   region: Unknown
   item_type: journalArticle
   publication_title: Atoll Research Bulletin
+- title: Full Text PDF
+  creators: ''
+  year: null
+  doi: null
+  issn: null
+  url: http://repository.library.noaa.gov/view/noaa/56372/noaa_56372_DS1.pdf
+  region: Unknown
+  item_type: attachment
+  publication_title: null
 - title: Pomeroy et al. - 2025 - Survivorship and growth of corals in Hawaiʻi two
     y.pdf
   creators: ''
@@ -2944,15 +2968,6 @@
   doi: null
   issn: null
   url: null
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: Full Text PDF
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.2024.1885
   region: Unknown
   item_type: attachment
   publication_title: null
