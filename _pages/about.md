@@ -44,7 +44,7 @@ feature_row3:
   image_caption: "Photo credit: NMSAS"
   alt: "outreach event in Pago Pago"
   title: "Outreach"
-  excerpt: "Links to story maps, photo galleries, and blogs from past missions as well as more information on the Pacific Islands Fisheries Science Center (PIFSC) and our Ecosystem Sciences Division (ESD)."
+  excerpt: "Links to story maps, photo galleries, and blogs from past missions as well as more information on the Pacific Islands Fisheries Science Center (PIFSC) and our Ecosystem Sciences Division (ESD). Our underwater fish photos are shared on the <a href = 'https://www.inaturalist.org/people/pifsc-pacific-ncrmp'>PIFSC Pacific NCRMP iNaturalist account</a>."
   buttons:  
   - url: /outreach/
     btn_label: "Browse Links"
