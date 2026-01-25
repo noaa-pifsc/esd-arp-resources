@@ -256,7 +256,7 @@
     "title": "Carbonate Budget Assessments in the U.S. Pacific Islands: Report of Methods Comparison Results and Summary of Standard Operating Procedures",
     "creators": "Hannah C. Barkley; Rebecca M. Weible; Ariel A. Halperin; Candace E. Alagata; Tye Kindinger; Damaris Torres-Pulliza; Mia S. Lamirand; Brittany E. Huntington; Courtney S. Couch; Corinne G. Amir; Nicole I. Besemer; Jonathan A. Charendoff; Jon Ehrenberg; Joao D. Garriques; Andrew E. Gray; Nathan Hayes; Kurt E. Ingeman; Lori H. Luers; Kaylyn S. McCoy; Noah V. Pomeroy; Joy N. Smith; Bernardo Vargas-Ángel; Erica K. Towle; Jennifer C. Samson",
     "year": 2023,
-    "doi": null,
+    "doi": "10.25923/g4hg-7686",
     "issn": null,
     "url": "https://repository.library.noaa.gov",
     "region": "Pacific-wide",
@@ -366,7 +366,7 @@
     "title": "American Samoa JCR-FMP: PIFSC ESD analysis",
     "creators": "Kurt Ingeman; Tye L Kindinger",
     "year": 2023,
-    "doi": null,
+    "doi": "10.25923/7f0d-q794",
     "issn": null,
     "url": null,
     "region": "American Samoa",
@@ -377,7 +377,7 @@
     "title": "Guam JCR-FMP: PIFSC ESD analysis",
     "creators": "Kurt Ingeman; Tye L Kindinger",
     "year": 2023,
-    "doi": null,
+    "doi": "10.25923/352q-sk62",
     "issn": null,
     "url": null,
     "region": "Mariana Archipelago",
@@ -839,7 +839,7 @@
     "title": "Pacific Reef Assessment and Monitoring Program Ecological monitoring 2017 — reef fishes and benthic habitats of Marine National Monument, and the Mariana Archipelago",
     "creators": "Kaylyn McCoy; Adel Heenan; Jacob Asher; Paula Ayotte; Kelvin Gorospe; Andrew Gray; Kevin Lino; JIll Zamzow; Ivor Williams",
     "year": 2018,
-    "doi": null,
+    "doi": "10.7289/V5/DR-PIFSC-18-008",
     "issn": null,
     "url": "http://doi.org/10.7289/V5/DR-PIFSC-18-008",
     "region": "Mariana Archipelago",
@@ -880,6 +880,17 @@
     "publication_title": "Frontiers in Marine Science"
   },
   {
+    "title": "Identifying coral reef resilience potential in Tutuila, American Samoa based on NOAA coral reef monitoring data",
+    "creators": "Brett Schumacher; Bernardo Vargas-Angel; Scott Fraser Heron",
+    "year": 2018,
+    "doi": "10.7289/V5/SP-PIFSC-18-003",
+    "issn": null,
+    "url": "https://repository.library.noaa.gov/view/noaa/17371",
+    "region": "American Samoa",
+    "item_type": "report",
+    "publication_title": null
+  },
+  {
     "title": "Local Biomass Baselines and the Recovery Potential for Hawaiian Coral Reef Fish Communities",
     "creators": "Kelvin D. Gorospe; Megan J. Donahue; Adel Heenan; Jamison M. Gove; Ivor D. Williams; Russell E. Brainard",
     "year": 2018,
@@ -898,17 +909,6 @@
     "issn": null,
     "url": null,
     "region": "Unknown",
-    "item_type": "report",
-    "publication_title": null
-  },
-  {
-    "title": "Identifying coral reef resilience potential in Tutuila, American Samoa based on NOAA coral reef monitoring data",
-    "creators": "Brett Schumacher; Bernardo Vargas-Angel; Scott Fraser Heron",
-    "year": 2018,
-    "doi": null,
-    "issn": null,
-    "url": "https://repository.library.noaa.gov/view/noaa/17371",
-    "region": "American Samoa",
     "item_type": "report",
     "publication_title": null
   },
@@ -957,10 +957,87 @@
     "publication_title": null
   },
   {
+    "title": "Linking local and national data to improve marine managed area monitoring and data quality in Tutuila, American Samoa : a feasibility report.",
+    "creators": "Adel Heenan; Kelvin Gorospe; Arielle Levine; Jeremy Raynal; Alice Lawrence",
+    "year": 2017,
+    "doi": "10.7289/V5/WP-PIFSC-17-001",
+    "issn": null,
+    "url": null,
+    "region": "American Samoa",
+    "item_type": "report",
+    "publication_title": null
+  },
+  {
+    "title": "An Assessment of Mobile Predator Populations along Shallow and Mesophotic Depth Gradients in the Hawaiian Archipelago",
+    "creators": "Jacob Asher; Ivor D. Williams; Euan S. Harvey",
+    "year": 2017,
+    "doi": "10.1038/s41598-017-03568-1",
+    "issn": "2045-2322",
+    "url": "http://www.nature.com/articles/s41598-017-03568-1",
+    "region": "Hawaiian Archipelago",
+    "item_type": "journalArticle",
+    "publication_title": "Scientific Reports"
+  },
+  {
+    "title": "Mesophotic Depth Gradients Impact Reef Fish Assemblage Composition and Functional Group Partitioning in the Main Hawaiian Islands",
+    "creators": "Jacob Asher; Ivor D. Williams; Euan S. Harvey",
+    "year": 2017,
+    "doi": "10.3389/fmars.2017.00098",
+    "issn": "2296-7745",
+    "url": "http://journal.frontiersin.org/article/10.3389/fmars.2017.00098/full",
+    "region": "Hawaiian Archipelago",
+    "item_type": "journalArticle",
+    "publication_title": "Frontiers in Marine Science"
+  },
+  {
+    "title": "Analysis of Benthic Survey Images via CoralNet: A Summary of Standard Operating Procedures and Guidelines",
+    "creators": "Paula Lozada-Misa; Brett D. Schumacher; Bernardo Vargas-Ángel",
+    "year": 2017,
+    "doi": "V5/10.7289/V5/AR-PIFSC-17-02",
+    "issn": null,
+    "url": null,
+    "region": "Unknown",
+    "item_type": "report",
+    "publication_title": null
+  },
+  {
+    "title": "Long-term monitoring of coral reef fish assemblages in the Western Central Pacific",
+    "creators": "Adel Heenan; Ivor D. Williams; Tomoko Acoba; Annette DesRochers; Randall K. Kosaki; Troy Kanemura; Marc O. Nadon; Russell E. Brainard",
+    "year": 2017,
+    "doi": "10.1038/sdata.2017.176",
+    "issn": "2052-4463",
+    "url": "http://www.nature.com/articles/sdata2017176",
+    "region": "Pacific-wide",
+    "item_type": "journalArticle",
+    "publication_title": "Scientific Data"
+  },
+  {
+    "title": "Pacific Reef Assessment and Monitoring Program Data Report Ecological monitoring 2016 — reef fishes and benthic habitats of the main Hawaiian Islands, Northwestern Hawaiian Islands, Pacific Remote Island Areas, and American Samoa",
+    "creators": "K. McCoy; A. Heenan; J. Asher; P. Ayotte; K. Gorospe; A. Gray; K. Lino; J. Zamzow; I. Williams",
+    "year": 2017,
+    "doi": "10.7289/V5/DR-PIFSC-17-001",
+    "issn": null,
+    "url": "https://www.pifsc.noaa.gov/library/pubs/DR-17-001.pdf",
+    "region": "Hawaiian Archipelago",
+    "item_type": "report",
+    "publication_title": null
+  },
+  {
+    "title": "A Survey Design Performance Analysis Examining Linkages between Reef Fish Assemblages and Benthic Morphologies in the Main Hawaiian Islands",
+    "creators": "Kelvin D. Gorospe; Tomoko S. Acoba",
+    "year": 2017,
+    "doi": "10.7289/V5/TM-PIFSC-64",
+    "issn": null,
+    "url": "ftp://ftp.library.noaa.gov/noaa_documents.lib/NMFS/PIFSC/TM_NMFS_PIFSC/NOAA_Tech_Memo_PIFSC_64.pdf",
+    "region": "Hawaiian Archipelago",
+    "item_type": "report",
+    "publication_title": null
+  },
+  {
     "title": "Acoustic Characterization of Mesophotic Coral Reef Ecosystems of West Hawaiʻi",
     "creators": "Rhonda R. Suka; John J. Rooney",
     "year": 2017,
-    "doi": null,
+    "doi": "10.7289/V5/TM-PIFSC-61",
     "issn": null,
     "url": null,
     "region": "Hawaiian Archipelago",
@@ -988,28 +1065,6 @@
     "region": "Pacific-wide",
     "item_type": "report",
     "publication_title": null
-  },
-  {
-    "title": "Linking local and national data to improve marine managed area monitoring and data quality in Tutuila, American Samoa : a feasibility report.",
-    "creators": "Adel Heenan; Kelvin Gorospe; Arielle Levine; Jeremy Raynal; Alice Lawrence",
-    "year": 2017,
-    "doi": null,
-    "issn": null,
-    "url": null,
-    "region": "American Samoa",
-    "item_type": "report",
-    "publication_title": null
-  },
-  {
-    "title": "An Assessment of Mobile Predator Populations along Shallow and Mesophotic Depth Gradients in the Hawaiian Archipelago",
-    "creators": "Jacob Asher; Ivor D. Williams; Euan S. Harvey",
-    "year": 2017,
-    "doi": "10.1038/s41598-017-03568-1",
-    "issn": "2045-2322",
-    "url": "http://www.nature.com/articles/s41598-017-03568-1",
-    "region": "Hawaiian Archipelago",
-    "item_type": "journalArticle",
-    "publication_title": "Scientific Reports"
   },
   {
     "title": "The importance of standardization for biodiversity comparisons: A case study using autonomous reef monitoring structures (ARMS) and metabarcoding to measure cryptic diversity on Mo’orea coral reefs, French Polynesia",
@@ -1045,28 +1100,6 @@
     "publication_title": null
   },
   {
-    "title": "Analysis of Benthic Survey Images via CoralNet: A Summary of Standard Operating Procedures and Guidelines",
-    "creators": "Paula Lozada-Misa; Brett D. Schumacher; Bernardo Vargas-Ángel",
-    "year": 2017,
-    "doi": null,
-    "issn": null,
-    "url": null,
-    "region": "Unknown",
-    "item_type": "report",
-    "publication_title": null
-  },
-  {
-    "title": "Long-term monitoring of coral reef fish assemblages in the Western Central Pacific",
-    "creators": "Adel Heenan; Ivor D. Williams; Tomoko Acoba; Annette DesRochers; Randall K. Kosaki; Troy Kanemura; Marc O. Nadon; Russell E. Brainard",
-    "year": 2017,
-    "doi": "10.1038/sdata.2017.176",
-    "issn": "2052-4463",
-    "url": "http://www.nature.com/articles/sdata2017176",
-    "region": "Pacific-wide",
-    "item_type": "journalArticle",
-    "publication_title": "Scientific Data"
-  },
-  {
     "title": "A budget of algal production and consumption by herbivorous fish in an herbivore fisheries management area, Maui, Hawaii",
     "creators": "Emily L. A. Kelly; Yoan Eynaud; Ivor D. Williams; Russell T. Sparks; Meghan L. Dailer; Stuart A. Sandin; Jennifer E. Smith",
     "year": 2017,
@@ -1078,39 +1111,6 @@
     "publication_title": "Ecosphere"
   },
   {
-    "title": "Pacific Reef Assessment and Monitoring Program Data Report Ecological monitoring 2016 — reef fishes and benthic habitats of the main Hawaiian Islands, Northwestern Hawaiian Islands, Pacific Remote Island Areas, and American Samoa",
-    "creators": "K. McCoy; A. Heenan; J. Asher; P. Ayotte; K. Gorospe; A. Gray; K. Lino; J. Zamzow; I. Williams",
-    "year": 2017,
-    "doi": null,
-    "issn": null,
-    "url": "https://www.pifsc.noaa.gov/library/pubs/DR-17-001.pdf",
-    "region": "Hawaiian Archipelago",
-    "item_type": "report",
-    "publication_title": null
-  },
-  {
-    "title": "Mesophotic Depth Gradients Impact Reef Fish Assemblage Composition and Functional Group Partitioning in the Main Hawaiian Islands",
-    "creators": "Jacob Asher; Ivor D. Williams; Euan S. Harvey",
-    "year": 2017,
-    "doi": "10.3389/fmars.2017.00098",
-    "issn": "2296-7745",
-    "url": "http://journal.frontiersin.org/article/10.3389/fmars.2017.00098/full",
-    "region": "Hawaiian Archipelago",
-    "item_type": "journalArticle",
-    "publication_title": "Frontiers in Marine Science"
-  },
-  {
-    "title": "A Survey Design Performance Analysis Examining Linkages between Reef Fish Assemblages and Benthic Morphologies in the Main Hawaiian Islands",
-    "creators": "Kelvin D. Gorospe; Tomoko S. Acoba",
-    "year": 2017,
-    "doi": null,
-    "issn": null,
-    "url": "ftp://ftp.library.noaa.gov/noaa_documents.lib/NMFS/PIFSC/TM_NMFS_PIFSC/NOAA_Tech_Memo_PIFSC_64.pdf",
-    "region": "Hawaiian Archipelago",
-    "item_type": "report",
-    "publication_title": null
-  },
-  {
     "title": "Pacific Reef Assessment and Monitoring Program - Data Report - Ecological Monitoring 2015 - reef fishes and benthic habitats of the main Hawaiian Islands, Northwestern Hawaiian Islands, Pacific Remote Island Areas and American Samoa",
     "creators": "Kaylyn McCoy; Adel Heenan; Jacob Asher; Paula Ayotte; Kelvin Gorospe; Andrew Gray; Kevin Lino; Jill Zamzow; Ivor Williams",
     "year": 2016,
@@ -1120,72 +1120,6 @@
     "region": "Hawaiian Archipelago",
     "item_type": "report",
     "publication_title": null
-  },
-  {
-    "title": "Ecosystem monitoring for ecosystem-based management: Using a polycentric approach to balance information trade-offs",
-    "creators": "Adel Heenan; Kelvin Gorospe; Ivor Williams; Arielle Levine; Paulo Maurin; Thomas Oliver; John Rooney; Molly Timmers; Supin Wongbusarakum; Russell Brainard",
-    "year": 2016,
-    "doi": "10.1111/1365-2664.12633",
-    "issn": "1365-2664",
-    "url": "http://onlinelibrary.wiley.com/doi/10.1111/1365-2664.12633/pdf",
-    "region": "Unknown",
-    "item_type": "journalArticle",
-    "publication_title": "Journal of Applied Ecology"
-  },
-  {
-    "title": "Near-island biological hotspots in barren ocean basins",
-    "creators": "Jamison M. Gove; Margaret A. McManus; Anna B. Neuheimer; Jeffrey J. Polovina; Jeffrey C. Drazen; Craig R. Smith; Mark A. Merrifield; Alan M. Friedlander; Julia S. Ehses; Charles W. Young; Amanda K. Dillon; Gareth J. Williams",
-    "year": 2016,
-    "doi": "10.1038/ncomms10581",
-    "issn": "2041-1723",
-    "url": "http://dx.doi.org/10.1038/ncomms10581 http://www.nature.com/doifinder/10.1038/ncomms10581",
-    "region": "Unknown",
-    "item_type": "journalArticle",
-    "publication_title": "Nature Communications"
-  },
-  {
-    "title": "Comparison of Reef Fish Survey Data Gathered by Open and Closed Circuit SCUBA Divers Reveals Differences in Areas With Higher Fishing Pressure",
-    "creators": "Andrew E. Gray; Ivor D. Williams; Kostantinos A. Stamoulis; Raymond C. Boland; Kevin C. Lino; Brian B. Hauk; Jason C. Leonard; John J. Rooney; Jacob M. Asher; Keolohilani H. Lopes; Randall K. Kosaki",
-    "year": 2016,
-    "doi": "10.1371/journal.pone.0167724",
-    "issn": "1932-6203",
-    "url": "http://dx.plos.org/10.1371/journal.pone.0167724",
-    "region": "Unknown",
-    "item_type": "journalArticle",
-    "publication_title": "PLoS ONE"
-  },
-  {
-    "title": "Bright spots among the world’s coral reefs",
-    "creators": "Joshua E. Cinner; Cindy Huchery; M. Aaron MacNeil; Nicholas A. J. Graham; Tim R. McClanahan; Joseph Maina; Eva Maire; John N. Kittinger; Christina C. Hicks; Camilo Mora; Edward H. Allison; Stephanie D’Agata; Andrew Hoey; David A. Feary; Larry Crowder; Ivor D. Williams; Michel Kulbicki; Laurent Vigliola; Laurent Wantiez; Graham Edgar; Rick D. Stuart-Smith; Stuart A. Sandin; Alison L. Green; Marah J. Hardt; Maria Beger; Alan Friedlander; Stuart J. Campbell; Katherine E. Holmes; Shaun K. Wilson; Eran Brokovich; Andrew J. Brooks; Juan J. Cruz-Motta; David J. Booth; Pascale Chabanet; Charlie Gough; Mark Tupper; Sebastian C. A. Ferse; U. Rashid Sumaila; David Mouillot",
-    "year": 2016,
-    "doi": "10.1038/nature18607",
-    "issn": "0028-0836",
-    "url": "http://www.nature.com/doifinder/10.1038/nature18607",
-    "region": "Unknown",
-    "item_type": "journalArticle",
-    "publication_title": "Nature"
-  },
-  {
-    "title": "An assessment of shallow and mesophotic reef brachyuran crab assemblages on the south shore of O‘ahu, Hawai‘i",
-    "creators": "Kaleonani K. C. Hurley; Molly A. Timmers; L. Scott Godwin; Joshua M. Copus; Derek J. Skillings; Robert J. Toonen",
-    "year": 2016,
-    "doi": "10.1007/s00338-015-1382-z",
-    "issn": "0722-4028",
-    "url": "http://link.springer.com/10.1007/s00338-015-1382-z",
-    "region": "Hawaiian Archipelago",
-    "item_type": "journalArticle",
-    "publication_title": "Coral Reefs"
-  },
-  {
-    "title": "Comparison of equatorial Pacific sea surface temperature variability and trends with Sr/Ca records from multiple corals",
-    "creators": "Alice E. Alpert; Anne L. Cohen; Delia W. Oppo; Thomas M. DeCarlo; Jamison M. Gove; Charles W. Young",
-    "year": 2016,
-    "doi": "10.1002/2015PA002897",
-    "issn": "08838305",
-    "url": "http://doi.wiley.com/10.1002/2015PA002897",
-    "region": "Pacific-wide",
-    "item_type": "journalArticle",
-    "publication_title": "Paleoceanography"
   },
   {
     "title": "Towards an ecosystem-based approach of Guam's coral reefs: The human dimension",
@@ -1210,15 +1144,48 @@
     "publication_title": "Oecologia"
   },
   {
-    "title": "Re-evaluating the health of coral reef communities : baselines and evidence for human impacts across the central Pacific",
-    "creators": "Jennifer E. Smith; Rusty Brainard; Amanda Carter; Saray Dugas; Clinton Edwards; Jill Harris; Levi Lewis; David Obura; Forest Rohwer; Enric Sala; Peter S. Vroom; Stuart Sandin",
+    "title": "Management strategy evaluation applied to coral reef ecosystems in support of ecosystem-based management",
+    "creators": "Mariska Weijerman; Elizabeth A. Fulton; Russell E. Brainard",
     "year": 2016,
-    "doi": "10.1098/rspb.2015.1985",
-    "issn": "0962-8452",
+    "doi": "10.1371/journal.pone.0152577",
+    "issn": "19326203",
     "url": null,
-    "region": "Pacific-wide",
+    "region": "Unknown",
     "item_type": "journalArticle",
-    "publication_title": "Proceedings of the Royal Society B: Biological Sciences"
+    "publication_title": "PLoS ONE"
+  },
+  {
+    "title": "Atlantis Ecosystem Model Summit: Report from a workshop",
+    "creators": "M. Weijerman; J. S. Link; E. A. Fulton; E. Olsen; H. Townsend; S. Gaichas; C. Hansen; M. Skern-Mauritzen; I. C. Kaplan; R. Gamble; G. Fay; M. Savina; C. Ainsworth; I. van Putten; R. Gorton; R. Brainard; K. Larsen; T. Hutton",
+    "year": 2016,
+    "doi": "10.1016/j.ecolmodel.2016.05.007",
+    "issn": "03043800",
+    "url": "http://dx.doi.org/10.1016/j.ecolmodel.2016.05.007",
+    "region": "Unknown",
+    "item_type": "journalArticle",
+    "publication_title": "Ecological Modelling"
+  },
+  {
+    "title": "Humans and seasonal climate variability threaten large-bodied coral reef fish with small ranges",
+    "creators": "C. Mellin; D. Mouillot; M. Kulbicki; T. R. McClanahan; L. Vigliola; C. J. A. Bradshaw; R. E. Brainard; P. Chabanet; G. J. Edgar; D. A. Fordham; A. M. Friedlander; V. Parravicini; A. M. M. Sequeira; R. D. Stuart-Smith; L. Wantiez; M. J. Caley",
+    "year": 2016,
+    "doi": "10.1038/ncomms10491",
+    "issn": "2041-1723",
+    "url": "http://www.nature.com/doifinder/10.1038/ncomms10491",
+    "region": "Unknown",
+    "item_type": "journalArticle",
+    "publication_title": "Nature Communications"
+  },
+  {
+    "title": "Bright spots among the world’s coral reefs",
+    "creators": "Joshua E. Cinner; Cindy Huchery; M. Aaron MacNeil; Nicholas A. J. Graham; Tim R. McClanahan; Joseph Maina; Eva Maire; John N. Kittinger; Christina C. Hicks; Camilo Mora; Edward H. Allison; Stephanie D’Agata; Andrew Hoey; David A. Feary; Larry Crowder; Ivor D. Williams; Michel Kulbicki; Laurent Vigliola; Laurent Wantiez; Graham Edgar; Rick D. Stuart-Smith; Stuart A. Sandin; Alison L. Green; Marah J. Hardt; Maria Beger; Alan Friedlander; Stuart J. Campbell; Katherine E. Holmes; Shaun K. Wilson; Eran Brokovich; Andrew J. Brooks; Juan J. Cruz-Motta; David J. Booth; Pascale Chabanet; Charlie Gough; Mark Tupper; Sebastian C. A. Ferse; U. Rashid Sumaila; David Mouillot",
+    "year": 2016,
+    "doi": "10.1038/nature18607",
+    "issn": "0028-0836",
+    "url": "http://www.nature.com/doifinder/10.1038/nature18607",
+    "region": "Unknown",
+    "item_type": "journalArticle",
+    "publication_title": "Nature"
   },
   {
     "title": "Divers' willingness to pay for improved coral reef conditions in Guam: An untapped source of funding for management and conservation?",
@@ -1230,6 +1197,83 @@
     "region": "Mariana Archipelago",
     "item_type": "journalArticle",
     "publication_title": "Ecological Economics"
+  },
+  {
+    "title": "Lytic to temperate switching of viral communities",
+    "creators": "B. Knowles; C. B. Silveira; B. A. Bailey; K. Barott; V. A. Cantu; A. G. Cobián-Güemes; F. H. Coutinho; E. A. Dinsdale; B. Felts; K. A. Furby; E. E. George; K. T. Green; G. B. Gregoracci; A. F. Haas; J. M. Haggerty; E. R. Hester; N. Hisakawa; L. W. Kelly; Y. W. Lim; M. Little; A. Luque; T. McDole-Somera; K. McNair; L. S. de Oliveira; S. D. Quistad; N. L. Robinett; E. Sala; P. Salamon; S. E. Sanchez; S. Sandin; G. G. Z. Silva; J. Smith; C. Sullivan; C. Thompson; M. J. A. Vermeij; M. Youle; C. Young; B. Zgliczynski; R. Brainard; R. A. Edwards; J. Nulton; F. Thompson; F. Rohwer",
+    "year": 2016,
+    "doi": "10.1038/nature17193",
+    "issn": "0028-0836",
+    "url": "http://dx.doi.org/10.1038/nature17193",
+    "region": "Unknown",
+    "item_type": "journalArticle",
+    "publication_title": "Nature"
+  },
+  {
+    "title": "Near-island biological hotspots in barren ocean basins",
+    "creators": "Jamison M. Gove; Margaret A. McManus; Anna B. Neuheimer; Jeffrey J. Polovina; Jeffrey C. Drazen; Craig R. Smith; Mark A. Merrifield; Alan M. Friedlander; Julia S. Ehses; Charles W. Young; Amanda K. Dillon; Gareth J. Williams",
+    "year": 2016,
+    "doi": "10.1038/ncomms10581",
+    "issn": "2041-1723",
+    "url": "http://dx.doi.org/10.1038/ncomms10581 http://www.nature.com/doifinder/10.1038/ncomms10581",
+    "region": "Unknown",
+    "item_type": "journalArticle",
+    "publication_title": "Nature Communications"
+  },
+  {
+    "title": "Ecosystem monitoring for ecosystem-based management: Using a polycentric approach to balance information trade-offs",
+    "creators": "Adel Heenan; Kelvin Gorospe; Ivor Williams; Arielle Levine; Paulo Maurin; Thomas Oliver; John Rooney; Molly Timmers; Supin Wongbusarakum; Russell Brainard",
+    "year": 2016,
+    "doi": "10.1111/1365-2664.12633",
+    "issn": "1365-2664",
+    "url": "http://onlinelibrary.wiley.com/doi/10.1111/1365-2664.12633/pdf",
+    "region": "Unknown",
+    "item_type": "journalArticle",
+    "publication_title": "Journal of Applied Ecology"
+  },
+  {
+    "title": "Comparison of Reef Fish Survey Data Gathered by Open and Closed Circuit SCUBA Divers Reveals Differences in Areas With Higher Fishing Pressure",
+    "creators": "Andrew E. Gray; Ivor D. Williams; Kostantinos A. Stamoulis; Raymond C. Boland; Kevin C. Lino; Brian B. Hauk; Jason C. Leonard; John J. Rooney; Jacob M. Asher; Keolohilani H. Lopes; Randall K. Kosaki",
+    "year": 2016,
+    "doi": "10.1371/journal.pone.0167724",
+    "issn": "1932-6203",
+    "url": "http://dx.plos.org/10.1371/journal.pone.0167724",
+    "region": "Unknown",
+    "item_type": "journalArticle",
+    "publication_title": "PLoS ONE"
+  },
+  {
+    "title": "An assessment of shallow and mesophotic reef brachyuran crab assemblages on the south shore of O‘ahu, Hawai‘i",
+    "creators": "Kaleonani K. C. Hurley; Molly A. Timmers; L. Scott Godwin; Joshua M. Copus; Derek J. Skillings; Robert J. Toonen",
+    "year": 2016,
+    "doi": "10.1007/s00338-015-1382-z",
+    "issn": "0722-4028",
+    "url": "http://link.springer.com/10.1007/s00338-015-1382-z",
+    "region": "Hawaiian Archipelago",
+    "item_type": "journalArticle",
+    "publication_title": "Coral Reefs"
+  },
+  {
+    "title": "Comparison of equatorial Pacific sea surface temperature variability and trends with Sr/Ca records from multiple corals",
+    "creators": "Alice E. Alpert; Anne L. Cohen; Delia W. Oppo; Thomas M. DeCarlo; Jamison M. Gove; Charles W. Young",
+    "year": 2016,
+    "doi": "10.1002/2015PA002897",
+    "issn": "08838305",
+    "url": "http://doi.wiley.com/10.1002/2015PA002897",
+    "region": "Pacific-wide",
+    "item_type": "journalArticle",
+    "publication_title": "Paleoceanography"
+  },
+  {
+    "title": "Re-evaluating the health of coral reef communities : baselines and evidence for human impacts across the central Pacific",
+    "creators": "Jennifer E. Smith; Rusty Brainard; Amanda Carter; Saray Dugas; Clinton Edwards; Jill Harris; Levi Lewis; David Obura; Forest Rohwer; Enric Sala; Peter S. Vroom; Stuart Sandin",
+    "year": 2016,
+    "doi": "10.1098/rspb.2015.1985",
+    "issn": "0962-8452",
+    "url": null,
+    "region": "Pacific-wide",
+    "item_type": "journalArticle",
+    "publication_title": "Proceedings of the Royal Society B: Biological Sciences"
   },
   {
     "title": "Natural bounds on herbivorous coral reef fishes",
@@ -1276,17 +1320,6 @@
     "publication_title": "Marine Ecology Progress Series"
   },
   {
-    "title": "Management strategy evaluation applied to coral reef ecosystems in support of ecosystem-based management",
-    "creators": "Mariska Weijerman; Elizabeth A. Fulton; Russell E. Brainard",
-    "year": 2016,
-    "doi": "10.1371/journal.pone.0152577",
-    "issn": "19326203",
-    "url": null,
-    "region": "Unknown",
-    "item_type": "journalArticle",
-    "publication_title": "PLoS ONE"
-  },
-  {
     "title": "Trends in biomass of coral reef fishes, derived from shore-based creel surveys in Guam",
     "creators": "Mariska Weijerman; Ivor Williams; Jay Gutierrez; Shanna Grafeld; Brent Tibbatts; Gerry Davis",
     "year": 2016,
@@ -1298,28 +1331,6 @@
     "publication_title": "Fishery Bulletin"
   },
   {
-    "title": "Atlantis Ecosystem Model Summit: Report from a workshop",
-    "creators": "M. Weijerman; J. S. Link; E. A. Fulton; E. Olsen; H. Townsend; S. Gaichas; C. Hansen; M. Skern-Mauritzen; I. C. Kaplan; R. Gamble; G. Fay; M. Savina; C. Ainsworth; I. van Putten; R. Gorton; R. Brainard; K. Larsen; T. Hutton",
-    "year": 2016,
-    "doi": "10.1016/j.ecolmodel.2016.05.007",
-    "issn": "03043800",
-    "url": "http://dx.doi.org/10.1016/j.ecolmodel.2016.05.007",
-    "region": "Unknown",
-    "item_type": "journalArticle",
-    "publication_title": "Ecological Modelling"
-  },
-  {
-    "title": "Humans and seasonal climate variability threaten large-bodied coral reef fish with small ranges",
-    "creators": "C. Mellin; D. Mouillot; M. Kulbicki; T. R. McClanahan; L. Vigliola; C. J. A. Bradshaw; R. E. Brainard; P. Chabanet; G. J. Edgar; D. A. Fordham; A. M. Friedlander; V. Parravicini; A. M. M. Sequeira; R. D. Stuart-Smith; L. Wantiez; M. J. Caley",
-    "year": 2016,
-    "doi": "10.1038/ncomms10491",
-    "issn": "2041-1723",
-    "url": "http://www.nature.com/doifinder/10.1038/ncomms10491",
-    "region": "Unknown",
-    "item_type": "journalArticle",
-    "publication_title": "Nature Communications"
-  },
-  {
     "title": "Fishing degrades size structure of coral reef fish communities",
     "creators": "James P. W. Robinson; Ivor D. Williams; Andrew M. Edwards; Jana McPherson; Lauren Yeager; Laurent Vigliola; Russell E. Brainard; Julia K. Baum",
     "year": 2016,
@@ -1329,17 +1340,6 @@
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Global Change Biology"
-  },
-  {
-    "title": "Lytic to temperate switching of viral communities",
-    "creators": "B. Knowles; C. B. Silveira; B. A. Bailey; K. Barott; V. A. Cantu; A. G. Cobián-Güemes; F. H. Coutinho; E. A. Dinsdale; B. Felts; K. A. Furby; E. E. George; K. T. Green; G. B. Gregoracci; A. F. Haas; J. M. Haggerty; E. R. Hester; N. Hisakawa; L. W. Kelly; Y. W. Lim; M. Little; A. Luque; T. McDole-Somera; K. McNair; L. S. de Oliveira; S. D. Quistad; N. L. Robinett; E. Sala; P. Salamon; S. E. Sanchez; S. Sandin; G. G. Z. Silva; J. Smith; C. Sullivan; C. Thompson; M. J. A. Vermeij; M. Youle; C. Young; B. Zgliczynski; R. Brainard; R. A. Edwards; J. Nulton; F. Thompson; F. Rohwer",
-    "year": 2016,
-    "doi": "10.1038/nature17193",
-    "issn": "0028-0836",
-    "url": "http://dx.doi.org/10.1038/nature17193",
-    "region": "Unknown",
-    "item_type": "journalArticle",
-    "publication_title": "Nature"
   },
   {
     "title": "The mobilization of science and technology fisheries innovations towards an ecosystem approach to fisheries management in the Coral Triangle and Southeast Asia",
@@ -1397,17 +1397,6 @@
     "publication_title": "PLOS ONE"
   },
   {
-    "title": "Using Expert Knowledge to Develop a Vulnerability and Adaptation Framework and Methodology for Application in Tropical Island Communities",
-    "creators": "Elizabeth Mcleod; Brian Szuster; Emma L. Tompkins; Nadine Marshall; Thomas Downing; Supin Wongbusarakum; Anand Patwardhan; Mo Hamza; Cheryl Anderson; Sukaina Bharwani; Lara Hansen; Pamela Rubinoff",
-    "year": 2015,
-    "doi": "10.1080/08920753.2015.1046803",
-    "issn": "0892-0753",
-    "url": "http://www.tandfonline.com/doi/full/10.1080/08920753.2015.1046803",
-    "region": "Unknown",
-    "item_type": "journalArticle",
-    "publication_title": "Coastal Management"
-  },
-  {
     "title": "An integrated coral reef ecosystem model to support resource management under a changing climate",
     "creators": "Mariska Weijerman; Elizabeth A. Fulton; Isaac C. Kaplan; Rebecca Gorton; Rik Leemans; Wolf M. Mooij; Russell E. Brainard",
     "year": 2015,
@@ -1417,6 +1406,39 @@
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "PLoS ONE"
+  },
+  {
+    "title": "How models can support ecosystem-based management of coral reefs",
+    "creators": "Mariska Weijerman; Elizabeth A. Fulton; Annette B. G. Janssen; Jan J. Kuiper; Rik Leemans; Barbara J. Robson; Ingrid A. van de Leemput; Wolf M. Mooij",
+    "year": 2015,
+    "doi": "10.1016/j.pocean.2014.12.017",
+    "issn": "00796611",
+    "url": null,
+    "region": "Unknown",
+    "item_type": "journalArticle",
+    "publication_title": "Progress in Oceanography"
+  },
+  {
+    "title": "Towards automated annotation of benthic survey images: Variability of human experts and operational modes of automation",
+    "creators": "Oscar Beijbom; Peter J. Edmunds; Chris Roelfsema; Jennifer Smith; David I. Kline; Benjamin P. Neal; Matthew J. Dunlap; Vincent Moriarty; Tung Yung Fan; Chih Jui Tan; Stephen Chan; Tali Treibitz; Anthony Gamst; B. Greg Mitchell; David Kriegman",
+    "year": 2015,
+    "doi": "10.1371/journal.pone.0130312",
+    "issn": "19326203",
+    "url": null,
+    "region": "Unknown",
+    "item_type": "journalArticle",
+    "publication_title": "PLoS ONE"
+  },
+  {
+    "title": "Using Expert Knowledge to Develop a Vulnerability and Adaptation Framework and Methodology for Application in Tropical Island Communities",
+    "creators": "Elizabeth Mcleod; Brian Szuster; Emma L. Tompkins; Nadine Marshall; Thomas Downing; Supin Wongbusarakum; Anand Patwardhan; Mo Hamza; Cheryl Anderson; Sukaina Bharwani; Lara Hansen; Pamela Rubinoff",
+    "year": 2015,
+    "doi": "10.1080/08920753.2015.1046803",
+    "issn": "0892-0753",
+    "url": "http://www.tandfonline.com/doi/full/10.1080/08920753.2015.1046803",
+    "region": "Unknown",
+    "item_type": "journalArticle",
+    "publication_title": "Coastal Management"
   },
   {
     "title": "Coral macrobioerosion is accelerated by ocean acidification and nutrients",
@@ -1485,17 +1507,6 @@
     "publication_title": "Micronesica"
   },
   {
-    "title": "How models can support ecosystem-based management of coral reefs",
-    "creators": "Mariska Weijerman; Elizabeth A. Fulton; Annette B. G. Janssen; Jan J. Kuiper; Rik Leemans; Barbara J. Robson; Ingrid A. van de Leemput; Wolf M. Mooij",
-    "year": 2015,
-    "doi": "10.1016/j.pocean.2014.12.017",
-    "issn": "00796611",
-    "url": null,
-    "region": "Unknown",
-    "item_type": "journalArticle",
-    "publication_title": "Progress in Oceanography"
-  },
-  {
     "title": "Baseline Assessment of Net Calcium Carbonate Accretion Rates on U.S. Pacific Reefs",
     "creators": "Bernardo Vargas-Ángel; Cristi L. Richards; Peter S. Vroom; Nichole N. Price; Tom Schils; Charles W. Young; Jennifer Smith; Maggie D. Johnson; Russell E. Brainard; Christian R. Voolstra",
     "year": 2015,
@@ -1518,17 +1529,6 @@
     "publication_title": null
   },
   {
-    "title": "Towards automated annotation of benthic survey images: Variability of human experts and operational modes of automation",
-    "creators": "Oscar Beijbom; Peter J. Edmunds; Chris Roelfsema; Jennifer Smith; David I. Kline; Benjamin P. Neal; Matthew J. Dunlap; Vincent Moriarty; Tung Yung Fan; Chih Jui Tan; Stephen Chan; Tali Treibitz; Anthony Gamst; B. Greg Mitchell; David Kriegman",
-    "year": 2015,
-    "doi": "10.1371/journal.pone.0130312",
-    "issn": "19326203",
-    "url": null,
-    "region": "Unknown",
-    "item_type": "journalArticle",
-    "publication_title": "PLoS ONE"
-  },
-  {
     "title": "A climate-informed, ecosystem approach to fisheries management",
     "creators": "Adel Heenan; Robert Pomeroy; Johann Bell; Philip L. Munday; William Cheung; Cheryl Logan; Russell Brainard; Affendi Yang Amri; Porfirio Aliño; Nygiel Armada; Laura David; Rebecca Rivera-Guieb; Stuart Green; Jamaluddin Jompa; Teresa Leonardo; Samuel Mamauag; Britt Parker; Janna Shackeroff; Zulfigar Yasin",
     "year": 2015,
@@ -1538,6 +1538,17 @@
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Marine Policy"
+  },
+  {
+    "title": "Species Richness on Coral Reefs and the Pursuit of Convergent Global Estimates",
+    "creators": "Rebecca Fisher; Rebecca A. O’Leary; Samantha Low-Choy; Kerrie Mengersen; Nancy Knowlton; Russell E. Brainard; M. Julian Caley",
+    "year": 2015,
+    "doi": "10.1016/j.cub.2014.12.022",
+    "issn": "09609822",
+    "url": "http://linkinghub.elsevier.com/retrieve/pii/S0960982214016236",
+    "region": "Unknown",
+    "item_type": "journalArticle",
+    "publication_title": "Current Biology"
   },
   {
     "title": "Recovery potential of the world's coral reef fishes",
@@ -1554,7 +1565,7 @@
     "title": "Depth Derivation Using Multispectral WorldView-2 Satellite Imagery",
     "creators": "Julia S. Ehses; John J. Rooney",
     "year": 2015,
-    "doi": null,
+    "doi": "10.7289/V5668B40",
     "issn": null,
     "url": null,
     "region": "Unknown",
@@ -1573,17 +1584,6 @@
     "publication_title": "Aquatic Ecology"
   },
   {
-    "title": "Species Richness on Coral Reefs and the Pursuit of Convergent Global Estimates",
-    "creators": "Rebecca Fisher; Rebecca A. O’Leary; Samantha Low-Choy; Kerrie Mengersen; Nancy Knowlton; Russell E. Brainard; M. Julian Caley",
-    "year": 2015,
-    "doi": "10.1016/j.cub.2014.12.022",
-    "issn": "09609822",
-    "url": "http://linkinghub.elsevier.com/retrieve/pii/S0960982214016236",
-    "region": "Unknown",
-    "item_type": "journalArticle",
-    "publication_title": "Current Biology"
-  },
-  {
     "title": "Pacific Reef Assessment and Monitoring Program - Data Report - Ecological Monitoring 2012-2013 - reef fishes and benthic habitats of the main Hawaiian Islands , American Samoa , and Pacific Remote Island Areas",
     "creators": "Adel Heenan; Paula Ayotte; Andrew Gray; Kevin Lino; Kaylyn McCoy; Jill Zamzow; Ivor Williams",
     "year": 2014,
@@ -1593,6 +1593,39 @@
     "region": "Hawaiian Archipelago",
     "item_type": "report",
     "publication_title": null
+  },
+  {
+    "title": "Identifying multiple coral reef regimes and their drivers across the Hawaiian archipelago",
+    "creators": "J.-B. Jouffray; M. Nystrom; A. V. Norstrom; I. D. Williams; L. M. Wedding; J. N. Kittinger; G. J. Williams",
+    "year": 2014,
+    "doi": "10.1098/rstb.2013.0268",
+    "issn": "0962-8436",
+    "url": "http://rstb.royalsocietypublishing.org/content/370/1659/20130268 http://rstb.royalsocietypublishing.org/cgi/doi/10.1098/rstb.2013.0268",
+    "region": "Hawaiian Archipelago",
+    "item_type": "journalArticle",
+    "publication_title": "Philosophical Transactions of the Royal Society B: Biological Sciences"
+  },
+  {
+    "title": "Design and parameterization of a coral reef ecosystem model for Guam",
+    "creators": "M. Weijerman; I. Kaplan; E. Fulton; B. Gordon; S. Grafeld; R. Brainard",
+    "year": 2014,
+    "doi": "10.7289/V5B27S76",
+    "issn": null,
+    "url": null,
+    "region": "Mariana Archipelago",
+    "item_type": "report",
+    "publication_title": null
+  },
+  {
+    "title": "Endangered species act listing: Three case studies of data deficiencies and consequences of ESA 'threatened' listing on research output",
+    "creators": "Mariska Weijerman; Charles Birkeland; Gregory A. G. A. Piniak; M. W. Margaret W. Miller; C. M. Mark Eakin; Paul McElhany; M. J. Matthew J. Dunlap; Matt Patterson; Russell E. R. E. Brainard",
+    "year": 2014,
+    "doi": "10.1016/j.cosust.2013.11.026",
+    "issn": "18773435",
+    "url": "http://dx.doi.org/10.1016/j.cosust.2013.11.026",
+    "region": "Unknown",
+    "item_type": "journalArticle",
+    "publication_title": "Current Opinion in Environmental Sustainability"
   },
   {
     "title": "Coral reef baselines: How much macroalgae is natural?",
@@ -1617,28 +1650,6 @@
     "publication_title": "Marine Pollution Bulletin"
   },
   {
-    "title": "Identifying multiple coral reef regimes and their drivers across the Hawaiian archipelago",
-    "creators": "J.-B. Jouffray; M. Nystrom; A. V. Norstrom; I. D. Williams; L. M. Wedding; J. N. Kittinger; G. J. Williams",
-    "year": 2014,
-    "doi": "10.1098/rstb.2013.0268",
-    "issn": "0962-8436",
-    "url": "http://rstb.royalsocietypublishing.org/content/370/1659/20130268 http://rstb.royalsocietypublishing.org/cgi/doi/10.1098/rstb.2013.0268",
-    "region": "Hawaiian Archipelago",
-    "item_type": "journalArticle",
-    "publication_title": "Philosophical Transactions of the Royal Society B: Biological Sciences"
-  },
-  {
-    "title": "Design and parameterization of a coral reef ecosystem model for Guam",
-    "creators": "M. Weijerman; I. Kaplan; E. Fulton; B. Gordon; S. Grafeld; R. Brainard",
-    "year": 2014,
-    "doi": null,
-    "issn": null,
-    "url": null,
-    "region": "Mariana Archipelago",
-    "item_type": "report",
-    "publication_title": null
-  },
-  {
     "title": "National Coral Reef Monitoring Plan",
     "creators": "NOAA Coral Program",
     "year": 2014,
@@ -1661,17 +1672,6 @@
     "publication_title": null
   },
   {
-    "title": "Endangered species act listing: Three case studies of data deficiencies and consequences of ESA 'threatened' listing on research output",
-    "creators": "Mariska Weijerman; Charles Birkeland; Gregory A. G. A. Piniak; M. W. Margaret W. Miller; C. M. Mark Eakin; Paul McElhany; M. J. Matthew J. Dunlap; Matt Patterson; Russell E. R. E. Brainard",
-    "year": 2014,
-    "doi": "10.1016/j.cosust.2013.11.026",
-    "issn": "18773435",
-    "url": "http://dx.doi.org/10.1016/j.cosust.2013.11.026",
-    "region": "Unknown",
-    "item_type": "journalArticle",
-    "publication_title": "Current Opinion in Environmental Sustainability"
-  },
-  {
     "title": "Commonness and rarity in the marine biosphere",
     "creators": "S. R. Connolly; M. A. MacNeil; M. J. Caley; N. Knowlton; E. Cripps; M. Hisano; L. M. Thibaut; B. D. Bhattacharya; L. Benedetti-Cecchi; R. E. Brainard; A. Brandt; F. Bulleri; K. E. Ellingsen; S. Kaiser; I. Kroncke; K. Linse; E. Maggi; T. D. O'Hara; L. Plaisance; G. C. B. Poore; S. K. Sarkar; K. K. Satpathy; U. Schuckel; A. Williams; R. S. Wilson",
     "year": 2014,
@@ -1681,6 +1681,17 @@
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Proceedings of the National Academy of Sciences"
+  },
+  {
+    "title": "Incorporating Climate and Ocean Change into Extinction Risk Assessments for 82 Coral Species",
+    "creators": "Russell E. Brainard; Mariska Weijerman; C. Mark Eakin; Paul Mcelhany; Margaret W. Miller; Matt Patterson; Gregory A. Piniak; Matthew J. Dunlap; Charles Birkeland",
+    "year": 2013,
+    "doi": "10.1111/cobi.12171",
+    "issn": "15231739",
+    "url": null,
+    "region": "Unknown",
+    "item_type": "journalArticle",
+    "publication_title": "Conservation Biology"
   },
   {
     "title": "Comparison of Coral Reef Ecosystems along a Fishing Pressure Gradient",
@@ -1727,17 +1738,6 @@
     "publication_title": null
   },
   {
-    "title": "Incorporating Climate and Ocean Change into Extinction Risk Assessments for 82 Coral Species",
-    "creators": "Russell E. Brainard; Mariska Weijerman; C. Mark Eakin; Paul Mcelhany; Margaret W. Miller; Matt Patterson; Gregory A. Piniak; Matthew J. Dunlap; Charles Birkeland",
-    "year": 2013,
-    "doi": "10.1111/cobi.12171",
-    "issn": "15231739",
-    "url": null,
-    "region": "Unknown",
-    "item_type": "journalArticle",
-    "publication_title": "Conservation Biology"
-  },
-  {
     "title": "Estimating Catch Weight of Reef Fish Species Using Estimation and Intercept Data from the Hawaii Marine Recreational Fishing Survey",
     "creators": "Ivor Williams; Hongguang Ma",
     "year": 2013,
@@ -1747,6 +1747,28 @@
     "region": "Hawaiian Archipelago",
     "item_type": "report",
     "publication_title": null
+  },
+  {
+    "title": "Monitoring herbivorous fishes as indicators of coral reef resilience in American Samoa",
+    "creators": "Adel Heenan; Ivor D. Williams",
+    "year": 2013,
+    "doi": "10.1371/journal.pone.0079604",
+    "issn": "19326203",
+    "url": null,
+    "region": "American Samoa",
+    "item_type": "journalArticle",
+    "publication_title": "PLoS ONE"
+  },
+  {
+    "title": "Quantifying Climatological Ranges and Anomalies for Pacific Coral Reef Ecosystems",
+    "creators": "Jamison M. Gove; Gareth J. Williams; Margaret A. McManus; Scott F. Heron; Stuart A. Sandin; Oliver J. Vetter; David G. Foley; Christopher Fulton",
+    "year": 2013,
+    "doi": "10.1371/journal.pone.0061974",
+    "issn": "1932-6203",
+    "url": "http://dx.plos.org/10.1371/journal.pone.0061974",
+    "region": "Pacific-wide",
+    "item_type": "journalArticle",
+    "publication_title": "PLoS ONE"
   },
   {
     "title": "Safety in Numbers? Abundance May Not Safeguard Corals from Increasing Carbon Dioxide",
@@ -1782,28 +1804,6 @@
     "publication_title": "Coral Reefs"
   },
   {
-    "title": "Quantifying Climatological Ranges and Anomalies for Pacific Coral Reef Ecosystems",
-    "creators": "Jamison M. Gove; Gareth J. Williams; Margaret A. McManus; Scott F. Heron; Stuart A. Sandin; Oliver J. Vetter; David G. Foley; Christopher Fulton",
-    "year": 2013,
-    "doi": "10.1371/journal.pone.0061974",
-    "issn": "1932-6203",
-    "url": "http://dx.plos.org/10.1371/journal.pone.0061974",
-    "region": "Pacific-wide",
-    "item_type": "journalArticle",
-    "publication_title": "PLoS ONE"
-  },
-  {
-    "title": "Monitoring herbivorous fishes as indicators of coral reef resilience in American Samoa",
-    "creators": "Adel Heenan; Ivor D. Williams",
-    "year": 2013,
-    "doi": "10.1371/journal.pone.0079604",
-    "issn": "19326203",
-    "url": null,
-    "region": "American Samoa",
-    "item_type": "journalArticle",
-    "publication_title": "PLoS ONE"
-  },
-  {
     "title": "Global assessment of the status of coral reef herbivorous fishes : evidence for fishing effects Global assessment of the status of coral reef herbivorous fishes : evidence for fishing effects",
     "creators": "C. B. Edwards; A. M. Friedlander; A. L. Green; M. J. Hardt; E. Sala; H. P. Sweatman; I. D. Williams; B. Zgliczynski; S. A. Sandin; J. E. Smith",
     "year": 2013,
@@ -1813,6 +1813,17 @@
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Proceedings of the Royal Society B: Biological Sciences"
+  },
+  {
+    "title": "Assessing Coral Reefs on a Pacific-Wide Scale Using the Microbialization Score",
+    "creators": "Tracey McDole; James Nulton; Katie L. Barott; Ben Felts; Carol Hand; Mark Hatay; Hochul Lee; Marc O. Nadon; Bahador Nosrat; Peter Salamon; Barbara Bailey; Stuart a Sandin; Bernardo Vargas-Angel; Merry Youle; Brian J. Zgliczynski; Russell E. Brainard; Forest Rohwer",
+    "year": 2012,
+    "doi": "10.1371/journal.pone.0043233",
+    "issn": "19326203",
+    "url": null,
+    "region": "Pacific-wide",
+    "item_type": "journalArticle",
+    "publication_title": "PLoS ONE"
   },
   {
     "title": "Environmental Factors Affecting Large-Bodied Coral Reef Fish Assemblages in the Mariana Archipelago",
@@ -1947,17 +1958,6 @@
     "publication_title": "Marine Biodiversity Records"
   },
   {
-    "title": "Assessing Coral Reefs on a Pacific-Wide Scale Using the Microbialization Score",
-    "creators": "Tracey McDole; James Nulton; Katie L. Barott; Ben Felts; Carol Hand; Mark Hatay; Hochul Lee; Marc O. Nadon; Bahador Nosrat; Peter Salamon; Barbara Bailey; Stuart a Sandin; Bernardo Vargas-Angel; Merry Youle; Brian J. Zgliczynski; Russell E. Brainard; Forest Rohwer",
-    "year": 2012,
-    "doi": "10.1371/journal.pone.0043233",
-    "issn": "19326203",
-    "url": null,
-    "region": "Pacific-wide",
-    "item_type": "journalArticle",
-    "publication_title": "PLoS ONE"
-  },
-  {
     "title": "Coral Reef Ecosystem Division standard operating procedures: data collection for Rapid Ecological Assessment fish surveys.",
     "creators": "Paula Ayotte; Kaylyn McCoy; Adel Heenan; Ivor Williams; Jill Zamzow",
     "year": 2011,
@@ -1969,17 +1969,6 @@
     "publication_title": null
   },
   {
-    "title": "Spatial and Temporal Comparisons of Benthic Composition at Necker Island, Northwestern Hawaiian Islands 1",
-    "creators": "Stephanie a Schopmeyer; Peter S. Vroom; Jean C. Kenyon",
-    "year": 2011,
-    "doi": "10.2984/65.4.405",
-    "issn": "0030-8870",
-    "url": "http://www.bioone.org/doi/abs/10.2984/65.4.405",
-    "region": "Hawaiian Archipelago",
-    "item_type": "journalArticle",
-    "publication_title": "Pacific Science"
-  },
-  {
     "title": "Probability sampling of stony coral populations in the Florida Keys",
     "creators": "Steven G. Smith; Dione W. Swanson; Mark Chiappone; Steven L. Miller; Jerald S. Ault",
     "year": 2011,
@@ -1989,6 +1978,17 @@
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Environmental Monitoring and Assessment"
+  },
+  {
+    "title": "Spatial and Temporal Comparisons of Benthic Composition at Necker Island, Northwestern Hawaiian Islands 1",
+    "creators": "Stephanie a Schopmeyer; Peter S. Vroom; Jean C. Kenyon",
+    "year": 2011,
+    "doi": "10.2984/65.4.405",
+    "issn": "0030-8870",
+    "url": "http://www.bioone.org/doi/abs/10.2984/65.4.405",
+    "region": "Hawaiian Archipelago",
+    "item_type": "journalArticle",
+    "publication_title": "Pacific Science"
   },
   {
     "title": "Catalog of coral reef life history specimens for the Hawaiian Islands",
@@ -2044,6 +2044,17 @@
     "region": "Unknown",
     "item_type": "report",
     "publication_title": null
+  },
+  {
+    "title": "First records of marine benthic algae from Swains Island, American Samoa",
+    "creators": "Roy T. Tsuda; Jack R. Fisher; Peter S. Vroom",
+    "year": 2011,
+    "doi": null,
+    "issn": null,
+    "url": null,
+    "region": "American Samoa",
+    "item_type": "journalArticle",
+    "publication_title": "Cryptogamie, Algologie"
   },
   {
     "title": "Humpback whale Megaptera novaeangliae song reveals wintering activity in the Northwestern Hawaiian Islands",
@@ -2112,17 +2123,6 @@
     "publication_title": "Bulletin of Marine Science"
   },
   {
-    "title": "First records of marine benthic algae from Swains Island, American Samoa",
-    "creators": "Roy T. Tsuda; Jack R. Fisher; Peter S. Vroom",
-    "year": 2011,
-    "doi": null,
-    "issn": null,
-    "url": null,
-    "region": "American Samoa",
-    "item_type": "journalArticle",
-    "publication_title": "Cryptogamie, Algologie"
-  },
-  {
     "title": "“Coral Dominance”: A Dangerous Ecosystem Misnomer?",
     "creators": "Peter S. Vroom",
     "year": 2011,
@@ -2143,6 +2143,28 @@
     "region": "Hawaiian Archipelago",
     "item_type": "journalArticle",
     "publication_title": "Diversity"
+  },
+  {
+    "title": "Monitoring coral reefs from space",
+    "creators": "C. Mark Eakin; Carl Nim; Russell Brainard; Christoph Aubrecht; Chris Elvidge; Dwight Gledhill; Frank Muller-Karger; Peter Mumby; William Skirving; Alan Strong; Menghua Wang; Scarla Weeks; Frank Wentz; Daniel Ziskin",
+    "year": 2010,
+    "doi": "10.5670/oceanog.2010.10",
+    "issn": "10428275",
+    "url": null,
+    "region": "Unknown",
+    "item_type": "journalArticle",
+    "publication_title": "Oceanography"
+  },
+  {
+    "title": "Crustose coralline algal diseases in the U.S.-Affiliated Pacific Islands",
+    "creators": "Bernardo Vargas-Ángel",
+    "year": 2010,
+    "doi": "10.1007/s00338-010-0646-x",
+    "issn": null,
+    "url": "http://link.springer.com/10.1007/s00338-010-0646-x",
+    "region": "Pacific-wide",
+    "item_type": "journalArticle",
+    "publication_title": "Coral Reefs"
   },
   {
     "title": "Benthic composition of a healthy subtropical reef: baseline species-level cover, with an emphasis on algae, in the Northwestern Hawaiian Islands",
@@ -2187,28 +2209,6 @@
     "region": "Pacific Remote Island Areas",
     "item_type": "journalArticle",
     "publication_title": "Pacific Science"
-  },
-  {
-    "title": "Crustose coralline algal diseases in the U.S.-Affiliated Pacific Islands",
-    "creators": "Bernardo Vargas-Ángel",
-    "year": 2010,
-    "doi": "10.1007/s00338-010-0646-x",
-    "issn": null,
-    "url": "http://link.springer.com/10.1007/s00338-010-0646-x",
-    "region": "Pacific-wide",
-    "item_type": "journalArticle",
-    "publication_title": "Coral Reefs"
-  },
-  {
-    "title": "Monitoring coral reefs from space",
-    "creators": "C. Mark Eakin; Carl Nim; Russell Brainard; Christoph Aubrecht; Chris Elvidge; Dwight Gledhill; Frank Muller-Karger; Peter Mumby; William Skirving; Alan Strong; Menghua Wang; Scarla Weeks; Frank Wentz; Daniel Ziskin",
-    "year": 2010,
-    "doi": "10.5670/oceanog.2010.10",
-    "issn": "10428275",
-    "url": null,
-    "region": "Unknown",
-    "item_type": "journalArticle",
-    "publication_title": "Oceanography"
   },
   {
     "title": "An International Network of Coral Reef Ecosystem Observing Systems (I-CREOS)",
@@ -2354,6 +2354,17 @@
     "publication_title": "Journal of Operational Oceanography"
   },
   {
+    "title": "An ecological acoustic recorder (EAR) for long-term monitoring of biological and anthropogenic sounds on coral reefs and other marine habitats.",
+    "creators": "Marc O. Lammers; Russell E. Brainard; Whitlow W. L. Au; T. Aran Mooney; Kevin B. Wong",
+    "year": 2008,
+    "doi": "10.1121/1.2836780",
+    "issn": "00014966",
+    "url": null,
+    "region": "Unknown",
+    "item_type": "journalArticle",
+    "publication_title": "The Journal of the Acoustical Society of America"
+  },
+  {
     "title": "CORAL HEALTH AND DISEASE ASSESSMENT IN THE U.S. PACIFIC TERRITORIES AND AFFILIATED STATES",
     "creators": "Bernardo Vargas-Ángel; Benjamin Wheeler",
     "year": 2008,
@@ -2385,17 +2396,6 @@
     "region": "Hawaiian Archipelago",
     "item_type": "journalArticle",
     "publication_title": "Environmental Conservation"
-  },
-  {
-    "title": "An ecological acoustic recorder (EAR) for long-term monitoring of biological and anthropogenic sounds on coral reefs and other marine habitats.",
-    "creators": "Marc O. Lammers; Russell E. Brainard; Whitlow W. L. Au; T. Aran Mooney; Kevin B. Wong",
-    "year": 2008,
-    "doi": "10.1121/1.2836780",
-    "issn": "00014966",
-    "url": null,
-    "region": "Unknown",
-    "item_type": "journalArticle",
-    "publication_title": "The Journal of the Acoustical Society of America"
   },
   {
     "title": "Additional marine benthic algae from Howland and Baker Islands, central Pacific",
@@ -2473,6 +2473,17 @@
     "region": "Mariana Archipelago",
     "item_type": "journalArticle",
     "publication_title": "Phycologia"
+  },
+  {
+    "title": "Community Structure of Hermatypic Corals at French Frigate Shoals, Northwestern Hawaiian Islands: Capacity for Resistance and Resilience to Selective Stressors",
+    "creators": "Jean C. Kenyon; Peter S. Vroom; Kimberly N. Page; Matthew J. Dunlap; Casey B. Wilkinson; Greta S. Aeby",
+    "year": 2006,
+    "doi": "10.1353/psc.2006.0006",
+    "issn": "1534-6188",
+    "url": "http://muse.jhu.edu/content/crossref/journals/pacific_science/v060/60.2kenyon.pdf",
+    "region": "Hawaiian Archipelago",
+    "item_type": "journalArticle",
+    "publication_title": "Pacific Science"
   },
   {
     "title": "Temporal variability of current-driven upwelling at Jarvis Island",
@@ -2585,17 +2596,6 @@
     "publication_title": "Pacific Science"
   },
   {
-    "title": "Community Structure of Hermatypic Corals at French Frigate Shoals, Northwestern Hawaiian Islands: Capacity for Resistance and Resilience to Selective Stressors",
-    "creators": "Jean C. Kenyon; Peter S. Vroom; Kimberly N. Page; Matthew J. Dunlap; Casey B. Wilkinson; Greta S. Aeby",
-    "year": 2006,
-    "doi": "10.1353/psc.2006.0006",
-    "issn": "1534-6188",
-    "url": "http://muse.jhu.edu/content/crossref/journals/pacific_science/v060/60.2kenyon.pdf",
-    "region": "Hawaiian Archipelago",
-    "item_type": "journalArticle",
-    "publication_title": "Pacific Science"
-  },
-  {
     "title": "Oceanographic conditions implicated in the 2002 Northwestern Hawaiian Islands bleaching event",
     "creators": "R. Hoeke; R. Brainard; R. Moffitt; J. Kenyon",
     "year": 2006,
@@ -2695,6 +2695,17 @@
     "publication_title": "Coral Reefs"
   },
   {
+    "title": "A rapid ecological assessment (REA) quantitative survey method for benthic algae using photo quadrats with SCUBA",
+    "creators": "Linda B. Preskitt; Peter S. Vroom; Celia Marie Smith",
+    "year": 2004,
+    "doi": "10.1353/psc.2004.0021",
+    "issn": null,
+    "url": "http://muse.jhu.edu/content/crossref/journals/pacific_science/v058/58.2preskitt.pdf",
+    "region": "Unknown",
+    "item_type": "journalArticle",
+    "publication_title": "Pacific Science"
+  },
+  {
     "title": "Scinaia huismanii sp. nov. (Nemaliales, Rhodophyta): an addition to the exploration of the marine algae of the northwestern Hawaiian Islands",
     "creators": "Peter S. Vroom; Isabella A. Abbott",
     "year": 2004,
@@ -2750,15 +2761,15 @@
     "publication_title": "Biological Conservation"
   },
   {
-    "title": "A rapid ecological assessment (REA) quantitative survey method for benthic algae using photo quadrats with SCUBA",
-    "creators": "Linda B. Preskitt; Peter S. Vroom; Celia Marie Smith",
-    "year": 2004,
-    "doi": "10.1353/psc.2004.0021",
-    "issn": null,
-    "url": "http://muse.jhu.edu/content/crossref/journals/pacific_science/v058/58.2preskitt.pdf",
+    "title": "The impact of Dictyota spp. on Halimeda populations of Conch Reef, Florida Keys",
+    "creators": "Kevin Beach; Linda Walters; Heidi Borgeas; Celia Smith; James Coyer; Peter Vroom",
+    "year": 2003,
+    "doi": "10.1016/j.jembe.2003.07.003",
+    "issn": "00220981",
+    "url": null,
     "region": "Unknown",
     "item_type": "journalArticle",
-    "publication_title": "Pacific Science"
+    "publication_title": "Journal of Experimental Marine Biology and Ecology"
   },
   {
     "title": "Reproductive features of Hawaiian Halimeda velasquezii (Bryopsidales, Chlorophyta), and an evolutionary assessment of reproductive characters in Halimeda",
@@ -2803,17 +2814,6 @@
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Hydrobiologia"
-  },
-  {
-    "title": "The impact of Dictyota spp. on Halimeda populations of Conch Reef, Florida Keys",
-    "creators": "Kevin Beach; Linda Walters; Heidi Borgeas; Celia Smith; James Coyer; Peter Vroom",
-    "year": 2003,
-    "doi": "10.1016/j.jembe.2003.07.003",
-    "issn": "00220981",
-    "url": null,
-    "region": "Unknown",
-    "item_type": "journalArticle",
-    "publication_title": "Journal of Experimental Marine Biology and Ecology"
   },
   {
     "title": "Life without cells",
