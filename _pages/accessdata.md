@@ -15,13 +15,13 @@ header:
    - label: "Browse Metadata"
      url: /metadata_catalog/
 feature_row2:
-- image_path: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmcO5tHXjtN5CEzy1KMGDeVuLNn52DYvVttw&s
-  alt: "coris image"
-  title: "NOAA CoRIS"
-  excerpt: "Access our data on NOAA Coral Reef Information Systems (CoRIS)."
+- image_path: /assets/images/digitalcorals_home.png
+  alt: "digital corals homepage"
+  title: "Access Data via Digital Corals"
+  excerpt: 'The NOAA Coral Reef Conservation Program organizes projects with data access on Digital Corals.  Only looking for NCRMP?  <a href = "https://coralreef.noaa.gov/topics/national-coral-reef-monitoring-program/data">NCRMP data here</a>.'
   buttons:
-  - url: "https://www.coris.noaa.gov/"
-    btn_label: "Go to CoRIS"
+  - url: "https://coralreef.noaa.gov/digital-corals/data"
+    btn_label: "Go to Digital Corals"
     btn_class: "btn--primary"
 feature_row3:
 - image_path: https://www.pacioos.hawaii.edu/wp-content/uploads/2016/06/PacIOOS-logo-stacked-small.jpg
