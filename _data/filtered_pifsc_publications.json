@@ -1,5 +1,60 @@
 [
   {
+    "title": "Impacts of macroborers on corals along a water quality gradient in American Samoa",
+    "creators": "",
+    "year": 2025,
+    "doi": null,
+    "issn": null,
+    "url": null,
+    "region": "American Samoa",
+    "item_type": "presentation",
+    "publication_title": null
+  },
+  {
+    "title": "Summary of ocean acidification data collected by the National Coral Reef Monitoring Program in the U.S. Pacific Islands, 2021—2023",
+    "creators": "Hannah C. Barkley",
+    "year": 2025,
+    "doi": "10.25923/t5ee-j028",
+    "issn": null,
+    "url": "https://repository.library.noaa.gov",
+    "region": "Pacific-wide",
+    "item_type": "report",
+    "publication_title": null
+  },
+  {
+    "title": "Standard operating procedures for the deployment, recovery, and analysis of Calcification Accretion Units",
+    "creators": "Hannah C. Barkley; Candace E. Alagata; Nicole Besemer",
+    "year": 2025,
+    "doi": "10.25923/yfwd-fr36",
+    "issn": null,
+    "url": "https://repository.library.noaa.gov",
+    "region": "Unknown",
+    "item_type": "report",
+    "publication_title": null
+  },
+  {
+    "title": "Linking fish biomass and coral reefs structural complexity across the Mariana Archipelago",
+    "creators": "Damaris Torres-Pulliza; Thomas Oliver; Rebecca Weible; Frances Lichowski; Tye Kindinger; Laura Gajdzik; Courtney Couch",
+    "year": 2025,
+    "doi": null,
+    "issn": null,
+    "url": "https://repository.library.noaa.gov/view/noaa/71123",
+    "region": "Mariana Archipelago",
+    "item_type": "report",
+    "publication_title": null
+  },
+  {
+    "title": "The rise of long-sediment-laden algal turfs: an additional negative feedback process limiting reef resilience",
+    "creators": "Ladd, MC, Shantz, AA, Harborne AR, Bauman AG, Duran A",
+    "year": 2025,
+    "doi": "https://doi.org/10.1007/s00338-025-02796-6",
+    "issn": null,
+    "url": null,
+    "region": "Unknown",
+    "item_type": "journalArticle",
+    "publication_title": "Coral Reefs"
+  },
+  {
     "title": "Survivorship and growth of corals in Hawaiʻi two years post-bleaching: signs of resilience",
     "creators": "Morgan W. Pomeroy; Courtney S. Couch; Thomas A. Oliver; Orion S McCarthy; Kelly E. Speare; Mary K. Donovan",
     "year": 2025,
@@ -251,17 +306,6 @@
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Frontiers in Marine Science"
-  },
-  {
-    "title": "Carbonate Budget Assessments in the U.S. Pacific Islands: Report of Methods Comparison Results and Summary of Standard Operating Procedures",
-    "creators": "Hannah C. Barkley; Rebecca M. Weible; Ariel A. Halperin; Candace E. Alagata; Tye Kindinger; Damaris Torres-Pulliza; Mia S. Lamirand; Brittany E. Huntington; Courtney S. Couch; Corinne G. Amir; Nicole I. Besemer; Jonathan A. Charendoff; Jon Ehrenberg; Joao D. Garriques; Andrew E. Gray; Nathan Hayes; Kurt E. Ingeman; Lori H. Luers; Kaylyn S. McCoy; Noah V. Pomeroy; Joy N. Smith; Bernardo Vargas-Ángel; Erica K. Towle; Jennifer C. Samson",
-    "year": 2023,
-    "doi": "10.25923/g4hg-7686",
-    "issn": null,
-    "url": "https://repository.library.noaa.gov",
-    "region": "Pacific-wide",
-    "item_type": "webpage",
-    "publication_title": null
   },
   {
     "title": "American Samoa Methods Documentation",
@@ -2997,7 +3041,7 @@
     "year": null,
     "doi": null,
     "issn": null,
-    "url": "http://repository.library.noaa.gov/view/noaa/56372/noaa_56372_DS1.pdf",
+    "url": "http://repository.library.noaa.gov/view/noaa/72379/noaa_72379_DS1.pdf",
     "region": "Unknown",
     "item_type": "attachment",
     "publication_title": null
@@ -3011,17 +3055,6 @@
     "url": null,
     "region": "Hawaiian Archipelago",
     "item_type": "attachment",
-    "publication_title": null
-  },
-  {
-    "title": "Linking fish biomass and coral reefs structural complexity across the Mariana Archipelago",
-    "creators": "Damaris Torres-Pulliza; Thomas Oliver; Rebecca Weible; Frances Lichowski; Tye Kindinger; Laura Gajdzik; Courtney Couch",
-    "year": null,
-    "doi": "https://doi.org/10.25923/epgn-3x74",
-    "issn": null,
-    "url": "https://repository.library.noaa.gov/view/noaa/71123",
-    "region": "Mariana Archipelago",
-    "item_type": "journalArticle",
     "publication_title": null
   },
   {
