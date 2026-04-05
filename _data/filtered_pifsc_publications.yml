@@ -132,6 +132,16 @@
   region: Pacific-wide
   item_type: report
   publication_title: null
+- title: 'Linking watershed activities to reef health in American Samoa: land-based
+    sources of pollution impacts on Aua coral reefs'
+  creators: Vargas-Angel, B; Verstaen, J; Shantz, A; Lee, R; C. E. Alagata; F Lichowski
+  year: 2024
+  doi: null
+  issn: null
+  url: https://www.ncei.noaa.gov/data/oceans/coris/library/NOAA/CRCP/NMFS/PIFSC/Projects/31303/Smith2024_Aua_LBSP_Project_Report.pdf
+  region: American Samoa
+  item_type: report
+  publication_title: null
 - title: Long-term outcomes of passive and active restoration approaches following
     a vessel grounding in Hawaii, USA
   creators: John T. Morris; Brittany Huntington; Courtney Couch; Shannon Ruseborn
@@ -142,16 +152,6 @@
   region: Hawaiian Archipelago
   item_type: journalArticle
   publication_title: Coral Reefs
-- title: 'Linking watershed activities to reef health in American Samoa: land-based
-    sources of pollution impacts on Aua coral reefs'
-  creators: ''
-  year: 2024
-  doi: null
-  issn: null
-  url: https://www.ncei.noaa.gov/data/oceans/coris/library/NOAA/CRCP/NMFS/PIFSC/Projects/31303/Smith2024_Aua_LBSP_Project_Report.pdf
-  region: American Samoa
-  item_type: report
-  publication_title: null
 - title: Sediment Pollution Changing Aua Reefs
   creators: ''
   year: 2024
