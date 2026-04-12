@@ -1,3 +1,13 @@
+- title: Using Species Distribution Modeling to Enhance the Detection of an Invasive
+    Soft Coral in Hawai‘i
+  creators: Shawn Cabus; Kisei R. Tanaka; Maya Otsu; Laura Gajdzik
+  year: 2025
+  doi: 10.25923/v62q-3k69
+  issn: null
+  url: https://repository.library.noaa.gov
+  region: Hawaiian Archipelago
+  item_type: webpage
+  publication_title: null
 - title: Impacts of macroborers on corals along a water quality gradient in American
     Samoa
   creators: ''
@@ -293,6 +303,16 @@
   region: Unknown
   item_type: journalArticle
   publication_title: Frontiers in Marine Science
+- title: Spatiotemporal trends in benthic and reef fish communities in the Mariana
+    Archipelago
+  creators: Laura Gajdzik; Kurt Ingeman; Tye L. Kindinger; Thomas Oliver
+  year: 2023
+  doi: null
+  issn: null
+  url: https://repository.library.noaa.gov
+  region: Mariana Archipelago
+  item_type: webpage
+  publication_title: null
 - title: American Samoa Methods Documentation
   creators: Juliette Verstaen
   year: 2023
@@ -301,16 +321,6 @@
   url: https://connect.fisheries.noaa.gov/american_samoa_methods_documentation/methods_documentation.html
   region: American Samoa
   item_type: webpage
-  publication_title: null
-- title: Spatiotemporal trends in benthic and reef fish communities in the Mariana
-    Archipelago
-  creators: Laura Gajdzik; Kurt Ingeman; T.L. Kindinger; Thomas Oliver
-  year: 2023
-  doi: null
-  issn: null
-  url: https://doi.org/10.25923/7efh-qt23
-  region: Mariana Archipelago
-  item_type: report
   publication_title: null
 - title: Ecological and environmental predictors of juvenile coral density across
     the central and western Pacific
@@ -2973,7 +2983,7 @@
   year: null
   doi: null
   issn: null
-  url: http://repository.library.noaa.gov/view/noaa/72379/noaa_72379_DS1.pdf
+  url: http://repository.library.noaa.gov/view/noaa/72264/noaa_72264_DS1.pdf
   region: Unknown
   item_type: attachment
   publication_title: null
