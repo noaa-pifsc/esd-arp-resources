@@ -330,17 +330,6 @@
     "publication_title": "Frontiers in Marine Science"
   },
   {
-    "title": "Spatiotemporal trends in benthic and reef fish communities in the Mariana Archipelago",
-    "creators": "Laura Gajdzik; Kurt Ingeman; Tye L. Kindinger; Thomas Oliver",
-    "year": 2023,
-    "doi": null,
-    "issn": null,
-    "url": "https://repository.library.noaa.gov",
-    "region": "Mariana Archipelago",
-    "item_type": "webpage",
-    "publication_title": null
-  },
-  {
     "title": "American Samoa Methods Documentation",
     "creators": "Juliette Verstaen",
     "year": 2023,
@@ -349,6 +338,17 @@
     "url": "https://connect.fisheries.noaa.gov/american_samoa_methods_documentation/methods_documentation.html",
     "region": "American Samoa",
     "item_type": "webpage",
+    "publication_title": null
+  },
+  {
+    "title": "Spatiotemporal trends in benthic and reef fish communities in the Mariana Archipelago",
+    "creators": "Laura Gajdzik; Kurt Ingeman; T.L. Kindinger; Thomas Oliver",
+    "year": 2023,
+    "doi": null,
+    "issn": null,
+    "url": "https://doi.org/10.25923/7efh-qt23",
+    "region": "Mariana Archipelago",
+    "item_type": "report",
     "publication_title": null
   },
   {
