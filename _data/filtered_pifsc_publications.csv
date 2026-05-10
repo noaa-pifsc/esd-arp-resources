@@ -1,6 +1,7 @@
 title,creators,year,doi,issn,url,region,item_type,publication_title
 Regional divergence of extreme marine heat in Pacific Island coastal waters: a high-resolution extreme heat index as an earlier statistical signal,Kisei R Tanaka; Hannah C Barkley; Hui Shi; Jennifer C Samson; Derek P Manzello; Kyle S Van Houtan,2026,10.1088/2752-5295/ae2c13,2752-5295,https://doi.org/10.1088/2752-5295/ae2c13,Pacific-wide,journalArticle,Environmental Research: Climate
-Using Species Distribution Modeling to Enhance the Detection of an Invasive Soft Coral in Hawai‘i,Shawn Cabus; Kisei R. Tanaka; Maya Otsu; Laura Gajdzik,2025,,,https://repository.library.noaa.gov,Hawaiian Archipelago,webpage,
+Three-dimensional photogrammetry-based monitoring to enhance site-level carbonate budget assessments of coral reefs,John T. Morris; Clinton B. Edwards; Alice Webb; Hannah Barkley; T. Shay Viehman; Ana Palacio-Castro; Michaela Wong; Aliany Ramos-Rosado; Heidi K. Hirsh; Nicole Besemer; Vid Petrovic; Chris T. Perry; Kayelyn R. Simmons; Ian C. Enochs,2025,10.1002/lom3.70000,1541-5856,https://onlinelibrary.wiley.com/doi/abs/10.1002/lom3.70000,Unknown,journalArticle,Limnology and Oceanography: Methods
+Using Species Distribution Modeling to Enhance the Detection of an Invasive Soft Coral in Hawai‘i,Shawn Cabus; Kisei R. Tanaka; Maya Otsu; Laura Gajdzik,2025,10.25923/v62q-3k69,,https://repository.library.noaa.gov,Hawaiian Archipelago,webpage,
 Impacts of macroborers on corals along a water quality gradient in American Samoa,,2025,,,,American Samoa,presentation,
 "Summary of ocean acidification data collected by the National Coral Reef Monitoring Program in the U.S. Pacific Islands, 2021—2023",Hannah C. Barkley,2025,10.25923/t5ee-j028,,https://repository.library.noaa.gov,Pacific-wide,report,
 "Standard operating procedures for the deployment, recovery, and analysis of Calcification Accretion Units",Hannah C. Barkley; Candace E. Alagata; Nicole Besemer,2025,10.25923/yfwd-fr36,,https://repository.library.noaa.gov,Unknown,report,
@@ -11,7 +12,6 @@ Data Visulization Tool for Monitoring Coral Reefs in American Samoa,Juliette Ver
 Local human impacts interact with geography to drive benthic community depth zonation on contemporary coral reefs,Rebecca J. Turner; Laura E. Richardson; Courtney S. Couch; Jessica A. Harvey; Gareth J. Williams,2025,10.1098/rspb.2024.1885,,https://royalsocietypublishing.org/doi/10.1098/rspb.2024.1885,Unknown,journalArticle,Proceedings of the Royal Society B: Biological Sciences
 Hawaiʻi Reef Restoration Monitoring Guide,F. Joseph Pollock; Gregory P. Asner; Ryan Carr; E. Conklin; C.S. Couch; D DeMartini; A Garcia; M Hixon; K Hughes; Brittany Huntington; Kimberly Falinski; Ryan Okano; Thomas Oliver; Andrew A Shantz; Shannon Ruseborn,2025,,,https://repository.library.noaa.gov/view/noaa/70287,Hawaiian Archipelago,report,
 habtools: An R package to calculate 3D metrics for surfaces and objects,Nina Schiettekatte; Mollie Asbury; Guanyan Keelung Chen; Maria Dornelas; Jessica Reichert; Damaris Torres‐Pulliza; Kyle J. A. Zawada; Joshua S. Madin,2025,10.1111/2041-210X.70027,2041-210X,https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.70027,Unknown,journalArticle,Methods in Ecology and Evolution
-The Role of Wind on the Simulated Dispersal and Recruitment of a Commercially Important Hawaiʻi Bottomfish,Justin J. Suca; Johanna L. K. Wren; Gabriella N. M. Mukai; Donald R. Kobayashi; Kisei R. Tanaka; Andrea L. Schmidt; Jonathan L. Whitney; Ryan R. Rykaczewski,2025,10.1111/fog.12725,"1054-6006, 1365-2419",https://onlinelibrary.wiley.com/doi/10.1111/fog.12725,Hawaiian Archipelago,journalArticle,Fisheries Oceanography
 Estimating coral reef carbonate budgets using Structure-from-Motion photogrammetry,Hannah C. Barkley; Ariel K. Halperin; Torres-Pulliza Damaris; Mia S. Lamirand; Courtney S Couch; Candace E. Alagata; Rebecca M. Weible; Joy N. Smith; Thomas A. Oliver; Chris T. Perry,2025,https://doi.org/10.1007/s00338-025-02660-7,,,Unknown,journalArticle,Coral Reefs
 In situ Temperature Time Series across U.S. Pacific Coral Reefs,Joy Smith; Hannah Barkley,2025,,,https://repository.library.noaa.gov/view/noaa/67037,Pacific-wide,report,
 Linking watershed activities to reef health in American Samoa: land-based sources of pollution impacts on Aua coral reefs,"Vargas-Angel, B; Verstaen, J; Shantz, A; Lee, R; C. E. Alagata; F Lichowski",2024,,,https://www.ncei.noaa.gov/data/oceans/coris/library/NOAA/CRCP/NMFS/PIFSC/Projects/31303/Smith2024_Aua_LBSP_Project_Report.pdf,American Samoa,report,
@@ -277,11 +277,13 @@ Suitability of the manta tow technique for estimating relative and absolute abun
 Effect of the distribution and density of benthic target organisms on manta tow estimates of their abundance,L. Fernandes,1990,,,,Unknown,journalArticle,Coral Reefs
 Distribution of recent outbreaks of the crown-of-thorns starfish (Acanthaster planci) along the Great Barrier Reef: 1985-1986,P. J. Moran; R. H. Bradbury; R. E. Reichelt,1988,,,,Unknown,journalArticle,Coral Reefs
 The apparent extent of recovery of reefs of Australia's Great Barrier Reef devastated by the crown-of-thorns starfish,R. Endean; W. Stablum,1973,,,,Unknown,journalArticle,Atoll Research Bulletin
-Full Text PDF,,,,,https://www.nature.com/articles/s41598-024-56865-x.pdf,Unknown,attachment,
+Full Text PDF,,,,,https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/lom3.70000,Unknown,attachment,
+Snapshot,,,,,https://onlinelibrary.wiley.com/doi/abs/10.1002/lom3.70000,Unknown,attachment,
+Three‐dimensional photogrammetry‐based monitoring to enhance site‐level carbonate budget assessments of coral reefs - Morris - 2025 - Limnology and Oceanography: Methods - Wiley Online Library,,,,,https://aslopubs.onlinelibrary.wiley.com/doi/full/10.1002/lom3.70000,Unknown,attachment,
+Suca et al. - 2025 - The Role of Wind on the Simulated Dispersal and Re.pdf,,,,,,Unknown,attachment,
+The Role of Wind on the Simulated Dispersal and Recruitment of a Commercially Important Hawaiʻi Bottomfish,Justin J Suca; Johanna L K Wren; Gabriella N M Mukai; Donald R Kobayashi; Kisei R Tanaka; Andrea L Schmidt; Jonathan L Whitney; Ryan R Rykaczewski,,,,,Hawaiian Archipelago,journalArticle,
 Pomeroy et al. - 2025 - Survivorship and growth of corals in Hawaiʻi two y.pdf,,,,,,Hawaiian Archipelago,attachment,
 PDF,,,,,,Unknown,attachment,
-Local human impacts interact with geography to drive benthic community depth zonation on contemporary coral reefs | Proceedings of the Royal Society B: Biological Sciences,,,,,https://royalsocietypublishing.org/doi/10.1098/rspb.2024.1885,Unknown,attachment,
-Suca et al. - 2025 - The Role of Wind on the Simulated Dispersal and Re.pdf,,,,,,Unknown,attachment,
 Pollock et al. - 2025 - Hawaiʻi Reef Restoration Monitoring Guide.pdf,,,,,,Hawaiian Archipelago,attachment,
 When fishers guide scientific exploration: Case study with ‘ōpelu in Hawai‘i,Gabriella N M Mukai; Mia A Iwane; Justin J Suca; Kisei R Tanaka; Amy L Moran; Donald R Kobayashi,,https://doi.org/10.1093/mcfafs/vtae002,,,Hawaiian Archipelago,journalArticle,Marine and Coastal Fisheries
 Zoning effects on fish populations in a key Chinese multi-use marine protected area,Xu Zeng; Yue Liu; Zhang Shouyu; Dongyan Han; Cong Zeng; Kisei R Tanaka; Mackenzie D Mazur; Ling Cao,,https://doi.org/10.1016/j.ocecoaman.2025.107599,,,Unknown,journalArticle,Ocean & Coastal Management
@@ -292,7 +294,6 @@ American Samoa Methods Documentation.pdf,,,,,,American Samoa,attachment,
 Zgliczynski et al. - 2013 - The IUCN Red List of Threatened Species An assess.pdf,,,,,,Unknown,attachment,
 McCoy and Kindinger - 2024 - Pacific National Coral Reef Monitoring Program 202.pdf,,,,,,Pacific-wide,attachment,
 10.1007_s00338-024-02529-1-citation.ris,,,,,,Unknown,attachment,
-Snapshot,,,,,https://onlinelibrary.wiley.com/doi/10.1002/ece3.11341,Unknown,attachment,
 IOP Full Text PDF,,,,,https://iopscience.iop.org/article/10.1088/1748-9326/ac7478/pdf,Unknown,attachment,
 Wongbusarakum et al. - 2020 - Assessing socio-economic indicators to improve the.pdf,,,,,,Unknown,attachment,
 Williams et al. - 2019 - Can Herbivore Management Increase the Persistence .pdf,,,,,,Unknown,attachment,
