@@ -1,5 +1,27 @@
 [
   {
+    "title": "Benthic habitat structure explains broad-scale patterns in reef fish communities",
+    "creators": "Mollie Asbury; Nina Schiettekatte; Tye L. Kindinger; Laura Richardson; Joshua S. Madin",
+    "year": 2026,
+    "doi": "10.1002/eap.70238",
+    "issn": "1939-5582",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/eap.70238",
+    "region": "Unknown",
+    "item_type": "journalArticle",
+    "publication_title": "Ecological Applications"
+  },
+  {
+    "title": "Severe and widespread coral reef damage during the 2014-2017 Global Coral Bleaching Event",
+    "creators": "C. Mark Eakin; Scott F. Heron; Sean R. Connolly; Denise A. Devotta; Gang Liu; Erick F. Geiger; Jacqueline L. De La Cour; Andrea M. Gomez; William J. Skirving; Andrew H. Baird; Neal E. Cantin; Courtney S. Couch; Simon D. Donner; James Gilmour; Manuel Gonzalez-Rivero; Mishal Gudka; Hugo B. Harrison; Gregor Hodgson; Ove Hoegh-Guldberg; Andrew S. Hoey; Mia O. Hoogenboom; Terry P. Hughes; Meaghan E. Johnson; James T. Kerry; Tadashi Kimura; Jennifer Mihaly; Aarón Israel Muñiz-Castillo; David O. Obura; Morgan S. Pratchett; Andrea Rivera-Sosa; Claire L. Ross; Jennifer Stein; Angus Thompson; Gergely Torda; T. Shay Viehman; Cory S. Walter; Shaun Wilson; Benjamin L. Marsh; Blake L. Spady; Noel Dyer; Thomas C. Adam; Pedro Alcolado; Mahsa Alidoostsalimi; Parisa Alidoostsalimi; Lorenzo Alvarez-Filip; Mariana Álvarez-Noriega; Jesús Ernesto Arias-González; Keisha D. Bahr; Peter Barnes; José Enrique Barraza Sandoval; Julia K. Baum; Andrew G. Bauman; Maria Beger; Kathryn Berry; Pia Bessell-Browne; Lionel Bigot; Victor Bonito; Ole B. Brodnicke; David Burdick; Deron E. Burkepile; April J. Burt; John A. Burt; Ian R. Butler; Jamie M. Caldwell; Yannick Chancerelle; Chaolun Allen Chen; Kah-Leng Cherh; Michael J. Childress; Darren J. Coker; Bryan Costa; Georgia Coward; M. James C. Crabbe; Thomas Dallison; Steven Dalton; Thomas M. DeCarlo; Crawford Drury; Ian Drysdale; Clinton B. Edwards; Linda Eggertsen; Eylem Elma; Rosmin S. Ennis; Richard D. Evans; Gal Eyal; Douglas Fenner; Baruch Figueroa-Zavala; Jay Fisch; Michael D. Fox; Elena Gadoutsis; Antoine Gilbert; Andrew R. Halford; Tom Heintz; James Hewlett; Jean-Paul A. Hobbs; Whitney C. Hoot; Peter Houk; Lyza Johnston; Michelle A. Johnston; Hajime Kayanne; Emma V. Kennedy; Ruy Kenji Papa de Kikuchi; Ulrike Kloiber; Haruko Koike; K. Lindsey Kramer; Chao-Yang Kuo; Judith Lang; Alice Lawrence; Abigail Leadbeater; Zelinda M. A. N. Leão; Jen Nie Lee; Cynthia Lewis; Diego Lirman; Guilherme Ortigara Longo; Chancey MacDonald; Jennie Mallela; Sangeeta Mangubhai; Isabel Marques da Silva; Christophe Mason-Parker; Vanessa McDonough; Melanie McField; Thayná Mello; Celine Miternique-Agathe; Mouchtadi Madi; Stephan Moldzio; Alison A. Monroe; Monica Montefalcone; Kevin S. Moses; Pargol G. Mostafavi; Rodrigo Leão de Moura; Chathurika S. Munasinghe; Jelvas Mwaura; Takashi Nakamura; Jean-Benoit Nicet; Marissa F. Nuttall; Marilia D. M. Oliveira; Hazel A. Oxenford; John M. Pandolfi; Vardhan Patankar; Denise Perez; Nishan Perera; Derta Prabuning; William Precht; K. Diraviya Raj; James D. Reimer; Laura E. Richardson; Randi Rotjan; Nicole Ryan; Rod Salm; Stuart A. Sandin; Stephanie Schopmeyer; George Shedrawi; Mohammad Reza Shokri; Jennifer E. Smith; Kylie Smith; Struan R. Smith; Tyler B. Smith; Brigitte Sommer; Melina Soto; Richard Suckoo; Helen Sykes; Kelley Anderson Tagarino; Marianne Teoh; Minh Quang Thai; Tai Chong Toh; Alex Tredinnick; Alex Tso; Harriet Tyley; Ali M. Ussi; Bernardo Vargas-Angel; Christian Vaterlaus; Mark J. A. Vermeij; Si Tuan Vo; Christian R. Voolstra; Hin Boo Wee; Bradley A. Weiler; Dana E. Williams; Saleh A. S. Yahya; Thamasak Yeemin; Maren Ziegler; Derek P. Manzello",
+    "year": 2026,
+    "doi": "10.1038/s41467-025-67506-w",
+    "issn": "2041-1723",
+    "url": "https://www.nature.com/articles/s41467-025-67506-w",
+    "region": "Unknown",
+    "item_type": "journalArticle",
+    "publication_title": "Nature Communications"
+  },
+  {
     "title": "Regional divergence of extreme marine heat in Pacific Island coastal waters: a high-resolution extreme heat index as an earlier statistical signal",
     "creators": "Kisei R Tanaka; Hannah C Barkley; Hui Shi; Jennifer C Samson; Derek P Manzello; Kyle S Van Houtan",
     "year": 2026,
@@ -11,6 +33,61 @@
     "publication_title": "Environmental Research: Climate"
   },
   {
+    "title": "Standard Operating Procedure for developing a sea urchin training dataset in VIAME",
+    "creators": "Candace E. Alagata; Hannah C. Barkley; Courtney S. Couch; Tye L. Kindinger; Mia S. Lamirand",
+    "year": 2025,
+    "doi": null,
+    "issn": null,
+    "url": "https://repository.library.noaa.gov",
+    "region": "Unknown",
+    "item_type": "webpage",
+    "publication_title": null
+  },
+  {
+    "title": "Using Species Distribution Modeling to Enhance the Detection of an Invasive Soft Coral in Hawai‘i",
+    "creators": "Shawn Cabus; Kisei R. Tanaka; Maya Otsu; Laura Gajdzik",
+    "year": 2025,
+    "doi": "https://doi.org/10.25923/v62q-3k69",
+    "issn": null,
+    "url": "https://repository.library.noaa.gov/view/noaa/72264",
+    "region": "Hawaiian Archipelago",
+    "item_type": "report",
+    "publication_title": null
+  },
+  {
+    "title": "Whose bite? Evaluating the use of structure-from-motion for monitoring fish corallivory",
+    "creators": "Daniela Escontrela Dieguez; Roseanna M. Lee; Courtney S. Couch; Jonathan A. Charendoff; Tye L. Kindinger",
+    "year": 2025,
+    "doi": "10.3389/fmars.2025.1577091",
+    "issn": "2296-7745",
+    "url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2025.1577091/full",
+    "region": "Unknown",
+    "item_type": "journalArticle",
+    "publication_title": "Frontiers in Marine Science"
+  },
+  {
+    "title": "Demographic insights for coral restoration",
+    "creators": "Joshua S. Madin; Thomas Oliver; Mike McWilliam; Mollie Asbury; Andrew H. Baird; Guanyan Keelung Chen; Sean R. Connolly; Courtney Couch; Crawford Drury; Jon Ehrenberg; Hendrikje Jorissen; Allison D. Nims; Jessica Reichert; Lomani Rova; Nina M. D. Schiettekatte; Robert J. Toonen; Devynn M. Wulstein",
+    "year": 2025,
+    "doi": "10.1101/2025.10.21.683544",
+    "issn": null,
+    "url": "https://www.biorxiv.org/content/10.1101/2025.10.21.683544v2",
+    "region": "Unknown",
+    "item_type": "preprint",
+    "publication_title": null
+  },
+  {
+    "title": "Local human impacts interact with geography to drive benthic community depth zonation on contemporary coral reefs",
+    "creators": "Rebecca J. Turner; Laura E. Richardson; Courtney S. Couch; Jessica A. Harvey; Gareth J. Williams",
+    "year": 2025,
+    "doi": "10.1098/rspb.2024.1885",
+    "issn": "0962-8452",
+    "url": "https://doi.org/10.1098/rspb.2024.1885",
+    "region": "Unknown",
+    "item_type": "journalArticle",
+    "publication_title": "Proceedings of the Royal Society B: Biological Sciences"
+  },
+  {
     "title": "Three-dimensional photogrammetry-based monitoring to enhance site-level carbonate budget assessments of coral reefs",
     "creators": "John T. Morris; Clinton B. Edwards; Alice Webb; Hannah Barkley; T. Shay Viehman; Ana Palacio-Castro; Michaela Wong; Aliany Ramos-Rosado; Heidi K. Hirsh; Nicole Besemer; Vid Petrovic; Chris T. Perry; Kayelyn R. Simmons; Ian C. Enochs",
     "year": 2025,
@@ -20,28 +97,6 @@
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Limnology and Oceanography: Methods"
-  },
-  {
-    "title": "Using Species Distribution Modeling to Enhance the Detection of an Invasive Soft Coral in Hawai‘i",
-    "creators": "Shawn Cabus; Kisei R. Tanaka; Maya Otsu; Laura Gajdzik",
-    "year": 2025,
-    "doi": "10.25923/v62q-3k69",
-    "issn": null,
-    "url": "https://repository.library.noaa.gov",
-    "region": "Hawaiian Archipelago",
-    "item_type": "webpage",
-    "publication_title": null
-  },
-  {
-    "title": "Impacts of macroborers on corals along a water quality gradient in American Samoa",
-    "creators": "",
-    "year": 2025,
-    "doi": null,
-    "issn": null,
-    "url": null,
-    "region": "American Samoa",
-    "item_type": "presentation",
-    "publication_title": null
   },
   {
     "title": "Summary of ocean acidification data collected by the National Coral Reef Monitoring Program in the U.S. Pacific Islands, 2021—2023",
@@ -108,17 +163,6 @@
     "region": "American Samoa",
     "item_type": "journalArticle",
     "publication_title": "The Journal of Ocean Technology"
-  },
-  {
-    "title": "Local human impacts interact with geography to drive benthic community depth zonation on contemporary coral reefs",
-    "creators": "Rebecca J. Turner; Laura E. Richardson; Courtney S. Couch; Jessica A. Harvey; Gareth J. Williams",
-    "year": 2025,
-    "doi": "10.1098/rspb.2024.1885",
-    "issn": null,
-    "url": "https://royalsocietypublishing.org/doi/10.1098/rspb.2024.1885",
-    "region": "Unknown",
-    "item_type": "journalArticle",
-    "publication_title": "Proceedings of the Royal Society B: Biological Sciences"
   },
   {
     "title": "Hawaiʻi Reef Restoration Monitoring Guide",
@@ -3058,12 +3102,45 @@
     "publication_title": "Atoll Research Bulletin"
   },
   {
+    "title": "The Coral Trait Database, a curated database of trait information for coral species from the global oceans | Scientific Data",
+    "creators": "",
+    "year": null,
+    "doi": null,
+    "issn": null,
+    "url": "https://www.nature.com/articles/sdata201617",
+    "region": "Unknown",
+    "item_type": "webpage",
+    "publication_title": null
+  },
+  {
     "title": "Full Text PDF",
     "creators": "",
     "year": null,
     "doi": null,
     "issn": null,
-    "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/lom3.70000",
+    "url": "http://repository.library.noaa.gov/view/noaa/72416/noaa_72416_DS1.pdf",
+    "region": "Unknown",
+    "item_type": "attachment",
+    "publication_title": null
+  },
+  {
+    "title": "Accepted Version",
+    "creators": "",
+    "year": null,
+    "doi": null,
+    "issn": null,
+    "url": "https://www.biorxiv.org/content/biorxiv/early/2025/10/22/2025.10.21.683544.full.pdf",
+    "region": "Unknown",
+    "item_type": "attachment",
+    "publication_title": null
+  },
+  {
+    "title": "Full Text",
+    "creators": "",
+    "year": null,
+    "doi": null,
+    "issn": null,
+    "url": "https://www.nature.com/articles/s41467-025-67506-w.pdf",
     "region": "Unknown",
     "item_type": "attachment",
     "publication_title": null
@@ -3074,7 +3151,7 @@
     "year": null,
     "doi": null,
     "issn": null,
-    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/lom3.70000",
+    "url": "https://royalsocietypublishing.org/rspb/article/292/2048/20241885/234522",
     "region": "Unknown",
     "item_type": "attachment",
     "publication_title": null
