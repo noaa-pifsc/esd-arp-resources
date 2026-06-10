@@ -20,10 +20,10 @@ feature_row5:
   title: "Current Field Work"
   excerpt: 'From April to July we will be conducting reef monitoring surveys in American Samoa and the Pacific Heritage Islands Marine National Monument. Flyers from 2025 and 2026 are linked below.'
   buttons:
-  - url: assets/images/G:\esd-arp-resources\assets\images\Multi-Program Flyer_AmSamoa2026.pdf
+  - url: assets/images/Multi-Program Flyer_AmSamoa2026.pdf
     btn_label: "English"
     btn_class: "btn--primary"
-  - url: assets/images/G:\esd-arp-resources\assets\images\Multi-Program Flyer_AmSamoa2026_samoan.pdf
+  - url: assets/images/Multi-Program Flyer_AmSamoa2026_samoan.pdf
     btn_label: "Samoan"
     btn_class: "btn--primary"
   - url: assets/images/G:\esd-arp-resources\assets\images\NCRMP2025FLYER_508.pdf
