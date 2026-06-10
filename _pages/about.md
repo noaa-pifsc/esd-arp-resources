@@ -18,7 +18,7 @@ feature_row5:
   alt: "pacific islands region survey area image"
   image_caption: "Credit: NOAA Fisheries"
   title: "Current Field Work"
-  excerpt: 'We are preparing for 2026 surveys in American Samoa and the Pacific Heritage Islands Marine National Monument. Flyers from 2025 and 2026 are linked below.'
+  excerpt: 'From April to July we will be conducting reef monitoring surveys in American Samoa and the Pacific Heritage Islands Marine National Monument. Flyers from 2025 and 2026 are linked below.'
   buttons:
   - url: assets/images/G:\esd-arp-resources\assets\images\Multi-Program Flyer_AmSamoa2026.pdf
     btn_label: "English"
