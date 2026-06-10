@@ -26,7 +26,7 @@ feature_row5:
   - url: assets/images/Multi-Program Flyer_AmSamoa2026_samoan.pdf
     btn_label: "Samoan"
     btn_class: "btn--primary"
-  - url: assets/images/G:\esd-arp-resources\assets\images\NCRMP2025FLYER_508.pdf
+  - url: assets/images/NCRMP2025FLYER_508.pdf
     btn_label: "2025 Flyer"
     btn_class: "btn--primary"
 feature_row2:
