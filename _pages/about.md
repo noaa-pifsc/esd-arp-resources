@@ -18,16 +18,16 @@ feature_row5:
   alt: "pacific islands region survey area image"
   image_caption: "Credit: NOAA Fisheries"
   title: "Current Field Work"
-  excerpt: 'We are preparing for 2026 surveys in American Samoa and the Pacific Islands Heritage Marine National Monument. Samples of our research mission flyer from 2025 are linked below.'
+  excerpt: 'We are preparing for 2026 surveys in American Samoa and the Pacific Heritage Islands Marine National Monument. Flyers from 2025 and 2026 are linked below.'
   buttons:
-  - url: assets/images/NCRMP2025FLYER_508.pdf
+  - url: assets/images/G:\esd-arp-resources\assets\images\Multi-Program Flyer_AmSamoa2026.pdf
     btn_label: "English"
     btn_class: "btn--primary"
-  - url: assets/images/NCRMP_2025FLYER_508_Chamorro.pdf
-    btn_label: "Chamorro"
+  - url: assets/images/G:\esd-arp-resources\assets\images\Multi-Program Flyer_AmSamoa2026_samoan.pdf
+    btn_label: "Samoan"
     btn_class: "btn--primary"
-  - url: assets/images/NCRMP_2025FLYER_508_Carolinian.pdf
-    btn_label: "Carolinian"
+  - url: assets/images/G:\esd-arp-resources\assets\images\NCRMP2025FLYER_508.pdf
+    btn_label: "2025 Flyer"
     btn_class: "btn--primary"
 feature_row2:
 - image_path: https://www.fisheries.noaa.gov/s3/styles/full_width/s3/dam-migration/pifsc.png?itok=SmTJPyV8
