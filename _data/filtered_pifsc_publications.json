@@ -1,5 +1,38 @@
 [
   {
+    "title": "A new ocean model configuration for management of central North Pacific Marine Resources (MOM6-COBALT-HIC6kv1.0)",
+    "creators": "Gabriela Negrete García; Dax Matthews; Charles A. Stock; Brian Powell; Ryan R. Rykaczewski; Kisei Tanaka; Hannah Barkley; Tobias Friedrich; Jessica Y. Luo; Andrew C. Ross; Yi-Cheng Teng",
+    "year": 2026,
+    "doi": "10.5194/egusphere-2026-1877",
+    "issn": null,
+    "url": "https://egusphere.copernicus.org/preprints/2026/egusphere-2026-1877/",
+    "region": "Pacific-wide",
+    "item_type": "preprint",
+    "publication_title": null
+  },
+  {
+    "title": "Persisting, emerging and contracting: The dynamic nature of non‐native hotspots and their implications for management",
+    "creators": "Laura Gajdzik; Kisei R. Tanaka",
+    "year": 2026,
+    "doi": "10.1111/1365-2664.70452",
+    "issn": "0021-8901, 1365-2664",
+    "url": "https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2664.70452",
+    "region": "Unknown",
+    "item_type": "journalArticle",
+    "publication_title": "Journal of Applied Ecology"
+  },
+  {
+    "title": "From stability to decline: threefold increase in partial mortality of threatened Isopora crateriformis in American Samoa following the 2024 Global Coral Bleaching Event",
+    "creators": "Kira Turnham; Brittany Huntington; Courtney S. Couch; Edoardo Sena; Kisei Tanaka; Thomas Oliver",
+    "year": 2026,
+    "doi": "10.1007/s00338-026-02912-0",
+    "issn": "1432-0975",
+    "url": "https://doi.org/10.1007/s00338-026-02912-0",
+    "region": "American Samoa",
+    "item_type": "journalArticle",
+    "publication_title": "Coral Reefs"
+  },
+  {
     "title": "A Pacific carbonate budgets approach reveals overall net positive production on O‘ahu, Hawai‘i",
     "creators": "Candace E. Alagata; Hannah C. Barkley; Joy N. Smith; Ariel A. Halperin; Rebecca M. Weible; Walter C. Oechel; Vitor Hugo Rodrigues Paiva",
     "year": 2026,
@@ -231,17 +264,6 @@
     "publication_title": null
   },
   {
-    "title": "Linking watershed activities to reef health in American Samoa: land-based sources of pollution impacts on Aua coral reefs",
-    "creators": "Vargas-Angel, B; Verstaen, J; Shantz, A; Lee, R; C. E. Alagata; F Lichowski",
-    "year": 2024,
-    "doi": null,
-    "issn": null,
-    "url": "https://www.ncei.noaa.gov/data/oceans/coris/library/NOAA/CRCP/NMFS/PIFSC/Projects/31303/Smith2024_Aua_LBSP_Project_Report.pdf",
-    "region": "American Samoa",
-    "item_type": "report",
-    "publication_title": null
-  },
-  {
     "title": "Long-term outcomes of passive and active restoration approaches following a vessel grounding in Hawaii, USA",
     "creators": "John T. Morris; Brittany Huntington; Courtney Couch; Shannon Ruseborn",
     "year": 2024,
@@ -258,9 +280,20 @@
     "year": 2024,
     "doi": null,
     "issn": null,
-    "url": "https://www.ncei.noaa.gov/data/oceans/coris/library/NOAA/CRCP/NMFS/PIFSC/Projects/31303/Smith2024a_Aua_LBSP_Brochure.pdf",
+    "url": "https://coast.noaa.gov/coral_storage/library/NOAA/CRCP/NMFS/PIFSC/Projects/31303/Smith2024a_Aua_LBSP_Brochure.pdf",
     "region": "American Samoa",
     "item_type": "document",
+    "publication_title": null
+  },
+  {
+    "title": "Linking watershed activities to reef health in American Samoa: land-based sources of pollution impacts on Aua coral reefs",
+    "creators": "Vargas-Angel, B; Verstaen, J; Shantz, A; Lee, R; C. E. Alagata; F Lichowski",
+    "year": 2024,
+    "doi": null,
+    "issn": null,
+    "url": "https://www.ncei.noaa.gov/data/oceans/coris/library/NOAA/CRCP/NMFS/PIFSC/Projects/31303/Smith2024_Aua_LBSP_Project_Report.pdf",
+    "region": "American Samoa",
+    "item_type": "report",
     "publication_title": null
   },
   {
@@ -3124,23 +3157,34 @@
     "publication_title": "Atoll Research Bulletin"
   },
   {
-    "title": "Internal tides can provide thermal refugia that will buffer some coral reefs from future global warming | Scientific Reports",
-    "creators": "",
-    "year": null,
-    "doi": null,
-    "issn": null,
-    "url": "https://www.nature.com/articles/s41598-020-70372-9",
-    "region": "Unknown",
-    "item_type": "attachment",
-    "publication_title": null
-  },
-  {
     "title": "PDF",
     "creators": "",
     "year": null,
     "doi": null,
     "issn": null,
     "url": null,
+    "region": "Unknown",
+    "item_type": "attachment",
+    "publication_title": null
+  },
+  {
+    "title": "Guiding Survey Design for Monitoring Priority Fishes at Wake Atoll",
+    "creators": "Carolyn Wood",
+    "year": null,
+    "doi": null,
+    "issn": null,
+    "url": null,
+    "region": "Pacific Remote Island Areas",
+    "item_type": "journalArticle",
+    "publication_title": null
+  },
+  {
+    "title": "Internal tides can provide thermal refugia that will buffer some coral reefs from future global warming | Scientific Reports",
+    "creators": "",
+    "year": null,
+    "doi": null,
+    "issn": null,
+    "url": "https://www.nature.com/articles/s41598-020-70372-9",
     "region": "Unknown",
     "item_type": "attachment",
     "publication_title": null
