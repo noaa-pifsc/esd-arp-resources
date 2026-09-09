@@ -121,6 +121,46 @@
   region: Pacific-wide
   item_type: journalArticle
   publication_title: 'Environmental Research: Climate'
+- title: 'habtools: An R package to calculate 3D metrics for surfaces and objects'
+  creators: Nina Schiettekatte; Mollie Asbury; Guanyan Keelung Chen; Maria Dornelas;
+    Jessica Reichert; Damaris Torres‐Pulliza; Kyle J. A. Zawada; Joshua S. Madin
+  year: 2025
+  doi: 10.1111/2041-210X.70027
+  issn: 2041-210X
+  url: https://doi.org/10.1111/2041-210X.70027
+  region: Unknown
+  item_type: journalArticle
+  publication_title: Methods in Ecology and Evolution
+- title: 'The rise of long-sediment-laden algal turfs: an additional negative feedback
+    process limiting reef resilience'
+  creators: Ladd, MC, Shantz, AA, Harborne AR, Bauman AG, Duran A
+  year: 2025
+  doi: 10.1007/s00338-025-02796-6
+  issn: null
+  url: https://doi.org/10.1007/s00338-025-02796-6
+  region: Unknown
+  item_type: journalArticle
+  publication_title: Coral Reefs
+- title: Data Visulization Tool for Monitoring Coral Reefs in American Samoa
+  creators: Juliette Verstaen; Joy Smith; Jennifer Samson
+  year: 2025
+  doi: 10.48336/zwa4-kg31
+  issn: null
+  url: https://doi.org/10.48336/zwa4-kg31
+  region: American Samoa
+  item_type: journalArticle
+  publication_title: The Journal of Ocean Technology
+- title: Estimating coral reef carbonate budgets using Structure-from-Motion photogrammetry
+  creators: Hannah C. Barkley; Ariel K. Halperin; Torres-Pulliza Damaris; Mia S. Lamirand;
+    Courtney S Couch; Candace E. Alagata; Rebecca M. Weible; Joy N. Smith; Thomas
+    A. Oliver; Chris T. Perry
+  year: 2025
+  doi: 10.1007/s00338-025-02660-7
+  issn: null
+  url: https://doi.org/10.1007/s00338-025-02660-7
+  region: Unknown
+  item_type: journalArticle
+  publication_title: Coral Reefs
 - title: Standard Operating Procedure for developing a sea urchin training dataset
     in VIAME
   creators: Candace E. Alagata; Hannah C. Barkley; Courtney S. Couch; Tye L. Kindinger;
@@ -219,16 +259,6 @@
   region: Mariana Archipelago
   item_type: report
   publication_title: null
-- title: 'The rise of long-sediment-laden algal turfs: an additional negative feedback
-    process limiting reef resilience'
-  creators: Ladd, MC, Shantz, AA, Harborne AR, Bauman AG, Duran A
-  year: 2025
-  doi: https://doi.org/10.1007/s00338-025-02796-6
-  issn: null
-  url: null
-  region: Unknown
-  item_type: journalArticle
-  publication_title: Coral Reefs
 - title: 'Survivorship and growth of corals in Hawaiʻi two years post-bleaching: signs
     of resilience'
   creators: Morgan W. Pomeroy; Courtney S. Couch; Thomas A. Oliver; Orion S McCarthy;
@@ -240,15 +270,6 @@
   region: Hawaiian Archipelago
   item_type: journalArticle
   publication_title: Marine Ecology Progress Series
-- title: Data Visulization Tool for Monitoring Coral Reefs in American Samoa
-  creators: Juliette Verstaen; Joy Smith; Jennifer Samson
-  year: 2025
-  doi: 10.48336/zwa4-kg31
-  issn: null
-  url: null
-  region: American Samoa
-  item_type: journalArticle
-  publication_title: The Journal of Ocean Technology
 - title: Hawaiʻi Reef Restoration Monitoring Guide
   creators: F. Joseph Pollock; Gregory P. Asner; Ryan Carr; E. Conklin; C.S. Couch;
     D DeMartini; A Garcia; M Hixon; K Hughes; Brittany Huntington; Kimberly Falinski;
@@ -260,27 +281,6 @@
   region: Hawaiian Archipelago
   item_type: report
   publication_title: null
-- title: 'habtools: An R package to calculate 3D metrics for surfaces and objects'
-  creators: Nina Schiettekatte; Mollie Asbury; Guanyan Keelung Chen; Maria Dornelas;
-    Jessica Reichert; Damaris Torres‐Pulliza; Kyle J. A. Zawada; Joshua S. Madin
-  year: 2025
-  doi: 10.1111/2041-210X.70027
-  issn: 2041-210X
-  url: https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.70027
-  region: Unknown
-  item_type: journalArticle
-  publication_title: Methods in Ecology and Evolution
-- title: Estimating coral reef carbonate budgets using Structure-from-Motion photogrammetry
-  creators: Hannah C. Barkley; Ariel K. Halperin; Torres-Pulliza Damaris; Mia S. Lamirand;
-    Courtney S Couch; Candace E. Alagata; Rebecca M. Weible; Joy N. Smith; Thomas
-    A. Oliver; Chris T. Perry
-  year: 2025
-  doi: https://doi.org/10.1007/s00338-025-02660-7
-  issn: null
-  url: null
-  region: Unknown
-  item_type: journalArticle
-  publication_title: Coral Reefs
 - title: In situ Temperature Time Series across U.S. Pacific Coral Reefs
   creators: Joy Smith; Hannah Barkley
   year: 2025
@@ -288,6 +288,28 @@
   issn: null
   url: https://repository.library.noaa.gov/view/noaa/67037
   region: Pacific-wide
+  item_type: report
+  publication_title: null
+- title: Coral reef community recovery trajectories vary by depth following a moderate
+    heat stress event at Swains Island, American Samoa
+  creators: Courtney S Couch; Brittany Huntington; Jonathan A Charendoff; Corinne
+    Amir; Mollie Asbury; Isabelle Basden; Mia Lamirand; Damaris Torres-Pulliza; Valerie
+    Brown; Andrew A Shantz
+  year: 2024
+  doi: 10.1007/s00227-024-04533-z
+  issn: null
+  url: https://doi.org/10.1007/s00227-024-04533-z
+  region: American Samoa
+  item_type: journalArticle
+  publication_title: Marine Biology
+- title: 'Linking watershed activities to reef health in American Samoa: land-based
+    sources of pollution impacts on Aua coral reefs'
+  creators: Vargas-Angel, B; Verstaen, J; Shantz, A; Lee, R; C. E. Alagata; F Lichowski
+  year: 2024
+  doi: null
+  issn: null
+  url: https://coast.noaa.gov/coral_storage/library/NOAA/CRCP/NMFS/PIFSC/Projects/31303/Smith2024a_Aua_LBSP_Brochure.pdf
+  region: American Samoa
   item_type: report
   publication_title: null
 - title: Long-term outcomes of passive and active restoration approaches following
@@ -308,16 +330,6 @@
   url: https://coast.noaa.gov/coral_storage/library/NOAA/CRCP/NMFS/PIFSC/Projects/31303/Smith2024a_Aua_LBSP_Brochure.pdf
   region: American Samoa
   item_type: document
-  publication_title: null
-- title: 'Linking watershed activities to reef health in American Samoa: land-based
-    sources of pollution impacts on Aua coral reefs'
-  creators: Vargas-Angel, B; Verstaen, J; Shantz, A; Lee, R; C. E. Alagata; F Lichowski
-  year: 2024
-  doi: null
-  issn: null
-  url: https://www.ncei.noaa.gov/data/oceans/coris/library/NOAA/CRCP/NMFS/PIFSC/Projects/31303/Smith2024_Aua_LBSP_Project_Report.pdf
-  region: American Samoa
-  item_type: report
   publication_title: null
 - title: American Samoa Data Project App
   creators: Juliette Verstaen
@@ -348,18 +360,6 @@
   region: American Samoa
   item_type: report
   publication_title: null
-- title: Coral reef community recovery trajectories vary by depth following a moderate
-    heat stress event at Swains Island, American Samoa
-  creators: Courtney S Couch; Brittany Huntington; Jonathan A Charendoff; Corinne
-    Amir; Mollie Asbury; Isabelle Basden; Mia Lamirand; Damaris Torres-Pulliza; Valerie
-    Brown; Andrew A Shantz
-  year: 2024
-  doi: 10.1007/s00227-024-04533-z
-  issn: null
-  url: null
-  region: American Samoa
-  item_type: journalArticle
-  publication_title: Marine Biology
 - title: Shifting institutional culture to develop climate solutions with Open Science
   creators: Julia Stewart Lowndes; Anna M. Holder; Emily H. Markowitz; Corey Clatterbuck;
     Amanda L. Bradford; Kathryn Doering; Molly H. Stevens; Stefanie Butland; Devan
@@ -638,6 +638,15 @@
   region: Unknown
   item_type: journalArticle
   publication_title: Marine Pollution Bulletin
+- title: 'Why sharks attack: Enironmental drivers of shark-human interactions in Hawaii'
+  creators: ''
+  year: 2022
+  doi: null
+  issn: null
+  url: https://www.youtube.com/watch?v=teYAacAJ188
+  region: Hawaiian Archipelago
+  item_type: conferencePaper
+  publication_title: null
 - title: Coral reef carbonate accretion rates track stable gradients in seawater carbonate
     chemistry across the U.S. Pacific Islands
   creators: Hannah C. Barkley; Thomas A. Oliver; Ariel A. Halperin; Noah V. Pomeroy;
@@ -677,15 +686,6 @@
   region: Hawaiian Archipelago
   item_type: magazineArticle
   publication_title: Lawai'a Magazine
-- title: 'Why sharks attack: Enironmental driers of shark-human interactions in Hawaii'
-  creators: ''
-  year: 2022
-  doi: null
-  issn: null
-  url: null
-  region: Hawaiian Archipelago
-  item_type: conferencePaper
-  publication_title: null
 - title: Oceanic productivity and high-frequency temperature variability—not human
     habitation—supports calcifier abundance on central Pacific coral reefs
   creators: Brittany Huntington; Bernardo Vargas-Ángel; Courtney S. Couch; Hannah
@@ -1023,6 +1023,15 @@
   region: Pacific Remote Island Areas
   item_type: journalArticle
   publication_title: Coral Reefs
+- title: Marine Benthic Macroalgae of a Small Uninhabited South Pacific Atoll
+  creators: Martha C. Diaz Ruiz; Peter S. Vroom; Roy T. Tsuda
+  year: 2018
+  doi: 10.5479/si.0077-5630.616
+  issn: null
+  url: https://doi.org/10.5479/si.0077-5630.616
+  region: Pacific-wide
+  item_type: journalArticle
+  publication_title: Atoll Research Bulletin
 - title: Pacific Reef Assessment and Monitoring Program Ecological monitoring 2017
     — reef fishes and benthic habitats of Marine National Monument, and the Mariana
     Archipelago
@@ -1100,15 +1109,6 @@
   region: Unknown
   item_type: report
   publication_title: null
-- title: Marine Benthic Macroalgae of a Small Uninhabited South Pacific Atoll
-  creators: Martha C. Diaz Ruiz; Peter S. Vroom; Roy T. Tsuda
-  year: 2018
-  doi: null
-  issn: null
-  url: null
-  region: Pacific-wide
-  item_type: journalArticle
-  publication_title: Atoll Research Bulletin
 - title: Evaluating management strategies to optimise coral reef ecosystem services
   creators: M. Weijerman; J. M. Gove; I. D. Williams; W. J. Walsh; D. Minton; J. J.
     Polovina
@@ -1130,6 +1130,18 @@
   region: Hawaiian Archipelago
   item_type: journalArticle
   publication_title: Plos One
+- title: 'Coral reef ecosystems of the Pacific Remote Islands Marine National Monument:
+    a 2000-2016 overview'
+  creators: S. Boyle; V. De Anda; K. Koenig; E. O'Reilly; T. Schafer; T. Acoba; Amanda
+    K. Dillon; A. Heenan; T. Oliver; D. Swanson; B. Vargas-Angel; M. Weijerman; I.
+    Williams; L. Wegley Kelly; R. Brainard
+  year: 2017
+  doi: 10.7289/V5/SP-PIFSC-17-003
+  issn: null
+  url: http://doi.org/10.7289/V5/SP-PIFSC-17-003
+  region: Pacific-wide
+  item_type: report
+  publication_title: null
 - title: Explaining Spatial Variation in Coral Size Structure in American Samoa.
   creators: Marie H. Ferguson
   year: 2017
@@ -1231,18 +1243,6 @@
   region: Hawaiian Archipelago
   item_type: journalArticle
   publication_title: Marine Ecology Progress Series
-- title: 'Coral reef ecosystems of the Pacific Remote Islands Marine National Monument:
-    a 2000-2016 overview'
-  creators: S. Boyle; V. De Anda; K. Koenig; E. O'Reilly; T. Schafer; T. Acoba; Amanda
-    K. Dillon; A. Heenan; T. Oliver; D. Swanson; B. Vargas-Angel; M. Weijerman; I.
-    Williams; L. Wegley Kelly; R. Brainard
-  year: 2017
-  doi: null
-  issn: null
-  url: http://www.fpir.noaa.gov/MNM/mnm_prias.html
-  region: Pacific-wide
-  item_type: report
-  publication_title: null
 - title: 'The importance of standardization for biodiversity comparisons: A case study
     using autonomous reef monitoring structures (ARMS) and metabarcoding to measure
     cryptic diversity on Mo’orea coral reefs, French Polynesia'
@@ -3126,15 +3126,6 @@
   region: Unknown
   item_type: journalArticle
   publication_title: Atoll Research Bulletin
-- title: PDF
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Unknown
-  item_type: attachment
-  publication_title: null
 - title: Guiding Survey Design for Monitoring Priority Fishes at Wake Atoll
   creators: Carolyn Wood
   year: null
@@ -3152,7 +3143,7 @@
   issn: null
   url: https://www.nature.com/articles/s41598-020-70372-9
   region: Unknown
-  item_type: attachment
+  item_type: webpage
   publication_title: null
 - title: The Coral Trait Database, a curated database of trait information for coral
     species from the global oceans | Scientific Data
@@ -3164,51 +3155,6 @@
   region: Unknown
   item_type: webpage
   publication_title: null
-- title: Full Text PDF
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: http://repository.library.noaa.gov/view/noaa/72416/noaa_72416_DS1.pdf
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: Accepted Version
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: https://www.biorxiv.org/content/biorxiv/early/2025/10/22/2025.10.21.683544.full.pdf
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: Full Text
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: https://www.nature.com/articles/s41467-025-67506-w.pdf
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: Snapshot
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: https://royalsocietypublishing.org/rspb/article/292/2048/20241885/234522
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: Suca et al. - 2025 - The Role of Wind on the Simulated Dispersal and Re.pdf
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Unknown
-  item_type: attachment
-  publication_title: null
 - title: The Role of Wind on the Simulated Dispersal and Recruitment of a Commercially
     Important Hawaiʻi Bottomfish
   creators: Justin J Suca; Johanna L K Wren; Gabriella N M Mukai; Donald R Kobayashi;
@@ -3219,25 +3165,6 @@
   url: null
   region: Hawaiian Archipelago
   item_type: journalArticle
-  publication_title: null
-- title: Pomeroy et al. - 2025 - Survivorship and growth of corals in Hawaiʻi two
-    y.pdf
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Hawaiian Archipelago
-  item_type: attachment
-  publication_title: null
-- title: Pollock et al. - 2025 - Hawaiʻi Reef Restoration Monitoring Guide.pdf
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Hawaiian Archipelago
-  item_type: attachment
   publication_title: null
 - title: 'When fishers guide scientific exploration: Case study with ‘ōpelu in Hawai‘i'
   creators: Gabriella N M Mukai; Mia A Iwane; Justin J Suca; Kisei R Tanaka; Amy L
@@ -3260,244 +3187,3 @@
   region: Unknown
   item_type: journalArticle
   publication_title: Ocean & Coastal Management
-- title: '<span style="font-size: 15px">American Samoa Data Project</span>'
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: https://connect.fisheries.noaa.gov/american_samoa_data_integration/
-  region: American Samoa
-  item_type: attachment
-  publication_title: null
-- title: Methods Ecol Evol - 2025 - Schiettekatte - habtools  An R package to calculate
-    3D metrics for surfaces and objects.pdf
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: Suka et al. - 2020 - Successful application of a novel technique to qua.pdf
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: American Samoa Methods Documentation.pdf
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: American Samoa
-  item_type: attachment
-  publication_title: null
-- title: Zgliczynski et al. - 2013 - The IUCN Red List of Threatened Species An assess.pdf
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: McCoy and Kindinger - 2024 - Pacific National Coral Reef Monitoring Program
-    202.pdf
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Pacific-wide
-  item_type: attachment
-  publication_title: null
-- title: 10.1007_s00338-024-02529-1-citation.ris
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: IOP Full Text PDF
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: https://iopscience.iop.org/article/10.1088/1748-9326/ac7478/pdf
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: Wongbusarakum et al. - 2020 - Assessing socio-economic indicators to improve
-    the.pdf
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: Williams et al. - 2019 - Can Herbivore Management Increase the Persistence
-    .pdf
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: McCoy and Kindinger - 2024 - Assessment of coral reef fishes inside and outside.pdf
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: Torres-Pulliza et al. - Processing Coral Reef Imagery Using Structure-from.pdf
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: McCoy and Kindinger - 2023 - Ecological monitoring 2022  reef fishes and
-    benth.pdf
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: Eakin et al. - 2010 - Monitoring coral reefs from space.pdf
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: Kenyon et al. - 2006 - Towed-Diver Surveys, a Method for Mesoscale Spatia.pdf
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: Williams et al. - 2015 - Human, Oceanographic and Habitat Drivers of Centra.pdf
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0120516&type=printable
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: Venegas et al. - 2019 - The Rarity of Depth Refugia from Coral Bleaching
-    H.pdf
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: Nadon et al. - 2015 - Length-Based Assessment of Coral Reef Fish Populat.PDF
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: ScienceDirect Snapshot
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: https://www.sciencedirect.com/science/article/pii/S0025326X21011772#!
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: ScienceDirect Full Text PDF
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: https://www.sciencedirect.com/science/article/pii/S0025326X21011772/pdfft?md5=e036240626c1af3e157273c62249cc49&pid=1-s2.0-S0025326X21011772-main.pdf&isDTMRedir=Y
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: McCoy et al. - 2022 - Movement and retention of derelict fishing nets in.pdf
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: Winston et al. - 2019 - Ecosystem Sciences Division Standard Operating Pro.pdf
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: Winston et al. - 2020 - Ecosystem Sciences Division Standard Operating Pro.pdf
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: Oliver - 2020 - Spatial Prioritization under Resilience Based Mana.pdf
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: Williams et al. - 2019 - Leveraging Automated Image Analysis Tools to Trans.pdf
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Unknown
-  item_type: attachment
-  publication_title: null
-- title: Weijerman et al. - 2018 - Managing Local Stressors for Coral Reef Condition
-    .pdf
-  creators: ''
-  year: null
-  doi: null
-  issn: null
-  url: null
-  region: Unknown
-  item_type: attachment
-  publication_title: null
