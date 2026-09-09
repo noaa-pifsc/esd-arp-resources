@@ -54,6 +54,199 @@ def get_config():
 
 
 # =============================================================================
+# CrossRef DOI Resolution Functions
+# =============================================================================
+
+def fetch_crossref_metadata(doi: str, retries: int = 3) -> Optional[Dict]:
+    """
+    Fetch publication metadata from CrossRef API using DOI.
+    
+    Args:
+        doi: Digital Object Identifier
+        retries: Number of retry attempts
+    
+    Returns:
+        Dictionary with CrossRef metadata or None if not found
+    """
+    if not doi:
+        return None
+    
+    # Normalize DOI (remove https://doi.org/ prefix if present)
+    doi_clean = doi.replace("https://doi.org/", "").replace("http://dx.doi.org/", "").strip()
+    
+    crossref_url = f"https://api.crossref.org/works/{doi_clean}"
+    headers = {
+        "User-Agent": "NOAA-PIFSC-ESD (mailto:pifsc.publications@noaa.gov)"
+    }
+    
+    for attempt in range(retries):
+        try:
+            response = requests.get(crossref_url, headers=headers, timeout=10)
+            if response.status_code == 200:
+                data = response.json()
+                if data.get("status") == "ok" and data.get("message"):
+                    return data.get("message")
+                return None
+            elif response.status_code == 404:
+                return None  # DOI not found
+            else:
+                if attempt < retries - 1:
+                    time.sleep(2 ** attempt)  # Exponential backoff
+        except requests.exceptions.RequestException as e:
+            if attempt == retries - 1:
+                print(f"⚠️ CrossRef lookup failed for DOI {doi_clean}: {e}")
+            else:
+                time.sleep(2 ** attempt)
+    
+    return None
+
+
+def extract_authors_from_crossref(crossref_data: Dict) -> Optional[str]:
+    """Extract author names from CrossRef metadata."""
+    if not crossref_data:
+        return None
+    
+    authors = crossref_data.get("author", [])
+    if not authors:
+        return None
+    
+    author_names = []
+    for author in authors:
+        given = author.get("given", "").strip()
+        family = author.get("family", "").strip()
+        if family:
+            name = f"{given} {family}".strip() if given else family
+            author_names.append(name)
+    
+    return "; ".join(author_names) if author_names else None
+
+
+def normalize_doi(doi_string: str) -> str:
+    """
+    Extract clean DOI from various formats.
+    
+    Args:
+        doi_string: DOI string which may include URL prefix
+    
+    Returns:
+        Clean DOI (e.g., "10.1234/example")
+    """
+    if not doi_string:
+        return ""
+    
+    doi_string = doi_string.strip()
+    # Remove common DOI URL prefixes
+    for prefix in ["https://doi.org/", "http://doi.org/", "http://dx.doi.org/", "doi.org/"]:
+        if doi_string.lower().startswith(prefix):
+            return doi_string[len(prefix):]
+    
+    return doi_string
+
+
+def create_doi_url(doi: str) -> str:
+    """
+    Create a proper DOI URL from a clean DOI.
+    
+    Args:
+        doi: Clean DOI string (e.g., "10.1234/example")
+    
+    Returns:
+        Full DOI URL (e.g., "https://doi.org/10.1234/example")
+    """
+    if not doi:
+        return ""
+    
+    clean_doi = normalize_doi(doi)
+    return f"https://doi.org/{clean_doi}" if clean_doi else ""
+
+
+def enrich_publication(pub: Dict) -> Dict:
+    """
+    Enrich publication metadata by fetching missing fields from CrossRef.
+    
+    Args:
+        pub: Publication dictionary
+    
+    Returns:
+        Enhanced publication dictionary
+    """
+    # First, normalize the DOI field
+    if pub.get("doi"):
+        clean_doi = normalize_doi(pub["doi"])
+        pub["doi"] = clean_doi if clean_doi else None
+    
+    # Only attempt enrichment if we have a DOI and are missing key fields
+    if not pub.get("doi"):
+        return pub
+    
+    # Check if enrichment is needed
+    needs_enrichment = (
+        not pub.get("creators") or pub["creators"] == "N/A" or
+        not pub.get("publication_title") or pub["publication_title"] == "N/A" or
+        not pub.get("year") or pub["year"] == "N/A" or
+        not pub.get("url") or pub["url"] == "N/A"
+    )
+    
+    if not needs_enrichment:
+        return pub
+    
+    print(f"  🔍 Enriching: {pub.get('title', 'Unknown')[:60]}...", end=" ")
+    
+    crossref_data = fetch_crossref_metadata(pub["doi"])
+    
+    if not crossref_data:
+        # If CrossRef lookup fails, at least populate URL from DOI
+        if not pub.get("url") or pub["url"] == "N/A":
+            pub["url"] = create_doi_url(pub["doi"])
+        print("(DOI link added)")
+        return pub
+    
+    # Fill missing creators
+    if not pub.get("creators") or pub["creators"] == "N/A":
+        authors = extract_authors_from_crossref(crossref_data)
+        if authors:
+            pub["creators"] = authors
+            print("✓ ", end="")
+        else:
+            print("(no authors)", end=" ")
+    
+    # Fill missing publication title
+    if not pub.get("publication_title") or pub["publication_title"] == "N/A":
+        container_title = crossref_data.get("container-title")
+        if container_title and isinstance(container_title, list) and container_title:
+            pub["publication_title"] = container_title[0]
+            print("✓ ", end="")
+        elif isinstance(container_title, str):
+            pub["publication_title"] = container_title
+            print("✓ ", end="")
+    
+    # Fill missing year
+    if not pub.get("year") or pub["year"] == "N/A":
+        issued = crossref_data.get("issued", {})
+        if isinstance(issued, dict):
+            date_parts = issued.get("date-parts")
+            if date_parts and isinstance(date_parts, list) and date_parts[0]:
+                pub["year"] = date_parts[0][0]
+                print("✓ ", end="")
+    
+    # Fill missing URL - prefer direct URL from CrossRef, fallback to DOI link
+    if not pub.get("url") or pub["url"] == "N/A":
+        # Try to get direct publisher URL from CrossRef
+        url_from_crossref = crossref_data.get("URL")
+        if url_from_crossref:
+            pub["url"] = url_from_crossref
+            print("✓ ", end="")
+        else:
+            # Fallback to DOI link
+            pub["url"] = create_doi_url(pub["doi"])
+            print("✓", end="")
+    
+    print()
+    time.sleep(0.5)  # Be nice to CrossRef API
+    return pub
+
+
+# =============================================================================
 # Helper Functions
 # =============================================================================
 
@@ -227,13 +420,23 @@ def process_publications(all_items: List[Dict]) -> List[Dict]:
             errors += 1
             continue
     
-    # Sort by year (descending)
-    filtered_publications.sort(key=lambda x: x["year"] or 0, reverse=True)
-    
-    print(f"\n📊 Processing Results:")
-    print(f"  ✓ Successfully processed: {len(filtered_publications)}")
+    print(f"\n  ✓ Successfully processed: {len(filtered_publications)}")
     print(f"  ✗ Errors encountered: {errors}")
     print(f"  🔄 Duplicates removed: {len(all_items) - len(filtered_publications) - errors}")
+    
+    # Enrich publications with missing data from CrossRef
+    print(f"\n📚 Step 2b: Enriching with CrossRef metadata")
+    print("-" * 60)
+    print(f"Checking for missing publication metadata...")
+    missing_count = sum(1 for pub in filtered_publications 
+                       if not pub.get("creators") or not pub.get("publication_title") or not pub.get("year"))
+    print(f"Found {missing_count} publications with missing data\n")
+    
+    filtered_publications = [enrich_publication(pub) for pub in filtered_publications]
+    print(f"✓ Enrichment complete")
+    
+    # Sort by year (descending)
+    filtered_publications.sort(key=lambda x: x["year"] or 0, reverse=True)
     
     # Print region distribution
     print(f"\n📍 Region Distribution:")
