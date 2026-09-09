@@ -189,6 +189,12 @@ def process_publications(all_items: List[Dict]) -> List[Dict]:
     for entry in all_items:
         try:
             data = entry.get("data", {})
+            item_type = data.get("itemType", "")
+            
+            # Skip attachments, standalone notes, and annotations
+            # These are child items that create duplicates of parent entries
+            if item_type in ['attachment', 'note', 'annotation']:
+                continue
             
             # Extract fields
             title = data.get("title", "").strip()
