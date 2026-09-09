@@ -2156,6 +2156,17 @@
     "publication_title": "Marine Biodiversity Records"
   },
   {
+    "title": "First records of marine benthic algae from Swains Island, American Samoa",
+    "creators": "Roy T. Tsuda; Jack R. Fisher; Peter S. Vroom",
+    "year": 2011,
+    "doi": "10.7872/crya.v32.iss3.2011.271",
+    "issn": null,
+    "url": "https://doi.org/10.7872/crya.v32.iss3.2011.271",
+    "region": "American Samoa",
+    "item_type": "journalArticle",
+    "publication_title": "Cryptogamie, Algologie"
+  },
+  {
     "title": "Coral Reef Ecosystem Division standard operating procedures: data collection for Rapid Ecological Assessment fish surveys.",
     "creators": "Paula Ayotte; Kaylyn McCoy; Adel Heenan; Ivor Williams; Jill Zamzow",
     "year": 2011,
@@ -2242,17 +2253,6 @@
     "region": "Unknown",
     "item_type": "report",
     "publication_title": null
-  },
-  {
-    "title": "First records of marine benthic algae from Swains Island, American Samoa",
-    "creators": "Roy T. Tsuda; Jack R. Fisher; Peter S. Vroom",
-    "year": 2011,
-    "doi": null,
-    "issn": null,
-    "url": null,
-    "region": "American Samoa",
-    "item_type": "journalArticle",
-    "publication_title": "Cryptogamie, Algologie"
   },
   {
     "title": "Humpback whale Megaptera novaeangliae song reveals wintering activity in the Northwestern Hawaiian Islands",
@@ -2552,6 +2552,17 @@
     "publication_title": "Journal of Operational Oceanography"
   },
   {
+    "title": "Coral Reef Ecosystem Monitoring Report for American Samoa: 2002 – 2006",
+    "creators": "R. Brainard; J. Asher; J. Gove; J. Helyer; J. Kenyon; F. Mancini; J. Miller; S. Myhre; M. Nadon; J. Rooney; R. Schroeder; E. Smith; B. Vargas-Angel; S. Vogt; P. Vroom; S. Balwani; S. Ferguson; R. Hoeke; M. Lammers; E. Lundblad; R. Moffitt; M. Timmers; O. Vetter; P. Craig; J. Maragos",
+    "year": 2008,
+    "doi": null,
+    "issn": null,
+    "url": "https://repository.library.noaa.gov/view/noaa/10472",
+    "region": "American Samoa",
+    "item_type": "report",
+    "publication_title": null
+  },
+  {
     "title": "An ecological acoustic recorder (EAR) for long-term monitoring of biological and anthropogenic sounds on coral reefs and other marine habitats.",
     "creators": "Marc O. Lammers; Russell E. Brainard; Whitlow W. L. Au; T. Aran Mooney; Kevin B. Wong",
     "year": 2008,
@@ -2572,17 +2583,6 @@
     "region": "Pacific-wide",
     "item_type": "journalArticle",
     "publication_title": "Proceedings of the 11th International Coral Reef Symposium"
-  },
-  {
-    "title": "Coral Reef Ecosystem Monitoring Report for American Samoa: 2002 – 2006",
-    "creators": "R. Brainard; J. Asher; J. Gove; J. Helyer; J. Kenyon; F. Mancini; J. Miller; S. Myhre; M. Nadon; J. Rooney; R. Schroeder; E. Smith; B. Vargas-Angel; S. Vogt; P. Vroom; S. Balwani; S. Ferguson; R. Hoeke; M. Lammers; E. Lundblad; R. Moffitt; M. Timmers; O. Vetter; P. Craig; J. Maragos",
-    "year": 2008,
-    "doi": null,
-    "issn": null,
-    "url": null,
-    "region": "American Samoa",
-    "item_type": "report",
-    "publication_title": null
   },
   {
     "title": "Assessing the importance of fishing impacts on Hawaiian coral reef fish assemblages along regional-scale human population gradients",
@@ -2838,6 +2838,17 @@
     "publication_title": "Atoll Research Bulletin"
   },
   {
+    "title": "Hurricane-induced propagation and rapid regrowth of the weedy brown alga Dictyota in the Florida Keys",
+    "creators": "Peter Vroom; Linda Walters; Kevin Beach; James Coyer; Jennifer Smith; Marie-Josée Abgrall; Dorothy Byron; Kathryn DeAngelis; Brenda Konar; Julie Liss; Ryan Okano; Cassandra Roberts; Laura Herren; Monica Woo; Celia Smith",
+    "year": 2005,
+    "doi": null,
+    "issn": null,
+    "url": "https://www.jstor.org/stable/24321163",
+    "region": "Unknown",
+    "item_type": "journalArticle",
+    "publication_title": "Floida Scientist"
+  },
+  {
     "title": "Dasya atropurpurea sp. nov. (Ceramiales, Rhodophyta), a deep-water species from the Hawaiian Archipelago",
     "creators": "Peter S. Vroom",
     "year": 2005,
@@ -2869,17 +2880,6 @@
     "region": "Pacific-wide",
     "item_type": "report",
     "publication_title": null
-  },
-  {
-    "title": "Hurricane-induced propagation and rapid regrowth of the weedy brown alga Dictyota in the Florida Keys",
-    "creators": "Peter Vroom; Linda Walters; Kevin Beach; James Coyer; Jennifer Smith; Marie-Josée Abgrall; Dorothy Byron; Kathryn DeAngelis; Brenda Konar; Julie Liss; Ryan Okano; Cassandra Roberts; Laura Herren; Monica Woo; Celia Smith",
-    "year": 2005,
-    "doi": null,
-    "issn": null,
-    "url": null,
-    "region": "Unknown",
-    "item_type": "journalArticle",
-    "publication_title": "Floida Scientist"
   },
   {
     "title": "Spatial heterogeneity of benthic community assemblages with an emphasis on reef algae at French Frigate Shoals, Northwestern Hawai'ian Islands",
@@ -3171,9 +3171,9 @@
     "title": "Distribution of recent outbreaks of the crown-of-thorns starfish (Acanthaster planci) along the Great Barrier Reef: 1985-1986",
     "creators": "P. J. Moran; R. H. Bradbury; R. E. Reichelt",
     "year": 1988,
-    "doi": null,
+    "doi": "10.1007/BF00300972",
     "issn": null,
-    "url": null,
+    "url": "https://doi.org/10.1007/BF00300972",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Coral Reefs"
