@@ -54,8 +54,20 @@ def get_config():
 
 
 # =============================================================================
-# CrossRef DOI Resolution Functions
+# CrossRef DOI Resolution & Helper Functions
 # =============================================================================
+
+def extract_doi_from_text(text: str) -> Optional[str]:
+    """Extract a DOI string from a URL or raw text if present."""
+    if not text:
+        return None
+    # Regular expression matching standard DOI patterns (10.xxxx/...)
+    match = re.search(r'10\.\d{4,9}/[-._;()/:A-Za-z0-9]+', text)
+    if match:
+        # Strip trailing slashes or periods often attached by accident
+        return match.group(0).rstrip('./')
+    return None
+
 
 def fetch_crossref_metadata(doi: str, retries: int = 3) -> Optional[Dict]:
     """
@@ -174,6 +186,12 @@ def enrich_publication(pub: Dict) -> Dict:
     if pub.get("doi"):
         clean_doi = normalize_doi(pub["doi"])
         pub["doi"] = clean_doi if clean_doi else None
+
+    # If URL was just a raw DOI URL, standardize it to https://doi.org/<doi>
+    if pub.get("doi") and pub.get("url"):
+        extracted_from_url = extract_doi_from_text(pub["url"])
+        if extracted_from_url and normalize_doi(extracted_from_url) == pub["doi"]:
+            pub["url"] = create_doi_url(pub["doi"])
     
     # Only attempt enrichment if we have a DOI and are missing key fields
     if not pub.get("doi"):
@@ -231,13 +249,11 @@ def enrich_publication(pub: Dict) -> Dict:
     
     # Fill missing URL - prefer direct URL from CrossRef, fallback to DOI link
     if not pub.get("url") or pub["url"] == "N/A":
-        # Try to get direct publisher URL from CrossRef
         url_from_crossref = crossref_data.get("URL")
         if url_from_crossref:
             pub["url"] = url_from_crossref
             print("✓ ", end="")
         else:
-            # Fallback to DOI link
             pub["url"] = create_doi_url(pub["doi"])
             print("✓", end="")
     
@@ -385,7 +401,6 @@ def process_publications(all_items: List[Dict]) -> List[Dict]:
             item_type = data.get("itemType", "")
             
             # Skip attachments, standalone notes, and annotations
-            # These are child items that create duplicates of parent entries
             if item_type in ['attachment', 'note', 'annotation']:
                 continue
             
@@ -399,16 +414,22 @@ def process_publications(all_items: List[Dict]) -> List[Dict]:
                 continue
             duplicate_checker.add(title)
             
+            raw_doi = data.get("DOI", "").strip()
+            raw_url = data.get("url", "").strip()
+            
+            # Fallback: Extract DOI from URL field if standard DOI field is empty
+            if not raw_doi and raw_url:
+                raw_doi = extract_doi_from_text(raw_url) or ""
+            
             # Build publication record
             pub = {
                 "title": title,
                 "creators": clean_creators(data.get("creators", [])),
                 "year": extract_year(data.get("date", "")),
-                "doi": data.get("DOI", "").strip() or None,
+                "doi": normalize_doi(raw_doi) or None,
                 "issn": data.get("ISSN", "").strip() or None,
-                "url": data.get("url", "").strip() or None,
+                "url": raw_url or None,
                 "region": assign_region(title),
-                # Additional useful fields
                 "item_type": data.get("itemType", ""),
                 "publication_title": data.get("publicationTitle", "").strip() or None,
             }
@@ -429,7 +450,7 @@ def process_publications(all_items: List[Dict]) -> List[Dict]:
     print("-" * 60)
     print(f"Checking for missing publication metadata...")
     missing_count = sum(1 for pub in filtered_publications 
-                       if not pub.get("creators") or not pub.get("publication_title") or not pub.get("year"))
+                        if not pub.get("creators") or not pub.get("publication_title") or not pub.get("year"))
     print(f"Found {missing_count} publications with missing data\n")
     
     filtered_publications = [enrich_publication(pub) for pub in filtered_publications]
@@ -549,7 +570,6 @@ def main(args=None):
     print("🚀 Zotero Publications Fetcher")
     print("=" * 60)
     
-    base_url = f"https://api.zotero.org/groups/{parsed_args.group_id}/collections/{parsed_args.collection_key}/items"
     headers = {
         "Zotero-API-Key": parsed_args.api_key,
         "Accept": "application/json",
@@ -564,7 +584,6 @@ def main(args=None):
     # Fetch
     print("🔄 Step 1: Fetching Publications")
     print("-" * 60)
-    # If no collection key, fetch all items from group; otherwise fetch from specific collection
     if parsed_args.collection_key and parsed_args.collection_key != "VD8Z582Z":
         base_url = f"https://api.zotero.org/groups/{parsed_args.group_id}/collections/{parsed_args.collection_key}/items"
         print("Fetching from collection...")
