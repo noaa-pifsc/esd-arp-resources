@@ -15,10 +15,10 @@ header:
 excerpt: The Archipelagic Research Program is composed of approximately twenty members working as technicians, coordinators, analysts, lead scientists, operations, and data support.  Our team includes <a href = "https://www.soest.hawaii.edu/cimar/">CIMAR</a> staff-- the University of Hawaiʻi's Cooperative Institute for Marine and Atmospheric Research --as well as PIFSC Federal employees. We work and collaborate across other PIFSC divisions and with partners across the U.S. Pacific Islands region. 
 feature_row5:
 - image_path: /assets/images/upcoming_cruise.jpg
-  alt: "pacific islands region survey area image"
+  alt: "upcoming cruise"
   image_caption: "Credit: NOAA Fisheries"
   title: "Current Field Work"
-  excerpt: 'From April to July we will be conducting reef monitoring surveys in American Samoa and the Pacific Heritage Islands Marine National Monument. Flyers from 2025 and 2026 are linked below.'
+  excerpt: 'We are currently reviewing data from American Samoa and atolls of the Pacific Islands Heritage Marine National Monument. In 2027 we will survey the Hawaiian Archipelago.'
   buttons:
   - url: assets/images/Multi-Program Flyer_AmSamoa2026.pdf
     btn_label: "English"
@@ -30,7 +30,7 @@ feature_row5:
     btn_label: "2025 Flyer"
     btn_class: "btn--primary"
 feature_row2:
-- image_path: https://www.fisheries.noaa.gov/s3/styles/full_width/s3/dam-migration/pifsc.png?itok=SmTJPyV8
+- image_path: https://www.fisheries.noaa.gov/s3/2024-11/1012x687-NCRMP.PacificMap_0.png
   alt: "pacific islands region survey area image"
   image_caption: "Credit: NOAA Fisheries"
   title: "Survey Area"
