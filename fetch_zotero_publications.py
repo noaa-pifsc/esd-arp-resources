@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 Zotero Publications Fetcher for GitHub Pages
-Fetches publications from Zotero API, cleans data, and exports YAML for Jekyll
+Fetches publications from Zotero API, cleans data, scrapes web pages for missing DOIs, 
+and exports YAML for Jekyll.
 
 Usage:
     python fetch_zotero_publications.py
@@ -54,63 +55,57 @@ def get_config():
 
 
 # =============================================================================
-# CrossRef DOI Resolution & Helper Functions
+# Helper & Extraction Functions
 # =============================================================================
 
 def extract_doi_from_text(text: str) -> Optional[str]:
-    """Extract a DOI string from a URL or raw text if present."""
+    """Extract a DOI string from a URL, HTML, or raw text if present."""
     if not text:
         return None
     # Regular expression matching standard DOI patterns (10.xxxx/...)
     match = re.search(r'10\.\d{4,9}/[-._;()/:A-Za-z0-9]+', text)
     if match:
-        # Strip trailing slashes or periods often attached by accident
-        return match.group(0).rstrip('./')
+        # Strip trailing slashes, quotes, or periods often attached by accident
+        return match.group(0).rstrip('./"\'')
     return None
 
 
-def fetch_crossref_metadata(doi: str, retries: int = 3) -> Optional[Dict]:
+def extract_doi_from_webpage(url: str) -> Optional[str]:
     """
-    Fetch publication metadata from CrossRef API using DOI.
-    
-    Args:
-        doi: Digital Object Identifier
-        retries: Number of retry attempts
-    
-    Returns:
-        Dictionary with CrossRef metadata or None if not found
+    Scrape a webpage (e.g., NOAA Repository) to extract a DOI from HTML metadata or body text.
     """
-    if not doi:
+    if not url or not url.startswith("http"):
         return None
-    
-    # Normalize DOI (remove https://doi.org/ prefix if present)
-    doi_clean = doi.replace("https://doi.org/", "").replace("http://dx.doi.org/", "").strip()
-    
-    crossref_url = f"https://api.crossref.org/works/{doi_clean}"
+        
     headers = {
-        "User-Agent": "NOAA-PIFSC-ESD (mailto:pifsc.publications@noaa.gov)"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
     }
     
-    for attempt in range(retries):
-        try:
-            response = requests.get(crossref_url, headers=headers, timeout=10)
-            if response.status_code == 200:
-                data = response.json()
-                if data.get("status") == "ok" and data.get("message"):
-                    return data.get("message")
-                return None
-            elif response.status_code == 404:
-                return None  # DOI not found
-            else:
-                if attempt < retries - 1:
-                    time.sleep(2 ** attempt)  # Exponential backoff
-        except requests.exceptions.RequestException as e:
-            if attempt == retries - 1:
-                print(f"⚠️ CrossRef lookup failed for DOI {doi_clean}: {e}")
-            else:
-                time.sleep(2 ** attempt)
-    
-    return None
+    try:
+        response = requests.get(url, headers=headers, timeout=10)
+        if response.status_code != 200:
+            return None
+            
+        html_content = response.text
+        
+        # 1. Search common HTML meta tags used by repositories (e.g., DC.Identifier, citation_doi)
+        meta_doi_patterns = [
+            r'<meta\s+name=["\'](?:citation_doi|DC\.Identifier|DC\.identifier|doi)["\']\s+content=["\']([^"\']+)["\']',
+            r'<meta\s+content=["\']([^"\']+)["\']\s+name=["\'](?:citation_doi|DC\.Identifier|DC\.identifier|doi)["\']'
+        ]
+        
+        for pattern in meta_doi_patterns:
+            match = re.search(pattern, html_content, re.IGNORECASE)
+            if match:
+                extracted = extract_doi_from_text(match.group(1))
+                if extracted:
+                    return extracted
+
+        # 2. Fallback: Search full page text for a standard DOI pattern (10.xxxx/...)
+        return extract_doi_from_text(html_content)
+
+    except requests.exceptions.RequestException:
+        return None
 
 
 def extract_authors_from_crossref(crossref_data: Dict) -> Optional[str]:
@@ -172,32 +167,61 @@ def create_doi_url(doi: str) -> str:
     return f"https://doi.org/{clean_doi}" if clean_doi else ""
 
 
+# =============================================================================
+# CrossRef API Functions
+# =============================================================================
+
+def fetch_crossref_metadata(doi: str, retries: int = 3) -> Optional[Dict]:
+    """
+    Fetch publication metadata from CrossRef API using DOI.
+    """
+    if not doi:
+        return None
+    
+    doi_clean = doi.replace("https://doi.org/", "").replace("http://dx.doi.org/", "").strip()
+    crossref_url = f"https://api.crossref.org/works/{doi_clean}"
+    headers = {
+        "User-Agent": "NOAA-PIFSC-ESD (mailto:pifsc.publications@noaa.gov)"
+    }
+    
+    for attempt in range(retries):
+        try:
+            response = requests.get(crossref_url, headers=headers, timeout=10)
+            if response.status_code == 200:
+                data = response.json()
+                if data.get("status") == "ok" and data.get("message"):
+                    return data.get("message")
+                return None
+            elif response.status_code == 404:
+                return None
+            else:
+                if attempt < retries - 1:
+                    time.sleep(2 ** attempt)
+        except requests.exceptions.RequestException as e:
+            if attempt == retries - 1:
+                print(f"⚠️ CrossRef lookup failed for DOI {doi_clean}: {e}")
+            else:
+                time.sleep(2 ** attempt)
+    
+    return None
+
+
 def enrich_publication(pub: Dict) -> Dict:
     """
     Enrich publication metadata by fetching missing fields from CrossRef.
-    
-    Args:
-        pub: Publication dictionary
-    
-    Returns:
-        Enhanced publication dictionary
     """
-    # First, normalize the DOI field
     if pub.get("doi"):
         clean_doi = normalize_doi(pub["doi"])
         pub["doi"] = clean_doi if clean_doi else None
 
-    # If URL was just a raw DOI URL, standardize it to https://doi.org/<doi>
     if pub.get("doi") and pub.get("url"):
         extracted_from_url = extract_doi_from_text(pub["url"])
         if extracted_from_url and normalize_doi(extracted_from_url) == pub["doi"]:
             pub["url"] = create_doi_url(pub["doi"])
     
-    # Only attempt enrichment if we have a DOI and are missing key fields
     if not pub.get("doi"):
         return pub
     
-    # Check if enrichment is needed
     needs_enrichment = (
         not pub.get("creators") or pub["creators"] == "N/A" or
         not pub.get("publication_title") or pub["publication_title"] == "N/A" or
@@ -213,13 +237,11 @@ def enrich_publication(pub: Dict) -> Dict:
     crossref_data = fetch_crossref_metadata(pub["doi"])
     
     if not crossref_data:
-        # If CrossRef lookup fails, at least populate URL from DOI
         if not pub.get("url") or pub["url"] == "N/A":
             pub["url"] = create_doi_url(pub["doi"])
         print("(DOI link added)")
         return pub
     
-    # Fill missing creators
     if not pub.get("creators") or pub["creators"] == "N/A":
         authors = extract_authors_from_crossref(crossref_data)
         if authors:
@@ -228,7 +250,6 @@ def enrich_publication(pub: Dict) -> Dict:
         else:
             print("(no authors)", end=" ")
     
-    # Fill missing publication title
     if not pub.get("publication_title") or pub["publication_title"] == "N/A":
         container_title = crossref_data.get("container-title")
         if container_title and isinstance(container_title, list) and container_title:
@@ -238,7 +259,6 @@ def enrich_publication(pub: Dict) -> Dict:
             pub["publication_title"] = container_title
             print("✓ ", end="")
     
-    # Fill missing year
     if not pub.get("year") or pub["year"] == "N/A":
         issued = crossref_data.get("issued", {})
         if isinstance(issued, dict):
@@ -247,7 +267,6 @@ def enrich_publication(pub: Dict) -> Dict:
                 pub["year"] = date_parts[0][0]
                 print("✓ ", end="")
     
-    # Fill missing URL - prefer direct URL from CrossRef, fallback to DOI link
     if not pub.get("url") or pub["url"] == "N/A":
         url_from_crossref = crossref_data.get("URL")
         if url_from_crossref:
@@ -258,12 +277,12 @@ def enrich_publication(pub: Dict) -> Dict:
             print("✓", end="")
     
     print()
-    time.sleep(0.5)  # Be nice to CrossRef API
+    time.sleep(0.5)
     return pub
 
 
 # =============================================================================
-# Helper Functions
+# Data Processing Helpers
 # =============================================================================
 
 def extract_year(date_str: Optional[str]) -> Optional[int]:
@@ -281,28 +300,18 @@ def assign_region(title: str) -> str:
     
     title_lower = title.lower()
     
-    # Hawaiian Archipelago keywords
     if any(area in title_lower for area in ['hawai', 'hawaii', 'kahekili', 'maui', 'ahu', 
                                               'northwestern', 'papahānaumokuākea', 'kauai', 'oahu', 'big island']):
         return 'Hawaiian Archipelago'
-    
-    # American Samoa keywords
     elif any(area in title_lower for area in ['samoa', 'aua', 'swains', 'american samoa']):
         return 'American Samoa'
-    
-    # Mariana Archipelago keywords
     elif any(area in title_lower for area in ['guam', 'mariana', 'saipan', 'tinian', 'rota']):
         return 'Mariana Archipelago'
-    
-    # Pacific Remote Island Areas (PRIA)
     elif any(area in title_lower for area in ['wake', 'baker', 'howland', 'jarvis', 'palmyra', 
                                                'kingman', 'johnston', 'jarvisisland']):
         return 'Pacific Remote Island Areas'
-    
-    # Pacific-wide (catch-all for broad Pacific studies)
     elif 'pacific' in title_lower:
         return 'Pacific-wide'
-    
     else:
         return 'Unknown'
 
@@ -327,14 +336,6 @@ def clean_creators(creators: List[Dict]) -> str:
 def fetch_all_items(base_url: str, headers: Dict, batch_size: int = 100) -> List[Dict]:
     """
     Fetch all items from Zotero API with pagination support.
-    
-    Args:
-        base_url: Zotero API endpoint URL
-        headers: Request headers with API key
-        batch_size: Items per request (max 100)
-    
-    Returns:
-        List of all items from the collection
     """
     all_items = []
     start = 0
@@ -350,21 +351,20 @@ def fetch_all_items(base_url: str, headers: Dict, batch_size: int = 100) -> List
             response.raise_for_status()
             items = response.json()
             
-            if not items:  # No more items
+            if not items:
                 print("✓ All items fetched")
                 break
             
             all_items.extend(items)
             start += batch_size
-            retry_count = 0  # Reset retry counter on success
+            retry_count = 0
             
-            # Respect rate limits
             if 'Backoff' in response.headers:
                 backoff_seconds = int(response.headers['Backoff'])
                 print(f"⏳ Rate limited. Waiting {backoff_seconds} seconds...")
                 time.sleep(backoff_seconds)
             else:
-                time.sleep(0.5)  # Be nice to the API
+                time.sleep(0.5)
                 
         except requests.exceptions.RequestException as e:
             retry_count += 1
@@ -372,7 +372,7 @@ def fetch_all_items(base_url: str, headers: Dict, batch_size: int = 100) -> List
                 print(f"❌ Error fetching data (max retries exceeded): {e}")
                 break
             print(f"⚠️ Error fetching data: {e}. Retrying ({retry_count}/{max_retries})...")
-            time.sleep(2 ** retry_count)  # Exponential backoff
+            time.sleep(2 ** retry_count)
     
     return all_items
 
@@ -383,13 +383,7 @@ def fetch_all_items(base_url: str, headers: Dict, batch_size: int = 100) -> List
 
 def process_publications(all_items: List[Dict]) -> List[Dict]:
     """
-    Process and filter publications from API response.
-    
-    Args:
-        all_items: Raw items from Zotero API
-    
-    Returns:
-        Cleaned and filtered publications list
+    Process, filter, and extract DOIs from Zotero API responses.
     """
     filtered_publications = []
     duplicate_checker = set()
@@ -400,16 +394,13 @@ def process_publications(all_items: List[Dict]) -> List[Dict]:
             data = entry.get("data", {})
             item_type = data.get("itemType", "")
             
-            # Skip attachments, standalone notes, and annotations
             if item_type in ['attachment', 'note', 'annotation']:
                 continue
             
-            # Extract fields
             title = data.get("title", "").strip()
             if not title:
-                continue  # Skip entries without title
+                continue
             
-            # Check for duplicates (by title)
             if title in duplicate_checker:
                 continue
             duplicate_checker.add(title)
@@ -417,11 +408,17 @@ def process_publications(all_items: List[Dict]) -> List[Dict]:
             raw_doi = data.get("DOI", "").strip()
             raw_url = data.get("url", "").strip()
             
-            # Fallback: Extract DOI from URL field if standard DOI field is empty
+            # --- DOI Fallback Logic ---
+            # Step 1: Extract DOI if present directly in the URL string
             if not raw_doi and raw_url:
                 raw_doi = extract_doi_from_text(raw_url) or ""
             
-            # Build publication record
+            # Step 2: Scrape the webpage HTML at raw_url (e.g., repository.library.noaa.gov)
+            if not raw_doi and raw_url:
+                scraped_doi = extract_doi_from_webpage(raw_url)
+                if scraped_doi:
+                    raw_doi = scraped_doi
+            
             pub = {
                 "title": title,
                 "creators": clean_creators(data.get("creators", [])),
@@ -456,10 +453,8 @@ def process_publications(all_items: List[Dict]) -> List[Dict]:
     filtered_publications = [enrich_publication(pub) for pub in filtered_publications]
     print(f"✓ Enrichment complete")
     
-    # Sort by year (descending)
     filtered_publications.sort(key=lambda x: x["year"] or 0, reverse=True)
     
-    # Print region distribution
     print(f"\n📍 Region Distribution:")
     regions = {}
     for pub in filtered_publications:
@@ -477,21 +472,13 @@ def process_publications(all_items: List[Dict]) -> List[Dict]:
 
 def export_publications(filtered_publications: List[Dict], output_dir: str) -> Dict[str, str]:
     """
-    Export publications in multiple formats.
-    
-    Args:
-        filtered_publications: List of cleaned publications
-        output_dir: Directory to save output files
-    
-    Returns:
-        Dictionary with file paths
+    Export publications in multiple formats (CSV, JSON, YAML).
     """
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     
     files = {}
     
-    # Export to CSV
     csv_file = output_dir / "filtered_pifsc_publications.csv"
     with open(csv_file, "w", newline="", encoding="utf-8") as f:
         if filtered_publications:
@@ -501,14 +488,12 @@ def export_publications(filtered_publications: List[Dict], output_dir: str) -> D
     files['csv'] = str(csv_file)
     print(f"✓ CSV export: {csv_file}")
     
-    # Export to JSON
     json_file = output_dir / "filtered_pifsc_publications.json"
     with open(json_file, "w", encoding="utf-8") as f:
         json.dump(filtered_publications, f, indent=2, ensure_ascii=False)
     files['json'] = str(json_file)
     print(f"✓ JSON export: {json_file}")
     
-    # Export to YAML (for Jekyll)
     yaml_file = output_dir / "filtered_pifsc_publications.yml"
     with open(yaml_file, "w", encoding="utf-8") as f:
         yaml.dump(filtered_publications, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
@@ -550,7 +535,6 @@ def main(args=None):
     
     parsed_args = parser.parse_args(args)
     
-    # Validate required arguments
     if not parsed_args.api_key:
         print("❌ ERROR: Zotero API key not provided.")
         print("   Set ZOTERO_API_KEY environment variable or use --api-key argument")
@@ -566,7 +550,6 @@ def main(args=None):
         print("   Set ZOTERO_COLLECTION_KEY environment variable or use --collection-key argument")
         sys.exit(1)
     
-    # Setup
     print("🚀 Zotero Publications Fetcher")
     print("=" * 60)
     
@@ -581,7 +564,6 @@ def main(args=None):
     print(f"  Output Directory: {parsed_args.output_dir}")
     print()
     
-    # Fetch
     print("🔄 Step 1: Fetching Publications")
     print("-" * 60)
     if parsed_args.collection_key and parsed_args.collection_key != "VD8Z582Z":
@@ -597,7 +579,6 @@ def main(args=None):
         print("⚠️ No items retrieved from Zotero")
         return 1
     
-    # Process
     print("🔄 Step 2: Processing Publications")
     print("-" * 60)
     filtered_publications = process_publications(all_items)
@@ -607,13 +588,11 @@ def main(args=None):
         print("⚠️ No publications to export")
         return 1
     
-    # Export
     print("🔄 Step 3: Exporting Publications")
     print("-" * 60)
     files = export_publications(filtered_publications, parsed_args.output_dir)
     print()
     
-    # Summary
     print("=" * 60)
     print("✓ SUCCESS")
     print(f"\n📊 Summary:")
