@@ -465,7 +465,7 @@
     "title": "American Samoa Methods Documentation",
     "creators": "Juliette Verstaen",
     "year": 2023,
-    "doi": null,
+    "doi": "10.25923/0RG6-Y073",
     "issn": null,
     "url": "https://connect.fisheries.noaa.gov/american_samoa_methods_documentation/methods_documentation.html",
     "region": "American Samoa",
@@ -867,6 +867,17 @@
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Frontiers in Marine Science"
+  },
+  {
+    "title": "Internal tides can provide thermal refugia that will buffer some coral reefs from future global warming | Scientific Reports",
+    "creators": "Curt D. Storlazzi; Olivia M. Cheriton; Ruben van Hooidonk; Zhongxiang Zhao; Russell Brainard",
+    "year": 2020,
+    "doi": "10.1038/s41598-020-70372-9",
+    "issn": null,
+    "url": "https://www.nature.com/articles/s41598-020-70372-9",
+    "region": "Unknown",
+    "item_type": "webpage",
+    "publication_title": "Scientific Reports"
   },
   {
     "title": "Successful application of a novel technique to quantify negative impacts of derelict fishing nets on Northwestern Hawaiian Island reefs",
@@ -1307,6 +1318,17 @@
     "region": "Hawaiian Archipelago",
     "item_type": "journalArticle",
     "publication_title": "Ecosphere"
+  },
+  {
+    "title": "The Coral Trait Database, a curated database of trait information for coral species from the global oceans | Scientific Data",
+    "creators": "Joshua S. Madin; Kristen D. Anderson; Magnus Heide Andreasen; Tom C.L. Bridge; Stephen D. Cairns; Sean R. Connolly; Emily S. Darling; Marcela Diaz; Daniel S. Falster; Erik C. Franklin; Ruth D. Gates; Aaron M.T. Harmer; Mia O. Hoogenboom; Danwei Huang; Sally A. Keith; Matthew A. Kosnik; Chao-Yang Kuo; Janice M. Lough; Catherine E. Lovelock; Osmar Luiz; Julieta Martinelli; Toni Mizerek; John M. Pandolfi; Xavier Pochon; Morgan S. Pratchett; Hollie M. Putnam; T. Edward Roberts; Michael Stat; Carden C. Wallace; Elizabeth Widman; Andrew H. Baird",
+    "year": 2016,
+    "doi": "10.1038/sdata.2016.17",
+    "issn": null,
+    "url": "https://www.nature.com/articles/sdata201617",
+    "region": "Unknown",
+    "item_type": "webpage",
+    "publication_title": "Scientific Data"
   },
   {
     "title": "Pacific Reef Assessment and Monitoring Program - Data Report - Ecological Monitoring 2015 - reef fishes and benthic habitats of the main Hawaiian Islands, Northwestern Hawaiian Islands, Pacific Remote Island Areas and American Samoa",
@@ -3198,28 +3220,6 @@
     "url": null,
     "region": "Pacific Remote Island Areas",
     "item_type": "journalArticle",
-    "publication_title": null
-  },
-  {
-    "title": "Internal tides can provide thermal refugia that will buffer some coral reefs from future global warming | Scientific Reports",
-    "creators": "",
-    "year": null,
-    "doi": null,
-    "issn": null,
-    "url": "https://www.nature.com/articles/s41598-020-70372-9",
-    "region": "Unknown",
-    "item_type": "webpage",
-    "publication_title": null
-  },
-  {
-    "title": "The Coral Trait Database, a curated database of trait information for coral species from the global oceans | Scientific Data",
-    "creators": "",
-    "year": null,
-    "doi": null,
-    "issn": null,
-    "url": "https://www.nature.com/articles/sdata201617",
-    "region": "Unknown",
-    "item_type": "webpage",
     "publication_title": null
   }
 ]
