@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 Zotero Publications Fetcher for GitHub Pages
-Fetches publications from Zotero API, cleans data, scrapes web pages for missing DOIs, 
-and exports YAML for Jekyll.
+Fetches publications from Zotero API, cleans data, scrapes web pages and NOAA Repository APIs 
+for missing DOIs, and exports YAML for Jekyll.
 
 Usage:
     python fetch_zotero_publications.py
@@ -72,23 +72,56 @@ def extract_doi_from_text(text: str) -> Optional[str]:
 
 def extract_doi_from_webpage(url: str) -> Optional[str]:
     """
-    Scrape a webpage (e.g., NOAA Repository) to extract a DOI from HTML metadata or body text.
+    Extract a DOI from a webpage. For NOAA repository links, query the NOAA repository API directly.
     """
     if not url or not url.startswith("http"):
         return None
+
+    # --- Specialized Handler: NOAA Institutional Repository ---
+    noaa_match = re.search(r'repository\.library\.noaa\.gov/view/noaa/(\d+)', url)
+    if noaa_match:
+        pid = noaa_match.group(1)
+        api_url = f"https://repository.library.noaa.gov/fedora/export/view/noaa/{pid}?format=xml"
+        json_api_url = f"https://repository.library.noaa.gov/fedora/objects/noaa:{pid}"
         
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+            "Accept": "application/json, text/xml"
+        }
+        
+        # Method 1: Query NOAA's JSON metadata endpoint
+        try:
+            res = requests.get(json_api_url, headers=headers, timeout=10)
+            if res.status_code == 200:
+                doi = extract_doi_from_text(res.text)
+                if doi:
+                    return doi
+        except requests.exceptions.RequestException:
+            pass
+
+        # Method 2: Query NOAA's XML metadata export
+        try:
+            res = requests.get(api_url, headers=headers, timeout=10)
+            if res.status_code == 200:
+                doi = extract_doi_from_text(res.text)
+                if doi:
+                    return doi
+        except requests.exceptions.RequestException:
+            pass
+
+    # --- General Web Scraper Fallback ---
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
     }
     
     try:
-        response = requests.get(url, headers=headers, timeout=10)
+        response = requests.get(url, headers=headers, timeout=10, allow_redirects=True)
         if response.status_code != 200:
             return None
             
         html_content = response.text
         
-        # 1. Search common HTML meta tags used by repositories (e.g., DC.Identifier, citation_doi)
+        # Search meta tags
         meta_doi_patterns = [
             r'<meta\s+name=["\'](?:citation_doi|DC\.Identifier|DC\.identifier|doi)["\']\s+content=["\']([^"\']+)["\']',
             r'<meta\s+content=["\']([^"\']+)["\']\s+name=["\'](?:citation_doi|DC\.Identifier|DC\.identifier|doi)["\']'
@@ -101,7 +134,7 @@ def extract_doi_from_webpage(url: str) -> Optional[str]:
                 if extracted:
                     return extracted
 
-        # 2. Fallback: Search full page text for a standard DOI pattern (10.xxxx/...)
+        # Fallback to full page text
         return extract_doi_from_text(html_content)
 
     except requests.exceptions.RequestException:
@@ -371,7 +404,7 @@ def fetch_all_items(base_url: str, headers: Dict, batch_size: int = 100) -> List
             if retry_count >= max_retries:
                 print(f"❌ Error fetching data (max retries exceeded): {e}")
                 break
-            print(f"⚠️ Error fetching data: {e}. Retrying ({retry_count}/{max_retries})...")
+            print(f"⚠️️ Error fetching data: {e}. Retrying ({retry_count}/{max_retries})...")
             time.sleep(2 ** retry_count)
     
     return all_items
@@ -413,7 +446,7 @@ def process_publications(all_items: List[Dict]) -> List[Dict]:
             if not raw_doi and raw_url:
                 raw_doi = extract_doi_from_text(raw_url) or ""
             
-            # Step 2: Scrape the webpage HTML at raw_url (e.g., repository.library.noaa.gov)
+            # Step 2: Scrape the webpage/API at raw_url (e.g., repository.library.noaa.gov)
             if not raw_doi and raw_url:
                 scraped_doi = extract_doi_from_webpage(raw_url)
                 if scraped_doi:
