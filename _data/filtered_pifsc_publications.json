@@ -16,7 +16,7 @@
     "year": 2026,
     "doi": "10.1111/1365-2664.70452",
     "issn": "0021-8901, 1365-2664",
-    "url": "https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2664.70452",
+    "url": "https://doi.org/10.1111/1365-2664.70452",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Journal of Applied Ecology"
@@ -38,7 +38,7 @@
     "year": 2026,
     "doi": "10.1371/journal.pone.0354186",
     "issn": "1932-6203",
-    "url": "https://dx.plos.org/10.1371/journal.pone.0354186",
+    "url": "https://doi.org/10.1371/journal.pone.0354186",
     "region": "Hawaiian Archipelago",
     "item_type": "journalArticle",
     "publication_title": "PLOS One"
@@ -60,7 +60,7 @@
     "year": 2026,
     "doi": "10.1002/eap.70238",
     "issn": "1939-5582",
-    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/eap.70238",
+    "url": "https://doi.org/10.1002/eap.70238",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Ecological Applications"
@@ -203,7 +203,7 @@
     "year": 2025,
     "doi": "10.1002/lom3.70000",
     "issn": "1541-5856",
-    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/lom3.70000",
+    "url": "https://doi.org/10.1002/lom3.70000",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Limnology and Oceanography: Methods"
@@ -379,7 +379,7 @@
     "year": 2024,
     "doi": "10.1002/ece3.11341",
     "issn": "2045-7758",
-    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ece3.11341",
+    "url": "https://doi.org/10.1002/ece3.11341",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Ecology and Evolution"
@@ -388,7 +388,7 @@
     "title": "Processing Coral Reef Imagery Using Structure-from-Motion Photogrammetry: Standard Operating Procedures (2023 Update)",
     "creators": "Damaris Torres-Pulliza; Jonathan Charendoff; Courtney Couch; Andrew Gray; Frances Lichowski; Corinne Amir; Mia Lamirand; Mollie Asbury; Morgan Winston; Isabelle Basden; Thomas Oliver",
     "year": 2024,
-    "doi": null,
+    "doi": "10.25923/cydj-z260",
     "issn": null,
     "url": "https://doi.org/10.25923/cydj-z260",
     "region": "Unknown",
@@ -401,7 +401,7 @@
     "year": 2024,
     "doi": "10.1002/eap.2961",
     "issn": "1939-5582",
-    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/eap.2961",
+    "url": "https://doi.org/10.1002/eap.2961",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Ecological Applications"
@@ -445,7 +445,7 @@
     "year": 2024,
     "doi": "10.1002/ecs2.4791",
     "issn": "2150-8925",
-    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ecs2.4791",
+    "url": "https://doi.org/10.1002/ecs2.4791",
     "region": "Pacific-wide",
     "item_type": "journalArticle",
     "publication_title": "Ecosphere"
@@ -454,9 +454,9 @@
     "title": "Cumulative trophic curves elucidate tropical coral reef ecosystems",
     "creators": "Jason S. Link; Fabio Pranovi; Matteo Zucchetta; Tye L. Kindinger; Adel Heenan; Kisei R. Tanaka",
     "year": 2024,
-    "doi": null,
+    "doi": "10.3389/fmars.2023.1324053",
     "issn": "2296-7745",
-    "url": "https://www.frontiersin.org/articles/10.3389/fmars.2023.1324053",
+    "url": "https://doi.org/10.3389/fmars.2023.1324053",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Frontiers in Marine Science"
@@ -476,7 +476,7 @@
     "title": "Spatiotemporal trends in benthic and reef fish communities in the Mariana Archipelago",
     "creators": "Laura Gajdzik; Kurt Ingeman; T.L. Kindinger; Thomas Oliver",
     "year": 2023,
-    "doi": null,
+    "doi": "10.25923/7efh-qt23",
     "issn": null,
     "url": "https://doi.org/10.25923/7efh-qt23",
     "region": "Mariana Archipelago",
@@ -489,7 +489,7 @@
     "year": 2023,
     "doi": "10.3389/fmars.2023.1192102",
     "issn": "2296-7745",
-    "url": "https://www.frontiersin.org/articles/10.3389/fmars.2023.1192102",
+    "url": "https://doi.org/10.3389/fmars.2023.1192102",
     "region": "Pacific-wide",
     "item_type": "journalArticle",
     "publication_title": "Frontiers in Marine Science"
@@ -509,7 +509,7 @@
     "title": "Ecological monitoring 2022 : reef fishes and benthic habitats of the Mariana Archipelago",
     "creators": "Kaylyn S. McCoy; Tye L. Kindinger",
     "year": 2023,
-    "doi": null,
+    "doi": "10.25923/5933-k437",
     "issn": null,
     "url": "https://doi.org/10.25923/5933-k437",
     "region": "Mariana Archipelago",
@@ -542,7 +542,7 @@
     "title": "Measuring coral vital rates using TagLab semi-automatic coral segmentation and temporal linking across fixed sites: standard operating procedures and time savings estimates",
     "creators": "C Amir; T. Oliver; M Lamirand; C.S. Couch",
     "year": 2023,
-    "doi": null,
+    "doi": "10.25923/s2ym-tn10",
     "issn": null,
     "url": "https://doi.org/10.25923/s2ym-tn10",
     "region": "Unknown",
@@ -610,7 +610,7 @@
     "year": 2023,
     "doi": "10.1111/geb.13691",
     "issn": "1466-8238",
-    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.13691",
+    "url": "https://doi.org/10.1111/geb.13691",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Global Ecology and Biogeography"
@@ -663,9 +663,9 @@
     "title": "Coral reef carbonate accretion rates track stable gradients in seawater carbonate chemistry across the U.S. Pacific Islands",
     "creators": "Hannah C. Barkley; Thomas A. Oliver; Ariel A. Halperin; Noah V. Pomeroy; Joy N. Smith; Rebecca M. Weible; Charles W. Young; Courtney S. Couch; Russell E. Brainard; Jennifer C. Samson",
     "year": 2022,
-    "doi": null,
+    "doi": "10.3389/fmars.2022.991685",
     "issn": "2296-7745",
-    "url": "https://www.frontiersin.org/articles/10.3389/fmars.2022.991685",
+    "url": "https://doi.org/10.3389/fmars.2022.991685",
     "region": "Pacific-wide",
     "item_type": "journalArticle",
     "publication_title": "Frontiers in Marine Science"
@@ -709,7 +709,7 @@
     "year": 2022,
     "doi": "10.3389/fmars.2022.1075972",
     "issn": "2296-7745",
-    "url": "https://www.frontiersin.org/articles/10.3389/fmars.2022.1075972",
+    "url": "https://doi.org/10.3389/fmars.2022.1075972",
     "region": "Pacific-wide",
     "item_type": "journalArticle",
     "publication_title": "Frontiers in Marine Science"
@@ -731,7 +731,7 @@
     "year": 2022,
     "doi": "10.1002/lno.12159",
     "issn": "1939-5590",
-    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/lno.12159",
+    "url": "https://doi.org/10.1002/lno.12159",
     "region": "Pacific-wide",
     "item_type": "journalArticle",
     "publication_title": "Limnology and Oceanography"
@@ -762,7 +762,7 @@
     "title": "A 'perfect storm' of cumulative and acute heat stress, and a warming trend, lead to bleaching events in Tutuila, American Samoa",
     "creators": "Joy Smith; Ariel Halperin; Hannah Barkley",
     "year": 2022,
-    "doi": null,
+    "doi": "10.25923/yphg-pq04",
     "issn": null,
     "url": "https://doi.org/10.25923/yphg-pq04",
     "region": "American Samoa",
@@ -773,9 +773,9 @@
     "title": "A National Status Report on United States Coral Reefs Based on 2012–2018 Data From National Oceanic and Atmospheric Administration’s National Coral Reef Monitoring Program",
     "creators": "Erica K. Towle; E. Caroline Donovan; Heath Kelsey; Mary E. Allen; Hannah Barkley; Jeremiah Blondeau; Russell E. Brainard; Annie Carew; Courtney S. Couch; Maria K. Dillard; C. Mark Eakin; Kimberly Edwards; Peter E. T. Edwards; Ian C. Enochs; Chloe S. Fleming; Alexandra S. Fries; Erick F. Geiger; Laura Jay Grove; Sarah H. Groves; Matthew Gorstein; Adel Heenan; Matthew W. Johnson; Justine Kimball; Jennifer L. Koss; Tye Kindinger; Arielle Levine; Derek P. Manzello; Nathan Miller; Thomas Oliver; Jennifer C. Samson; Dione Swanson; Bernardo Vargas-Ángel; T. Shay Viehman; Ivor D. Williams",
     "year": 2022,
-    "doi": null,
+    "doi": "10.3389/fmars.2021.812216",
     "issn": "2296-7745",
-    "url": "https://www.frontiersin.org/articles/10.3389/fmars.2021.812216",
+    "url": "https://doi.org/10.3389/fmars.2021.812216",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Frontiers in Marine Science"
@@ -786,7 +786,7 @@
     "year": 2022,
     "doi": "10.1371/journal.pone.0269068",
     "issn": "1932-6203",
-    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0269068",
+    "url": "https://doi.org/10.1371/journal.pone.0269068",
     "region": "Hawaiian Archipelago",
     "item_type": "journalArticle",
     "publication_title": "PLOS ONE"
@@ -817,7 +817,7 @@
     "title": "Analysis of Benthic Survey Images via CoralNet: A Summary of Standard Operating Procedures and Guidelines (2022 update)",
     "creators": "Mia Lamirand; Paula Lozada-Misa; Bernardo Vargas-Ángel; Courtney Couch; Brett D. Schumacher; Morgan Winston",
     "year": 2022,
-    "doi": null,
+    "doi": "10.25923/nhx2-6j45",
     "issn": null,
     "url": "https://doi.org/10.25923/nhx2-6j45",
     "region": "Unknown",
@@ -830,7 +830,7 @@
     "year": 2022,
     "doi": "10.1007/s00338-022-02246-7",
     "issn": "0722-4028, 1432-0975",
-    "url": "https://link.springer.com/10.1007/s00338-022-02246-7",
+    "url": "https://doi.org/10.1007/s00338-022-02246-7",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Coral Reefs"
@@ -861,9 +861,9 @@
     "title": "Comparing Coral Colony Surveys From In-Water Observations and Structure-From-Motion Imagery Shows Low Methodological Bias",
     "creators": "Courtney S. Couch; Thomas A. Oliver; Rhonda Suka; Mia Lamirand; Mollie Asbury; Corinne Amir; Bernardo Vargas-Ángel; Morgan Winston; Brittany Huntington; Frances Lichowski; Ariel Halperin; Andrew Gray; Joao Garriques; Jennifer Samson",
     "year": 2021,
-    "doi": null,
+    "doi": "10.3389/fmars.2021.647943",
     "issn": "2296-7745",
-    "url": "https://www.frontiersin.org/articles/10.3389/fmars.2021.647943",
+    "url": "https://doi.org/10.3389/fmars.2021.647943",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Frontiers in Marine Science"
@@ -1028,7 +1028,7 @@
     "year": 2019,
     "doi": "10.1007/s00338-019-01838-0",
     "issn": "0722-4028, 1432-0975",
-    "url": "http://link.springer.com/10.1007/s00338-019-01838-0",
+    "url": "https://doi.org/10.1007/s00338-019-01838-0",
     "region": "Pacific Remote Island Areas",
     "item_type": "journalArticle",
     "publication_title": "Coral Reefs"
@@ -1050,7 +1050,7 @@
     "year": 2018,
     "doi": "10.7289/V5/DR-PIFSC-18-008",
     "issn": null,
-    "url": "http://doi.org/10.7289/V5/DR-PIFSC-18-008",
+    "url": "https://doi.org/10.7289/V5/DR-PIFSC-18-008",
     "region": "Mariana Archipelago",
     "item_type": "report",
     "publication_title": null
@@ -1072,7 +1072,7 @@
     "year": 2018,
     "doi": "10.1175/BAMS-D-17-0128.1",
     "issn": "0003-0007, 1520-0477",
-    "url": "https://journals.ametsoc.org/doi/10.1175/BAMS-D-17-0128.1",
+    "url": "https://doi.org/10.1175/BAMS-D-17-0128.1",
     "region": "Pacific-wide",
     "item_type": "journalArticle",
     "publication_title": "Bulletin of the American Meteorological Society"
@@ -1138,7 +1138,7 @@
     "year": 2018,
     "doi": "10.1371/journal.pone.0195840",
     "issn": "1932-6203",
-    "url": "http://dx.plos.org/10.1371/journal.pone.0195840",
+    "url": "https://doi.org/10.1371/journal.pone.0195840",
     "region": "Hawaiian Archipelago",
     "item_type": "journalArticle",
     "publication_title": "Plos One"
@@ -1149,7 +1149,7 @@
     "year": 2017,
     "doi": "10.7289/V5/SP-PIFSC-17-003",
     "issn": null,
-    "url": "http://doi.org/10.7289/V5/SP-PIFSC-17-003",
+    "url": "https://doi.org/10.7289/V5/SP-PIFSC-17-003",
     "region": "Pacific-wide",
     "item_type": "report",
     "publication_title": null
@@ -1270,7 +1270,7 @@
     "year": 2017,
     "doi": "10.1371/journal.pone.0175066",
     "issn": "1932-6203",
-    "url": "http://dx.plos.org/10.1371/journal.pone.0175066",
+    "url": "https://doi.org/10.1371/journal.pone.0175066",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "PLOS ONE"
@@ -1281,7 +1281,7 @@
     "year": 2017,
     "doi": "10.1093/icesjms/fsx032",
     "issn": "1054-3139",
-    "url": "https://academic.oup.com/icesjms/article-lookup/doi/10.1093/icesjms/fsx032",
+    "url": "https://doi.org/10.1093/icesjms/fsx032",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "ICES Journal of Marine Science"
@@ -1303,7 +1303,7 @@
     "year": 2017,
     "doi": "10.1002/ecs2.1899",
     "issn": "21508925",
-    "url": "http://doi.wiley.com/10.1002/ecs2.1899",
+    "url": "https://doi.org/10.1002/ecs2.1899",
     "region": "Hawaiian Archipelago",
     "item_type": "journalArticle",
     "publication_title": "Ecosphere"
@@ -1312,9 +1312,9 @@
     "title": "Pacific Reef Assessment and Monitoring Program - Data Report - Ecological Monitoring 2015 - reef fishes and benthic habitats of the main Hawaiian Islands, Northwestern Hawaiian Islands, Pacific Remote Island Areas and American Samoa",
     "creators": "Kaylyn McCoy; Adel Heenan; Jacob Asher; Paula Ayotte; Kelvin Gorospe; Andrew Gray; Kevin Lino; Jill Zamzow; Ivor Williams",
     "year": 2016,
-    "doi": null,
+    "doi": "10.7289/V5G73BQJ",
     "issn": null,
-    "url": "http://doi.org/10.7289/V5G73BQJ",
+    "url": "https://doi.org/10.7289/V5G73BQJ",
     "region": "Hawaiian Archipelago",
     "item_type": "report",
     "publication_title": null
@@ -1336,7 +1336,7 @@
     "year": 2016,
     "doi": "10.1007/s00442-016-3724-0",
     "issn": "0029-8549",
-    "url": "http://link.springer.com/10.1007/s00442-016-3724-0",
+    "url": "https://doi.org/10.1007/s00442-016-3724-0",
     "region": "Hawaiian Archipelago",
     "item_type": "journalArticle",
     "publication_title": "Oecologia"
@@ -1358,7 +1358,7 @@
     "year": 2016,
     "doi": "10.1016/j.ecolmodel.2016.05.007",
     "issn": "03043800",
-    "url": "http://dx.doi.org/10.1016/j.ecolmodel.2016.05.007",
+    "url": "https://doi.org/10.1016/j.ecolmodel.2016.05.007",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Ecological Modelling"
@@ -1369,7 +1369,7 @@
     "year": 2016,
     "doi": "10.1038/ncomms10491",
     "issn": "2041-1723",
-    "url": "http://www.nature.com/doifinder/10.1038/ncomms10491",
+    "url": "https://doi.org/10.1038/ncomms10491",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Nature Communications"
@@ -1380,7 +1380,7 @@
     "year": 2016,
     "doi": "10.1038/nature18607",
     "issn": "0028-0836",
-    "url": "http://www.nature.com/doifinder/10.1038/nature18607",
+    "url": "https://doi.org/10.1038/nature18607",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Nature"
@@ -1391,7 +1391,7 @@
     "year": 2016,
     "doi": "10.1016/j.ecolecon.2016.05.005",
     "issn": "09218009",
-    "url": "http://dx.doi.org/10.1016/j.ecolecon.2016.05.005",
+    "url": "https://doi.org/10.1016/j.ecolecon.2016.05.005",
     "region": "Mariana Archipelago",
     "item_type": "journalArticle",
     "publication_title": "Ecological Economics"
@@ -1402,7 +1402,7 @@
     "year": 2016,
     "doi": "10.1038/nature17193",
     "issn": "0028-0836",
-    "url": "http://dx.doi.org/10.1038/nature17193",
+    "url": "https://doi.org/10.1038/nature17193",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Nature"
@@ -1413,7 +1413,7 @@
     "year": 2016,
     "doi": "10.1038/ncomms10581",
     "issn": "2041-1723",
-    "url": "http://dx.doi.org/10.1038/ncomms10581 http://www.nature.com/doifinder/10.1038/ncomms10581",
+    "url": "https://doi.org/10.1038/ncomms10581",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Nature Communications"
@@ -1435,7 +1435,7 @@
     "year": 2016,
     "doi": "10.1371/journal.pone.0167724",
     "issn": "1932-6203",
-    "url": "http://dx.plos.org/10.1371/journal.pone.0167724",
+    "url": "https://doi.org/10.1371/journal.pone.0167724",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "PLoS ONE"
@@ -1446,7 +1446,7 @@
     "year": 2016,
     "doi": "10.1007/s00338-015-1382-z",
     "issn": "0722-4028",
-    "url": "http://link.springer.com/10.1007/s00338-015-1382-z",
+    "url": "https://doi.org/10.1007/s00338-015-1382-z",
     "region": "Hawaiian Archipelago",
     "item_type": "journalArticle",
     "publication_title": "Coral Reefs"
@@ -1457,7 +1457,7 @@
     "year": 2016,
     "doi": "10.1002/2015PA002897",
     "issn": "08838305",
-    "url": "http://doi.wiley.com/10.1002/2015PA002897",
+    "url": "https://doi.org/10.1002/2015PA002897",
     "region": "Pacific-wide",
     "item_type": "journalArticle",
     "publication_title": "Paleoceanography"
@@ -1479,7 +1479,7 @@
     "year": 2016,
     "doi": "10.1098/rspb.2016.1716",
     "issn": "0962-8452",
-    "url": "http://rspb.royalsocietypublishing.org/lookup/doi/10.1098/rspb.2016.1716",
+    "url": "https://doi.org/10.1098/rspb.2016.1716",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Proceedings of the Royal Society B: Biological Sciences"
@@ -1534,7 +1534,7 @@
     "year": 2016,
     "doi": "10.1111/gcb.13482",
     "issn": "13541013",
-    "url": "http://doi.wiley.com/10.1111/gcb.13482",
+    "url": "https://doi.org/10.1111/gcb.13482",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Global Change Biology"
@@ -1545,7 +1545,7 @@
     "year": 2016,
     "doi": "10.1016/j.marpol.2016.09.014",
     "issn": "0308-597X",
-    "url": "http://dx.doi.org/10.1016/j.marpol.2016.09.014",
+    "url": "https://doi.org/10.1016/j.marpol.2016.09.014",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Marine Policy"
@@ -1565,9 +1565,9 @@
     "title": "Pacific Reef Assessment and Monitoring Program - Data Report - Ecological Monitoring 2014 - stationary point count surveys of the Northwestern Hawaiian Islands, Mariana Islands, and Wake Atoll",
     "creators": "Adel Heenan; Kaylyn McCoy; Jacob Asher; Paula Ayotte; Kelvin Gorospe; Andrew Gray; Kevin Lino; Jill Zamzow; Ivor D. Williams",
     "year": 2015,
-    "doi": null,
+    "doi": "10.7289/V5GT5K6B",
     "issn": null,
-    "url": "http://doi.org/10.7289/V5GT5K6B",
+    "url": "https://doi.org/10.7289/V5GT5K6B",
     "region": "Hawaiian Archipelago",
     "item_type": "report",
     "publication_title": null
@@ -1578,7 +1578,7 @@
     "year": 2015,
     "doi": "10.1371/journal.pone.0120516",
     "issn": "1932-6203",
-    "url": "http://dx.plos.org/10.1371/journal.pone.0120516",
+    "url": "https://doi.org/10.1371/journal.pone.0120516",
     "region": "Pacific-wide",
     "item_type": "journalArticle",
     "publication_title": "PLoS ONE"
@@ -1589,7 +1589,7 @@
     "year": 2015,
     "doi": "10.1371/journal.pone.0133960",
     "issn": "1932-6203",
-    "url": "https://dx.plos.org/10.1371/journal.pone.0133960",
+    "url": "https://doi.org/10.1371/journal.pone.0133960",
     "region": "Hawaiian Archipelago",
     "item_type": "journalArticle",
     "publication_title": "PLOS ONE"
@@ -1633,7 +1633,7 @@
     "year": 2015,
     "doi": "10.1080/08920753.2015.1046803",
     "issn": "0892-0753",
-    "url": "http://www.tandfonline.com/doi/full/10.1080/08920753.2015.1046803",
+    "url": "https://doi.org/10.1080/08920753.2015.1046803",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Coastal Management"
@@ -1644,7 +1644,7 @@
     "year": 2015,
     "doi": "10.1130/G36147.1",
     "issn": "19432682",
-    "url": "http://geology.gsapubs.org/cgi/doi/10.1130/G36147.1",
+    "url": "https://doi.org/10.1130/G36147.1",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Geology"
@@ -1677,7 +1677,7 @@
     "year": 2015,
     "doi": "10.1007/s10498-015-9273-z",
     "issn": "1380-6165",
-    "url": "http://link.springer.com/10.1007/s10498-015-9273-z",
+    "url": "https://doi.org/10.1007/s10498-015-9273-z",
     "region": "Hawaiian Archipelago",
     "item_type": "journalArticle",
     "publication_title": "Aquatic Geochemistry"
@@ -1688,7 +1688,7 @@
     "year": 2015,
     "doi": "10.1038/nclimate2758",
     "issn": "1758-678X",
-    "url": "http://www.nature.com/doifinder/10.1038/nclimate2758",
+    "url": "https://doi.org/10.1038/nclimate2758",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Nature Climate Change"
@@ -1710,7 +1710,7 @@
     "year": 2015,
     "doi": "10.1371/journal.pone.0142196",
     "issn": "1932-6203",
-    "url": "http://dx.plos.org/10.1371/journal.pone.0142196",
+    "url": "https://doi.org/10.1371/journal.pone.0142196",
     "region": "Pacific-wide",
     "item_type": "journalArticle",
     "publication_title": "PLoS ONE"
@@ -1752,9 +1752,9 @@
     "title": "Recovery potential of the world's coral reef fishes",
     "creators": "M. Aaron MacNeil; Nicholas A. J. Graham; Joshua E. Cinner; Shaun K. Wilson; Ivor D. Williams; Joseph Maina; Steven Newman; Alan M. Friedlander; Stacy Jupiter; Nicholas V. C. Polunin; Tim R. McClanahan",
     "year": 2015,
-    "doi": null,
+    "doi": "10.1038/nature14358",
     "issn": "0028-0836",
-    "url": "http://dx.doi.org/10.1038/nature14358 10.1038/nature14358 http://www.nature.com/nature/journal/v520/n7547/abs/nature14358.html#supplementary-information",
+    "url": "https://doi.org/10.1038/nature14358",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Nature"
@@ -1785,9 +1785,9 @@
     "title": "Pacific Reef Assessment and Monitoring Program - Data Report - Ecological Monitoring 2012-2013 - reef fishes and benthic habitats of the main Hawaiian Islands , American Samoa , and Pacific Remote Island Areas",
     "creators": "Adel Heenan; Paula Ayotte; Andrew Gray; Kevin Lino; Kaylyn McCoy; Jill Zamzow; Ivor Williams",
     "year": 2014,
-    "doi": null,
+    "doi": "10.7289/V55H7D81",
     "issn": null,
-    "url": "http://doi.org/10.7289/V55H7D81",
+    "url": "https://doi.org/10.7289/V55H7D81",
     "region": "Hawaiian Archipelago",
     "item_type": "report",
     "publication_title": null
@@ -1798,7 +1798,7 @@
     "year": 2014,
     "doi": "10.1098/rstb.2013.0268",
     "issn": "0962-8436",
-    "url": "http://rstb.royalsocietypublishing.org/content/370/1659/20130268 http://rstb.royalsocietypublishing.org/cgi/doi/10.1098/rstb.2013.0268",
+    "url": "https://doi.org/10.1098/rstb.2013.0268",
     "region": "Hawaiian Archipelago",
     "item_type": "journalArticle",
     "publication_title": "Philosophical Transactions of the Royal Society B: Biological Sciences"
@@ -1820,7 +1820,7 @@
     "year": 2014,
     "doi": "10.1016/j.cosust.2013.11.026",
     "issn": "18773435",
-    "url": "http://dx.doi.org/10.1016/j.cosust.2013.11.026",
+    "url": "https://doi.org/10.1016/j.cosust.2013.11.026",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Current Opinion in Environmental Sustainability"
@@ -1831,7 +1831,7 @@
     "year": 2014,
     "doi": "10.1016/j.marpolbul.2014.01.010",
     "issn": "0025326X",
-    "url": "http://dx.doi.org/10.1016/j.marpolbul.2014.01.010",
+    "url": "https://doi.org/10.1016/j.marpolbul.2014.01.010",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Marine Pollution Bulletin"
@@ -1875,7 +1875,7 @@
     "year": 2014,
     "doi": "10.1073/pnas.1406664111",
     "issn": "0027-8424",
-    "url": "http://www.pnas.org/cgi/doi/10.1073/pnas.1406664111",
+    "url": "https://doi.org/10.1073/pnas.1406664111",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Proceedings of the National Academy of Sciences"
@@ -1963,7 +1963,7 @@
     "year": 2013,
     "doi": "10.1371/journal.pone.0061974",
     "issn": "1932-6203",
-    "url": "http://dx.plos.org/10.1371/journal.pone.0061974",
+    "url": "https://doi.org/10.1371/journal.pone.0061974",
     "region": "Pacific-wide",
     "item_type": "journalArticle",
     "publication_title": "PLoS ONE"
@@ -1974,7 +1974,7 @@
     "year": 2013,
     "doi": "10.1525/bio.2013.63.12.9",
     "issn": "00063568",
-    "url": "https://academic.oup.com/bioscience/article-lookup/doi/10.1525/bio.2013.63.12.9",
+    "url": "https://doi.org/10.1525/bio.2013.63.12.9",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "BioScience"
@@ -1985,7 +1985,7 @@
     "year": 2013,
     "doi": "10.1111/jbi.12083",
     "issn": "03050270",
-    "url": "http://doi.wiley.com/10.1111/jbi.12083",
+    "url": "https://doi.org/10.1111/jbi.12083",
     "region": "Pacific-wide",
     "item_type": "journalArticle",
     "publication_title": "Journal of Biogeography"
@@ -2073,7 +2073,7 @@
     "year": 2012,
     "doi": "10.1371/journal.pone.0043843",
     "issn": "1932-6203",
-    "url": "http://dx.plos.org/10.1371/journal.pone.0043843",
+    "url": "https://doi.org/10.1371/journal.pone.0043843",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "PLoS ONE"
@@ -2106,7 +2106,7 @@
     "year": 2012,
     "doi": "10.1371/journal.pone.0031159",
     "issn": "1932-6203",
-    "url": "http://dx.plos.org/10.1371/journal.pone.0031159",
+    "url": "https://doi.org/10.1371/journal.pone.0031159",
     "region": "Pacific-wide",
     "item_type": "journalArticle",
     "publication_title": "PLoS ONE"
@@ -2139,7 +2139,7 @@
     "year": 2012,
     "doi": "10.2984/66.4.6",
     "issn": "0030-8870",
-    "url": "http://www.bioone.org/doi/abs/10.2984/66.4.6",
+    "url": "https://doi.org/10.2984/66.4.6",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Pacific Science"
@@ -2194,7 +2194,7 @@
     "year": 2011,
     "doi": "10.2984/65.4.405",
     "issn": "0030-8870",
-    "url": "http://www.bioone.org/doi/abs/10.2984/65.4.405",
+    "url": "https://doi.org/10.2984/65.4.405",
     "region": "Hawaiian Archipelago",
     "item_type": "journalArticle",
     "publication_title": "Pacific Science"
@@ -2293,7 +2293,7 @@
     "year": 2011,
     "doi": "10.1007/s00338-011-0793-8",
     "issn": "0722-4028",
-    "url": "http://link.springer.com/10.1007/s00338-011-0793-8",
+    "url": "https://doi.org/10.1007/s00338-011-0793-8",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Coral Reefs"
@@ -2359,7 +2359,7 @@
     "year": 2010,
     "doi": "10.1007/s00338-010-0646-x",
     "issn": null,
-    "url": "http://link.springer.com/10.1007/s00338-010-0646-x",
+    "url": "https://doi.org/10.1007/s00338-010-0646-x",
     "region": "Pacific-wide",
     "item_type": "journalArticle",
     "publication_title": "Coral Reefs"
@@ -2370,7 +2370,7 @@
     "year": 2010,
     "doi": "10.1371/journal.pone.0009733",
     "issn": "1932-6203",
-    "url": "http://dx.plos.org/10.1371/journal.pone.0009733",
+    "url": "https://doi.org/10.1371/journal.pone.0009733",
     "region": "Hawaiian Archipelago",
     "item_type": "journalArticle",
     "publication_title": "PLoS ONE"
@@ -2403,7 +2403,7 @@
     "year": 2010,
     "doi": "10.2984/64.4.585",
     "issn": "0030-8870",
-    "url": "http://www.bioone.org/doi/abs/10.2984/64.4.585",
+    "url": "https://doi.org/10.2984/64.4.585",
     "region": "Pacific Remote Island Areas",
     "item_type": "journalArticle",
     "publication_title": "Pacific Science"
@@ -2502,7 +2502,7 @@
     "year": 2009,
     "doi": "10.1111/j.1529-8817.2009.00666.x",
     "issn": "00223646",
-    "url": "http://doi.wiley.com/10.1111/j.1529-8817.2009.00666.x",
+    "url": "https://doi.org/10.1111/j.1529-8817.2009.00666.x",
     "region": "Hawaiian Archipelago",
     "item_type": "journalArticle",
     "publication_title": "Journal of Phycology"
@@ -2535,7 +2535,7 @@
     "year": 2009,
     "doi": "10.1007/s00338-009-0494-8",
     "issn": "0722-4028",
-    "url": "http://link.springer.com/10.1007/s00338-009-0494-8",
+    "url": "https://doi.org/10.1007/s00338-009-0494-8",
     "region": "American Samoa",
     "item_type": "journalArticle",
     "publication_title": "Coral Reefs"
@@ -2645,7 +2645,7 @@
     "year": 2007,
     "doi": "10.1007/s00338-007-0198-x",
     "issn": "0722-4028",
-    "url": "http://link.springer.com/10.1007/s00338-007-0198-x",
+    "url": "https://doi.org/10.1007/s00338-007-0198-x",
     "region": "Hawaiian Archipelago",
     "item_type": "journalArticle",
     "publication_title": "Coral Reefs"
@@ -2689,7 +2689,7 @@
     "year": 2006,
     "doi": "10.1029/2005JC003161",
     "issn": "0148-0227",
-    "url": "http://doi.wiley.com/10.1029/2005JC003161",
+    "url": "https://doi.org/10.1029/2005JC003161",
     "region": "Pacific Remote Island Areas",
     "item_type": "journalArticle",
     "publication_title": "Journal of Geophysical Research"
@@ -2909,7 +2909,7 @@
     "year": 2004,
     "doi": "10.2216/i0031-8884-43-4-445.1",
     "issn": "0031-8884",
-    "url": "http://www.phycologia.org/doi/abs/10.2216/i0031-8884-43-4-445.1",
+    "url": "https://doi.org/10.2216/i0031-8884-43-4-445.1",
     "region": "Hawaiian Archipelago",
     "item_type": "journalArticle",
     "publication_title": "Phycologia"
@@ -2920,7 +2920,7 @@
     "year": 2004,
     "doi": "10.2216/i0031-8884-43-1-66.1",
     "issn": "0031-8884",
-    "url": "http://www.phycologia.org/doi/abs/10.2216/i0031-8884-43-1-66.1",
+    "url": "https://doi.org/10.2216/i0031-8884-43-1-66.1",
     "region": "Hawaiian Archipelago",
     "item_type": "journalArticle",
     "publication_title": "Phycologia"
@@ -2931,7 +2931,7 @@
     "year": 2004,
     "doi": "10.4319/lo.2004.49.6.1923",
     "issn": "00243590",
-    "url": "http://doi.wiley.com/10.4319/lo.2004.49.6.1923",
+    "url": "https://doi.org/10.4319/lo.2004.49.6.1923",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Limnology and Oceanography"
@@ -2942,7 +2942,7 @@
     "year": 2004,
     "doi": "10.1029/2004GL020637",
     "issn": "00948276",
-    "url": "http://doi.wiley.com/10.1029/2004GL020637",
+    "url": "https://doi.org/10.1029/2004GL020637",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Geophysical Research Letters"
@@ -2986,7 +2986,7 @@
     "year": 2003,
     "doi": "10.1046/j.1529-8817.2003.02147.x",
     "issn": "00223646",
-    "url": "http://doi.wiley.com/10.1046/j.1529-8817.2003.02147.x",
+    "url": "https://doi.org/10.1046/j.1529-8817.2003.02147.x",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Journal of Phycology"
@@ -3008,7 +3008,7 @@
     "year": 2003,
     "doi": "10.1023/A:1026287816324",
     "issn": "00188158",
-    "url": "http://link.springer.com/10.1023/A:1026287816324",
+    "url": "https://doi.org/10.1023/A:1026287816324",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Hydrobiologia"
@@ -3030,7 +3030,7 @@
     "year": 2003,
     "doi": "10.1126/science.1085837",
     "issn": "0036-8075",
-    "url": "http://www.sciencemag.org/cgi/doi/10.1126/science.1085837",
+    "url": "https://doi.org/10.1126/science.1085837",
     "region": "Hawaiian Archipelago",
     "item_type": "journalArticle",
     "publication_title": "Science"
@@ -3074,7 +3074,7 @@
     "year": 2001,
     "doi": "10.1029/2000GL012439",
     "issn": "00948276",
-    "url": "http://doi.wiley.com/10.1029/2000GL012439",
+    "url": "https://doi.org/10.1029/2000GL012439",
     "region": "Hawaiian Archipelago",
     "item_type": "journalArticle",
     "publication_title": "Geophysical Research Letters"
@@ -3118,7 +3118,7 @@
     "year": 1999,
     "doi": "10.1007/s003380050212",
     "issn": "0722-4028",
-    "url": "http://link.springer.com/10.1007/s003380050212",
+    "url": "https://doi.org/10.1007/s003380050212",
     "region": "Unknown",
     "item_type": "journalArticle",
     "publication_title": "Coral Reefs"
